@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MediaInAction.PaymentService.HttpApi.Host.props" />
+</Project>

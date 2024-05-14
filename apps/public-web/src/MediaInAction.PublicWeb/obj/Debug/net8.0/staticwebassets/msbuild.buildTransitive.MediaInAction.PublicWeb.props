@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MediaInAction.PublicWeb.props" />
+</Project>

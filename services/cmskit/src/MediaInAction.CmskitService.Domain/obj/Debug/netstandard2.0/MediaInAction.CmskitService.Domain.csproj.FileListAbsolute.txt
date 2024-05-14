@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInA.07CC646D.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Domain/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.pdb

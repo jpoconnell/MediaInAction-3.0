@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MediaInAction.CatalogService.HttpApi.Host.props" />
+</Project>

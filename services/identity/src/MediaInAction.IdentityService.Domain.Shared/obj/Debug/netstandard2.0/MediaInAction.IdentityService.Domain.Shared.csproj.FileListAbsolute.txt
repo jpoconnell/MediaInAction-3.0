@@ -1,0 +1,11 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/identity/src/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.pdb

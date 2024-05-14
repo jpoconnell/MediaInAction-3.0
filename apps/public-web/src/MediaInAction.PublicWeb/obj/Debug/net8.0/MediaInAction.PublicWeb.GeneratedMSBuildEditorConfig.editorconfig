@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MediaInAction.PublicWeb
+build_property.RootNamespace = MediaInAction.PublicWeb
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Basket/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9CYXNrZXQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Payment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYXltZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Purchase/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QdXJjaGFzZS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Toolbar/Cart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ub29sYmFyL0NhcnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Toolbar/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ub29sYmFyL0Zvb3Rlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/Toolbar/LoginLink/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ub29sYmFyL0xvZ2luTGluay9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/UserOrders/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Vc2VyT3JkZXJzL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Components/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/Basket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmFza2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXlPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/OrderReceived.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJSZWNlaXZlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/PaymentCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudENvbXBsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/apps/public-web/src/MediaInAction.PublicWeb/Themes/LeptonXLite/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGhlbWVzL0xlcHRvblhMaXRlL0NvbXBvbmVudHMvTWVudS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

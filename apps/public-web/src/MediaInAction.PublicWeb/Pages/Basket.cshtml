@@ -1,0 +1,17 @@
+﻿@page
+@using MediaInAction.Localization
+@using MediaInAction.PublicWeb.Components.Basket
+@using Microsoft.Extensions.Localization
+@model MediaInAction.PublicWeb.Pages.BasketModel
+
+@section scripts {
+    <abp-script src="/client-proxies/basket-proxy.js"/>
+}
+
+@inject IStringLocalizer<MediaInActionResource> L
+
+<div class="row">
+    <div id="BasketArea">
+        @await Component.InvokeAsync(typeof(BasketWidgetViewComponent))
+    </div>
+</div>

@@ -1,0 +1,15 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.EmbeddedFilesManifest.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInA.AE9B8499.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/ordering/src/MediaInAction.OrderingService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.OrderingService.Domain.Shared.pdb

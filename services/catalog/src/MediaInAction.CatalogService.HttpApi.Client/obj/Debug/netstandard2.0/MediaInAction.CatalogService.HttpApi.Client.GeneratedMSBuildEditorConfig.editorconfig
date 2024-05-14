@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.CatalogService
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/catalog/src/MediaInAction.CatalogService.HttpApi.Client/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,16 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInA.1FCFA777.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.PaymentService.HttpApi.Client.pdb

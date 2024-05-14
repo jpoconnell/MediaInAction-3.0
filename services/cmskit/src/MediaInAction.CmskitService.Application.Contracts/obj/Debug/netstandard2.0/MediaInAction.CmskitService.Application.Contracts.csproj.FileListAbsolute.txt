@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.CmskitService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInA.A0863CC0.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.CmskitService.Application.Contracts.pdb

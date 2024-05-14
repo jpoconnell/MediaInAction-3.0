@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInA.0B7D8687.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application.Contracts/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Application.Contracts.pdb

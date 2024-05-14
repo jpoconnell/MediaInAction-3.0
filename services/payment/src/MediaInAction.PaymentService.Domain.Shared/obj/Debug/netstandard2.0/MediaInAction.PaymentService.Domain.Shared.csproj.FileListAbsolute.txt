@@ -1,0 +1,12 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/bin/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.EmbeddedFilesManifest.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Domain.Shared/obj/Debug/netstandard2.0/MediaInAction.PaymentService.Domain.Shared.pdb

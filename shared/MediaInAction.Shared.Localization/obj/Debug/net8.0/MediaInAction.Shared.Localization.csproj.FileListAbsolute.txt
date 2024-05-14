@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/bin/Debug/net8.0/MediaInAction.Shared.Localization.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/bin/Debug/net8.0/MediaInAction.Shared.Localization.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/bin/Debug/net8.0/MediaInAction.Shared.Localization.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.EmbeddedFilesManifest.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/refint/MediaInAction.Shared.Localization.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/MediaInAction.Shared.Localization.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/shared/MediaInAction.Shared.Localization/obj/Debug/net8.0/ref/MediaInAction.Shared.Localization.dll

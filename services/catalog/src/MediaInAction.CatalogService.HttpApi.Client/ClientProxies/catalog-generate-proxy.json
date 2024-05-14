@@ -1,0 +1,349 @@
+{
+  "modules": {
+    "catalog": {
+      "rootPath": "catalog",
+      "remoteServiceName": "Catalog",
+      "controllers": {
+        "MediaInAction.CatalogService.Products.ProductAppService": {
+          "controllerName": "Product",
+          "controllerGroupName": "Product",
+          "type": "MediaInAction.CatalogService.Products.ProductAppService",
+          "interfaces": [
+            {
+              "type": "Volo.Abp.Validation.IValidationEnabled"
+            },
+            {
+              "type": "Volo.Abp.Auditing.IAuditingEnabled"
+            },
+            {
+              "type": "Volo.Abp.GlobalFeatures.IGlobalFeatureCheckingEnabled"
+            },
+            {
+              "type": "MediaInAction.CatalogService.Products.IProductAppService"
+            }
+          ],
+          "actions": {
+            "GetListPagedAsyncByInput": {
+              "uniqueName": "GetListPagedAsyncByInput",
+              "name": "GetListPagedAsync",
+              "httpMethod": "GET",
+              "url": "api/catalog/product/paged",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "input",
+                  "typeAsString": "Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto, Volo.Abp.Ddd.Application.Contracts",
+                  "type": "Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto",
+                  "typeSimple": "Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "input",
+                  "name": "Sorting",
+                  "jsonName": null,
+                  "type": "System.String",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": null,
+                  "bindingSourceId": "ModelBinding",
+                  "descriptorName": "input"
+                },
+                {
+                  "nameOnMethod": "input",
+                  "name": "SkipCount",
+                  "jsonName": null,
+                  "type": "System.Int32",
+                  "typeSimple": "number",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": null,
+                  "bindingSourceId": "ModelBinding",
+                  "descriptorName": "input"
+                },
+                {
+                  "nameOnMethod": "input",
+                  "name": "MaxResultCount",
+                  "jsonName": null,
+                  "type": "System.Int32",
+                  "typeSimple": "number",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": null,
+                  "bindingSourceId": "ModelBinding",
+                  "descriptorName": "input"
+                }
+              ],
+              "returnValue": {
+                "type": "Volo.Abp.Application.Dtos.PagedResultDto<MediaInAction.CatalogService.Products.ProductDto>",
+                "typeSimple": "Volo.Abp.Application.Dtos.PagedResultDto<MediaInAction.CatalogService.Products.ProductDto>"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            },
+            "GetListAsync": {
+              "uniqueName": "GetListAsync",
+              "name": "GetListAsync",
+              "httpMethod": "GET",
+              "url": "api/catalog/product",
+              "supportedVersions": [],
+              "parametersOnMethod": [],
+              "parameters": [],
+              "returnValue": {
+                "type": "Volo.Abp.Application.Dtos.ListResultDto<MediaInAction.CatalogService.Products.ProductDto>",
+                "typeSimple": "Volo.Abp.Application.Dtos.ListResultDto<MediaInAction.CatalogService.Products.ProductDto>"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            },
+            "GetAsyncById": {
+              "uniqueName": "GetAsyncById",
+              "name": "GetAsync",
+              "httpMethod": "GET",
+              "url": "api/catalog/product/{id}",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "id",
+                  "typeAsString": "System.Guid, System.Private.CoreLib",
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "id",
+                  "name": "id",
+                  "jsonName": null,
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": [],
+                  "bindingSourceId": "Path",
+                  "descriptorName": ""
+                }
+              ],
+              "returnValue": {
+                "type": "MediaInAction.CatalogService.Products.ProductDto",
+                "typeSimple": "MediaInAction.CatalogService.Products.ProductDto"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            },
+            "CreateAsyncByInput": {
+              "uniqueName": "CreateAsyncByInput",
+              "name": "CreateAsync",
+              "httpMethod": "POST",
+              "url": "api/catalog/product",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "input",
+                  "typeAsString": "MediaInAction.CatalogService.Products.CreateProductDto, MediaInAction.CatalogService.Application.Contracts",
+                  "type": "MediaInAction.CatalogService.Products.CreateProductDto",
+                  "typeSimple": "MediaInAction.CatalogService.Products.CreateProductDto",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "input",
+                  "name": "input",
+                  "jsonName": null,
+                  "type": "MediaInAction.CatalogService.Products.CreateProductDto",
+                  "typeSimple": "MediaInAction.CatalogService.Products.CreateProductDto",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": null,
+                  "bindingSourceId": "Body",
+                  "descriptorName": ""
+                }
+              ],
+              "returnValue": {
+                "type": "MediaInAction.CatalogService.Products.ProductDto",
+                "typeSimple": "MediaInAction.CatalogService.Products.ProductDto"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            },
+            "UpdateAsyncByIdAndInput": {
+              "uniqueName": "UpdateAsyncByIdAndInput",
+              "name": "UpdateAsync",
+              "httpMethod": "PUT",
+              "url": "api/catalog/product/{id}",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "id",
+                  "typeAsString": "System.Guid, System.Private.CoreLib",
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null
+                },
+                {
+                  "name": "input",
+                  "typeAsString": "MediaInAction.CatalogService.Products.UpdateProductDto, MediaInAction.CatalogService.Application.Contracts",
+                  "type": "MediaInAction.CatalogService.Products.UpdateProductDto",
+                  "typeSimple": "MediaInAction.CatalogService.Products.UpdateProductDto",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "id",
+                  "name": "id",
+                  "jsonName": null,
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": [],
+                  "bindingSourceId": "Path",
+                  "descriptorName": ""
+                },
+                {
+                  "nameOnMethod": "input",
+                  "name": "input",
+                  "jsonName": null,
+                  "type": "MediaInAction.CatalogService.Products.UpdateProductDto",
+                  "typeSimple": "MediaInAction.CatalogService.Products.UpdateProductDto",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": null,
+                  "bindingSourceId": "Body",
+                  "descriptorName": ""
+                }
+              ],
+              "returnValue": {
+                "type": "MediaInAction.CatalogService.Products.ProductDto",
+                "typeSimple": "MediaInAction.CatalogService.Products.ProductDto"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            },
+            "DeleteAsyncById": {
+              "uniqueName": "DeleteAsyncById",
+              "name": "DeleteAsync",
+              "httpMethod": "DELETE",
+              "url": "api/catalog/product/{id}",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "id",
+                  "typeAsString": "System.Guid, System.Private.CoreLib",
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "id",
+                  "name": "id",
+                  "jsonName": null,
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": [],
+                  "bindingSourceId": "Path",
+                  "descriptorName": ""
+                }
+              ],
+              "returnValue": {
+                "type": "System.Void",
+                "typeSimple": "System.Void"
+              },
+              "allowAnonymous": false,
+              "implementFrom": "MediaInAction.CatalogService.Products.IProductAppService"
+            }
+          }
+        },
+        "MediaInAction.CatalogService.Products.PublicProductAppService": {
+          "controllerName": "PublicProduct",
+          "controllerGroupName": "PublicProduct",
+          "type": "MediaInAction.CatalogService.Products.PublicProductAppService",
+          "interfaces": [
+            {
+              "type": "Volo.Abp.Validation.IValidationEnabled"
+            },
+            {
+              "type": "Volo.Abp.Auditing.IAuditingEnabled"
+            },
+            {
+              "type": "Volo.Abp.GlobalFeatures.IGlobalFeatureCheckingEnabled"
+            },
+            {
+              "type": "MediaInAction.CatalogService.Products.IPublicProductAppService"
+            }
+          ],
+          "actions": {
+            "GetListAsync": {
+              "uniqueName": "GetListAsync",
+              "name": "GetListAsync",
+              "httpMethod": "GET",
+              "url": "api/catalog/public-product",
+              "supportedVersions": [],
+              "parametersOnMethod": [],
+              "parameters": [],
+              "returnValue": {
+                "type": "Volo.Abp.Application.Dtos.ListResultDto<MediaInAction.CatalogService.Products.ProductDto>",
+                "typeSimple": "Volo.Abp.Application.Dtos.ListResultDto<MediaInAction.CatalogService.Products.ProductDto>"
+              },
+              "allowAnonymous": null,
+              "implementFrom": "MediaInAction.CatalogService.Products.IPublicProductAppService"
+            },
+            "GetAsyncById": {
+              "uniqueName": "GetAsyncById",
+              "name": "GetAsync",
+              "httpMethod": "GET",
+              "url": "api/catalog/public-product/{id}",
+              "supportedVersions": [],
+              "parametersOnMethod": [
+                {
+                  "name": "id",
+                  "typeAsString": "System.Guid, System.Private.CoreLib",
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null
+                }
+              ],
+              "parameters": [
+                {
+                  "nameOnMethod": "id",
+                  "name": "id",
+                  "jsonName": null,
+                  "type": "System.Guid",
+                  "typeSimple": "string",
+                  "isOptional": false,
+                  "defaultValue": null,
+                  "constraintTypes": [],
+                  "bindingSourceId": "Path",
+                  "descriptorName": ""
+                }
+              ],
+              "returnValue": {
+                "type": "MediaInAction.CatalogService.Products.ProductDto",
+                "typeSimple": "MediaInAction.CatalogService.Products.ProductDto"
+              },
+              "allowAnonymous": null,
+              "implementFrom": "MediaInAction.CatalogService.Products.IPublicProductAppService"
+            }
+          }
+        }
+      }
+    }
+  },
+  "types": {}
+}
