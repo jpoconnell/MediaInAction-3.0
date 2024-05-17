@@ -1,0 +1,26 @@
+[
+{
+  "externalId" : "1234",
+  "server": "feederbox3",
+  "directory": "/userw/dif",
+  "fileName": "ernie",
+  "resolution": "720p",
+  "extn": "zip",
+  "size": 0,
+  "listName": 0,
+  "sequence": 0,
+  "errorMessage": "string"
+},
+{
+  "externalId" : "1235",
+  "server": "feederbox1",
+  "directory": "/user/home",
+  "fileName": "joe.same",
+  "resolution": "1080p",
+  "extn": "mkv",
+  "size": 0,
+  "listName": 0,
+  "sequence": 0,
+  "errorMessage": "string"
+}
+]

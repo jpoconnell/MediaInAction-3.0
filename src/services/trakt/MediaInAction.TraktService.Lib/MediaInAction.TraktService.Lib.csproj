@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.TraktService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Volo.Abp.AspNetCore" Version="8.1.1" />
+   </ItemGroup>
+
+  <ItemGroup>   
+    <ProjectReference Include="../../../common/MediaInAction.Shared.Integration\MediaInAction.Shared.Integration.csproj" />
+    <ProjectReference Include="../../video/MediaInAction.VideoService.Lib\MediaInAction.VideoService.Lib.csproj" />
+    <ProjectReference Include="../MediaInAction.TraktService.Domain\MediaInAction.TraktService.Domain.csproj" />
+    <ProjectReference Include="../MediaInAction.TraktService.MongoDb\MediaInAction.TraktService.MongoDb.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config" />
+  </ItemGroup>
+  
+</Project>

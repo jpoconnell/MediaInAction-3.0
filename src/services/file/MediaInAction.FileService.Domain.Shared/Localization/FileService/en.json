@@ -1,0 +1,16 @@
+{
+  "culture": "en",
+  "texts": {
+    "FileService:000001": "A fileentry with code {fileentryCode} has already exists!",
+    "Permission:GroupName": "File",
+    "Permission:FileEntries": "FileEntries",
+    "Permission:FileEntries.Edit": "Edit",
+    "Permission:FileEntries.Delete": "Delete",
+    "Permission:FileEntries.Create": "Create",
+    "Menu:FileEntries": "FileEntries",
+    "NewFileEntry": "New FileEntry",
+    "FileEntries": "FileEntries",
+    "DisplayName:FileName": "Filename",
+    "FileEntryDeletionConfirmationMessage": "Are you sure you want to delete this {0} file entry?"
+  }
+}

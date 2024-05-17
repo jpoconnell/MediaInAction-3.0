@@ -1,0 +1,3 @@
+abp generate-proxy -t csharp -m Video -url https://localhost:44356
+
+

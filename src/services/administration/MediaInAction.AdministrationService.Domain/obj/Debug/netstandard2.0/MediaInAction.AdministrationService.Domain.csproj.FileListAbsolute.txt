@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInA.1117D25B.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.0/MediaInAction.AdministrationService.Domain.pdb

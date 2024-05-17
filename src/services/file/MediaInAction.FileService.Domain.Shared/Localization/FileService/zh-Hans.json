@@ -1,0 +1,21 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "FileService:000001": "已存在编码为 {fileentryCode} 的产品！",
+    "Permission:GroupName": "分类",
+    "Permission:FileEntrys": "产品",
+    "Permission:FileEntrys.Edit": "编辑",
+    "Permission:FileEntrys.Delete": "删除",
+    "Permission:FileEntrys.Create": "创建",
+    "Menu:CatalogManagement": "分类管理",
+    "Menu:FileEntrys": "产品",
+    "NewFileEntry": "新增产品",
+    "FileEntrys": "产品",
+    "DisplayName:Name": "名称",
+    "DisplayName:Code": "编码",
+    "DisplayName:ImageName": "图片名称",
+    "DisplayName:Price": "价格",
+    "DisplayName:StockCount": "库存数量",
+    "FileEntryDeletionConfirmationMessage": "您确定要删除 {0} 这个产品吗？"
+  }
+}

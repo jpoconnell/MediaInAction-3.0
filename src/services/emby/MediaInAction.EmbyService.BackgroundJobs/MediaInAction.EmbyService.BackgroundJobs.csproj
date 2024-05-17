@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.8.1" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Quartz" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Abstractions" Version="8.1.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MediaInAction.EmbyService.Lib\MediaInAction.EmbyService.Lib.csproj" />
+    <ProjectReference Include="..\MediaInAction.EmbyService.MongoDb\MediaInAction.EmbyService.MongoDb.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Jobs\" />
+  </ItemGroup>
+  
+</Project>

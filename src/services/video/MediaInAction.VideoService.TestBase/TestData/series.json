@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FBI",
+    "firstAiredYear": 2006,
+    "imageName": "xxx.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "delightful chocolate Ilise"
+      },
+      {
+        "idType": "folder",
+        "idValue": "FBI"
+      }
+    ]
+  },
+  {
+    "name": "Law and Order",
+    "firstAiredYear": 2007,
+    "imageName": "Law_and_Order.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "Law and Order"
+      }
+    ]
+  },
+  {
+    "name": "delightful chocolate Ilise",
+    "firstAiredYear": 2020,
+    "imageName": "xxx3.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "delightful chocolate Ilise"
+      }
+    ]
+  },
+  {
+    "name": "delightful cherry",
+    "firstAiredYear": 2015,
+    "imageName": "xxx4.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "delightful cherry"
+      }
+    ]
+  }
+]

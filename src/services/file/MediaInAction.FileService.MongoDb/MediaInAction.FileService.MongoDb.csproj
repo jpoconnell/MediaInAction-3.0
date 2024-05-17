@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>MediaInAction.FileService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.MongoDB" Version="8.1.1" />
+    <ProjectReference Include="..\MediaInAction.FileService.Domain\MediaInAction.FileService.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

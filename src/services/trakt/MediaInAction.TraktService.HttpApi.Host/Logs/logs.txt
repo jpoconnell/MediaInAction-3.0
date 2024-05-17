@@ -1,0 +1,472 @@
+2024-05-14 11:37:30.523 -05:00 [INF] Starting MediaInAction.TraktService.HttpApi.Host.
+2024-05-14 11:37:31.442 -05:00 [INF] Loaded ABP modules:
+2024-05-14 11:37:31.443 -05:00 [INF] - MediaInAction.TraktService.TraktServiceHttpApiHostModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.TraktService.TraktServiceHttpApiModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - MediaInAction.TraktService.TraktServiceApplicationContractsModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - MediaInAction.TraktService.TraktServiceDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 11:37:31.443 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 11:37:31.443 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 11:37:31.443 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 11:37:31.443 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 11:37:31.443 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 11:37:31.443 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.TraktService.TraktServiceApplicationModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - MediaInAction.TraktService.TraktServiceDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.TraktService.MongoDb.TraktServiceMongoDbModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.TraktService.BackgroundWorkers.TraktServiceBackgroundWorkerModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.Quartz.AbpQuartzModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - MediaInAction.TraktService.TraktServiceLibModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.Shared.Api.MediaInActionSharedHealthCheckModule
+2024-05-14 11:37:31.443 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 11:37:31.443 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 11:37:31.443 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 11:37:31.443 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 11:37:31.506 -05:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2024-05-14 11:37:31.511 -05:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-14 11:37:31.511 -05:00 [INF] Quartz Scheduler created
+2024-05-14 11:37:31.512 -05:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2024-05-14 11:37:31.513 -05:00 [INF] RAMJobStore initialized.
+2024-05-14 11:37:31.514 -05:00 [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-14 11:37:31.514 -05:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-14 11:37:31.514 -05:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-14 11:37:31.522 -05:00 [INF] Adding 0 jobs, 0 triggers.
+2024-05-14 11:37:31.539 -05:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2024-05-14 11:37:31.540 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:37:31.667 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 11:37:31.671 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.EpisodeCleanupWorker
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.TraktWatchListWorker
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.TraktCalendarWorker
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.ResendUnAcceptedMediaWorker
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.TraktCollectionsWorker
+2024-05-14 11:37:31.678 -05:00 [DBG] Calling Execute on job DEFAULT.TraktWatchedWorker
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker TraktWatchedWorker Starting..!
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker EpisodeCleanupWorker Starting..!
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker TraktWatchedWorker Starting..!
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker TraktCollectionsWorker Starting..!
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker Resend Starting..!
+2024-05-14 11:37:31.683 -05:00 [INF] Background Worker TraktCalendarWorker Starting..!
+2024-05-14 11:37:31.685 -05:00 [INF] GetWatchedShows Service Started
+2024-05-14 11:37:31.685 -05:00 [INF] GetShowCollection started
+2024-05-14 11:37:31.685 -05:00 [INF] GetWatchedList for Shows Service Started
+2024-05-14 11:37:31.728 -05:00 [INF] Executed GetShowCollection..!
+2024-05-14 11:37:31.728 -05:00 [INF] Background Worker TraktCalendarWorker Complete
+2024-05-14 11:37:31.729 -05:00 [INF] GetMovieCollection Service Start
+2024-05-14 11:37:31.729 -05:00 [INF] GetWatchedList for Movies Service Started
+2024-05-14 11:37:31.730 -05:00 [INF] Background Worker TraktWatchedWorker Complete
+2024-05-14 11:37:31.730 -05:00 [INF] Executed GetMovieCollection..!
+2024-05-14 11:37:31.730 -05:00 [INF] Background Worker TraktCollectionsWorker Complete
+2024-05-14 11:37:31.731 -05:00 [INF] Background Worker TraktWatchedWorker Complete
+2024-05-14 11:37:31.732 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:31.732 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:31.732 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:31.733 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:32.037 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 11:37:32.162 -05:00 [DBG] SyncCalendarAsync Failed:Unauthorized - OAuth must be provided
+2024-05-14 11:37:32.162 -05:00 [DBG] GetShowCollection Failed:Unauthorized - OAuth must be provided
+2024-05-14 11:37:32.227 -05:00 [INF] Executed Resend Shows..!
+2024-05-14 11:37:32.236 -05:00 [INF] Executed EpisodeCleanup..!
+2024-05-14 11:37:32.236 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:32.247 -05:00 [INF] Executed Resend Episodes..!
+2024-05-14 11:37:32.258 -05:00 [INF] Executed Resend Movies..!
+2024-05-14 11:37:32.258 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 11:37:32.462 -05:00 [INF] Now listening on: https://localhost:44357
+2024-05-14 11:37:32.462 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:37:32.462 -05:00 [INF] Hosting environment: Development
+2024-05-14 11:37:32.462 -05:00 [INF] Content root path: /Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Host
+2024-05-14 11:37:32.854 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - null null
+2024-05-14 11:37:33.191 -05:00 [INF] Executing endpoint 'MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host)'
+2024-05-14 11:37:33.203 -05:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.TraktService.Controllers.HomeController (MediaInAction.TraktService.HttpApi.Host).
+2024-05-14 11:37:33.236 -05:00 [INF] Executing action method MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host) - Validation state: "Valid"
+2024-05-14 11:37:33.240 -05:00 [INF] Executed action method MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.498ms.
+2024-05-14 11:37:33.248 -05:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-14 11:37:33.251 -05:00 [INF] Executed action MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host) in 44.6755ms
+2024-05-14 11:37:33.251 -05:00 [INF] Executed endpoint 'MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host)'
+2024-05-14 11:37:33.262 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - 302 0 null 410.7455ms
+2024-05-14 11:37:33.271 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger - null null
+2024-05-14 11:37:33.275 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger - 301 0 null 4.8505ms
+2024-05-14 11:37:33.280 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2024-05-14 11:37:33.331 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 50.8946ms
+2024-05-14 11:37:33.343 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - null null
+2024-05-14 11:37:33.343 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - null null
+2024-05-14 11:37:33.344 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-14 11:37:33.367 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-14 11:37:33.367 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-14 11:37:33.367 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-14 11:37:33.368 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 25.0786ms
+2024-05-14 11:37:33.368 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - 200 144929 text/css 25.3522ms
+2024-05-14 11:37:33.368 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 24.3361ms
+2024-05-14 11:37:33.436 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-14 11:37:33.445 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - null null
+2024-05-14 11:37:33.446 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 11:37:33.447 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - 200 628 image/png 2.24ms
+2024-05-14 11:37:33.447 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/favicon-16x16.png - null null
+2024-05-14 11:37:33.448 -05:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-14 11:37:33.448 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/favicon-16x16.png - 200 665 image/png 1.3197ms
+2024-05-14 11:37:33.575 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.1008ms
+2024-05-14 11:37:59.507 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:38:22.630 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:38:51.803 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:39:18.637 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:39:21.467 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-14 11:39:21.470 -05:00 [INF] CORS policy execution successful.
+2024-05-14 11:39:21.503 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.7077ms
+2024-05-14 11:39:42.862 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:40:09.332 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:40:34.713 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:41:00.151 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:41:28.186 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:41:52.143 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:42:15.698 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:42:44.690 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:43:10.089 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:43:38.053 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:44:07.741 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:44:31.032 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:44:58.953 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:45:26.698 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:45:55.894 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:46:19.026 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:46:44.532 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:47:10.038 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:47:38.022 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:48:01.283 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:48:27.795 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:48:52.832 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:49:18.725 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:49:45.883 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:50:14.606 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:50:38.020 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:51:07.417 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:51:34.547 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:52:03.832 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:52:29.084 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:52:52.354 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:53:16.820 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:53:44.018 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:54:09.634 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:54:36.274 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:54:59.902 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:55:24.906 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:55:51.822 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:56:16.486 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:56:43.238 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:57:08.206 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:57:33.502 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:57:56.695 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:58:24.723 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:58:49.624 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:59:16.702 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 11:59:43.221 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:00:12.502 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:00:39.319 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:01:02.728 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:01:29.338 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:01:55.579 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:02:21.984 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:02:45.846 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:03:13.789 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:03:40.570 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:04:05.436 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:04:30.941 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:05:00.018 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:05:26.501 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:05:55.821 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:06:19.167 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:06:46.571 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:07:11.592 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:07:37.137 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:08:06.322 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:08:32.316 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:09:00.485 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:09:28.744 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:09:57.777 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:10:21.908 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:10:46.239 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:11:09.793 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:11:33.958 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:12:03.610 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:12:27.777 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:12:52.817 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:13:19.350 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:20:27.665 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:38:39.198 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:39:03.835 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:39:28.707 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:39:56.543 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:40:22.999 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:40:47.485 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:41:15.555 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:41:41.888 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:42:10.747 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:42:37.600 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:43:00.916 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:43:26.560 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:43:54.764 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:44:18.700 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:44:44.442 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:45:12.397 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:45:40.604 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:46:09.204 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:46:34.025 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:46:58.447 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:47:24.955 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:47:50.842 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:48:17.680 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:48:41.353 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:49:08.857 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:49:34.937 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:49:59.026 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:50:27.959 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:50:55.869 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:51:22.884 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:51:47.935 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:52:12.872 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:52:36.929 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:53:05.219 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:53:31.562 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:53:58.431 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:56:46.259 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:57:09.854 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:57:37.790 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:58:01.585 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:58:24.714 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:58:50.783 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:59:18.755 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 12:59:46.516 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:00:12.739 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:00:40.567 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:01:09.644 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:17:30.510 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:17:54.930 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:18:18.269 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:18:41.697 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:19:06.791 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:19:30.502 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:19:57.591 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:20:25.881 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:20:49.707 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:21:12.970 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:21:38.431 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:22:04.052 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:22:30.843 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:22:54.261 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:23:21.620 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:23:48.698 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:24:16.381 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:24:41.286 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:25:06.103 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:25:35.647 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:25:59.123 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:26:26.410 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:26:54.104 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:27:17.952 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:27:47.919 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:28:15.927 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:28:40.471 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:29:04.693 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:29:28.862 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:29:56.333 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:30:21.836 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:30:46.377 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:31:11.527 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:31:38.515 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:32:07.953 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:32:30.998 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:32:59.735 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:33:24.924 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:33:48.047 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:34:12.395 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:34:40.627 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:35:07.331 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:35:31.475 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:35:56.943 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:36:19.984 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:36:45.240 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:37:09.308 -05:00 [DBG] Batch acquisition of 1 triggers
+2024-05-14 13:37:31.651 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:37:31.653 -05:00 [DBG] Calling Execute on job DEFAULT.EpisodeCleanupWorker
+2024-05-14 13:37:31.653 -05:00 [INF] Background Worker EpisodeCleanupWorker Starting..!
+2024-05-14 13:37:31.677 -05:00 [INF] Executed EpisodeCleanup..!
+2024-05-14 13:37:31.677 -05:00 [DBG] Trigger instruction : NoInstruction
+2024-05-14 13:37:56.737 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:38:24.056 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:38:50.420 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:39:17.021 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:39:40.418 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:40:05.223 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:40:31.557 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:40:56.582 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:41:21.148 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:41:45.457 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:42:08.598 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:42:36.072 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:42:59.384 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:43:26.175 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:43:50.717 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:44:20.451 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:44:50.156 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:45:15.803 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:45:39.497 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:46:05.625 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:46:32.299 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:46:59.217 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:47:26.712 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:47:55.187 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:48:19.939 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:48:43.512 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:49:09.476 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:49:37.097 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:50:01.363 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:50:28.733 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:50:54.107 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:51:22.019 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:51:48.387 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:52:12.004 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:52:39.458 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:53:07.422 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:53:33.485 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:54:01.320 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:54:27.187 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:54:50.310 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:55:16.770 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:55:44.122 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:56:13.721 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:56:38.926 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:57:03.157 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:57:29.532 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:57:55.706 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:58:23.319 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:58:52.834 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:59:21.402 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 13:59:44.574 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:00:09.604 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:00:33.321 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:00:58.041 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:01:22.646 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:01:51.584 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:02:16.779 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:02:41.028 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:03:07.915 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:03:31.459 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:03:55.480 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:04:19.939 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:04:46.027 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:05:10.904 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:05:36.420 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:06:05.156 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:06:30.271 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:06:53.280 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:07:18.708 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:07:43.567 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:08:12.259 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:08:39.949 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:09:05.358 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:09:33.825 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:09:59.627 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:10:28.596 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:10:52.674 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:11:18.828 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:11:44.928 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:12:13.776 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:12:42.791 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:13:10.507 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:13:39.753 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:14:06.418 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:14:29.815 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:14:57.683 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:15:23.766 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:15:48.288 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:16:15.867 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:16:43.788 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:17:11.664 -05:00 [DBG] Batch acquisition of 0 triggers
+2024-05-14 14:17:18.129 -05:00 [INF] Application is shutting down...
+2024-05-14 14:17:18.423 -05:00 [DBG] Disposed channel pool with no channels in the pool.
+2024-05-14 14:17:18.503 -05:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2024-05-14 14:17:18.505 -05:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2024-05-14 14:17:18.517 -05:00 [DBG] Shutting down threadpool...
+2024-05-14 14:17:18.518 -05:00 [DBG] Shutdown of threadpool complete.
+2024-05-14 14:17:18.550 -05:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.

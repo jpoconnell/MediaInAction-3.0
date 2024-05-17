@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.EmbyService
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi.Client/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

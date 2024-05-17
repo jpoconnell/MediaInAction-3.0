@@ -1,0 +1,1 @@
+dotnet abp generate-proxy -t csharp -m Trakt -url https://localhost:44357

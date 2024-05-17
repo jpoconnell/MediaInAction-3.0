@@ -1,0 +1,34 @@
+[
+  {
+    "seriesName": "delightful chocolate Ilise",
+    "seriesYear": "2020",
+    "seasonNum": 1,
+    "episodeNum": 1,
+    "airedDate": "2024-04-30T15:40:00.917Z",
+    "episodeName": "",
+    "altEpisodeId": "",
+    "seasonEpisode": "S01E01",
+    "episodeAliasDtos": [
+      {
+        "idType": "status",
+        "idValue": "Great"
+      }
+    ]
+  },
+  {
+    "seriesName": "delightful chocolate Ilise",
+    "seriesYear": "2020",
+    "seasonNum": 1,
+    "episodeNum": 2,
+    "airedDate": "2024-05-01T15:40:00.917Z",
+    "episodeName": "",
+    "altEpisodeId": "",
+    "seasonEpisode": "S01E01",
+    "episodeAliasDtos": [
+      {
+        "idType": "name",
+        "idValue": "Great"
+      }
+    ]
+  }
+]

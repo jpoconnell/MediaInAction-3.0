@@ -1,0 +1,994 @@
+2024-05-14 19:33:10.435 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 19:33:11.216 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:33:11.216 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 19:33:11.216 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 19:33:11.216 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:33:11.216 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:33:11.216 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:33:11.216 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:33:11.216 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:33:11.216 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:33:11.216 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:33:11.216 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:33:11.216 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:33:11.216 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:33:11.216 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:33:11.216 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 19:33:11.216 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 19:33:11.216 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 19:33:11.216 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 19:33:11.216 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 19:33:11.217 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 19:33:11.217 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 19:33:11.217 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 19:33:11.217 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 19:33:11.664 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 19:33:13.545 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:33:13.893 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 19:33:13.902 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 19:33:13.902 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 19:33:13.905 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-05-14 19:33:13.935 -05:00 [FTL] MediaInAction.CatalogService.HttpApi.Host terminated unexpectedly!
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MediaInAction.CatalogService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/Program.cs:line 23
+2024-05-14 19:57:13.041 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 19:57:13.714 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:57:13.714 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 19:57:13.714 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:57:13.714 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:57:13.714 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:57:13.714 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:57:13.714 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:57:13.714 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:57:13.714 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:57:13.714 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 19:57:13.714 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 19:57:13.714 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 19:57:13.714 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 19:57:13.714 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 19:57:13.714 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 19:57:14.097 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 19:57:16.085 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:57:16.413 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 19:57:16.418 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 19:57:16.418 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 19:57:16.421 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-05-14 19:57:16.450 -05:00 [FTL] MediaInAction.CatalogService.HttpApi.Host terminated unexpectedly!
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MediaInAction.CatalogService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/Program.cs:line 23
+2024-05-14 19:57:33.099 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 19:57:33.758 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:57:33.759 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 19:57:33.759 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:57:33.759 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:57:33.759 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:57:33.759 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:57:33.759 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:57:33.759 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:57:33.759 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:57:33.759 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 19:57:33.759 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 19:57:33.759 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 19:57:33.759 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 19:57:33.759 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 19:57:33.759 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 19:57:34.135 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 19:57:35.873 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:57:36.163 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 19:57:36.168 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 19:57:36.168 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 19:57:36.171 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-05-14 19:57:36.215 -05:00 [FTL] MediaInAction.CatalogService.HttpApi.Host terminated unexpectedly!
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MediaInAction.CatalogService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/Program.cs:line 23
+2024-05-14 20:03:53.311 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 20:03:55.710 -05:00 [INF] Loaded ABP modules:
+2024-05-14 20:03:55.711 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 20:03:55.711 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 20:03:55.711 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 20:03:55.711 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 20:03:55.711 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 20:03:55.711 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 20:03:55.711 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 20:03:55.711 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 20:03:55.711 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 20:03:55.711 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 20:03:55.711 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 20:03:55.711 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 20:03:55.711 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 20:03:55.711 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 20:03:57.165 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 20:04:00.462 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 20:04:01.045 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 20:04:01.070 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 20:04:01.071 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 20:04:01.085 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-05-14 20:04:03.377 -05:00 [FTL] MediaInAction.CatalogService.HttpApi.Host terminated unexpectedly!
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at MediaInAction.CatalogService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/Program.cs:line 23
+2024-05-14 20:04:38.817 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 20:04:40.911 -05:00 [INF] Loaded ABP modules:
+2024-05-14 20:04:40.911 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 20:04:40.911 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 20:04:40.911 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 20:04:40.911 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 20:04:40.911 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 20:04:40.911 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 20:04:40.911 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 20:04:40.911 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 20:04:40.911 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 20:04:40.911 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 20:04:40.911 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 20:04:40.911 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 20:04:40.911 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 20:04:40.911 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 20:04:41.907 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 20:04:44.156 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 20:04:44.648 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 20:04:44.668 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 20:04:44.669 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 20:04:44.682 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-05-14 20:05:32.002 -05:00 [INF] Starting MediaInAction.CatalogService.HttpApi.Host.
+2024-05-14 20:05:41.670 -05:00 [INF] Loaded ABP modules:
+2024-05-14 20:05:41.671 -05:00 [INF] - MediaInAction.CatalogService.CatalogServiceHttpApiHostModule
+2024-05-14 20:05:41.671 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceHttpApiModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceApplicationContractsModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - MediaInAction.CatalogService.CatalogServiceDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 20:05:41.671 -05:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 20:05:41.671 -05:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-14 20:05:41.671 -05:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 20:05:41.671 -05:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 20:05:41.671 -05:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - MediaInAction.OrderingService.OrderingServiceDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - MediaInAction.PaymentService.PaymentServiceDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 20:05:41.671 -05:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 20:05:41.671 -05:00 [INF]   - MediaInAction.CatalogService.CatalogServiceApplicationModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - MediaInAction.CatalogService.CatalogServiceDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 20:05:41.671 -05:00 [INF]   - MediaInAction.CatalogService.MongoDB.CatalogServiceMongoDbModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-14 20:05:41.671 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 20:05:41.671 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 20:05:41.671 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 20:05:41.671 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 20:05:42.776 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CatalogService...
+2024-05-14 20:05:45.246 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 20:05:53.269 -05:00 [WRN] Overriding address(es) 'https://localhost:44354'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-05-14 20:05:53.288 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv4 loopback interface: 'Permission denied'.
+2024-05-14 20:05:53.289 -05:00 [INF] Unable to bind to http://localhost:81 on the IPv6 loopback interface: 'Permission denied'.
+2024-05-14 20:05:53.301 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://localhost:81.
+ ---> System.AggregateException: One or more errors occurred. (Permission denied) (Permission denied)
+ ---> System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.Net.Sockets.SocketException (13): Permission denied
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)<---
+
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.EndpointsStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)

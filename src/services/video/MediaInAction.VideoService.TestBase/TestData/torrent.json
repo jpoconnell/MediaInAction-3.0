@@ -1,0 +1,44 @@
+[
+  {
+    "comment": "string",
+    "isSeed": true,
+    "hash": "string",
+    "paused": true,
+    "ratio": 0,
+    "message": "string",
+    "name": "string",
+    "label": "string",
+    "added": 0,
+    "completeTime": 0,
+    "downloadLocation": "string",
+    "torrentStatus": "old"
+  },  
+  {
+    "comment": "comment 2",
+    "isSeed": true,
+    "hash": "string",
+    "paused": true,
+    "ratio": 0,
+    "message": "string",
+    "name": "string",
+    "label": "string",
+    "added": 0,
+    "completeTime": 0,
+    "downloadLocation": "string",
+    "torrentStatus": "new"
+  },
+  {
+    "comment": "comment 3",
+    "isSeed": true,
+    "hash": "string",
+    "paused": true,
+    "ratio": 0,
+    "message": "message 3",
+    "name": "name 3",
+    "label": "label 3",
+    "added": 0,
+    "completeTime": 0,
+    "downloadLocation": "/download/3",
+    "torrentStatus": "running"
+  }
+]

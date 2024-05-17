@@ -1,0 +1,14 @@
+[
+  {
+    "name": "True Grit",
+    "slug": "true-grit",
+    "firstAiredYear": 1963,
+    "imaggeName": "true_grit.jpg",
+    "movieAliases": [
+      {
+        "idType": "name",
+        "idValue": "True Grit"
+      }
+    ]
+  }
+]

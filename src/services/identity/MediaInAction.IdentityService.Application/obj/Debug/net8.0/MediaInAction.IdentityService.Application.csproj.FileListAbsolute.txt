@@ -1,0 +1,6 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application/obj/Debug/net8.0/MediaInAction.IdentityService.Application.sourcelink.json

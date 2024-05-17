@@ -1,5 +1,0 @@
-is_global = true
-build_property.RootNamespace = MediaInAction.PaymentService
-build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/payment/src/MediaInAction.PaymentService.Application/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 

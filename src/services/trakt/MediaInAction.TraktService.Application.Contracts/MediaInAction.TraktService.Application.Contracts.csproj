@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.TraktService</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj" />
+    <ProjectReference Include="../../../common/MediaInAction.Shared.Integration/MediaInAction.Shared.Integration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="8.1.1" />
+  </ItemGroup>
+  
+
+</Project>

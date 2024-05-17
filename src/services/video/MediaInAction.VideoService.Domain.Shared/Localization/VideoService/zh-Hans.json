@@ -1,0 +1,20 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "MyAccount": "我的账户",
+    "SamplePageMessage": "VideoService模块的示例页面",
+    "Video:00001": "订单状态的可能值：{0}",
+    "Video:00011": "支付类型的可能值：{0}",
+    "Video:00002": "无效的单位数量",
+    "Video:00003": "无效的折扣",
+    "Video:00004": "订单项的总额低于申请的折扣",
+    "Video:01001": "无法找到 id 为 {0} 的订单！",
+    "Permission:FileEntries": "命令",
+    "Permission:VideoService": "订购服务",
+    "Menu:FileEntries": "命令",
+    "Menu:FileEntryManagement": "订单管理",
+    "Permission:FileEntries.SetAsCancelled": "设置为取消",
+    "Permission:FileEntries.SetAsShipped": "设置为发货",
+    "Permission:Dashboard": "仪表板"
+  }
+}

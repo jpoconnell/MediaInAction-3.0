@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.VideoService.BackgroundJobs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.8.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Quartz" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\MediaInAction.Shared.Domain\MediaInAction.Shared.Domain.csproj" />
+    <ProjectReference Include="..\..\..\common\MediaInAction.Shared.Integration\MediaInAction.Shared.Integration.csproj" />
+    <ProjectReference Include="..\MediaInAction.VideoService.EntityFrameworkCore\MediaInAction.VideoService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\MediaInAction.VideoService.Lib\MediaInAction.VideoService.Lib.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/Debug/netstandard2.1/MediaInAction.Shared.Hosting.pdb

@@ -1,0 +1,281 @@
+2024-05-14 19:55:31.021 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-05-14 19:55:31.222 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-05-14 19:55:31.961 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:55:31.961 -05:00 [INF] - MediaInAction.CmskitService.CmskitServiceHttpApiHostModule
+2024-05-14 19:55:31.961 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 19:55:31.961 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:55:31.961 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:55:31.961 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:55:31.961 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:55:31.961 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:55:31.961 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:55:31.961 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:55:31.962 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:55:31.962 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 19:55:31.962 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - MediaInAction.CmskitService.CmskitServiceDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.CmsKit.CmsKitDomainSharedModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.CmsKitDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.CmsKitApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.CmsKit.Public.CmsKitPublicApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]           - Volo.CmsKit.CmsKitCommonApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.CmsKit.Admin.CmsKitAdminApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.CmsKit.CmsKitApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminApplicationModule
+2024-05-14 19:55:31.962 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceHttpApiModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.CmsKit.CmsKitHttpApiModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminHttpApiModule
+2024-05-14 19:55:31.962 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonHttpApiModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicHttpApiModule
+2024-05-14 19:55:31.962 -05:00 [INF]   - MediaInAction.CmskitService.EntityFrameworkCore.CmskitServiceEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.CmsKit.EntityFrameworkCore.CmsKitEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-05-14 19:55:31.962 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-05-14 19:55:31.962 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-05-14 19:55:31.962 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-05-14 19:55:32.403 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CmskitService...
+2024-05-14 19:55:33.243 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.248 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.248 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.248 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.249 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:33.401 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-05-14 19:55:34.017 -05:00 [INF] Lock is released for db migration and seeding on database named: CmskitService...
+2024-05-14 19:55:34.019 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:55:34.316 -05:00 [INF] Now listening on: https://localhost:44358
+2024-05-14 19:55:34.316 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 19:55:34.316 -05:00 [INF] Hosting environment: Development
+2024-05-14 19:55:34.316 -05:00 [INF] Content root path: /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host
+2024-05-14 19:55:34.990 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/ - null null
+2024-05-14 19:55:35.174 -05:00 [INF] Executing endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-05-14 19:55:35.187 -05:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.CmskitService.Controllers.HomeController (MediaInAction.CmskitService.HttpApi.Host).
+2024-05-14 19:55:35.215 -05:00 [INF] Executing action method MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host) - Validation state: "Valid"
+2024-05-14 19:55:35.218 -05:00 [INF] Executed action method MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2115ms.
+2024-05-14 19:55:35.223 -05:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-14 19:55:35.226 -05:00 [INF] Executed action MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host) in 36.3153ms
+2024-05-14 19:55:35.226 -05:00 [INF] Executed endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-05-14 19:55:35.234 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/ - 302 0 null 245.815ms
+2024-05-14 19:55:35.242 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger - null null
+2024-05-14 19:55:35.244 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger - 301 0 null 2.6277ms
+2024-05-14 19:55:35.249 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/index.html - null null
+2024-05-14 19:55:35.293 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/index.html - 200 null text/html;charset=utf-8 43.5172ms
+2024-05-14 19:55:35.303 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/swagger-ui.css - null null
+2024-05-14 19:55:35.303 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/ui/abp.js - null null
+2024-05-14 19:55:35.303 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/ui/abp.swagger.js - null null
+2024-05-14 19:55:35.305 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/ui/requestinterceptor.js - null null
+2024-05-14 19:55:35.306 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/swagger-ui-bundle.js - null null
+2024-05-14 19:55:35.306 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-14 19:55:35.313 -05:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-14 19:55:35.313 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/ui/requestinterceptor.js - 200 283 application/javascript 8.4257ms
+2024-05-14 19:55:35.316 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-14 19:55:35.316 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/ui/abp.js - 200 3122 application/javascript 12.8089ms
+2024-05-14 19:55:35.319 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-14 19:55:35.319 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/ui/abp.swagger.js - 200 4375 application/javascript 15.6111ms
+2024-05-14 19:55:35.328 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-14 19:55:35.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/swagger-ui.css - 200 144929 text/css 25.4859ms
+2024-05-14 19:55:35.333 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-14 19:55:35.333 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 26.9316ms
+2024-05-14 19:55:35.337 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-14 19:55:35.338 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 31.6179ms
+2024-05-14 19:55:35.441 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/api/abp/application-configuration - null null
+2024-05-14 19:55:35.448 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 19:55:35.466 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/v1/swagger.json - null null
+2024-05-14 19:55:35.467 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-14 19:55:35.482 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/favicon-32x32.png - null null
+2024-05-14 19:55:35.483 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 19:55:35.483 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/favicon-32x32.png - 200 628 image/png 1.0074ms
+2024-05-14 19:55:35.483 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/favicon-16x16.png - null null
+2024-05-14 19:55:35.483 -05:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-14 19:55:35.483 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/favicon-16x16.png - 200 665 image/png 0.4997ms
+2024-05-14 19:55:35.567 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-14 19:55:35.589 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-14 19:55:35.623 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 156.726ms
+2024-05-14 19:55:35.721 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-14 19:55:35.723 -05:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-14 19:55:35.724 -05:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle"}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2024-05-14 19:55:35.726 -05:00 [INF] Executing action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) - Validation state: "Valid"
+2024-05-14 19:55:35.727 -05:00 [INF] Executed action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.5925ms.
+2024-05-14 19:55:35.727 -05:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 2.6252ms
+2024-05-14 19:55:35.727 -05:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-14 19:55:35.727 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/abp/Swashbuckle/SetCsrfCookie - 204 null null 5.8808ms
+2024-05-14 19:55:36.143 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-14 19:55:36.155 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 588.7502ms.
+2024-05-14 19:55:36.169 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-14 19:55:36.201 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 733.5578ms
+2024-05-14 19:55:36.201 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 19:55:36.203 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/api/abp/application-configuration - 200 null application/json; charset=utf-8 761.9374ms
+2024-05-14 19:56:47.527 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - null null
+2024-05-14 19:56:47.542 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 19:56:47.542 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-14 19:56:47.561 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-14 19:56:47.574 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-14 19:56:47.616 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-14 19:56:47.616 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 55.4522ms.
+2024-05-14 19:56:47.617 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-14 19:56:47.620 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 77.7382ms
+2024-05-14 19:56:47.620 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 19:56:47.621 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - 200 null application/json; charset=utf-8 94.0951ms
+2024-05-14 19:56:54.499 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44358/swagger/v1/swagger.json - null 0
+2024-05-14 19:56:54.502 -05:00 [INF] CORS policy execution successful.
+2024-05-14 19:56:54.502 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44358/swagger/v1/swagger.json - 204 null null 2.9617ms
+2024-05-14 19:56:54.504 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44358/swagger/v1/swagger.json - null null
+2024-05-14 19:56:54.504 -05:00 [INF] CORS policy execution successful.
+2024-05-14 19:56:54.529 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44358/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.7934ms
+2024-05-14 20:02:44.700 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - null null
+2024-05-14 20:02:44.703 -05:00 [INF] CORS policy execution successful.
+2024-05-14 20:02:44.717 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:44.721 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-14 20:02:44.738 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-14 20:02:44.745 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-14 20:02:44.758 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-14 20:02:44.758 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.3629ms.
+2024-05-14 20:02:44.759 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-14 20:02:44.760 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 38.5095ms
+2024-05-14 20:02:44.760 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:44.760 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - 200 null application/json; charset=utf-8 61.0579ms
+2024-05-14 20:02:44.919 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44372/api/abp/application-localization?cultureName=en&onlyDynamics=false - null null
+2024-05-14 20:02:44.919 -05:00 [INF] CORS policy execution successful.
+2024-05-14 20:02:44.921 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:44.929 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-14 20:02:44.941 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-14 20:02:44.962 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.9358ms.
+2024-05-14 20:02:44.962 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2024-05-14 20:02:44.963 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 34.3129ms
+2024-05-14 20:02:44.963 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:44.964 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44372/api/abp/application-localization?cultureName=en&onlyDynamics=false - 200 null application/json; charset=utf-8 44.905ms
+2024-05-14 20:02:58.676 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - null null
+2024-05-14 20:02:58.679 -05:00 [INF] CORS policy execution successful.
+2024-05-14 20:02:58.920 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:58.921 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-14 20:02:58.932 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-14 20:02:58.937 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-14 20:02:58.969 -05:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKitPublic.Comments,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKitPublic.Comments.DeleteAll,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKit.Comments,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKit.Comments.Delete,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Roles,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Roles.Create,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Roles.Update,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Roles.Delete,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Roles.ManagePermissions,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Users,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Users.Create,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Users.Update,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Users.Delete,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:AbpIdentity.Users.ManagePermissions
+2024-05-14 20:02:58.987 -05:00 [DBG] Not found in the cache: pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKitPublic.Comments,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKitPublic.Comments.DeleteAll,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKit.Comments,pn:U,pk:aecf577b-db31-4a13-9e68-7a8c2adba53c,n:CmsKit.Comments.Delete
+2024-05-14 20:02:58.990 -05:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: U,aecf577b-db31-4a13-9e68-7a8c2adba53c
+2024-05-14 20:02:59.019 -05:00 [DBG] Setting the cache items. Count: 4
+2024-05-14 20:02:59.036 -05:00 [DBG] Finished setting the cache items. Count: 4
+2024-05-14 20:02:59.039 -05:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:create-realm,n:CmsKitPublic.Comments,pn:R,pk:create-realm,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:create-realm,n:CmsKit.Comments,pn:R,pk:create-realm,n:CmsKit.Comments.Delete,pn:R,pk:create-realm,n:AbpIdentity.Roles,pn:R,pk:create-realm,n:AbpIdentity.Roles.Create,pn:R,pk:create-realm,n:AbpIdentity.Roles.Update,pn:R,pk:create-realm,n:AbpIdentity.Roles.Delete,pn:R,pk:create-realm,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:create-realm,n:AbpIdentity.Users,pn:R,pk:create-realm,n:AbpIdentity.Users.Create,pn:R,pk:create-realm,n:AbpIdentity.Users.Update,pn:R,pk:create-realm,n:AbpIdentity.Users.Delete,pn:R,pk:create-realm,n:AbpIdentity.Users.ManagePermissions
+2024-05-14 20:02:59.054 -05:00 [DBG] Not found in the cache: pn:R,pk:create-realm,n:CmsKitPublic.Comments,pn:R,pk:create-realm,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:create-realm,n:CmsKit.Comments,pn:R,pk:create-realm,n:CmsKit.Comments.Delete
+2024-05-14 20:02:59.054 -05:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,create-realm
+2024-05-14 20:02:59.075 -05:00 [DBG] Setting the cache items. Count: 4
+2024-05-14 20:02:59.078 -05:00 [DBG] Finished setting the cache items. Count: 4
+2024-05-14 20:02:59.079 -05:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:default-roles-master,n:CmsKitPublic.Comments,pn:R,pk:default-roles-master,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:default-roles-master,n:CmsKit.Comments,pn:R,pk:default-roles-master,n:CmsKit.Comments.Delete,pn:R,pk:default-roles-master,n:AbpIdentity.Roles,pn:R,pk:default-roles-master,n:AbpIdentity.Roles.Create,pn:R,pk:default-roles-master,n:AbpIdentity.Roles.Update,pn:R,pk:default-roles-master,n:AbpIdentity.Roles.Delete,pn:R,pk:default-roles-master,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:default-roles-master,n:AbpIdentity.Users,pn:R,pk:default-roles-master,n:AbpIdentity.Users.Create,pn:R,pk:default-roles-master,n:AbpIdentity.Users.Update,pn:R,pk:default-roles-master,n:AbpIdentity.Users.Delete,pn:R,pk:default-roles-master,n:AbpIdentity.Users.ManagePermissions
+2024-05-14 20:02:59.095 -05:00 [DBG] Not found in the cache: pn:R,pk:default-roles-master,n:CmsKitPublic.Comments,pn:R,pk:default-roles-master,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:default-roles-master,n:CmsKit.Comments,pn:R,pk:default-roles-master,n:CmsKit.Comments.Delete
+2024-05-14 20:02:59.095 -05:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,default-roles-master
+2024-05-14 20:02:59.107 -05:00 [DBG] Setting the cache items. Count: 4
+2024-05-14 20:02:59.109 -05:00 [DBG] Finished setting the cache items. Count: 4
+2024-05-14 20:02:59.109 -05:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:offline_access,n:CmsKitPublic.Comments,pn:R,pk:offline_access,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:offline_access,n:CmsKit.Comments,pn:R,pk:offline_access,n:CmsKit.Comments.Delete,pn:R,pk:offline_access,n:AbpIdentity.Roles,pn:R,pk:offline_access,n:AbpIdentity.Roles.Create,pn:R,pk:offline_access,n:AbpIdentity.Roles.Update,pn:R,pk:offline_access,n:AbpIdentity.Roles.Delete,pn:R,pk:offline_access,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:offline_access,n:AbpIdentity.Users,pn:R,pk:offline_access,n:AbpIdentity.Users.Create,pn:R,pk:offline_access,n:AbpIdentity.Users.Update,pn:R,pk:offline_access,n:AbpIdentity.Users.Delete,pn:R,pk:offline_access,n:AbpIdentity.Users.ManagePermissions
+2024-05-14 20:02:59.111 -05:00 [DBG] Not found in the cache: pn:R,pk:offline_access,n:CmsKitPublic.Comments,pn:R,pk:offline_access,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:offline_access,n:CmsKit.Comments,pn:R,pk:offline_access,n:CmsKit.Comments.Delete
+2024-05-14 20:02:59.111 -05:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,offline_access
+2024-05-14 20:02:59.137 -05:00 [DBG] Setting the cache items. Count: 4
+2024-05-14 20:02:59.141 -05:00 [DBG] Finished setting the cache items. Count: 4
+2024-05-14 20:02:59.141 -05:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:CmsKitPublic.Comments,pn:R,pk:admin,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:admin,n:CmsKit.Comments,pn:R,pk:admin,n:CmsKit.Comments.Delete,pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Roles.Create,pn:R,pk:admin,n:AbpIdentity.Roles.Update,pn:R,pk:admin,n:AbpIdentity.Roles.Delete,pn:R,pk:admin,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpIdentity.Users.Create,pn:R,pk:admin,n:AbpIdentity.Users.Update,pn:R,pk:admin,n:AbpIdentity.Users.Delete,pn:R,pk:admin,n:AbpIdentity.Users.ManagePermissions
+2024-05-14 20:02:59.151 -05:00 [DBG] Not found in the cache: pn:R,pk:admin,n:CmsKitPublic.Comments,pn:R,pk:admin,n:CmsKitPublic.Comments.DeleteAll,pn:R,pk:admin,n:CmsKit.Comments,pn:R,pk:admin,n:CmsKit.Comments.Delete
+2024-05-14 20:02:59.152 -05:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,admin
+2024-05-14 20:02:59.164 -05:00 [DBG] Setting the cache items. Count: 4
+2024-05-14 20:02:59.165 -05:00 [DBG] Finished setting the cache items. Count: 4
+2024-05-14 20:02:59.176 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-14 20:02:59.176 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 243.8228ms.
+2024-05-14 20:02:59.183 -05:00 [DBG] Added 0 entity changes to the current audit log
+2024-05-14 20:02:59.184 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-14 20:02:59.186 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 264.9078ms
+2024-05-14 20:02:59.186 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-14 20:02:59.186 -05:00 [DBG] Added 0 entity changes to the current audit log
+2024-05-14 20:02:59.186 -05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44372/api/abp/application-configuration?includeLocalizationResources=false - 200 null application/json; charset=utf-8 512.8297ms
+2024-05-14 20:07:20.662 -05:00 [INF] Application is shutting down...
+2024-05-14 20:07:20.772 -05:00 [DBG] Disposed channel pool with no channels in the pool.

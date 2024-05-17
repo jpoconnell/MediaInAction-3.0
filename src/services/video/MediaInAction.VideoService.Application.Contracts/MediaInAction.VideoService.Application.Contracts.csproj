@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>MediaInAction.VideoService</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MediaInAction.VideoService.Domain.Shared\MediaInAction.VideoService.Domain.Shared.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="8.1.1" />
+    <ProjectReference Include="..\MediaInAction.VideoService.Domain.Shared\MediaInAction.VideoService.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.EmbyService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.1" />
+    <ProjectReference Include="..\MediaInAction.EmbyService.Application.Contracts\MediaInAction.EmbyService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\MediaInAction.EmbyService.Domain\MediaInAction.EmbyService.Domain.csproj" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "FBI",
+    "firstAiredYear": 2006,
+    "slug": "fbi",
+    "imageName": "xxx.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "fbi"
+      },
+      {
+        "idType": "folder",
+        "idValue": "FBI"
+      }
+    ]
+  },
+  {
+    "name": "Law and Order",
+    "firstAiredYear": 2007,
+    "imageName": "Law_and_Order.img",
+    "slug": "law-and-order",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "law and order"
+      }
+    ]
+  },
+  {
+    "name": "NCIS",
+    "firstAiredYear": 2020,
+    "slug": "ncis",
+    "imageName": "ncis.img",
+    "SeriesAliases": [
+      {
+        "idType": "name",
+        "idValue": "ncis"
+      }
+     ]
+    }
+]
