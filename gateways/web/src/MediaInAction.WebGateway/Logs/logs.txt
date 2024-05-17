@@ -1,0 +1,123 @@
+2024-05-14 19:56:45.431 -05:00 [INF] Starting MediaInAction.WebGateway.
+2024-05-14 19:56:45.980 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:56:45.981 -05:00 [INF] - MediaInAction.WebGateway.MediaInActionWebGatewayModule
+2024-05-14 19:56:45.981 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-05-14 19:56:45.981 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:56:45.981 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:56:45.981 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:56:45.981 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:56:45.981 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:56:45.981 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:56:45.981 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:56:45.981 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:56:45.981 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:56:46.022 -05:00 [INF] Loading proxy data from config.
+2024-05-14 19:56:46.058 -05:00 [INF] User profile is available. Using '/Users/jeremiahoconnell/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-05-14 19:56:46.083 -05:00 [DBG] Destination 'destination1' has been added.
+2024-05-14 19:56:46.087 -05:00 [DBG] New client created for cluster 'Administration'.
+2024-05-14 19:56:46.087 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] Destination 'destination1' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] New client created for cluster 'Catalog'.
+2024-05-14 19:56:46.089 -05:00 [DBG] Cluster 'Catalog' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] Destination 'destination1' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] New client created for cluster 'CmsKit'.
+2024-05-14 19:56:46.089 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] Destination 'destination1' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] New client created for cluster 'Identity'.
+2024-05-14 19:56:46.089 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] Destination 'destination1' has been added.
+2024-05-14 19:56:46.089 -05:00 [DBG] New client created for cluster 'Ordering'.
+2024-05-14 19:56:46.089 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-05-14 19:56:46.092 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Catalog Service' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Catalog Service Swagger' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Cmskit Service' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'EshopOnAbpApplicationConfiguration' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'EshopOnAbpLocalization' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-05-14 19:56:46.093 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-05-14 19:56:46.096 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:56:46.325 -05:00 [INF] Now listening on: https://localhost:44372
+2024-05-14 19:56:46.325 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 19:56:46.325 -05:00 [INF] Hosting environment: Development
+2024-05-14 19:56:46.325 -05:00 [INF] Content root path: /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/gateways/web/src/MediaInAction.WebGateway
+2024-05-14 19:56:46.867 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/ - null null
+2024-05-14 19:56:47.200 -05:00 [INF] Request was redirected to /swagger
+2024-05-14 19:56:47.204 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/ - 302 0 null 337.9542ms
+2024-05-14 19:56:47.218 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/swagger - null null
+2024-05-14 19:56:47.221 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/swagger - 301 0 null 4.8727ms
+2024-05-14 19:56:47.229 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - null null
+2024-05-14 19:56:47.285 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 null text/html;charset=utf-8 56.0077ms
+2024-05-14 19:56:47.298 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/swagger/ui/abp.js - null null
+2024-05-14 19:56:47.298 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/swagger/ui/abp.swagger.js - null null
+2024-05-14 19:56:47.298 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/swagger/ui/requestinterceptor.js - null null
+2024-05-14 19:56:47.303 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-14 19:56:47.303 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/swagger/ui/abp.js - 200 3122 application/javascript 5.2402ms
+2024-05-14 19:56:47.303 -05:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-14 19:56:47.304 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/swagger/ui/requestinterceptor.js - 200 283 application/javascript 5.3426ms
+2024-05-14 19:56:47.307 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-14 19:56:47.307 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/swagger/ui/abp.swagger.js - 200 4375 application/javascript 8.7405ms
+2024-05-14 19:56:47.410 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/api/abp/application-configuration - null null
+2024-05-14 19:56:47.415 -05:00 [INF] Executing endpoint 'EshopOnAbpApplicationConfiguration'
+2024-05-14 19:56:47.477 -05:00 [INF] Error making request to https://localhost:44354/api/abp/application-configuration?includeLocalizationResources=false: Connection refused (localhost:44354)
+2024-05-14 19:56:47.479 -05:00 [INF] Error for the Catalog_AppConfig: Connection refused (localhost:44354)
+2024-05-14 19:56:47.597 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44372/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-14 19:56:47.598 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/abp/Swashbuckle/SetCsrfCookie - 404 0 null 0.7845ms
+2024-05-14 19:56:47.598 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44372/abp/Swashbuckle/SetCsrfCookie, Response status code: 404
+2024-05-14 19:56:47.665 -05:00 [INF] Localization Key: Identity_AppConfig, Value: Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto
+2024-05-14 19:56:47.665 -05:00 [INF] Localization Key: Administration_AppConfig, Value: Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto
+2024-05-14 19:56:47.665 -05:00 [INF] Localization Key: CmsKit_AppConfig, Value: Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto
+2024-05-14 19:56:47.665 -05:00 [INF] Localization Key: Ordering_AppConfig, Value: Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto
+2024-05-14 19:56:47.686 -05:00 [INF] Executed endpoint 'EshopOnAbpApplicationConfiguration'
+2024-05-14 19:56:47.687 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44372/api/abp/application-configuration - 200 null application/json; charset=utf-8 276.8738ms

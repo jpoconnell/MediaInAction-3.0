@@ -1,0 +1,127 @@
+2024-05-14 19:30:49.399 -05:00 [INF] Starting MediaInAction.IdentityService.HttpApi.Host.
+2024-05-14 19:30:50.137 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:30:50.138 -05:00 [INF] - MediaInAction.IdentityService.IdentityServiceHttpApiHostModule
+2024-05-14 19:30:50.138 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-14 19:30:50.138 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-14 19:30:50.138 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-14 19:30:50.138 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-14 19:30:50.138 -05:00 [INF]   - MediaInAction.IdentityService.IdentityServiceHttpApiModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - MediaInAction.IdentityService.IdentityServiceApplicationContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - MediaInAction.IdentityService.IdentityServiceDomainSharedModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-05-14 19:30:50.138 -05:00 [INF]   - MediaInAction.IdentityService.IdentityServiceApplicationModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - MediaInAction.IdentityService.IdentityServiceDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-05-14 19:30:50.138 -05:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2024-05-14 19:30:50.138 -05:00 [INF]   - MediaInAction.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-05-14 19:30:50.138 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-05-14 19:30:50.247 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Users.IdentityUserCreationArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.262 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Users.IdentityUserDeletionArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.277 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Users.IdentityUserUpdatingArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.285 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Roles.IdentityRoleCreationArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.292 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Roles.IdentityRoleDeletionArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.299 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.MediaInAction.IdentityService.BackgroundJobs.Roles.IdentityRoleUpdatingArgs' has 0 messages and 0 consumers.
+2024-05-14 19:30:50.328 -05:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2024-05-14 19:30:50.569 -05:00 [INF] Lock is acquired for db migration and seeding on database named: IdentityService...
+2024-05-14 19:30:51.774 -05:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AbpClaimTypes" (
+    "Id" uuid NOT NULL,
+    "Name" character varying(256) NOT NULL,
+    "Required" boolean NOT NULL,
+    "IsStatic" boolean NOT NULL,
+    "Regex" character varying(512),
+    "RegexDescription" character varying(128),
+    "Description" character varying(256),
+    "ValueType" integer NOT NULL,
+    "ExtraProperties" text,
+    "ConcurrencyStamp" character varying(40),
+    CONSTRAINT "PK_AbpClaimTypes" PRIMARY KEY ("Id")
+);
+2024-05-14 19:30:51.787 -05:00 [WRN] PostgresException has been thrown. The operation will be tried 2 times more. Exception:
+42P07: relation "AbpClaimTypes" already exists

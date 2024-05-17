@@ -1,0 +1,13 @@
+2024-05-14 19:59:26.889 -05:00 [INF] Loaded ABP modules:
+2024-05-14 19:59:26.902 -05:00 [INF] - MediaInAction.DbMigrator.MediaInActionDbMigratorModule
+2024-05-14 19:59:26.902 -05:00 [INF]   - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-14 19:59:26.902 -05:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-14 19:59:26.902 -05:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-14 19:59:26.902 -05:00 [INF]     - Volo.Abp.Data.AbpDataModule
+2024-05-14 19:59:26.902 -05:00 [INF]       - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-14 19:59:26.902 -05:00 [INF]         - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-14 19:59:26.902 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-14 19:59:26.902 -05:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-14 19:59:26.902 -05:00 [INF]       - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-14 19:59:26.906 -05:00 [INF] Initialized all ABP modules.
+2024-05-14 19:59:27.782 -05:00 [INF] Migration completed!
