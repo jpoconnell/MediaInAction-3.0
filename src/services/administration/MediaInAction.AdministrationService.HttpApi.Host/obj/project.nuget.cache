@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hCGslKCBWnVn0KOd94mi2NyWHQEMSq74SaWjwlA4c1VwmDxLx8AtTUG4W0G+JOqoqtgM7dK2BCQGBYymEy7JPQ==",
+  "dgSpecHash": "TI5eUrmzi9pQ5LMEFmb8BGqxAJkVZwwsWtCdogenZnwHrLRXQgwT71oXTA9TkpTOZXhKG1jlO99eBfbRSLKvvw==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Host/MediaInAction.AdministrationService.HttpApi.Host.csproj",
   "expectedPackageFiles": [

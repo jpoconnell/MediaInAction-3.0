@@ -1,0 +1,13 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/bin/Debug/net8.0/MediaInAction.Shared.Helpers.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/bin/Debug/net8.0/MediaInAction.Shared.Helpers.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/bin/Debug/net8.0/MediaInAction.Shared.Helpers.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/refint/MediaInAction.Shared.Helpers.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/MediaInAction.Shared.Helpers.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Helpers/obj/Debug/net8.0/ref/MediaInAction.Shared.Helpers.dll

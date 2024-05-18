@@ -1,0 +1,16 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/bin/Debug/net8.0/MediaInAction.Shared.HealthChecks.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/bin/Debug/net8.0/MediaInAction.Shared.HealthChecks.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/bin/Debug/net8.0/MediaInAction.Shared.HealthChecks.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/bin/Debug/net8.0/MediaInAction.Shared.Helpers.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/bin/Debug/net8.0/MediaInAction.Shared.Helpers.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInA.286CD466.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/refint/MediaInAction.Shared.HealthChecks.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/MediaInAction.Shared.HealthChecks.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.HealthChecks/obj/Debug/net8.0/ref/MediaInAction.Shared.HealthChecks.dll

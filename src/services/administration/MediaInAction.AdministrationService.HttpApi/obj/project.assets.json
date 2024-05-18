@@ -2596,7 +2596,7 @@
       },
       "MediaInAction.AdministrationService.Domain.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
           "Volo.Abp.AuditLogging.Domain.Shared": "8.1.3",

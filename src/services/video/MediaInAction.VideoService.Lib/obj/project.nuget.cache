@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Av/UN/cEjvsXq28PDr2QpEPQVr+Z7Yrzrj5cONYwUwqDme7rdyVBh8uRCAyRfwmwtTzbH5y91/FVdGIQgn2MiA==",
+  "dgSpecHash": "9hAVdo1IKlVLVRiGH2M0dstyqj7KUI9EozPWD1rzF6r9TMPE6ih0z/k8PNmLvHaKaYqDFKyDjwh8I6cASbUoMQ==",
   "success": false,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj",
   "expectedPackageFiles": [
@@ -119,7 +119,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.3/volo.abp.auditing.contracts.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.authorization/8.1.3/volo.abp.authorization.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.authorization.abstractions/8.1.3/volo.abp.authorization.abstractions.8.1.3.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.automapper/8.1.1/volo.abp.automapper.8.1.1.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.automapper/8.1.3/volo.abp.automapper.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.backgroundworkers/8.1.3/volo.abp.backgroundworkers.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.caching/8.1.3/volo.abp.caching.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",

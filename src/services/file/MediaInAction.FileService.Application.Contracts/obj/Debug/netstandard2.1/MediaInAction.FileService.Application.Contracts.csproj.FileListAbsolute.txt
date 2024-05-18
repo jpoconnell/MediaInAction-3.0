@@ -1,0 +1,16 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInA.B6388EFE.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.FileService.Application.Contracts.pdb

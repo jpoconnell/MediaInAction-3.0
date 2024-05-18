@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInA.F66CD668.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.FileService.Domain.Shared.pdb

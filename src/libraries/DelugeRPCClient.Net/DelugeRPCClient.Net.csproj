@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/valcriss/DelugeRPCClient.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/valcriss/DelugeRPCClient.Net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>This library allows you to connect to the delugeweb RPC API.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+</Project>

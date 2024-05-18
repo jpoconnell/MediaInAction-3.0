@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8T1UTgn0gCLm87nZ/GGBJLxEFwKrTi7L4Yveuw8mn4WLkHRsmExqdgP0dQPRrixsovr0qOkux4+g0puP83Q9pQ==",
-  "success": false,
+  "dgSpecHash": "JDhvbvn8lU6zOf/yD0x8gyhzg/BWOtA1VntV+gplYo2VjY9LDj7tXllNr2uZLg0FCEdjnz0raODyh2D7yb4+vg==",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
   "expectedPackageFiles": [
+    "/Users/jeremiahoconnell/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/castle.core.asyncinterceptor/2.1.0/castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/jetbrains.annotations/2023.3.0/jetbrains.annotations.2023.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
@@ -35,12 +40,18 @@
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.context/5.1.2/nito.asyncex.context.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
@@ -62,46 +73,30 @@
     "/Users/jeremiahoconnell/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.runtime.loader/4.3.0/system.runtime.loader.4.3.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.1/volo.abp.auditing.contracts.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.1/volo.abp.core.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.1/volo.abp.data.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.ddd.application.contracts/8.1.1/volo.abp.ddd.application.contracts.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.eventbus.abstractions/8.1.1/volo.abp.eventbus.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization/8.1.1/volo.abp.localization.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization.abstractions/8.1.1/volo.abp.localization.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.objectextending/8.1.1/volo.abp.objectextending.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.security/8.1.1/volo.abp.security.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.settings/8.1.1/volo.abp.settings.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.threading/8.1.1/volo.abp.threading.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.uow/8.1.1/volo.abp.uow.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation/8.1.1/volo.abp.validation.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.1/volo.abp.validation.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.1/volo.abp.virtualfilesystem.8.1.1.nupkg.sha512"
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.3/volo.abp.auditing.contracts.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.autofac/8.1.3/volo.abp.autofac.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.castle.core/8.1.3/volo.abp.castle.core.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.3/volo.abp.data.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.ddd.application.contracts/8.1.3/volo.abp.ddd.application.contracts.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.eventbus.abstractions/8.1.3/volo.abp.eventbus.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization/8.1.3/volo.abp.localization.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization.abstractions/8.1.3/volo.abp.localization.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.objectextending/8.1.3/volo.abp.objectextending.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.security/8.1.3/volo.abp.security.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.settings/8.1.3/volo.abp.settings.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.threading/8.1.3/volo.abp.threading.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.uow/8.1.3/volo.abp.uow.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation/8.1.3/volo.abp.validation.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.3/volo.abp.validation.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.3/volo.abp.virtualfilesystem.8.1.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/common/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/common/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/common/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/common/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

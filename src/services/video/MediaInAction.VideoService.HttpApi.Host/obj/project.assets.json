@@ -3259,13 +3259,13 @@
           }
         }
       },
-      "Volo.Abp.AutoMapper/8.1.1": {
+      "Volo.Abp.AutoMapper/8.1.3": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "Volo.Abp.Auditing": "8.1.1",
-          "Volo.Abp.ObjectExtending": "8.1.1",
-          "Volo.Abp.ObjectMapping": "8.1.1"
+          "Volo.Abp.Auditing": "8.1.3",
+          "Volo.Abp.ObjectExtending": "8.1.3",
+          "Volo.Abp.ObjectMapping": "8.1.3"
         },
         "compile": {
           "lib/netstandard2.1/Volo.Abp.AutoMapper.dll": {
@@ -3819,18 +3819,18 @@
           }
         }
       },
-      "Volo.Abp.Http.Client/8.1.1": {
+      "Volo.Abp.Http.Client/8.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "8.0.0",
-          "Volo.Abp.Castle.Core": "8.1.1",
-          "Volo.Abp.EventBus": "8.1.1",
-          "Volo.Abp.ExceptionHandling": "8.1.1",
-          "Volo.Abp.Http": "8.1.1",
-          "Volo.Abp.MultiTenancy": "8.1.1",
-          "Volo.Abp.RemoteServices": "8.1.1",
-          "Volo.Abp.Threading": "8.1.1",
-          "Volo.Abp.Validation": "8.1.1"
+          "Volo.Abp.Castle.Core": "8.1.3",
+          "Volo.Abp.EventBus": "8.1.3",
+          "Volo.Abp.ExceptionHandling": "8.1.3",
+          "Volo.Abp.Http": "8.1.3",
+          "Volo.Abp.MultiTenancy": "8.1.3",
+          "Volo.Abp.RemoteServices": "8.1.3",
+          "Volo.Abp.Threading": "8.1.3",
+          "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.Http.Client.dll": {
@@ -3843,11 +3843,11 @@
           }
         }
       },
-      "Volo.Abp.Http.Client.IdentityModel/8.1.1": {
+      "Volo.Abp.Http.Client.IdentityModel/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Http.Client": "8.1.1",
-          "Volo.Abp.IdentityModel": "8.1.1"
+          "Volo.Abp.Http.Client": "8.1.3",
+          "Volo.Abp.IdentityModel": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.Http.Client.IdentityModel.dll": {
@@ -3860,10 +3860,10 @@
           }
         }
       },
-      "Volo.Abp.Http.Client.IdentityModel.Web/8.1.1": {
+      "Volo.Abp.Http.Client.IdentityModel.Web/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Http.Client.IdentityModel": "8.1.1"
+          "Volo.Abp.Http.Client.IdentityModel": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.Http.Client.IdentityModel.Web.dll": {
@@ -3886,13 +3886,13 @@
           }
         }
       },
-      "Volo.Abp.Identity.Application.Contracts/8.1.1": {
+      "Volo.Abp.Identity.Application.Contracts/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Authorization": "8.1.1",
-          "Volo.Abp.Identity.Domain.Shared": "8.1.1",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "8.1.1",
-          "Volo.Abp.Users.Abstractions": "8.1.1"
+          "Volo.Abp.Authorization": "8.1.3",
+          "Volo.Abp.Identity.Domain.Shared": "8.1.3",
+          "Volo.Abp.PermissionManagement.Application.Contracts": "8.1.3",
+          "Volo.Abp.Users.Abstractions": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.Identity.Application.Contracts.dll": {
@@ -3925,11 +3925,11 @@
           }
         }
       },
-      "Volo.Abp.Identity.HttpApi.Client/8.1.1": {
+      "Volo.Abp.Identity.HttpApi.Client/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Http.Client": "8.1.1",
-          "Volo.Abp.Identity.Application.Contracts": "8.1.1"
+          "Volo.Abp.Http.Client": "8.1.3",
+          "Volo.Abp.Identity.Application.Contracts": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.Identity.HttpApi.Client.dll": {
@@ -3942,14 +3942,14 @@
           }
         }
       },
-      "Volo.Abp.IdentityModel/8.1.1": {
+      "Volo.Abp.IdentityModel/8.1.3": {
         "type": "package",
         "dependencies": {
           "IdentityModel": "6.2.0",
           "Microsoft.Extensions.Http": "8.0.0",
-          "Volo.Abp.Caching": "8.1.1",
-          "Volo.Abp.MultiTenancy": "8.1.1",
-          "Volo.Abp.Threading": "8.1.1"
+          "Volo.Abp.Caching": "8.1.3",
+          "Volo.Abp.MultiTenancy": "8.1.3",
+          "Volo.Abp.Threading": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.IdentityModel.dll": {
@@ -4152,12 +4152,12 @@
           }
         }
       },
-      "Volo.Abp.PermissionManagement.Application.Contracts/8.1.1": {
+      "Volo.Abp.PermissionManagement.Application.Contracts/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Authorization.Abstractions": "8.1.1",
-          "Volo.Abp.Ddd.Application.Contracts": "8.1.1",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.1"
+          "Volo.Abp.Authorization.Abstractions": "8.1.3",
+          "Volo.Abp.Ddd.Application.Contracts": "8.1.3",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
@@ -4261,11 +4261,11 @@
           }
         }
       },
-      "Volo.Abp.RemoteServices/8.1.1": {
+      "Volo.Abp.RemoteServices/8.1.3": {
         "type": "package",
         "dependencies": {
-          "Volo.Abp.Core": "8.1.1",
-          "Volo.Abp.MultiTenancy.Abstractions": "8.1.1"
+          "Volo.Abp.Core": "8.1.3",
+          "Volo.Abp.MultiTenancy.Abstractions": "8.1.3"
         },
         "compile": {
           "lib/net8.0/Volo.Abp.RemoteServices.dll": {
@@ -4615,7 +4615,7 @@
       },
       "MediaInAction.AdministrationService.Domain.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
           "Volo.Abp.AuditLogging.Domain.Shared": "8.1.3",
@@ -4654,8 +4654,8 @@
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
           "System.ComponentModel.Annotations": "5.0.0",
-          "Volo.Abp.Ddd.Application.Contracts": "8.1.1",
-          "Volo.Abp.Validation": "8.1.1"
+          "Volo.Abp.Ddd.Application.Contracts": "8.1.3",
+          "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.Shared.Domain.dll": {}
@@ -4742,8 +4742,8 @@
           "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain/MediaInAction.EmbyService.Domain.csproj": "1.0.0",
           "MediaInAction.VideoService.Application.Contracts": "1.0.0",
           "MediaInAction.VideoService.Domain": "1.0.0",
-          "Volo.Abp.AutoMapper": "8.1.1",
-          "Volo.Abp.Ddd.Application": "8.1.1"
+          "Volo.Abp.AutoMapper": "8.1.3",
+          "Volo.Abp.Ddd.Application": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.VideoService.Application.dll": {}
@@ -4757,8 +4757,8 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "MediaInAction.VideoService.Domain.Shared": "1.0.0",
-          "Volo.Abp.Authorization": "8.1.1",
-          "Volo.Abp.Ddd.Application.Contracts": "8.1.1"
+          "Volo.Abp.Authorization": "8.1.3",
+          "Volo.Abp.Ddd.Application.Contracts": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.VideoService.Application.Contracts.dll": {}
@@ -4772,8 +4772,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "MediaInAction.VideoService.Domain.Shared": "1.0.0",
-          "Volo.Abp.AutoMapper": "8.1.1",
-          "Volo.Abp.Ddd.Domain": "8.1.1"
+          "Volo.Abp.AutoMapper": "8.1.3",
+          "Volo.Abp.Ddd.Domain": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.VideoService.Domain.dll": {}
@@ -4792,7 +4792,7 @@
           "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj": "1.0.0",
           "MediaInAction.Shared.Domain": "1.5.2",
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
-          "Volo.Abp.Validation": "8.1.1"
+          "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.VideoService.Domain.Shared.dll": {}
@@ -4821,7 +4821,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MediaInAction.VideoService.Application.Contracts": "1.0.0",
-          "Volo.Abp.AspNetCore.Mvc": "8.1.1"
+          "Volo.Abp.AspNetCore.Mvc": "8.1.3"
         },
         "compile": {
           "bin/placeholder/MediaInAction.VideoService.HttpApi.dll": {}
@@ -10750,10 +10750,10 @@
         "volo.abp.autofac.nuspec"
       ]
     },
-    "Volo.Abp.AutoMapper/8.1.1": {
-      "sha512": "QHkTzeu8kwVodZZwceMGONW56xmdR5fwBTPO1lrQCbKy7i2AfLos5LfEaBFiq9aHCSPWUQx9dU0IISZTdKpW9A==",
+    "Volo.Abp.AutoMapper/8.1.3": {
+      "sha512": "H0ePPmilO2mTrdy6SCqY9yq48LNK9QqJTC+/fGSy2P7eq/gPbNZ9D83ipp86tK7QzUQaC9Zf7bk3r6UI8ma7FQ==",
       "type": "package",
-      "path": "volo.abp.automapper/8.1.1",
+      "path": "volo.abp.automapper/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10763,7 +10763,7 @@
         "lib/netstandard2.1/Volo.Abp.AutoMapper.dll",
         "lib/netstandard2.1/Volo.Abp.AutoMapper.pdb",
         "lib/netstandard2.1/Volo.Abp.AutoMapper.xml",
-        "volo.abp.automapper.8.1.1.nupkg.sha512",
+        "volo.abp.automapper.8.1.3.nupkg.sha512",
         "volo.abp.automapper.nuspec"
       ]
     },
@@ -11414,10 +11414,10 @@
         "volo.abp.http.abstractions.nuspec"
       ]
     },
-    "Volo.Abp.Http.Client/8.1.1": {
-      "sha512": "3oM7eGHDXu9TKuAv5hpw8QqhGV5VDPrcCLkB31Apl9xQzBY4hawhaVAoidkLk/dfMQ8i69yyD+9yGTco7TavBg==",
+    "Volo.Abp.Http.Client/8.1.3": {
+      "sha512": "Fo1BDzzm3LTaZrXbHE4InLlaindH2NYX9LY+oOIvLADycz+1UT9LZkS0GjxD1IMhGC4RYQQooPFDGsTfhLTWjA==",
       "type": "package",
-      "path": "volo.abp.http.client/8.1.1",
+      "path": "volo.abp.http.client/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11433,14 +11433,14 @@
         "lib/netstandard2.1/Volo.Abp.Http.Client.dll",
         "lib/netstandard2.1/Volo.Abp.Http.Client.pdb",
         "lib/netstandard2.1/Volo.Abp.Http.Client.xml",
-        "volo.abp.http.client.8.1.1.nupkg.sha512",
+        "volo.abp.http.client.8.1.3.nupkg.sha512",
         "volo.abp.http.client.nuspec"
       ]
     },
-    "Volo.Abp.Http.Client.IdentityModel/8.1.1": {
-      "sha512": "Ss1tib71IUuyZ7PeRHWa64K11PJ52GgU5FyF+hWhvCSfH+tok9DwnZVVb1qhHIKgInoFcGwrZ9TmRcbJU2ZgdA==",
+    "Volo.Abp.Http.Client.IdentityModel/8.1.3": {
+      "sha512": "xql3hAK/eQghYymkSbjhw7X5PLK6IurE3F3+UKBRIc555MxneQ7JTeJkAGZ7NTmPoMtWdAmtDvzG/lXDzovdTg==",
       "type": "package",
-      "path": "volo.abp.http.client.identitymodel/8.1.1",
+      "path": "volo.abp.http.client.identitymodel/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11455,14 +11455,14 @@
         "lib/netstandard2.1/Volo.Abp.Http.Client.IdentityModel.dll",
         "lib/netstandard2.1/Volo.Abp.Http.Client.IdentityModel.pdb",
         "lib/netstandard2.1/Volo.Abp.Http.Client.IdentityModel.xml",
-        "volo.abp.http.client.identitymodel.8.1.1.nupkg.sha512",
+        "volo.abp.http.client.identitymodel.8.1.3.nupkg.sha512",
         "volo.abp.http.client.identitymodel.nuspec"
       ]
     },
-    "Volo.Abp.Http.Client.IdentityModel.Web/8.1.1": {
-      "sha512": "c2DLunF1vaVtrFd2M3gW6Afi79eA+IUESTPHLcJoyTPv5ibMmR6PTFRqU/gj1KSQLwS3cuod4l5z+J5SBbowpg==",
+    "Volo.Abp.Http.Client.IdentityModel.Web/8.1.3": {
+      "sha512": "YDFi0Qphn+QHQCrHhg5qJNXatLjLHj9CmIOjmels8krTPU9Q6ZcdYYmfMnIq6wQ9KaAXnleGyio9lYPzJXaYVw==",
       "type": "package",
-      "path": "volo.abp.http.client.identitymodel.web/8.1.1",
+      "path": "volo.abp.http.client.identitymodel.web/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11473,14 +11473,14 @@
         "lib/net8.0/Volo.Abp.Http.Client.IdentityModel.Web.dll",
         "lib/net8.0/Volo.Abp.Http.Client.IdentityModel.Web.pdb",
         "lib/net8.0/Volo.Abp.Http.Client.IdentityModel.Web.xml",
-        "volo.abp.http.client.identitymodel.web.8.1.1.nupkg.sha512",
+        "volo.abp.http.client.identitymodel.web.8.1.3.nupkg.sha512",
         "volo.abp.http.client.identitymodel.web.nuspec"
       ]
     },
-    "Volo.Abp.Identity.Application.Contracts/8.1.1": {
-      "sha512": "BBhSossoDSC2Iq24l4wghHT0Mu+PHByXXKR7j/HczSMD0Y8oV9XQXNscUOavNznp3VXFi9avuq5xqNGqcpIuuQ==",
+    "Volo.Abp.Identity.Application.Contracts/8.1.3": {
+      "sha512": "Wi1c+fGuavP9GxnL9Dn86n5CdrkHbB4NiImpXLhF4Hbl48ZZrUb/fQAcVXfQyGoA8XmUg6CleX4axYaNfHOyhA==",
       "type": "package",
-      "path": "volo.abp.identity.application.contracts/8.1.1",
+      "path": "volo.abp.identity.application.contracts/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11496,7 +11496,7 @@
         "lib/netstandard2.1/Volo.Abp.Identity.Application.Contracts.dll",
         "lib/netstandard2.1/Volo.Abp.Identity.Application.Contracts.pdb",
         "lib/netstandard2.1/Volo.Abp.Identity.Application.Contracts.xml",
-        "volo.abp.identity.application.contracts.8.1.1.nupkg.sha512",
+        "volo.abp.identity.application.contracts.8.1.3.nupkg.sha512",
         "volo.abp.identity.application.contracts.nuspec"
       ]
     },
@@ -11523,10 +11523,10 @@
         "volo.abp.identity.domain.shared.nuspec"
       ]
     },
-    "Volo.Abp.Identity.HttpApi.Client/8.1.1": {
-      "sha512": "Jv1h0CnDUFh8AuV9TS52Ui93kSIbiu6KpJu9IeCka+fw1LgrMqpNL6l3l2gZqCNCrUmOE4g0+4eosL2vf/B/ug==",
+    "Volo.Abp.Identity.HttpApi.Client/8.1.3": {
+      "sha512": "kzTjQHXmJdokOi12LM/Z7OpLpzkQpTR0hOgBxMVcG4w6IS8r2tSmX8cdLJuYojStkt3sHsfsLUXJZmWBdggNYA==",
       "type": "package",
-      "path": "volo.abp.identity.httpapi.client/8.1.1",
+      "path": "volo.abp.identity.httpapi.client/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11542,14 +11542,14 @@
         "lib/netstandard2.1/Volo.Abp.Identity.HttpApi.Client.dll",
         "lib/netstandard2.1/Volo.Abp.Identity.HttpApi.Client.pdb",
         "lib/netstandard2.1/Volo.Abp.Identity.HttpApi.Client.xml",
-        "volo.abp.identity.httpapi.client.8.1.1.nupkg.sha512",
+        "volo.abp.identity.httpapi.client.8.1.3.nupkg.sha512",
         "volo.abp.identity.httpapi.client.nuspec"
       ]
     },
-    "Volo.Abp.IdentityModel/8.1.1": {
-      "sha512": "5GNGT/i435qPekJdBKoDd8Y2wx/h35vByRbsKeN8EcbfsOCRe6oPQftzC/ElqCaGRfpExb7fkLaO0CrElIl9Cg==",
+    "Volo.Abp.IdentityModel/8.1.3": {
+      "sha512": "scrXLdkDEU2lkId0RTZ9phtvgHUOa3LHKXcWmdiP9nfcG5BlbsA6FtwXYJZ/5CBYFbOKEDpaxWE1vCDimX58iQ==",
       "type": "package",
-      "path": "volo.abp.identitymodel/8.1.1",
+      "path": "volo.abp.identitymodel/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11564,7 +11564,7 @@
         "lib/netstandard2.1/Volo.Abp.IdentityModel.dll",
         "lib/netstandard2.1/Volo.Abp.IdentityModel.pdb",
         "lib/netstandard2.1/Volo.Abp.IdentityModel.xml",
-        "volo.abp.identitymodel.8.1.1.nupkg.sha512",
+        "volo.abp.identitymodel.8.1.3.nupkg.sha512",
         "volo.abp.identitymodel.nuspec"
       ]
     },
@@ -11819,10 +11819,10 @@
         "volo.abp.objectmapping.nuspec"
       ]
     },
-    "Volo.Abp.PermissionManagement.Application.Contracts/8.1.1": {
-      "sha512": "YUerxRU7UQptEGqaBbQ+Kx2Vxdm/bYUn/K07vNuNq9xSwLXzDocMPO6taGKZ1oEs8o0Nnmq/QgKo7f5u7bB4qQ==",
+    "Volo.Abp.PermissionManagement.Application.Contracts/8.1.3": {
+      "sha512": "kZrHcRnVHevAsvaty/mckywwfZ7dZuyy4ARPamvJIVYlz5/zBudedEfdIUPR3eS5F2vCO13E3KKxsp3921e8cw==",
       "type": "package",
-      "path": "volo.abp.permissionmanagement.application.contracts/8.1.1",
+      "path": "volo.abp.permissionmanagement.application.contracts/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11838,7 +11838,7 @@
         "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.dll",
         "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
         "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.xml",
-        "volo.abp.permissionmanagement.application.contracts.8.1.1.nupkg.sha512",
+        "volo.abp.permissionmanagement.application.contracts.8.1.3.nupkg.sha512",
         "volo.abp.permissionmanagement.application.contracts.nuspec"
       ]
     },
@@ -11951,10 +11951,10 @@
         "volo.abp.rabbitmq.nuspec"
       ]
     },
-    "Volo.Abp.RemoteServices/8.1.1": {
-      "sha512": "k4uHXPbFF2lDN4IhSOMHTGcsrgLW6XkaUPKSWTXJE//8ELDg6tu9vRLiTZhuUGIXvrSM35v488ap9pyhyL283Q==",
+    "Volo.Abp.RemoteServices/8.1.3": {
+      "sha512": "tbZiiUE1QCBF/1/jy9uz7Lv9gi94PJM3fZzBVJXJWwQpMPcKSqIUFvluufvmsMQCyFIkc+5v2Pj4PNq3Nou65g==",
       "type": "package",
-      "path": "volo.abp.remoteservices/8.1.1",
+      "path": "volo.abp.remoteservices/8.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11970,7 +11970,7 @@
         "lib/netstandard2.1/Volo.Abp.RemoteServices.dll",
         "lib/netstandard2.1/Volo.Abp.RemoteServices.pdb",
         "lib/netstandard2.1/Volo.Abp.RemoteServices.xml",
-        "volo.abp.remoteservices.8.1.1.nupkg.sha512",
+        "volo.abp.remoteservices.8.1.3.nupkg.sha512",
         "volo.abp.remoteservices.nuspec"
       ]
     },
@@ -12470,8 +12470,8 @@
       "MediaInAction.VideoService.Application >= 1.0.0",
       "MediaInAction.VideoService.EntityFrameworkCore >= 1.0.0",
       "MediaInAction.VideoService.HttpApi >= 1.0.0",
-      "Volo.Abp.Http.Client.IdentityModel.Web >= 8.1.1",
-      "Volo.Abp.Identity.HttpApi.Client >= 8.1.1"
+      "Volo.Abp.Http.Client.IdentityModel.Web >= 8.1.3",
+      "Volo.Abp.Identity.HttpApi.Client >= 8.1.3"
     ]
   },
   "packageFolders": {
@@ -12528,11 +12528,11 @@
         "dependencies": {
           "Volo.Abp.Http.Client.IdentityModel.Web": {
             "target": "Package",
-            "version": "[8.1.1, )"
+            "version": "[8.1.3, )"
           },
           "Volo.Abp.Identity.HttpApi.Client": {
             "target": "Package",
-            "version": "[8.1.1, )"
+            "version": "[8.1.3, )"
           }
         },
         "imports": [

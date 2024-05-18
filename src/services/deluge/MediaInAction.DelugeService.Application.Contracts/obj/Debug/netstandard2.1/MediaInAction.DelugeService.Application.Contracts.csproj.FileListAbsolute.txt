@@ -1,0 +1,14 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInA.C5A0ACE1.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Application.Contracts.pdb

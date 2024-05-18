@@ -17,8 +17,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="../../../common/MediaInAction.Shared.Hosting.Microservices\MediaInAction.Shared.Hosting.Microservices.csproj" />
-    <ProjectReference Include="../../../common/MediaInAction.Shared.HealthChecks\MediaInAction.Shared.HealthChecks.csproj" />
+    <ProjectReference Include="../../../shared/MediaInAction.Shared.Hosting.Microservices\MediaInAction.Shared.Hosting.Microservices.csproj" />
+    <ProjectReference Include="../../../shared/MediaInAction.Shared.HealthChecks\MediaInAction.Shared.HealthChecks.csproj" />
   </ItemGroup>
 
   <ItemGroup>

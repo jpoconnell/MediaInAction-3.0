@@ -46,15 +46,15 @@
           "dependencies": {
             "Volo.Abp.Authorization": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[8.1.3, )"
             },
             "Volo.Abp.Ddd.Application.Contracts": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[8.1.3, )"
             },
             "Volo.Abp.Ddd.Domain": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[8.1.3, )"
             }
           },
           "imports": [
@@ -119,7 +119,7 @@
             },
             "Volo.Abp.Validation": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[8.1.3, )"
             }
           },
           "imports": [
@@ -184,7 +184,7 @@
           "dependencies": {
             "Volo.Abp.AspNetCore.Mvc": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[8.1.3, )"
             }
           },
           "imports": [

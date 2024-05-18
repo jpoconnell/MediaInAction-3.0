@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "m4a02ZN2S9WM7QDpo1GhflGzNnX+ZaGsar+qTVafzKeeXEpfJT9/4ldnLxx+W+vY/MkhLWLf5YYGeztfjP0Dlg==",
-  "success": false,
+  "dgSpecHash": "LgkHbiDywgDgTIPQLZDqi8Jny3pGnyA02JZMz1DuzpRXjVG1ZeW6XQIPj3ipV3RTpxBsdx9SZIrOR58BSw7d6w==",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/jetbrains.annotations/2023.3.0/jetbrains.annotations.2023.3.0.nupkg.sha512",
@@ -32,7 +32,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.context/5.1.2/nito.asyncex.context.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
@@ -69,8 +68,10 @@
     "/Users/jeremiahoconnell/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.3/volo.abp.auditing.contracts.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.3/volo.abp.data.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.ddd.application.contracts/8.1.3/volo.abp.ddd.application.contracts.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.eventbus.abstractions/8.1.3/volo.abp.eventbus.abstractions.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization/8.1.3/volo.abp.localization.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization.abstractions/8.1.3/volo.abp.localization.abstractions.8.1.3.nupkg.sha512",
@@ -83,15 +84,5 @@
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.3/volo.abp.validation.abstractions.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.3/volo.abp.virtualfilesystem.8.1.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project MediaInAction.Shared.Domain is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project MediaInAction.Shared.Domain supports: netstandard2.1 (.NETStandard,Version=v2.1)",
-      "libraryId": "MediaInAction.Shared.Domain",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

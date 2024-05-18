@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MediaInAction.WebGateway.props" />
+</Project>

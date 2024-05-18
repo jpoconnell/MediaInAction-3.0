@@ -1124,24 +1124,6 @@
           }
         }
       },
-      "Volo.Abp.AuditLogging.Domain.Shared/8.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
-          "Volo.Abp.Localization": "8.1.3",
-          "Volo.Abp.Validation": "8.1.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.Authorization.Abstractions/8.1.3": {
         "type": "package",
         "dependencies": {
@@ -1542,13 +1524,7 @@
       },
       "MediaInAction.AdministrationService.Domain.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
-          "Volo.Abp.AuditLogging.Domain.Shared": "8.1.3",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.3",
-          "Volo.Abp.SettingManagement.Domain.Shared": "8.1.3"
-        },
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
           "bin/placeholder/MediaInAction.AdministrationService.Domain.Shared.dll": {}
         },
@@ -4539,29 +4515,6 @@
         "volo.abp.auditing.contracts.nuspec"
       ]
     },
-    "Volo.Abp.AuditLogging.Domain.Shared/8.1.3": {
-      "sha512": "eWw7+PIqwjy3Q4mPMYJSGdQfn7rDcAsa0qAlbOZtyz6sYmJwPKcmLvLeRvNgM5Dw0kUF8sylBdezenG0c0TelA==",
-      "type": "package",
-      "path": "volo.abp.auditlogging.domain.shared/8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg",
-        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
-        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
-        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
-        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
-        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
-        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.dll",
-        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.pdb",
-        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.xml",
-        "volo.abp.auditlogging.domain.shared.8.1.3.nupkg.sha512",
-        "volo.abp.auditlogging.domain.shared.nuspec"
-      ]
-    },
     "Volo.Abp.Authorization.Abstractions/8.1.3": {
       "sha512": "iHoWD1RzEL799/4r3I6gfwStApgQAbuCYXuxTvYhZakfgy3PLatn7CRY5MbVqrrErL1EznBom/KARWfbN0d6Rg==",
       "type": "package",
@@ -5152,5 +5105,16 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project MediaInAction.AdministrationService.Domain.Shared is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project MediaInAction.AdministrationService.Domain.Shared supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "MediaInAction.AdministrationService.Domain.Shared",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

@@ -2043,13 +2043,7 @@
       },
       "MediaInAction.AdministrationService.Domain.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
-          "Volo.Abp.AuditLogging.Domain.Shared": "8.1.3",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.3",
-          "Volo.Abp.SettingManagement.Domain.Shared": "8.1.3"
-        },
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
           "bin/placeholder/MediaInAction.AdministrationService.Domain.Shared.dll": {}
         },
@@ -6317,5 +6311,16 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project MediaInAction.AdministrationService.Domain.Shared is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project MediaInAction.AdministrationService.Domain.Shared supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "MediaInAction.AdministrationService.Domain.Shared",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

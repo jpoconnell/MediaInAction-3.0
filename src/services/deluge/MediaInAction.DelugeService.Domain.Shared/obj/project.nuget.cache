@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qQ9ZvWGDxBcFjcZ6uYYCEcUiMBG/UCEepuJyMsUm164iZvw8yuTywLtLF+5VUA5EpTwwjciE+NvIBRjXxwKwbA==",
+  "dgSpecHash": "OX9gM2UHsTUuuRIsxZ1p2KhOBouRs8qQRoKg6dVB8aWMYwCfhl8Z/RG382J9ob+Aedah2RN041zT9JBaR5RACQ==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
   "expectedPackageFiles": [
@@ -68,19 +68,19 @@
     "/Users/jeremiahoconnell/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.1/volo.abp.core.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.1/volo.abp.data.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.eventbus.abstractions/8.1.1/volo.abp.eventbus.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization/8.1.1/volo.abp.localization.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization.abstractions/8.1.1/volo.abp.localization.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.objectextending/8.1.1/volo.abp.objectextending.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.security/8.1.1/volo.abp.security.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.settings/8.1.1/volo.abp.settings.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.threading/8.1.1/volo.abp.threading.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.uow/8.1.1/volo.abp.uow.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation/8.1.1/volo.abp.validation.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.1/volo.abp.validation.abstractions.8.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.1/volo.abp.virtualfilesystem.8.1.1.nupkg.sha512"
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.3/volo.abp.data.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.eventbus.abstractions/8.1.3/volo.abp.eventbus.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization/8.1.3/volo.abp.localization.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.localization.abstractions/8.1.3/volo.abp.localization.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.objectextending/8.1.3/volo.abp.objectextending.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.security/8.1.3/volo.abp.security.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.settings/8.1.3/volo.abp.settings.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.threading/8.1.3/volo.abp.threading.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.uow/8.1.3/volo.abp.uow.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation/8.1.3/volo.abp.validation.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.3/volo.abp.validation.abstractions.8.1.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.3/volo.abp.virtualfilesystem.8.1.3.nupkg.sha512"
   ],
   "logs": []
 }
