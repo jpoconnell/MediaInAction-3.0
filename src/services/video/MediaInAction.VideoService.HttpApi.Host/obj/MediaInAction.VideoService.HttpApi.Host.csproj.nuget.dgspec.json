@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -47,7 +42,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
@@ -116,11 +111,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -198,11 +188,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -212,7 +197,7 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.AuditLogging.EntityFrameworkCore": {
               "target": "Package",
@@ -729,7 +714,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.Validation": {
               "target": "Package",
@@ -869,7 +854,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.EntityFrameworkCore.PostgreSql": {
               "target": "Package",
@@ -1200,7 +1185,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Volo.Abp.AspNetCore.Serilog": {
               "target": "Package",
@@ -1276,11 +1261,11 @@
           "dependencies": {
             "DistributedLock.Redis": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[1.0.3, )"
             },
             "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -1373,7 +1358,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",

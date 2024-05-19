@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JDhvbvn8lU6zOf/yD0x8gyhzg/BWOtA1VntV+gplYo2VjY9LDj7tXllNr2uZLg0FCEdjnz0raODyh2D7yb4+vg==",
+  "dgSpecHash": "8ETncwyQfOGrg4auZiNuz1kMKijX+B/j23vENWGiDCl36IZ3l/xtLpT1rPSZsa3yGL+h/CpVuqH6SQza6mMvHw==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
   "expectedPackageFiles": [
@@ -43,7 +43,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",

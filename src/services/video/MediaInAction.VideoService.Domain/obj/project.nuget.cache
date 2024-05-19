@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PySbjI3h1ANLOF/oMOidaloO6RTnKS5r4NSYPruPFES42jM4xb7IISOFq1lb+C5DqA/9nHzGT7Y4mRPUAJSfvg==",
+  "dgSpecHash": "kraB0UsLGNwf8vVHBxYNcg2kV7/+4BSUCDF5YaIKU2sI4LbN5PXztaraT6QAphA45WrutO3UCP5T57Nfk8TPvA==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain/MediaInAction.VideoService.Domain.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.composite/8.0.0/microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.3/microsoft.extensions.fileproviders.embedded.8.0.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.5/microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
@@ -48,7 +48,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
