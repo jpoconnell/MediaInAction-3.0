@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using MediaInAction.Shared.Hosting.AspNetCore.Monitoring;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
@@ -19,7 +20,11 @@ public static class ApplicationBuilderHelper
             .AddAppSettingsSecretsJson()
             .UseAutofac()
             .UseSerilog();
-
+        
+        // Setup logging, tracing and metrics
+        var logger = LoggerSetup.Init(builder);
+        TracingSetup.Init(builder, logger);
+        MetricsSetup.Init(builder, logger);
         await builder.AddApplicationAsync<TStartupModule>();
         return builder.Build();
     }

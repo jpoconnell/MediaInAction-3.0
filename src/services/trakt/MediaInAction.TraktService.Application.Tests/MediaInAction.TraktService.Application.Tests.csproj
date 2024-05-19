@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MediaInAction.TraktService.Application\MediaInAction.TraktService.Application.csproj" />
     <ProjectReference Include="..\MediaInAction.TraktService.Domain.Tests\MediaInAction.TraktService.Domain.Tests.csproj" />
+    <ProjectReference Include="..\MediaInAction.TraktService.TestBase\MediaInAction.TraktService.TestBase.csproj" />
   </ItemGroup>
 
   <ItemGroup>

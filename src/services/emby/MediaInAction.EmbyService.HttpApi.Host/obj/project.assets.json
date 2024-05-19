@@ -2557,15 +2557,6 @@
           }
         }
       },
-      "RestSharp/106.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/RestSharp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/RestSharp.dll": {}
-        }
-      },
       "Serilog/3.1.1": {
         "type": "package",
         "compile": {
@@ -5548,23 +5539,9 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "EmbyClient.Dotnet/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "RestSharp": "106.2.2"
-        },
-        "compile": {
-          "bin/placeholder/EmbyClient.Dotnet.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EmbyClient.Dotnet.dll": {}
-        }
-      },
       "MediaInAction.AdministrationService.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "MediaInAction.AdministrationService.Domain.Shared": "1.0.0",
           "Volo.Abp.AuditLogging.Domain": "8.1.3",
@@ -5651,7 +5628,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "MediaInAction.EmbyService.Lib": "1.0.0",
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj": "1.0.0",
           "MediaInAction.EmbyService.MongoDb": "1.0.0",
           "Quartz": "3.9.0",
           "Volo.Abp.BackgroundWorkers.Quartz": "8.1.3"
@@ -5692,36 +5669,6 @@
         },
         "runtime": {
           "bin/placeholder/MediaInAction.EmbyService.Domain.Shared.dll": {}
-        }
-      },
-      "MediaInAction.EmbyService.HttpApi/1.5.2": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MediaInAction.EmbyService.Application.Contracts": "1.5.2",
-          "Volo.Abp.AspNetCore.Mvc": "8.1.3"
-        },
-        "compile": {
-          "bin/placeholder/MediaInAction.EmbyService.HttpApi.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediaInAction.EmbyService.HttpApi.dll": {}
-        }
-      },
-      "MediaInAction.EmbyService.Lib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "EmbyClient.Dotnet": "1.0.0",
-          "MediaInAction.EmbyService.Domain.Shared": "1.5.2",
-          "MediaInAction.EmbyService.MongoDb": "1.0.0",
-          "Volo.Abp.AspNetCore": "8.1.3"
-        },
-        "compile": {
-          "bin/placeholder/MediaInAction.EmbyService.Lib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediaInAction.EmbyService.Lib.dll": {}
         }
       },
       "MediaInAction.EmbyService.MongoDb/1.0.0": {
@@ -9551,19 +9498,6 @@
         "lib/netstandard2.0/RabbitMQ.Client.xml",
         "rabbitmq.client.6.7.0.nupkg.sha512",
         "rabbitmq.client.nuspec"
-      ]
-    },
-    "RestSharp/106.2.2": {
-      "sha512": "PEz5Wy6W7phha9pvvxmIntYb2tQTvWwm4G0JlOMFApBtzNfFLxLqJxhZG7Fd+78JJvyRiqGGQtjtW6Hc86PTag==",
-      "type": "package",
-      "path": "restsharp/106.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/RestSharp.dll",
-        "lib/netstandard2.0/RestSharp.dll",
-        "restsharp.106.2.2.nupkg.sha512",
-        "restsharp.nuspec"
       ]
     },
     "Serilog/3.1.1": {
@@ -14602,11 +14536,6 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "EmbyClient.Dotnet/1.0.0": {
-      "type": "project",
-      "path": "../../../libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj",
-      "msbuildProject": "../../../libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj"
-    },
     "MediaInAction.AdministrationService.Domain/1.0.0": {
       "type": "project",
       "path": "../../administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
@@ -14646,16 +14575,6 @@
       "type": "project",
       "path": "../MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
       "msbuildProject": "../MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj"
-    },
-    "MediaInAction.EmbyService.HttpApi/1.5.2": {
-      "type": "project",
-      "path": "../MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
-      "msbuildProject": "../MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj"
-    },
-    "MediaInAction.EmbyService.Lib/1.0.0": {
-      "type": "project",
-      "path": "../MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj",
-      "msbuildProject": "../MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj"
     },
     "MediaInAction.EmbyService.MongoDb/1.0.0": {
       "type": "project",
@@ -14700,11 +14619,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
       "AspNetCore.HealthChecks.UI >= 8.0.1",
       "AspNetCore.HealthChecks.UI.Core >= 8.0.1",
       "MediaInAction.EmbyService.Application >= 1.5.2",
       "MediaInAction.EmbyService.BackgroundWorkers >= 1.5.2",
-      "MediaInAction.EmbyService.HttpApi >= 1.5.2",
       "MediaInAction.Shared.HealthChecks >= 1.5.2",
       "MediaInAction.Shared.Hosting.AspNetCore >= 1.0.0",
       "MediaInAction.Shared.Hosting.Microservices >= 1.0.0",
@@ -14809,5 +14728,25 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -3,8 +3,7 @@
 namespace MediaInAction.VideoService
 {
     [DependsOn(
-        typeof(VideoServiceApplicationModule),
-        typeof(VideoServiceDomainTestModule)
+        typeof(VideoServiceApplicationModule)
     )]
     public class VideoServiceApplicationTestModule : AbpModule
     {

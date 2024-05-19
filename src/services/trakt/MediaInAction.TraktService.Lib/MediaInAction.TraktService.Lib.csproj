@@ -12,7 +12,6 @@
 
   <ItemGroup>   
     <ProjectReference Include="../../../shared/MediaInAction.Shared.Integration\MediaInAction.Shared.Integration.csproj" />
-    <ProjectReference Include="../../video/MediaInAction.VideoService.Lib\MediaInAction.VideoService.Lib.csproj" />
     <ProjectReference Include="../MediaInAction.TraktService.Domain\MediaInAction.TraktService.Domain.csproj" />
     <ProjectReference Include="../MediaInAction.TraktService.MongoDb\MediaInAction.TraktService.MongoDb.csproj" />
   </ItemGroup>

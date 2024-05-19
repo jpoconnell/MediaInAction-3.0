@@ -24,8 +24,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\emby\MediaInAction.EmbyService.Domain.Shared\MediaInAction.EmbyService.Domain.Shared.csproj" />
-    <ProjectReference Include="..\..\video\MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj" />
     <ProjectReference Include="..\..\..\shared\MediaInAction.Shared.Domain\MediaInAction.Shared.Domain.csproj" />
   </ItemGroup>
 

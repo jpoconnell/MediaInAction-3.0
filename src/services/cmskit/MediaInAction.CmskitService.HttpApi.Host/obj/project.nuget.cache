@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g7CSWRA9wmVrxMKXXeBKfKO9xXm+uoNPee+l+I+baUsc5CqSxlVx9yLSAZbycL1BYku2J0ruXJ2Mj6/UDahjRg==",
+  "dgSpecHash": "qGgKhuxUt7RUIus4tFRWrDszMud+iOCAP4c2YhM8rlazsFNjL/z7rvPHxhINS/UWPFaOLJOXUm+nez2qCzxFWw==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Host/MediaInAction.CmskitService.HttpApi.Host.csproj",
   "expectedPackageFiles": [

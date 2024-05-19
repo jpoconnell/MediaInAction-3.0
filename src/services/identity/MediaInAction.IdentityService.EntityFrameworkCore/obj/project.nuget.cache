@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0rih3bIDf1qy4VsQXn3k3w3GaTnEMlDy9WKsQ8Ylx/LmXfc0zTw/3eJ2VhPh8sUitdjVFctAnelC6f+Lia08LQ==",
+  "dgSpecHash": "hj3ycqQeUJn7ULFmY4WooKS1Wprzap+p9Qp5PBp2nrXmb6Z0lcH3dd6ITGI2LaiV1T6EFEgt7HjfjXDsPt9/WQ==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.EntityFrameworkCore/MediaInAction.IdentityService.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [

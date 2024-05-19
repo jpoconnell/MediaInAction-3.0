@@ -1,18 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "c8EsEWfFNGq/YFzbhdxTQfEn/y16NXwTmhqQILB70JJBmZrjuNvp2zzrRF7tqlBNzKzF50DyzCnS002Q/06MmQ==",
-  "success": false,
+  "dgSpecHash": "amFeKilRq3PXT4FuZC6Nu3RmNQmkEZsHdkZjIkKAY7UQeJZy6Qv8zUXMIT/gafvRoRmUjdt/YylWREyPBQDiCw==",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.MongoDb/MediaInAction.TraktService.MongoDb.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/asynckeyedlock/6.3.4/asynckeyedlock.6.3.4.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/castle.core.asyncinterceptor/2.1.0/castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/jetbrains.annotations/2023.3.0/jetbrains.annotations.2023.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
@@ -53,11 +48,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.context/5.1.2/nito.asyncex.context.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
@@ -66,7 +56,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
@@ -97,11 +86,9 @@
     "/Users/jeremiahoconnell/.nuget/packages/timezoneconverter/6.1.0/timezoneconverter.6.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing/8.1.3/volo.abp.auditing.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.3/volo.abp.auditing.contracts.8.1.3.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.autofac/8.1.3/volo.abp.autofac.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.automapper/8.1.3/volo.abp.automapper.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.backgroundworkers/8.1.3/volo.abp.backgroundworkers.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.caching/8.1.3/volo.abp.caching.8.1.3.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.castle.core/8.1.3/volo.abp.castle.core.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.data/8.1.3/volo.abp.data.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.ddd.application.contracts/8.1.3/volo.abp.ddd.application.contracts.8.1.3.nupkg.sha512",
@@ -134,42 +121,5 @@
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.3/volo.abp.virtualfilesystem.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

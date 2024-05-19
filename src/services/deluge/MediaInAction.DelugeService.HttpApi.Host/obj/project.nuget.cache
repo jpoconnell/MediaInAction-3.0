@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jhnr8K3ZEvjbVJAKgkZELRVHFpAZ98pWqPw5xOVxfbX+IrRj1nCsZp3gCxIxedM2Pd35ZO1mYEfI3uxQK+Mw9w==",
+  "dgSpecHash": "0qKmzqgqHqRXeJoaicR1xsxbZ9Z3/0dLN/e8FMMfQhEVfznrvkLE9PEVOhHSfKH0zJpOAsF5eD8v2KsP5T0kvg==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj",
   "expectedPackageFiles": [

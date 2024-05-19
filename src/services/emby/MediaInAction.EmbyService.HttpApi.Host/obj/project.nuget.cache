@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "AkkY9ZB1Y2vOrOr+ALrZemDssTotMO+5IXi+D/KHZHZj2lyGZWtfQYA62rJOeknaSSpx4UjnoaykCXlk8w2+ww==",
-  "success": true,
+  "dgSpecHash": "8tDqKpID+w1c1DyiysB8hN/MS4AOUymfE/FnhzuLsg3rlnzwzHQgYsKIDor/uORdwFWxLbAXpTut6Hmm9871Vw==",
+  "success": false,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi.Host/MediaInAction.EmbyService.HttpApi.Host.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/asp.versioning.abstractions/7.0.0/asp.versioning.abstractions.7.0.0.nupkg.sha512",
@@ -143,7 +143,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/quartz.plugins/3.7.0/quartz.plugins.3.7.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/quartz.plugins.timezoneconverter/3.7.0/quartz.plugins.timezoneconverter.3.7.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/rabbitmq.client/6.7.0/rabbitmq.client.6.7.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/restsharp/106.2.2/restsharp.106.2.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.aspnetcore/5.0.0/serilog.aspnetcore.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.hosting/4.2.0/serilog.extensions.hosting.4.2.0.nupkg.sha512",
@@ -313,5 +312,24 @@
     "/Users/jeremiahoconnell/.nuget/packages/yamldotnet/13.3.1/yamldotnet.13.3.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Lib/MediaInAction.EmbyService.Lib.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

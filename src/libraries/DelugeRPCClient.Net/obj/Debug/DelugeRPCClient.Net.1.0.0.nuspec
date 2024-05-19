@@ -6,7 +6,7 @@
     <authors>DelugeRPCClient.Net</authors>
     <projectUrl>https://github.com/valcriss/DelugeRPCClient.Net</projectUrl>
     <description>This library allows you to connect to the delugeweb RPC API.</description>
-    <repository type="git" url="https://github.com/valcriss/DelugeRPCClient.Net" commit="8c6f1996a6551ef5998031ea4330fa1c1e50a986" />
+    <repository type="git" url="https://github.com/valcriss/DelugeRPCClient.Net" commit="6c3a4686c55a511c8d0335c0e2d9d99675fbe829" />
     <dependencies>
       <group targetFramework="net7.0">
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />

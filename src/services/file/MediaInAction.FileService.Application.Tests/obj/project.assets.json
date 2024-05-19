@@ -15,56 +15,6 @@
           }
         }
       },
-      "Autofac/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "7.0.2"
-        },
-        "compile": {
-          "lib/net8.0/Autofac.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Autofac.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Autofac.Extensions.DependencyInjection/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Autofac": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Autofac.Extras.DynamicProxy/7.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Autofac": "6.5.0",
-          "Castle.Core": "5.1.1"
-        },
-        "compile": {
-          "lib/net6.0/Autofac.Extras.DynamicProxy.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Autofac.Extras.DynamicProxy.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "AutoMapper/12.0.1": {
         "type": "package",
         "dependencies": {
@@ -110,55 +60,6 @@
           }
         }
       },
-      "Castle.Core/5.1.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.EventLog": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Castle.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Castle.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Castle.Core.AsyncInterceptor/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "4.4.0"
-        },
-        "compile": {
-          "lib/net6.0/Castle.Core.AsyncInterceptor.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Castle.Core.AsyncInterceptor.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "DiffEngine/11.3.0": {
-        "type": "package",
-        "dependencies": {
-          "EmptyFiles": "4.4.0",
-          "System.Management": "6.0.1"
-        },
-        "compile": {
-          "lib/net7.0/DiffEngine.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/DiffEngine.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -173,22 +74,6 @@
           "lib/net5.0/DnsClient.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "EmptyFiles/4.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/EmptyFiles.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/EmptyFiles.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/EmptyFiles.targets": {}
         }
       },
       "JetBrains.Annotations/2023.3.0": {
@@ -1269,22 +1154,6 @@
           }
         }
       },
-      "NSubstitute/5.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "5.1.1"
-        },
-        "compile": {
-          "lib/net6.0/NSubstitute.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/NSubstitute.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
@@ -1292,26 +1161,6 @@
         },
         "runtime": {
           "lib/net5.0/SharpCompress.dll": {}
-        }
-      },
-      "Shouldly/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "DiffEngine": "11.3.0",
-          "EmptyFiles": "4.4.0"
-        },
-        "compile": {
-          "lib/net5.0/Shouldly.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Shouldly.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/Shouldly.targets": {}
         }
       },
       "Snappier/1.0.0": {
@@ -1334,22 +1183,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.CodeDom/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1421,32 +1254,6 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "System.Diagnostics.EventLog/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          },
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Globalization/4.3.0": {
@@ -1557,31 +1364,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Linq.Queryable.dll": {}
-        }
-      },
-      "System.Management/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Management.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Memory/4.5.5": {
@@ -2016,27 +1798,6 @@
           }
         }
       },
-      "Volo.Abp.Autofac/8.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Autofac": "8.0.0",
-          "Autofac.Extensions.DependencyInjection": "9.0.0",
-          "Autofac.Extras.DynamicProxy": "7.1.0",
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
-          "Volo.Abp.Castle.Core": "8.1.3"
-        },
-        "compile": {
-          "lib/net8.0/Volo.Abp.Autofac.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Volo.Abp.Autofac.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.AutoMapper/8.1.3": {
         "type": "package",
         "dependencies": {
@@ -2052,23 +1813,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Volo.Abp.AutoMapper.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.BackgroundJobs.Abstractions/8.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Json": "8.1.3",
-          "Volo.Abp.MultiTenancy.Abstractions": "8.1.3"
-        },
-        "compile": {
-          "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -2105,24 +1849,6 @@
         },
         "runtime": {
           "lib/net8.0/Volo.Abp.Caching.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Volo.Abp.Castle.Core/8.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "5.1.1",
-          "Castle.Core.AsyncInterceptor": "2.1.0",
-          "Volo.Abp.Core": "8.1.3"
-        },
-        "compile": {
-          "lib/net8.0/Volo.Abp.Castle.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Volo.Abp.Castle.Core.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -2643,22 +2369,6 @@
           }
         }
       },
-      "Volo.Abp.TestBase/8.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Core": "8.1.3"
-        },
-        "compile": {
-          "lib/net8.0/Volo.Abp.TestBase.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Volo.Abp.TestBase.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Volo.Abp.Threading/8.1.3": {
         "type": "package",
         "dependencies": {
@@ -2759,100 +2469,6 @@
           "lib/net8.0/Volo.Abp.VirtualFileSystem.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "xunit/2.8.0": {
-        "type": "package",
-        "dependencies": {
-          "xunit.analyzers": "1.13.0",
-          "xunit.assert": "2.8.0",
-          "xunit.core": "[2.8.0]"
-        }
-      },
-      "xunit.abstractions/2.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "xunit.analyzers/1.13.0": {
-        "type": "package"
-      },
-      "xunit.assert/2.8.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/xunit.assert.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/xunit.assert.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "xunit.core/2.8.0": {
-        "type": "package",
-        "dependencies": {
-          "xunit.extensibility.core": "[2.8.0]",
-          "xunit.extensibility.execution": "[2.8.0]"
-        },
-        "build": {
-          "build/_._": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
-        }
-      },
-      "xunit.extensibility.core/2.8.0": {
-        "type": "package",
-        "dependencies": {
-          "xunit.abstractions": "2.0.3"
-        },
-        "compile": {
-          "lib/netstandard1.1/xunit.core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.1/xunit.core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "xunit.extensibility.execution/2.8.0": {
-        "type": "package",
-        "dependencies": {
-          "xunit.extensibility.core": "[2.8.0]"
-        },
-        "compile": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "xunit.runner.visualstudio/2.8.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/_._": {}
-        },
-        "runtime": {
-          "lib/net6.0/_._": {}
-        },
-        "build": {
-          "build/net6.0/_._": {}
         }
       },
       "ZstdSharp.Port/0.6.2": {
@@ -2956,8 +2572,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj": "1.0.0",
           "MediaInAction.FileService.MongoDb": "1.0.0",
-          "MediaInAction.FileService.TestBase": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.9.0",
           "Mongo2Go": "3.1.3"
         },
@@ -2966,29 +2582,6 @@
         },
         "runtime": {
           "bin/placeholder/MediaInAction.FileService.MongoDb.Tests.dll": {}
-        }
-      },
-      "MediaInAction.FileService.TestBase/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MediaInAction.FileService.Domain": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "17.9.0",
-          "NSubstitute": "5.1.0",
-          "Shouldly": "4.2.1",
-          "Volo.Abp.Authorization": "8.1.3",
-          "Volo.Abp.Autofac": "8.1.3",
-          "Volo.Abp.BackgroundJobs.Abstractions": "8.1.3",
-          "Volo.Abp.TestBase": "8.1.3",
-          "xunit": "2.8.0",
-          "xunit.extensibility.execution": "2.8.0",
-          "xunit.runner.visualstudio": "2.8.0"
-        },
-        "compile": {
-          "bin/placeholder/MediaInAction.FileService.TestBase.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediaInAction.FileService.TestBase.dll": {}
         }
       },
       "MediaInAction.Shared.Domain/1.5.2": {
@@ -3029,71 +2622,6 @@
         "lib/netstandard2.1/AsyncKeyedLock.dll",
         "lib/netstandard2.1/AsyncKeyedLock.xml",
         "logo.png"
-      ]
-    },
-    "Autofac/8.0.0": {
-      "sha512": "qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
-      "type": "package",
-      "path": "autofac/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "autofac.8.0.0.nupkg.sha512",
-        "autofac.nuspec",
-        "icon.png",
-        "lib/net6.0/Autofac.dll",
-        "lib/net6.0/Autofac.xml",
-        "lib/net7.0/Autofac.dll",
-        "lib/net7.0/Autofac.xml",
-        "lib/net8.0/Autofac.dll",
-        "lib/net8.0/Autofac.xml",
-        "lib/netstandard2.0/Autofac.dll",
-        "lib/netstandard2.0/Autofac.xml",
-        "lib/netstandard2.1/Autofac.dll",
-        "lib/netstandard2.1/Autofac.xml"
-      ]
-    },
-    "Autofac.Extensions.DependencyInjection/9.0.0": {
-      "sha512": "tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
-      "type": "package",
-      "path": "autofac.extensions.dependencyinjection/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-        "autofac.extensions.dependencyinjection.nuspec",
-        "icon.png",
-        "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/net7.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net7.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/net8.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/net8.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
-      ]
-    },
-    "Autofac.Extras.DynamicProxy/7.1.0": {
-      "sha512": "Da6Szv7A1LK/cTdeoyqS45zb/BC5vep8+86f6C1oh2UhZaYtiijlNfLWamp3lxe0uUQ33kFe1dDCjsvfwJWzLg==",
-      "type": "package",
-      "path": "autofac.extras.dynamicproxy/7.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
-        "autofac.extras.dynamicproxy.nuspec",
-        "icon.png",
-        "lib/net6.0/Autofac.Extras.DynamicProxy.dll",
-        "lib/net6.0/Autofac.Extras.DynamicProxy.xml",
-        "lib/netstandard2.0/Autofac.Extras.DynamicProxy.dll",
-        "lib/netstandard2.0/Autofac.Extras.DynamicProxy.xml",
-        "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll",
-        "lib/netstandard2.1/Autofac.Extras.DynamicProxy.xml"
       ]
     },
     "AutoMapper/12.0.1": {
@@ -3163,84 +2691,6 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Castle.Core/5.1.1": {
-      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
-      "type": "package",
-      "path": "castle.core/5.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ASL - Apache Software Foundation License.txt",
-        "CHANGELOG.md",
-        "LICENSE",
-        "castle-logo.png",
-        "castle.core.5.1.1.nupkg.sha512",
-        "castle.core.nuspec",
-        "lib/net462/Castle.Core.dll",
-        "lib/net462/Castle.Core.xml",
-        "lib/net6.0/Castle.Core.dll",
-        "lib/net6.0/Castle.Core.xml",
-        "lib/netstandard2.0/Castle.Core.dll",
-        "lib/netstandard2.0/Castle.Core.xml",
-        "lib/netstandard2.1/Castle.Core.dll",
-        "lib/netstandard2.1/Castle.Core.xml",
-        "readme.txt"
-      ]
-    },
-    "Castle.Core.AsyncInterceptor/2.1.0": {
-      "sha512": "1vOovJnbjjoCFbPPNLvLTeiqJwoA+aRXkhXcgCQY0pi1eejGqCegJwl58pIIPH/uKDfUXnPIo7aqSrcXEyEH1Q==",
-      "type": "package",
-      "path": "castle.core.asyncinterceptor/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "castle-logo.png",
-        "castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
-        "castle.core.asyncinterceptor.nuspec",
-        "lib/net45/Castle.Core.AsyncInterceptor.dll",
-        "lib/net45/Castle.Core.AsyncInterceptor.xml",
-        "lib/net5.0/Castle.Core.AsyncInterceptor.dll",
-        "lib/net5.0/Castle.Core.AsyncInterceptor.xml",
-        "lib/net6.0/Castle.Core.AsyncInterceptor.dll",
-        "lib/net6.0/Castle.Core.AsyncInterceptor.xml",
-        "lib/netstandard2.0/Castle.Core.AsyncInterceptor.dll",
-        "lib/netstandard2.0/Castle.Core.AsyncInterceptor.xml"
-      ]
-    },
-    "DiffEngine/11.3.0": {
-      "sha512": "k0ZgZqd09jLZQjR8FyQbSQE86Q7QZnjEzq1LPHtj1R2AoWO8sjV5x+jlSisL7NZAbUOI4y+7Bog8gkr9WIRBGw==",
-      "type": "package",
-      "path": "diffengine/11.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "diffengine.11.3.0.nupkg.sha512",
-        "diffengine.nuspec",
-        "icon.png",
-        "lib/net461/DiffEngine.dll",
-        "lib/net461/DiffEngine.xml",
-        "lib/net48/DiffEngine.dll",
-        "lib/net48/DiffEngine.xml",
-        "lib/net5.0/DiffEngine.dll",
-        "lib/net5.0/DiffEngine.xml",
-        "lib/net6.0/DiffEngine.dll",
-        "lib/net6.0/DiffEngine.xml",
-        "lib/net7.0/DiffEngine.dll",
-        "lib/net7.0/DiffEngine.xml",
-        "lib/netcoreapp2.0/DiffEngine.dll",
-        "lib/netcoreapp2.0/DiffEngine.xml",
-        "lib/netcoreapp2.1/DiffEngine.dll",
-        "lib/netcoreapp2.1/DiffEngine.xml",
-        "lib/netcoreapp3.0/DiffEngine.dll",
-        "lib/netcoreapp3.0/DiffEngine.xml",
-        "lib/netcoreapp3.1/DiffEngine.dll",
-        "lib/netcoreapp3.1/DiffEngine.xml",
-        "lib/netstandard2.0/DiffEngine.dll",
-        "lib/netstandard2.0/DiffEngine.xml",
-        "lib/netstandard2.1/DiffEngine.dll",
-        "lib/netstandard2.1/DiffEngine.xml"
-      ]
-    },
     "DnsClient/1.6.1": {
       "sha512": "4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "type": "package",
@@ -3263,74 +2713,6 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
-      ]
-    },
-    "EmptyFiles/4.4.0": {
-      "sha512": "gwJEfIGS7FhykvtZoscwXj/XwW+mJY6UbAZk+qtLKFUGWC95kfKXnj8VkxsZQnWBxJemM/q664rGLN5nf+OHZw==",
-      "type": "package",
-      "path": "emptyfiles/4.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "EmptyFiles/archive/empty.7z",
-        "EmptyFiles/archive/empty.bz2",
-        "EmptyFiles/archive/empty.gz",
-        "EmptyFiles/archive/empty.tar",
-        "EmptyFiles/archive/empty.xz",
-        "EmptyFiles/archive/empty.zip",
-        "EmptyFiles/document/empty.docx",
-        "EmptyFiles/document/empty.odt",
-        "EmptyFiles/document/empty.pdf",
-        "EmptyFiles/document/empty.rtf",
-        "EmptyFiles/image/empty.avif",
-        "EmptyFiles/image/empty.bmp",
-        "EmptyFiles/image/empty.dds",
-        "EmptyFiles/image/empty.dib",
-        "EmptyFiles/image/empty.emf",
-        "EmptyFiles/image/empty.exif",
-        "EmptyFiles/image/empty.gif",
-        "EmptyFiles/image/empty.heic",
-        "EmptyFiles/image/empty.heif",
-        "EmptyFiles/image/empty.ico",
-        "EmptyFiles/image/empty.j2c",
-        "EmptyFiles/image/empty.jfif",
-        "EmptyFiles/image/empty.jp2",
-        "EmptyFiles/image/empty.jpc",
-        "EmptyFiles/image/empty.jpe",
-        "EmptyFiles/image/empty.jpg",
-        "EmptyFiles/image/empty.jxr",
-        "EmptyFiles/image/empty.pbm",
-        "EmptyFiles/image/empty.pcx",
-        "EmptyFiles/image/empty.pgm",
-        "EmptyFiles/image/empty.png",
-        "EmptyFiles/image/empty.ppm",
-        "EmptyFiles/image/empty.rle",
-        "EmptyFiles/image/empty.tga",
-        "EmptyFiles/image/empty.tif",
-        "EmptyFiles/image/empty.wdp",
-        "EmptyFiles/image/empty.webp",
-        "EmptyFiles/image/empty.wmp",
-        "EmptyFiles/sheet/empty.ods",
-        "EmptyFiles/sheet/empty.xlsx",
-        "EmptyFiles/slide/empty.odp",
-        "EmptyFiles/slide/empty.pptx",
-        "build/EmptyFiles.targets",
-        "buildTransitive/EmptyFiles.targets",
-        "emptyfiles.4.4.0.nupkg.sha512",
-        "emptyfiles.nuspec",
-        "icon.png",
-        "lib/net461/EmptyFiles.dll",
-        "lib/net461/EmptyFiles.xml",
-        "lib/net5.0/EmptyFiles.dll",
-        "lib/net5.0/EmptyFiles.xml",
-        "lib/net6.0/EmptyFiles.dll",
-        "lib/net6.0/EmptyFiles.xml",
-        "lib/net7.0/EmptyFiles.dll",
-        "lib/net7.0/EmptyFiles.xml",
-        "lib/netstandard2.0/EmptyFiles.dll",
-        "lib/netstandard2.0/EmptyFiles.xml",
-        "lib/netstandard2.1/EmptyFiles.dll",
-        "lib/netstandard2.1/EmptyFiles.xml"
       ]
     },
     "JetBrains.Annotations/2023.3.0": {
@@ -4871,24 +4253,6 @@
         "nito.disposables.nuspec"
       ]
     },
-    "NSubstitute/5.1.0": {
-      "sha512": "ZCqOP3Kpp2ea7QcLyjMU4wzE+0wmrMN35PQMsdPOHYc2IrvjmusG9hICOiqiOTPKN0gJon6wyCn6ZuGHdNs9hQ==",
-      "type": "package",
-      "path": "nsubstitute/5.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net462/NSubstitute.dll",
-        "lib/net462/NSubstitute.xml",
-        "lib/net6.0/NSubstitute.dll",
-        "lib/net6.0/NSubstitute.xml",
-        "lib/netstandard2.0/NSubstitute.dll",
-        "lib/netstandard2.0/NSubstitute.xml",
-        "nsubstitute.5.1.0.nupkg.sha512",
-        "nsubstitute.nuspec"
-      ]
-    },
     "SharpCompress/0.30.1": {
       "sha512": "XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
       "type": "package",
@@ -4903,23 +4267,6 @@
         "lib/netstandard2.1/SharpCompress.dll",
         "sharpcompress.0.30.1.nupkg.sha512",
         "sharpcompress.nuspec"
-      ]
-    },
-    "Shouldly/4.2.1": {
-      "sha512": "dKAKiSuhLKqD2TXwLKtqNg1nwzJcIKOOMncZjk9LYe4W+h+SCftpWdxwR79YZUIHMH+3Vu9s0s0UHNrgICLwRQ==",
-      "type": "package",
-      "path": "shouldly/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "assets/logo_128x128.png",
-        "buildTransitive/Shouldly.targets",
-        "lib/net5.0/Shouldly.dll",
-        "lib/net5.0/Shouldly.xml",
-        "lib/netstandard2.0/Shouldly.dll",
-        "lib/netstandard2.0/Shouldly.xml",
-        "shouldly.4.2.1.nupkg.sha512",
-        "shouldly.nuspec"
       ]
     },
     "Snappier/1.0.0": {
@@ -4971,29 +4318,6 @@
         "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "System.CodeDom/6.0.0": {
-      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
-      "type": "package",
-      "path": "system.codedom/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.CodeDom.dll",
-        "lib/net461/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.6.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "System.Collections/4.3.0": {
@@ -5278,37 +4602,6 @@
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
         "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Diagnostics.EventLog/6.0.0": {
-      "sha512": "lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
-      "type": "package",
-      "path": "system.diagnostics.eventlog/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Diagnostics.EventLog.dll",
-        "lib/net461/System.Diagnostics.EventLog.xml",
-        "lib/net6.0/System.Diagnostics.EventLog.dll",
-        "lib/net6.0/System.Diagnostics.EventLog.xml",
-        "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
-        "lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
-        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
-        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
-        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
-        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
-        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
-        "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -5730,34 +5023,6 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.queryable.4.3.0.nupkg.sha512",
         "system.linq.queryable.nuspec"
-      ]
-    },
-    "System.Management/6.0.1": {
-      "sha512": "10J1D0h/lioojphfJ4Fuh5ZUThT/xOVHdV9roGBittKKNP2PMjrvibEdbVTGZcPra1399Ja3tqIJLyQrc5Wmhg==",
-      "type": "package",
-      "path": "system.management/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/_._",
-        "lib/net6.0/System.Management.dll",
-        "lib/net6.0/System.Management.xml",
-        "lib/netcoreapp3.1/System.Management.dll",
-        "lib/netcoreapp3.1/System.Management.xml",
-        "lib/netstandard2.0/System.Management.dll",
-        "lib/netstandard2.0/System.Management.xml",
-        "runtimes/win/lib/net6.0/System.Management.dll",
-        "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.xml",
-        "system.management.6.0.1.nupkg.sha512",
-        "system.management.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "System.Memory/4.5.5": {
@@ -7069,28 +6334,6 @@
         "volo.abp.authorization.abstractions.nuspec"
       ]
     },
-    "Volo.Abp.Autofac/8.1.3": {
-      "sha512": "4oOJFI1bS8BAUi6ugeGWpTu0NbD3XSFDd8h+tmOLwJzuCECgeY/+O6/rspwW0G53jGXu0w2HjlKGWitvQL7iGw==",
-      "type": "package",
-      "path": "volo.abp.autofac/8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.Autofac.abppkg",
-        "lib/net8.0/Volo.Abp.Autofac.dll",
-        "lib/net8.0/Volo.Abp.Autofac.pdb",
-        "lib/net8.0/Volo.Abp.Autofac.xml",
-        "lib/netstandard2.0/Volo.Abp.Autofac.dll",
-        "lib/netstandard2.0/Volo.Abp.Autofac.pdb",
-        "lib/netstandard2.0/Volo.Abp.Autofac.xml",
-        "lib/netstandard2.1/Volo.Abp.Autofac.dll",
-        "lib/netstandard2.1/Volo.Abp.Autofac.pdb",
-        "lib/netstandard2.1/Volo.Abp.Autofac.xml",
-        "volo.abp.autofac.8.1.3.nupkg.sha512",
-        "volo.abp.autofac.nuspec"
-      ]
-    },
     "Volo.Abp.AutoMapper/8.1.3": {
       "sha512": "H0ePPmilO2mTrdy6SCqY9yq48LNK9QqJTC+/fGSy2P7eq/gPbNZ9D83ipp86tK7QzUQaC9Zf7bk3r6UI8ma7FQ==",
       "type": "package",
@@ -7106,29 +6349,6 @@
         "lib/netstandard2.1/Volo.Abp.AutoMapper.xml",
         "volo.abp.automapper.8.1.3.nupkg.sha512",
         "volo.abp.automapper.nuspec"
-      ]
-    },
-    "Volo.Abp.BackgroundJobs.Abstractions/8.1.3": {
-      "sha512": "s1hin8qAlA6sHRGo7OLI5r2Gl4hp7mCE2KGIS1f6l5KZXpw6D64/JqF9mQ3xAi4v09l2gr+pzon2baHoKjVbXg==",
-      "type": "package",
-      "path": "volo.abp.backgroundjobs.abstractions/8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.BackgroundJobs.Abstractions.abppkg",
-        "content/Volo.Abp.BackgroundJobs.Abstractions.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.dll",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.pdb",
-        "lib/net8.0/Volo.Abp.BackgroundJobs.Abstractions.xml",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.dll",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.pdb",
-        "lib/netstandard2.0/Volo.Abp.BackgroundJobs.Abstractions.xml",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.dll",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.pdb",
-        "lib/netstandard2.1/Volo.Abp.BackgroundJobs.Abstractions.xml",
-        "volo.abp.backgroundjobs.abstractions.8.1.3.nupkg.sha512",
-        "volo.abp.backgroundjobs.abstractions.nuspec"
       ]
     },
     "Volo.Abp.BackgroundWorkers/8.1.3": {
@@ -7175,29 +6395,6 @@
         "lib/netstandard2.1/Volo.Abp.Caching.xml",
         "volo.abp.caching.8.1.3.nupkg.sha512",
         "volo.abp.caching.nuspec"
-      ]
-    },
-    "Volo.Abp.Castle.Core/8.1.3": {
-      "sha512": "OC5NS1odwg3qN2+JMXBn9ZsgOXo1jbGqVllwlTgbwIaz3mOhjGaZjUQqyiGXdGZrqoml4s6Dus4+afvLpsawKw==",
-      "type": "package",
-      "path": "volo.abp.castle.core/8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.Castle.Core.abppkg",
-        "content/Volo.Abp.Castle.Core.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.Castle.Core.dll",
-        "lib/net8.0/Volo.Abp.Castle.Core.pdb",
-        "lib/net8.0/Volo.Abp.Castle.Core.xml",
-        "lib/netstandard2.0/Volo.Abp.Castle.Core.dll",
-        "lib/netstandard2.0/Volo.Abp.Castle.Core.pdb",
-        "lib/netstandard2.0/Volo.Abp.Castle.Core.xml",
-        "lib/netstandard2.1/Volo.Abp.Castle.Core.dll",
-        "lib/netstandard2.1/Volo.Abp.Castle.Core.pdb",
-        "lib/netstandard2.1/Volo.Abp.Castle.Core.xml",
-        "volo.abp.castle.core.8.1.3.nupkg.sha512",
-        "volo.abp.castle.core.nuspec"
       ]
     },
     "Volo.Abp.Core/8.1.3": {
@@ -7840,29 +7037,6 @@
         "volo.abp.specifications.nuspec"
       ]
     },
-    "Volo.Abp.TestBase/8.1.3": {
-      "sha512": "mpTV3iYiyJwStS+rwr20SyQsT0NNnhqRyqt953CJNwJwXDdMxR6n133haiPsqmBg68U81KjQODYXUHaIglBNww==",
-      "type": "package",
-      "path": "volo.abp.testbase/8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.md",
-        "content/Volo.Abp.TestBase.abppkg",
-        "content/Volo.Abp.TestBase.abppkg.analyze.json",
-        "lib/net8.0/Volo.Abp.TestBase.dll",
-        "lib/net8.0/Volo.Abp.TestBase.pdb",
-        "lib/net8.0/Volo.Abp.TestBase.xml",
-        "lib/netstandard2.0/Volo.Abp.TestBase.dll",
-        "lib/netstandard2.0/Volo.Abp.TestBase.pdb",
-        "lib/netstandard2.0/Volo.Abp.TestBase.xml",
-        "lib/netstandard2.1/Volo.Abp.TestBase.dll",
-        "lib/netstandard2.1/Volo.Abp.TestBase.pdb",
-        "lib/netstandard2.1/Volo.Abp.TestBase.xml",
-        "volo.abp.testbase.8.1.3.nupkg.sha512",
-        "volo.abp.testbase.nuspec"
-      ]
-    },
     "Volo.Abp.Threading/8.1.3": {
       "sha512": "gKlERubyfQaff3hTdfpzAOucSNHD6dCGfFmMqckDmLo9hGRtBa8ZtzzZOY/li5iB5xyhZYcsONRvASnSTjUoUw==",
       "type": "package",
@@ -8001,156 +7175,6 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "xunit/2.8.0": {
-      "sha512": "US3a3twJziAif1kFPGdk9fALwILHxV0n1roX5j67bN/d3o4DGNLHnV3tr5ZX+uinVrzfkf0avH3zGX8JPBC0qA==",
-      "type": "package",
-      "path": "xunit/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "xunit.2.8.0.nupkg.sha512",
-        "xunit.nuspec"
-      ]
-    },
-    "xunit.abstractions/2.0.3": {
-      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
-      "type": "package",
-      "path": "xunit.abstractions/2.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/xunit.abstractions.dll",
-        "lib/net35/xunit.abstractions.xml",
-        "lib/netstandard1.0/xunit.abstractions.dll",
-        "lib/netstandard1.0/xunit.abstractions.xml",
-        "lib/netstandard2.0/xunit.abstractions.dll",
-        "lib/netstandard2.0/xunit.abstractions.xml",
-        "xunit.abstractions.2.0.3.nupkg.sha512",
-        "xunit.abstractions.nuspec"
-      ]
-    },
-    "xunit.analyzers/1.13.0": {
-      "sha512": "Pai9YnDV71/Ox14nBHB6/f62iyPyLbmUG/YYMiA4dfdFZvr0gIYE9yGxSr0i5Tr3INK75wgL2MCUNEKpeiZ2Fw==",
-      "type": "package",
-      "path": "xunit.analyzers/1.13.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "analyzers/dotnet/roslyn3.11/cs/xunit.analyzers.dll",
-        "analyzers/dotnet/roslyn3.11/cs/xunit.analyzers.fixes.dll",
-        "analyzers/dotnet/roslyn4.4/cs/xunit.analyzers.dll",
-        "analyzers/dotnet/roslyn4.4/cs/xunit.analyzers.fixes.dll",
-        "analyzers/dotnet/roslyn4.6/cs/xunit.analyzers.dll",
-        "analyzers/dotnet/roslyn4.6/cs/xunit.analyzers.fixes.dll",
-        "analyzers/dotnet/roslyn4.8/cs/xunit.analyzers.dll",
-        "analyzers/dotnet/roslyn4.8/cs/xunit.analyzers.fixes.dll",
-        "tools/install.ps1",
-        "tools/uninstall.ps1",
-        "xunit.analyzers.1.13.0.nupkg.sha512",
-        "xunit.analyzers.nuspec"
-      ]
-    },
-    "xunit.assert/2.8.0": {
-      "sha512": "lwf7Dy5/5HbDkaPx1YrGXCByytCEEcIn+KPI74jh2BD/RU/7RhO8c+S3k0Ph+Mr7+cLf338fl+o6UcgPCLa6PA==",
-      "type": "package",
-      "path": "xunit.assert/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "lib/net6.0/xunit.assert.dll",
-        "lib/net6.0/xunit.assert.xml",
-        "lib/netstandard1.1/xunit.assert.dll",
-        "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.8.0.nupkg.sha512",
-        "xunit.assert.nuspec"
-      ]
-    },
-    "xunit.core/2.8.0": {
-      "sha512": "McSTFGTETCxLpmJKE9TWi9FtFthrRbpRrjz2V2g8sK2wRt1+JHs15vwi+B+nfftFkV9aFWIXZfzZM95TIGZNIA==",
-      "type": "package",
-      "path": "xunit.core/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "build/xunit.core.props",
-        "build/xunit.core.targets",
-        "buildMultiTargeting/xunit.core.props",
-        "buildMultiTargeting/xunit.core.targets",
-        "xunit.core.2.8.0.nupkg.sha512",
-        "xunit.core.nuspec"
-      ]
-    },
-    "xunit.extensibility.core/2.8.0": {
-      "sha512": "eBJv9xQeY0p5z+C/L1tFjUFYqtl5pQqIEYCGTMl+MbRzA7sOlgYKwJE//vEePBp+mgBh7NjD0Qhz0liZBYM27w==",
-      "type": "package",
-      "path": "xunit.extensibility.core/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "lib/net452/xunit.core.dll",
-        "lib/net452/xunit.core.dll.tdnet",
-        "lib/net452/xunit.core.xml",
-        "lib/net452/xunit.runner.tdnet.dll",
-        "lib/net452/xunit.runner.utility.net452.dll",
-        "lib/netstandard1.1/xunit.core.dll",
-        "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.8.0.nupkg.sha512",
-        "xunit.extensibility.core.nuspec"
-      ]
-    },
-    "xunit.extensibility.execution/2.8.0": {
-      "sha512": "TyyrZesHB9ODZMS9c73OqiBz4x0vL944JCkSPBWW5w6PF2LlUfdfXRjjOhoIOuY6lTmEgl07rS4/Jot9mCYnpg==",
-      "type": "package",
-      "path": "xunit.extensibility.execution/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "lib/net452/xunit.execution.desktop.dll",
-        "lib/net452/xunit.execution.desktop.xml",
-        "lib/netstandard1.1/xunit.execution.dotnet.dll",
-        "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.8.0.nupkg.sha512",
-        "xunit.extensibility.execution.nuspec"
-      ]
-    },
-    "xunit.runner.visualstudio/2.8.0": {
-      "sha512": "mqQbS2zr8dfgSWxkNOC6UTzO8JoqpTmM5+FFn2XR/2nVmx2JvEY0YbM5pt2FmXVg9YVe+jKUPHd6KrroyCl67w==",
-      "type": "package",
-      "path": "xunit.runner.visualstudio/2.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "_content/README.md",
-        "_content/logo-128-transparent.png",
-        "build/net462/xunit.abstractions.dll",
-        "build/net462/xunit.runner.reporters.net452.dll",
-        "build/net462/xunit.runner.utility.net452.dll",
-        "build/net462/xunit.runner.visualstudio.props",
-        "build/net462/xunit.runner.visualstudio.testadapter.dll",
-        "build/net6.0/xunit.abstractions.dll",
-        "build/net6.0/xunit.runner.reporters.netcoreapp10.dll",
-        "build/net6.0/xunit.runner.utility.netcoreapp10.dll",
-        "build/net6.0/xunit.runner.visualstudio.props",
-        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
-        "lib/net462/_._",
-        "lib/net6.0/_._",
-        "xunit.runner.visualstudio.2.8.0.nupkg.sha512",
-        "xunit.runner.visualstudio.nuspec"
-      ]
-    },
     "ZstdSharp.Port/0.6.2": {
       "sha512": "jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "type": "package",
@@ -8202,11 +7226,6 @@
       "type": "project",
       "path": "../MediaInAction.FileService.MongoDb.Tests/MediaInAction.FileService.MongoDb.Tests.csproj",
       "msbuildProject": "../MediaInAction.FileService.MongoDb.Tests/MediaInAction.FileService.MongoDb.Tests.csproj"
-    },
-    "MediaInAction.FileService.TestBase/1.0.0": {
-      "type": "project",
-      "path": "../MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
-      "msbuildProject": "../MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj"
     },
     "MediaInAction.Shared.Domain/1.5.2": {
       "type": "project",
@@ -8291,5 +7310,16 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

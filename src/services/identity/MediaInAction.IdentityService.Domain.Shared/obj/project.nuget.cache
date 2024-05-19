@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o6tKkNrYKMn2HP+a4ltbGMmwUkh99SNqbi9SYAdf/tcGo8Lc6E0dcCba4UBysILUfvKwP7Brh+PQSSgc084Uqg==",
+  "dgSpecHash": "NZd3AwC2MX0ntIlUYElSlVEaoPFaJfBN/ie+3G3jCin88y+TaVzX879e4f1Kpb32rL/F7aPtx25C/3EIyWSzjA==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.context/5.1.2/nito.asyncex.context.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",

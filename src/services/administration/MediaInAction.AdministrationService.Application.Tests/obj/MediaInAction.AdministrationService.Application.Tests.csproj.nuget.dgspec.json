@@ -1,0 +1,691 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Tests/MediaInAction.AdministrationService.Application.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
+        "projectName": "MediaInAction.AdministrationService.Application.Contracts",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.SettingManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Tests/MediaInAction.AdministrationService.Application.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Tests/MediaInAction.AdministrationService.Application.Tests.csproj",
+        "projectName": "MediaInAction.AdministrationService.Application.Tests",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Tests/MediaInAction.AdministrationService.Application.Tests.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/MediaInAction.AdministrationService.Application.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/MediaInAction.AdministrationService.Application.csproj"
+              },
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/MediaInAction.AdministrationService.Domain.Tests.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/MediaInAction.AdministrationService.Domain.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/MediaInAction.AdministrationService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/MediaInAction.AdministrationService.Application.csproj",
+        "projectName": "MediaInAction.AdministrationService.Application",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/MediaInAction.AdministrationService.Application.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj"
+              },
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Application": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.SettingManagement.Application": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "projectName": "MediaInAction.AdministrationService.Domain.Shared",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/MediaInAction.AdministrationService.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/MediaInAction.AdministrationService.Domain.Tests.csproj",
+        "projectName": "MediaInAction.AdministrationService.Domain.Tests",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/MediaInAction.AdministrationService.Domain.Tests.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/MediaInAction.AdministrationService.EntityFrameworkCore.Tests.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/MediaInAction.AdministrationService.EntityFrameworkCore.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
+        "projectName": "MediaInAction.AdministrationService.Domain",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/MediaInAction.AdministrationService.EntityFrameworkCore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/MediaInAction.AdministrationService.EntityFrameworkCore.Tests.csproj",
+        "projectName": "MediaInAction.AdministrationService.EntityFrameworkCore.Tests",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/MediaInAction.AdministrationService.EntityFrameworkCore.Tests.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj"
+              },
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/MediaInAction.AdministrationService.TestBase.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/MediaInAction.AdministrationService.TestBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
+        "projectName": "MediaInAction.AdministrationService.EntityFrameworkCore",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.BlobStoring.Database.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/MediaInAction.AdministrationService.TestBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/MediaInAction.AdministrationService.TestBase.csproj",
+        "projectName": "MediaInAction.AdministrationService.TestBase",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/MediaInAction.AdministrationService.TestBase.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.TestBase/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Volo.Abp.TestBase": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

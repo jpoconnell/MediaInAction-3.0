@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
 using MediaInAction.Shared.Domain.Enums;
-using MediaInAction.VideoService.EpisodeNs;
 using Volo.Abp.Specifications;
 
 namespace MediaInAction.TraktService.TraktEpisodeNs.Specifications;

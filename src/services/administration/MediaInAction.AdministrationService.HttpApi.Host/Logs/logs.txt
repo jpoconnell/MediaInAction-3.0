@@ -1051,3 +1051,11 @@ Routine = InitPostgres
 2024-05-14 20:07:20.664 -05:00 [INF] Application is shutting down...
 2024-05-14 20:07:20.748 -05:00 [INF] Disposing channel pool (1 channels).
 2024-05-14 20:07:20.776 -05:00 [INF] Disposed RabbitMQ Channel Pool (1 channels in 32.85 ms).
+2024-05-19 10:50:55.204 -05:00 [INF] Starting MediaInAction.AdministrationService.HttpApi.Host.
+2024-05-19 10:50:55.751 -05:00 [FTL] MediaInAction.AdministrationService.HttpApi.Host terminated unexpectedly!
+System.IO.FileNotFoundException: Could not load file or assembly 'OpenTelemetry.Extensions.Hosting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7bd6737fe5b67e3c'. The system cannot find the file specified.
+
+File name: 'OpenTelemetry.Extensions.Hosting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7bd6737fe5b67e3c'
+   at MediaInAction.Shared.Hosting.AspNetCore.Monitoring.TracingSetup.Init(WebApplicationBuilder builder, Logger logger)
+   at MediaInAction.Shared.Hosting.AspNetCore.ApplicationBuilderHelper.BuildApplicationAsync[TStartupModule](String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/ApplicationBuilderHelper.cs:line 26
+   at MediaInAction.AdministrationService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Host/Program.cs:line 20

@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "unoNu+cqqa+t4DY+C6jNPngYG+eyX0O/mOnMtUYzVb58IQhQQusStpEICh0fsbkiksuVugi/OoKFkacLzzQfwg==",
-  "success": false,
+  "dgSpecHash": "d65sFoFQKKwqzOrImPs+WC3dfkzq/dlW7i+zCsS24dgmVV6x4X544qBBged3Kgu9PMVPp8NcrfEKJ+inHqytQg==",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/MediaInAction.TraktService.HttpApi.Client.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/asynckeyedlock/6.3.4/asynckeyedlock.6.3.4.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/castle.core.asyncinterceptor/2.1.0/castle.core.asyncinterceptor.2.1.0.nupkg.sha512",
@@ -49,11 +46,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nuglify/1.21.0/nuglify.1.21.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/refit/7.0.0/refit.7.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/ssh.net/2024.0.0/ssh.net.2024.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
@@ -96,7 +88,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.auditing.contracts/8.1.3/volo.abp.auditing.contracts.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.authorization/8.1.3/volo.abp.authorization.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.authorization.abstractions/8.1.3/volo.abp.authorization.abstractions.8.1.3.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/volo.abp.autofac/8.1.3/volo.abp.autofac.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.backgroundworkers/8.1.3/volo.abp.backgroundworkers.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.castle.core/8.1.3/volo.abp.castle.core.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.core/8.1.3/volo.abp.core.8.1.3.nupkg.sha512",
@@ -129,42 +120,5 @@
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.validation.abstractions/8.1.3/volo.abp.validation.abstractions.8.1.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/volo.abp.virtualfilesystem/8.1.3/volo.abp.virtualfilesystem.8.1.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MediaInAction.AdministrationService.Application\MediaInAction.AdministrationService.Application.csproj" />
+    <ProjectReference Include="..\MediaInAction.AdministrationService.Application\MediaInAction.AdministrationService.Application.csproj" />
     <ProjectReference Include="..\MediaInAction.AdministrationService.Domain.Tests\MediaInAction.AdministrationService.Domain.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
   </ItemGroup>
 
 </Project>

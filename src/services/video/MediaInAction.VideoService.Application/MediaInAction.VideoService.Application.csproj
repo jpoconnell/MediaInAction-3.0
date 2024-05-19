@@ -15,7 +15,6 @@
   <ItemGroup>
     <ProjectReference Include="..\MediaInAction.VideoService.Application.Contracts\MediaInAction.VideoService.Application.Contracts.csproj" />
     <ProjectReference Include="..\MediaInAction.VideoService.Domain\MediaInAction.VideoService.Domain.csproj" />
-    <ProjectReference Include="..\emby\MediaInAction.EmbyService.Domain\MediaInAction.EmbyService.Domain.csproj" />
   </ItemGroup>
   
   <ItemGroup>

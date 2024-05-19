@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.0": {
+    ".NETStandard,Version=v2.1": {
       "JetBrains.Annotations/2023.3.0": {
         "type": "package",
         "compile": {
@@ -48,16 +48,13 @@
       },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -178,12 +175,12 @@
           "System.Text.Json": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
             "related": ".xml"
           }
         }
@@ -214,34 +211,28 @@
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
             "related": ".xml"
           }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -299,7 +290,7 @@
           }
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
@@ -355,21 +346,19 @@
       "Microsoft.Extensions.Hosting.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -409,19 +398,18 @@
       "Microsoft.Extensions.Logging/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.0",
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
             "related": ".xml"
           }
         }
@@ -455,12 +443,12 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
             "related": ".xml"
           }
         },
@@ -523,21 +511,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
-        },
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "build": {
-          "build/netstandard2.0/NETStandard.Library.targets": {}
-        }
-      },
       "Nito.AsyncEx.Context/5.1.2": {
         "type": "package",
         "dependencies": {
@@ -576,12 +549,12 @@
           "System.Collections.Immutable": "1.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/Nito.Disposables.dll": {
+          "lib/netstandard2.1/Nito.Disposables.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Nito.Disposables.dll": {
+          "lib/netstandard2.1/Nito.Disposables.dll": {
             "related": ".xml"
           }
         }
@@ -632,12 +605,14 @@
       "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {}
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -718,16 +693,13 @@
       },
       "System.Linq.Dynamic.Core/1.3.5": {
         "type": "package",
-        "dependencies": {
-          "System.Reflection.Emit": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {
+          "lib/netstandard2.1/System.Linq.Dynamic.Core.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {
+          "lib/netstandard2.1/System.Linq.Dynamic.Core.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -857,7 +829,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {
+          "ref/netstandard1.1/_._": {
             "related": ".xml"
           }
         },
@@ -873,7 +845,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
+          "ref/netstandard1.0/_._": {
             "related": ".xml"
           }
         },
@@ -1114,12 +1086,30 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Auditing.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.Auditing.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Auditing.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.Auditing.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.AuditLogging.Domain.Shared/8.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
+          "Volo.Abp.Localization": "8.1.3",
+          "Volo.Abp.Validation": "8.1.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1131,12 +1121,12 @@
           "Volo.Abp.MultiTenancy.Abstractions": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Authorization.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Authorization.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1156,18 +1146,19 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "Nito.AsyncEx.Context": "5.1.2",
           "System.Collections.Immutable": "8.0.0",
+          "System.ComponentModel.Annotations": "5.0.0",
           "System.Linq.Dynamic.Core": "1.3.5",
           "System.Linq.Queryable": "4.3.0",
           "System.Runtime.Loader": "4.3.0",
           "System.Text.Encodings.Web": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Core.dll": {
+          "lib/netstandard2.1/Volo.Abp.Core.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Core.dll": {
+          "lib/netstandard2.1/Volo.Abp.Core.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1180,12 +1171,12 @@
           "Volo.Abp.Uow": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Data.dll": {
+          "lib/netstandard2.1/Volo.Abp.Data.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Data.dll": {
+          "lib/netstandard2.1/Volo.Abp.Data.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1198,12 +1189,12 @@
           "Volo.Abp.Localization": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.Ddd.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.Ddd.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1214,12 +1205,12 @@
           "Volo.Abp.ObjectExtending": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.EventBus.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.EventBus.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.EventBus.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.EventBus.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1233,12 +1224,12 @@
           "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {
+          "lib/netstandard2.1/Volo.Abp.Features.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {
+          "lib/netstandard2.1/Volo.Abp.Features.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1252,12 +1243,12 @@
           "Volo.Abp.VirtualFileSystem": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Localization.dll": {
+          "lib/netstandard2.1/Volo.Abp.Localization.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Localization.dll": {
+          "lib/netstandard2.1/Volo.Abp.Localization.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1268,12 +1259,12 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Localization.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Localization.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1288,12 +1279,12 @@
           "Volo.Abp.Settings": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll": {
+          "lib/netstandard2.1/Volo.Abp.MultiTenancy.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll": {
+          "lib/netstandard2.1/Volo.Abp.MultiTenancy.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1305,12 +1296,12 @@
           "Volo.Abp.VirtualFileSystem": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.MultiTenancy.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.MultiTenancy.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.MultiTenancy.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.MultiTenancy.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1322,12 +1313,12 @@
           "Volo.Abp.Validation.Abstractions": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll": {
+          "lib/netstandard2.1/Volo.Abp.ObjectExtending.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll": {
+          "lib/netstandard2.1/Volo.Abp.ObjectExtending.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1340,12 +1331,12 @@
           "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1357,12 +1348,12 @@
           "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
+          "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
+          "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1373,12 +1364,12 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Security.dll": {
+          "lib/netstandard2.1/Volo.Abp.Security.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Security.dll": {
+          "lib/netstandard2.1/Volo.Abp.Security.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1391,12 +1382,12 @@
           "Volo.Abp.SettingManagement.Domain.Shared": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
+          "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1410,12 +1401,12 @@
           "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.SettingManagement.Domain.Shared.dll": {
+          "lib/netstandard2.1/Volo.Abp.SettingManagement.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.SettingManagement.Domain.Shared.dll": {
+          "lib/netstandard2.1/Volo.Abp.SettingManagement.Domain.Shared.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1428,12 +1419,12 @@
           "Volo.Abp.Security": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Settings.dll": {
+          "lib/netstandard2.1/Volo.Abp.Settings.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Settings.dll": {
+          "lib/netstandard2.1/Volo.Abp.Settings.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1444,12 +1435,12 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Threading.dll": {
+          "lib/netstandard2.1/Volo.Abp.Threading.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Threading.dll": {
+          "lib/netstandard2.1/Volo.Abp.Threading.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1460,12 +1451,12 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Uow.dll": {
+          "lib/netstandard2.1/Volo.Abp.Uow.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Uow.dll": {
+          "lib/netstandard2.1/Volo.Abp.Uow.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1477,12 +1468,12 @@
           "Volo.Abp.Validation.Abstractions": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {
+          "lib/netstandard2.1/Volo.Abp.Validation.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {
+          "lib/netstandard2.1/Volo.Abp.Validation.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1493,12 +1484,12 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Validation.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll": {
+          "lib/netstandard2.1/Volo.Abp.Validation.Abstractions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1512,19 +1503,25 @@
           "Volo.Abp.Core": "8.1.3"
         },
         "compile": {
-          "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {
+          "lib/netstandard2.1/Volo.Abp.VirtualFileSystem.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {
+          "lib/netstandard2.1/Volo.Abp.VirtualFileSystem.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
       "MediaInAction.AdministrationService.Domain.Shared/1.0.0": {
         "type": "project",
-        "framework": "Unsupported,Version=v0.0",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
+          "Volo.Abp.AuditLogging.Domain.Shared": "8.1.3",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "8.1.3",
+          "Volo.Abp.SettingManagement.Domain.Shared": "8.1.3"
+        },
         "compile": {
           "bin/placeholder/MediaInAction.AdministrationService.Domain.Shared.dll": {}
         },
@@ -2026,10 +2023,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
-      "sha512": "TuRh62KcoOvaSDCbtHT8K0WYptZysYQHPRRNfOgqF7ZUtUL4O0WMV8RdxbtDFJDsg3jv9bgHwXbrgwTeI9+5uQ==",
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
+      "sha512": "j0zzS7NPhux2rqbCIjrSV/MW0WPNSd49Vvs+j9+ALcTGVrRR48mPmIuBVpeaNO/flTFkN2fTZCLyom403KkzNg==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/8.0.0",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2044,7 +2041,7 @@
         "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
@@ -2419,135 +2416,6 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
-      "type": "package",
-      "path": "netstandard.library/2.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "build/netstandard2.0/NETStandard.Library.targets",
-        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
-        "build/netstandard2.0/ref/System.AppContext.dll",
-        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
-        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
-        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
-        "build/netstandard2.0/ref/System.Collections.dll",
-        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
-        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
-        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
-        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
-        "build/netstandard2.0/ref/System.ComponentModel.dll",
-        "build/netstandard2.0/ref/System.Console.dll",
-        "build/netstandard2.0/ref/System.Core.dll",
-        "build/netstandard2.0/ref/System.Data.Common.dll",
-        "build/netstandard2.0/ref/System.Data.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
-        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
-        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
-        "build/netstandard2.0/ref/System.Drawing.dll",
-        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
-        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
-        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
-        "build/netstandard2.0/ref/System.Globalization.dll",
-        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
-        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
-        "build/netstandard2.0/ref/System.IO.Compression.dll",
-        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
-        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
-        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
-        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
-        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
-        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
-        "build/netstandard2.0/ref/System.IO.Pipes.dll",
-        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
-        "build/netstandard2.0/ref/System.IO.dll",
-        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
-        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
-        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
-        "build/netstandard2.0/ref/System.Linq.dll",
-        "build/netstandard2.0/ref/System.Net.Http.dll",
-        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
-        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
-        "build/netstandard2.0/ref/System.Net.Ping.dll",
-        "build/netstandard2.0/ref/System.Net.Primitives.dll",
-        "build/netstandard2.0/ref/System.Net.Requests.dll",
-        "build/netstandard2.0/ref/System.Net.Security.dll",
-        "build/netstandard2.0/ref/System.Net.Sockets.dll",
-        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
-        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
-        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
-        "build/netstandard2.0/ref/System.Net.dll",
-        "build/netstandard2.0/ref/System.Numerics.dll",
-        "build/netstandard2.0/ref/System.ObjectModel.dll",
-        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
-        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
-        "build/netstandard2.0/ref/System.Reflection.dll",
-        "build/netstandard2.0/ref/System.Resources.Reader.dll",
-        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
-        "build/netstandard2.0/ref/System.Resources.Writer.dll",
-        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
-        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
-        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
-        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
-        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
-        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
-        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
-        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
-        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
-        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
-        "build/netstandard2.0/ref/System.Runtime.dll",
-        "build/netstandard2.0/ref/System.Security.Claims.dll",
-        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
-        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
-        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
-        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
-        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
-        "build/netstandard2.0/ref/System.Security.Principal.dll",
-        "build/netstandard2.0/ref/System.Security.SecureString.dll",
-        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
-        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
-        "build/netstandard2.0/ref/System.Text.Encoding.dll",
-        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
-        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
-        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
-        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
-        "build/netstandard2.0/ref/System.Threading.Thread.dll",
-        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
-        "build/netstandard2.0/ref/System.Threading.Timer.dll",
-        "build/netstandard2.0/ref/System.Threading.dll",
-        "build/netstandard2.0/ref/System.Transactions.dll",
-        "build/netstandard2.0/ref/System.ValueTuple.dll",
-        "build/netstandard2.0/ref/System.Web.dll",
-        "build/netstandard2.0/ref/System.Windows.dll",
-        "build/netstandard2.0/ref/System.Xml.Linq.dll",
-        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
-        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
-        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
-        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
-        "build/netstandard2.0/ref/System.Xml.XPath.dll",
-        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
-        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
-        "build/netstandard2.0/ref/System.Xml.dll",
-        "build/netstandard2.0/ref/System.dll",
-        "build/netstandard2.0/ref/mscorlib.dll",
-        "build/netstandard2.0/ref/netstandard.dll",
-        "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.3.nupkg.sha512",
-        "netstandard.library.nuspec"
       ]
     },
     "Nito.AsyncEx.Context/5.1.2": {
@@ -4515,6 +4383,29 @@
         "volo.abp.auditing.contracts.nuspec"
       ]
     },
+    "Volo.Abp.AuditLogging.Domain.Shared/8.1.3": {
+      "sha512": "eWw7+PIqwjy3Q4mPMYJSGdQfn7rDcAsa0qAlbOZtyz6sYmJwPKcmLvLeRvNgM5Dw0kUF8sylBdezenG0c0TelA==",
+      "type": "package",
+      "path": "volo.abp.auditlogging.domain.shared/8.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg",
+        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg.analyze.json",
+        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/net8.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "volo.abp.auditlogging.domain.shared.8.1.3.nupkg.sha512",
+        "volo.abp.auditlogging.domain.shared.nuspec"
+      ]
+    },
     "Volo.Abp.Authorization.Abstractions/8.1.3": {
       "sha512": "iHoWD1RzEL799/4r3I6gfwStApgQAbuCYXuxTvYhZakfgy3PLatn7CRY5MbVqrrErL1EznBom/KARWfbN0d6Rg==",
       "type": "package",
@@ -5026,9 +4917,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.0": [
+    ".NETStandard,Version=v2.1": [
       "MediaInAction.AdministrationService.Domain.Shared >= 1.0.0",
-      "NETStandard.Library >= 2.0.3",
       "Volo.Abp.PermissionManagement.Application.Contracts >= 8.1.3",
       "Volo.Abp.SettingManagement.Application.Contracts >= 8.1.3"
     ]
@@ -5050,15 +4940,15 @@
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netstandard2.0"
+        "netstandard2.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
             "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
               "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
@@ -5073,15 +4963,9 @@
       }
     },
     "frameworks": {
-      "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
-          "NETStandard.Library": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.0.3, )",
-            "autoReferenced": true
-          },
           "Volo.Abp.PermissionManagement.Application.Contracts": {
             "target": "Package",
             "version": "[8.1.3, )"
@@ -5102,19 +4986,13 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project MediaInAction.AdministrationService.Domain.Shared is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project MediaInAction.AdministrationService.Domain.Shared supports: netstandard2.1 (.NETStandard,Version=v2.1)",
-      "libraryId": "MediaInAction.AdministrationService.Domain.Shared",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

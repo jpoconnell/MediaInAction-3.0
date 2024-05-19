@@ -3,8 +3,7 @@
 namespace MediaInAction.TraktService
 {
     [DependsOn(
-        typeof(TraktServiceApplicationModule),
-        typeof(TraktServiceDomainTestModule)
+        typeof(TraktServiceApplicationModule)
         )]
     public class TraktServiceApplicationTestModule : AbpModule
     {

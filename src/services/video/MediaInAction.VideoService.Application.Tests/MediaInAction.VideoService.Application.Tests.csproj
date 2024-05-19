@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MediaInAction.VideoService.Application\MediaInAction.VideoService.Application.csproj" />
-    <ProjectReference Include="..\MediaInAction.VideoService.Domain.Tests\MediaInAction.VideoService.Domain.Tests.csproj" />
+    <ProjectReference Include="..\MediaInAction.VideoService.TestBase\MediaInAction.VideoService.TestBase.csproj" />
   </ItemGroup>
 
   <ItemGroup>

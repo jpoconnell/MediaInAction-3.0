@@ -15,6 +15,56 @@
           }
         }
       },
+      "Autofac/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autofac.Extras.DynamicProxy/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Castle.Core/5.1.1": {
         "type": "package",
         "dependencies": {
@@ -634,6 +684,87 @@
         "runtime": {
           "lib/netstandard2.0/NUglify.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Serilog/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Serilog": "3.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.Sinks.File.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Sinks.File.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1258,6 +1389,27 @@
           }
         }
       },
+      "Volo.Abp.Autofac/8.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "8.0.0",
+          "Autofac.Extensions.DependencyInjection": "9.0.0",
+          "Autofac.Extras.DynamicProxy": "7.1.0",
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Volo.Abp.Castle.Core": "8.1.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/Volo.Abp.Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Volo.Abp.Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.BackgroundWorkers/8.1.3": {
         "type": "package",
         "dependencies": {
@@ -1817,6 +1969,52 @@
           }
         }
       },
+      "MediaInAction.DelugeService.Domain.Shared/1.5.2": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Volo.Abp.Validation": "8.1.3"
+        },
+        "compile": {
+          "bin/placeholder/MediaInAction.DelugeService.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaInAction.DelugeService.Domain.Shared.dll": {}
+        }
+      },
+      "MediaInAction.EmbyService.Domain.Shared/1.5.2": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MediaInAction.Shared.Domain": "1.5.2",
+          "MediaInAction.Shared.Hosting": "1.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Volo.Abp.Ddd.Application.Contracts": "8.1.3",
+          "Volo.Abp.Validation": "8.1.3"
+        },
+        "compile": {
+          "bin/placeholder/MediaInAction.EmbyService.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaInAction.EmbyService.Domain.Shared.dll": {}
+        }
+      },
+      "MediaInAction.FileService.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MediaInAction.Shared.Domain": "1.5.2",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Volo.Abp.Validation": "8.1.3"
+        },
+        "compile": {
+          "bin/placeholder/MediaInAction.FileService.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaInAction.FileService.Domain.Shared.dll": {}
+        }
+      },
       "MediaInAction.Shared.Domain/1.5.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1831,6 +2029,39 @@
         },
         "runtime": {
           "bin/placeholder/MediaInAction.Shared.Domain.dll": {}
+        }
+      },
+      "MediaInAction.Shared.Hosting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Serilog.Extensions.Logging": "8.0.0",
+          "Serilog.Sinks.Async": "1.5.0",
+          "Serilog.Sinks.Console": "5.0.0",
+          "Serilog.Sinks.File": "5.0.0",
+          "Volo.Abp.Autofac": "8.1.3",
+          "Volo.Abp.Data": "8.1.3"
+        },
+        "compile": {
+          "bin/placeholder/MediaInAction.Shared.Hosting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaInAction.Shared.Hosting.dll": {}
+        }
+      },
+      "MediaInAction.TraktService.Domain.Shared/1.5.2": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MediaInAction.Shared.Domain": "1.5.2",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Volo.Abp.Validation": "8.1.3"
+        },
+        "compile": {
+          "bin/placeholder/MediaInAction.TraktService.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaInAction.TraktService.Domain.Shared.dll": {}
         }
       },
       "MediaInAction.VideoService.Application.Contracts/1.0.0": {
@@ -1852,11 +2083,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": "1.0.0",
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj": "1.0.0",
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj": "1.0.0",
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj": "1.0.0",
+          "MediaInAction.DelugeService.Domain.Shared": "1.5.2",
+          "MediaInAction.EmbyService.Domain.Shared": "1.5.2",
+          "MediaInAction.FileService.Domain.Shared": "1.0.0",
           "MediaInAction.Shared.Domain": "1.5.2",
+          "MediaInAction.TraktService.Domain.Shared": "1.5.2",
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
           "Volo.Abp.Validation": "8.1.3"
         },
@@ -1889,6 +2120,71 @@
         "lib/netstandard2.1/AsyncKeyedLock.dll",
         "lib/netstandard2.1/AsyncKeyedLock.xml",
         "logo.png"
+      ]
+    },
+    "Autofac/8.0.0": {
+      "sha512": "qxVqJcl3fixxa5aZc9TmIuYTwooI9GCL5RzfUiTZtTlbAF3NcWz7bPeEyJEAyS/0qGhSyGnXeku2eiu/7L+3qw==",
+      "type": "package",
+      "path": "autofac/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.8.0.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/net8.0/Autofac.dll",
+        "lib/net8.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/9.0.0": {
+      "sha512": "tf+//4MBola256qaaVQqQ6tx2R57S8A8BFekRWNpHkpSFzRBPkU+/fEDUSrCjqldK/B2zRoDbsMcQmYy3PYGWg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
+    "Autofac.Extras.DynamicProxy/7.1.0": {
+      "sha512": "Da6Szv7A1LK/cTdeoyqS45zb/BC5vep8+86f6C1oh2UhZaYtiijlNfLWamp3lxe0uUQ33kFe1dDCjsvfwJWzLg==",
+      "type": "package",
+      "path": "autofac.extras.dynamicproxy/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
+        "autofac.extras.dynamicproxy.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.Extras.DynamicProxy.dll",
+        "lib/net6.0/Autofac.Extras.DynamicProxy.xml",
+        "lib/netstandard2.0/Autofac.Extras.DynamicProxy.dll",
+        "lib/netstandard2.0/Autofac.Extras.DynamicProxy.xml",
+        "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll",
+        "lib/netstandard2.1/Autofac.Extras.DynamicProxy.xml"
       ]
     },
     "Castle.Core/5.1.1": {
@@ -2927,6 +3223,132 @@
         "nuglify.1.21.0.nupkg.sha512",
         "nuglify.nuspec",
         "nuglify.png"
+      ]
+    },
+    "Serilog/3.1.1": {
+      "sha512": "P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+      "type": "package",
+      "path": "serilog/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net5.0/Serilog.dll",
+        "lib/net5.0/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net7.0/Serilog.dll",
+        "lib/net7.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.3.1.1.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Extensions.Logging/8.0.0": {
+      "sha512": "YEAMWu1UnWgf1c1KP85l1SgXGfiVo0Rz6x08pCiPOIBt2Qe18tcZLvdBUuV5o1QHvrs8FAry9wTIhgBRtjIlEg==",
+      "type": "package",
+      "path": "serilog.extensions.logging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Serilog.Extensions.Logging.dll",
+        "lib/net462/Serilog.Extensions.Logging.xml",
+        "lib/net6.0/Serilog.Extensions.Logging.dll",
+        "lib/net6.0/Serilog.Extensions.Logging.xml",
+        "lib/net7.0/Serilog.Extensions.Logging.dll",
+        "lib/net7.0/Serilog.Extensions.Logging.xml",
+        "lib/net8.0/Serilog.Extensions.Logging.dll",
+        "lib/net8.0/Serilog.Extensions.Logging.xml",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.dll",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.xml",
+        "lib/netstandard2.1/Serilog.Extensions.Logging.dll",
+        "lib/netstandard2.1/Serilog.Extensions.Logging.xml",
+        "serilog-extension-nuget.png",
+        "serilog.extensions.logging.8.0.0.nupkg.sha512",
+        "serilog.extensions.logging.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "sha512": "csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "type": "package",
+      "path": "serilog.sinks.async/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.Async.dll",
+        "lib/net45/Serilog.Sinks.Async.xml",
+        "lib/net461/Serilog.Sinks.Async.dll",
+        "lib/net461/Serilog.Sinks.Async.xml",
+        "lib/netstandard1.1/Serilog.Sinks.Async.dll",
+        "lib/netstandard1.1/Serilog.Sinks.Async.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Async.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Async.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.async.1.5.0.nupkg.sha512",
+        "serilog.sinks.async.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/5.0.0": {
+      "sha512": "IZ6bn79k+3SRXOBpwSOClUHikSkp2toGPCZ0teUkscv4dpDg9E2R2xVsNkLmwddE4OpNVO3N0xiYsAH556vN8Q==",
+      "type": "package",
+      "path": "serilog.sinks.console/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.xml",
+        "lib/net471/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.xml",
+        "lib/net5.0/Serilog.Sinks.Console.dll",
+        "lib/net5.0/Serilog.Sinks.Console.xml",
+        "lib/net6.0/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.xml",
+        "lib/net7.0/Serilog.Sinks.Console.dll",
+        "lib/net7.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.1/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.1/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.5.0.0.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "type": "package",
+      "path": "serilog.sinks.file/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.pdb",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net5.0/Serilog.Sinks.File.dll",
+        "lib/net5.0/Serilog.Sinks.File.pdb",
+        "lib/net5.0/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.pdb",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "lib/netstandard2.0/Serilog.Sinks.File.dll",
+        "lib/netstandard2.0/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.0/Serilog.Sinks.File.xml",
+        "lib/netstandard2.1/Serilog.Sinks.File.dll",
+        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.1/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -4982,6 +5404,28 @@
         "volo.abp.authorization.abstractions.nuspec"
       ]
     },
+    "Volo.Abp.Autofac/8.1.3": {
+      "sha512": "4oOJFI1bS8BAUi6ugeGWpTu0NbD3XSFDd8h+tmOLwJzuCECgeY/+O6/rspwW0G53jGXu0w2HjlKGWitvQL7iGw==",
+      "type": "package",
+      "path": "volo.abp.autofac/8.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.Autofac.abppkg",
+        "lib/net8.0/Volo.Abp.Autofac.dll",
+        "lib/net8.0/Volo.Abp.Autofac.pdb",
+        "lib/net8.0/Volo.Abp.Autofac.xml",
+        "lib/netstandard2.0/Volo.Abp.Autofac.dll",
+        "lib/netstandard2.0/Volo.Abp.Autofac.pdb",
+        "lib/netstandard2.0/Volo.Abp.Autofac.xml",
+        "lib/netstandard2.1/Volo.Abp.Autofac.dll",
+        "lib/netstandard2.1/Volo.Abp.Autofac.pdb",
+        "lib/netstandard2.1/Volo.Abp.Autofac.xml",
+        "volo.abp.autofac.8.1.3.nupkg.sha512",
+        "volo.abp.autofac.nuspec"
+      ]
+    },
     "Volo.Abp.BackgroundWorkers/8.1.3": {
       "sha512": "txRH8+9SvI1zM7pFliPmDWiNxJpFyhiYJkcnDqUsYVYu/bNcW8xjYmva7pRayfNk61KTUPYOy0/9+mMf70oUpA==",
       "type": "package",
@@ -5693,10 +6137,35 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
+    "MediaInAction.DelugeService.Domain.Shared/1.5.2": {
+      "type": "project",
+      "path": "../../deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
+      "msbuildProject": "../../deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj"
+    },
+    "MediaInAction.EmbyService.Domain.Shared/1.5.2": {
+      "type": "project",
+      "path": "../../emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
+      "msbuildProject": "../../emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj"
+    },
+    "MediaInAction.FileService.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
+      "msbuildProject": "../../file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj"
+    },
     "MediaInAction.Shared.Domain/1.5.2": {
       "type": "project",
       "path": "../../../shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
       "msbuildProject": "../../../shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
+    },
+    "MediaInAction.Shared.Hosting/1.0.0": {
+      "type": "project",
+      "path": "../../../shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
+      "msbuildProject": "../../../shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj"
+    },
+    "MediaInAction.TraktService.Domain.Shared/1.5.2": {
+      "type": "project",
+      "path": "../../trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
+      "msbuildProject": "../../trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj"
     },
     "MediaInAction.VideoService.Application.Contracts/1.0.0": {
       "type": "project",
@@ -5782,43 +6251,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

@@ -1,0 +1,15 @@
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.EmbeddedFilesManifest.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInA.097CD3F1.Up2Date
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.pdb

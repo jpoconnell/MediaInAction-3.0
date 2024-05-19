@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1J7LrQZfq4kmGU5V0izdPFBnuSeDkQy5i8CWbZr/OdFwJYVrXWBdQEJC0sB8mRWpy4p6obZYfx15VDGu0qbl8w==",
+  "dgSpecHash": "RNCIYCmTeWtVBnwno4c4DC3zoKISjde3p2zDk5ReWT25MEvKEafG9fmexqRat5XEUALnrcB9x89DJxovk9cXfQ==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi/MediaInAction.AdministrationService.HttpApi.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.composite/8.0.0/microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.0/microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.5/microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "RaHavREHbyYQ/tQCC86GfJ5AcKTsKgIhQhBbGJFZbwvxyUaN4BUI0RUfRoaW+WsNTaJbW00sqsB7y8dpVE7zWA==",
-  "success": false,
+  "dgSpecHash": "lURw634UCspZss+LP4VSDougd05clfCe75BrIDF+QgNg9LhDJm39/mMawmwoGEs2U2DioFUdtzIJHfQkenRNyA==",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/MediaInAction.TraktService.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/asynckeyedlock/6.3.4/asynckeyedlock.6.3.4.nupkg.sha512",
@@ -72,11 +72,6 @@
     "/Users/jeremiahoconnell/.nuget/packages/nito.asyncex.tasks/5.1.2/nito.asyncex.tasks.5.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nito.disposables/2.2.1/nito.disposables.2.2.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/nsubstitute/5.1.0/nsubstitute.5.1.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/shouldly/4.2.1/shouldly.4.2.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
@@ -175,42 +170,5 @@
     "/Users/jeremiahoconnell/.nuget/packages/xunit.runner.visualstudio/2.8.0/xunit.runner.visualstudio.2.8.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/emby/MediaInAction.EmbyService.Domain.Shared/MediaInAction.EmbyService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
