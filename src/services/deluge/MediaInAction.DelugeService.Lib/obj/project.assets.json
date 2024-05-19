@@ -8903,20 +8903,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeremiahoconnell/.nuget/packages/": {}
+    "/home/jerryocl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
+      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
       "projectName": "MediaInAction.DelugeService.Lib",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
-      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/obj/",
+      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
+      "packagesPath": "/home/jerryocl/.nuget/packages/",
+      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -8929,17 +8929,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
             }
           }
         }
@@ -8975,7 +8975,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

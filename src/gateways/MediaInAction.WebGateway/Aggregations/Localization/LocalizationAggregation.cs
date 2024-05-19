@@ -10,7 +10,7 @@ namespace MediaInAction.WebGateway.Aggregations.Localization;
 public class LocalizationAggregation : AggregateServiceBase<ApplicationLocalizationDto>, ILocalizationAggregation,
     ITransientDependency
 {
-    public string LocalizationRouteName => "EshopOnAbpLocalization";
+    public string LocalizationRouteName => "MediaInActionLocalization";
     public string LocalizationEndpoint => "api/abp/application-localization";
     protected LocalizationCachedService LocalizationCachedService { get; }
 

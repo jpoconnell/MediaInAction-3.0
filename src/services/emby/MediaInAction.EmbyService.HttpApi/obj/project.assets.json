@@ -7656,20 +7656,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeremiahoconnell/.nuget/packages/": {}
+    "/home/jerryocl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.2",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
+      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
       "projectName": "MediaInAction.EmbyService.HttpApi",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
-      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/obj/",
+      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/MediaInAction.EmbyService.HttpApi.csproj",
+      "packagesPath": "/home/jerryocl/.nuget/packages/",
+      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -7682,8 +7682,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Application.Contracts/MediaInAction.EmbyService.Application.Contracts.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Application.Contracts/MediaInAction.EmbyService.Application.Contracts.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Application.Contracts/MediaInAction.EmbyService.Application.Contracts.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Application.Contracts/MediaInAction.EmbyService.Application.Contracts.csproj"
             }
           }
         }
@@ -7692,11 +7692,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7724,7 +7719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

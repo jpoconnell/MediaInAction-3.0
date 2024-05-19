@@ -3274,20 +3274,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeremiahoconnell/.nuget/packages/": {}
+    "/home/jerryocl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj",
+      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj",
       "projectName": "EmbyClient.Dotnet",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj",
-      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/obj/",
+      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/EmbyClient.Dotnet.csproj",
+      "packagesPath": "/home/jerryocl/.nuget/packages/",
+      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -3338,7 +3338,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,22 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj": {}
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
         "projectName": "DelugeRPCClient.Net",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -64,11 +64,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.19, 7.0.19]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.19, 7.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -76,22 +76,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
         "projectName": "MediaInAction.AdministrationService.Domain.Shared",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -144,27 +144,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
         "projectName": "MediaInAction.AdministrationService.Domain",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -177,8 +183,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
               }
             }
           }
@@ -221,27 +227,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
         "projectName": "MediaInAction.AdministrationService.EntityFrameworkCore",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -254,8 +266,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/MediaInAction.AdministrationService.Domain.csproj"
               }
             }
           }
@@ -312,22 +324,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj",
         "projectName": "MediaInAction.DelugeService.Application.Contracts",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -340,8 +352,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj"
               }
             }
           }
@@ -380,27 +392,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj",
         "projectName": "MediaInAction.DelugeService.Application",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -413,11 +431,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
               }
             }
           }
@@ -457,22 +475,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj",
         "projectName": "MediaInAction.DelugeService.BackgroundJobs",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -485,14 +503,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
               }
             }
           }
@@ -532,22 +550,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj",
         "projectName": "MediaInAction.DelugeService.BackgroundWorkers",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -560,17 +578,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
               }
             }
           }
@@ -610,22 +628,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
         "projectName": "MediaInAction.DelugeService.Domain.Shared",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -670,27 +688,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj",
         "projectName": "MediaInAction.DelugeService.Domain",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -703,11 +727,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain.Shared/MediaInAction.DelugeService.Domain.Shared.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj"
               }
             }
           }
@@ -738,27 +762,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj",
         "projectName": "MediaInAction.DelugeService.HttpApi.Host",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/MediaInAction.DelugeService.HttpApi.Host.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi.Host/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -771,20 +801,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application/MediaInAction.DelugeService.Application.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundJobs/MediaInAction.DelugeService.BackgroundJobs.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.BackgroundWorkers/MediaInAction.DelugeService.BackgroundWorkers.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj"
               }
             }
           }
@@ -827,22 +857,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj",
         "projectName": "MediaInAction.DelugeService.HttpApi",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/MediaInAction.DelugeService.HttpApi.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.HttpApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -855,8 +885,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
               }
             }
           }
@@ -892,22 +922,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
         "projectName": "MediaInAction.DelugeService.Lib",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/MediaInAction.DelugeService.Lib.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Lib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -920,17 +950,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Application.Contracts/MediaInAction.DelugeService.Application.Contracts.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj"
               }
             }
           }
@@ -966,22 +996,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj",
         "projectName": "MediaInAction.DelugeService.MongoDb",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/MediaInAction.DelugeService.MongoDb.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.MongoDb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -994,8 +1024,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/MediaInAction.DelugeService.Domain.csproj"
               }
             }
           }
@@ -1031,22 +1061,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
         "projectName": "MediaInAction.Shared.Domain",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -1099,27 +1129,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj",
         "projectName": "MediaInAction.Shared.Hosting.AspNetCore",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -1132,11 +1168,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj"
               }
             }
           }
@@ -1220,22 +1256,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj",
         "projectName": "MediaInAction.Shared.Hosting.Microservices",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -1248,11 +1284,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.EntityFrameworkCore/MediaInAction.AdministrationService.EntityFrameworkCore.csproj"
               },
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj"
               }
             }
           }
@@ -1316,22 +1352,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
         "projectName": "MediaInAction.Shared.Hosting",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/MediaInAction.Shared.Hosting.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -1392,27 +1428,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj",
         "projectName": "MediaInAction.Shared.Localization",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Localization/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -1462,7 +1504,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -239,6 +239,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontends", "frontends", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.DelugeService.Domain.Shared", "src\services\deluge\MediaInAction.DelugeService.Domain.Shared\MediaInAction.DelugeService.Domain.Shared.csproj", "{2E3B4A7E-EE2B-4446-81EF-009E08653B2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.EmbyService.Lib", "src\services\emby\MediaInAction.EmbyService.Lib\MediaInAction.EmbyService.Lib.csproj", "{1EC5AAC2-1461-4E33-9551-0946A04E8945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.EmbyService.HttpApi", "src\services\emby\MediaInAction.EmbyService.HttpApi\MediaInAction.EmbyService.HttpApi.csproj", "{4ED99780-2193-4626-AE26-FA790509F806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.FileService.TestBase", "src\services\file\MediaInAction.FileService.TestBase\MediaInAction.FileService.TestBase.csproj", "{070B68ED-9D0D-4783-B069-3E838831D897}"
+EndProject
 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -614,6 +620,18 @@ Global
 		{2E3B4A7E-EE2B-4446-81EF-009E08653B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3B4A7E-EE2B-4446-81EF-009E08653B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3B4A7E-EE2B-4446-81EF-009E08653B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC5AAC2-1461-4E33-9551-0946A04E8945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC5AAC2-1461-4E33-9551-0946A04E8945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC5AAC2-1461-4E33-9551-0946A04E8945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC5AAC2-1461-4E33-9551-0946A04E8945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED99780-2193-4626-AE26-FA790509F806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED99780-2193-4626-AE26-FA790509F806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED99780-2193-4626-AE26-FA790509F806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED99780-2193-4626-AE26-FA790509F806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070B68ED-9D0D-4783-B069-3E838831D897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070B68ED-9D0D-4783-B069-3E838831D897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070B68ED-9D0D-4783-B069-3E838831D897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070B68ED-9D0D-4783-B069-3E838831D897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -732,6 +750,9 @@ Global
 		{3044AB7E-253C-4B90-A5C8-3AF95BD2BC89} = {1484E912-DCF3-4568-A72C-4C7622104DB8}
 		{DDFCE812-9BD6-4C14-A1B9-05923FB2C17F} = {1484E912-DCF3-4568-A72C-4C7622104DB8}
 		{2E3B4A7E-EE2B-4446-81EF-009E08653B2D} = {ACA041C6-FD40-4CBF-AC10-8E17EFFE578D}
+		{1EC5AAC2-1461-4E33-9551-0946A04E8945} = {08097139-43D9-426D-9096-C6206EE7B59F}
+		{4ED99780-2193-4626-AE26-FA790509F806} = {08097139-43D9-426D-9096-C6206EE7B59F}
+		{070B68ED-9D0D-4783-B069-3E838831D897} = {048C0368-0881-4ECC-AD59-3084425296D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26F82565-C6A4-439D-93A4-3251E3E7D5B0}

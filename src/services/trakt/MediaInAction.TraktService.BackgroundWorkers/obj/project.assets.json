@@ -9161,20 +9161,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeremiahoconnell/.nuget/packages/": {}
+    "/home/jerryocl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.2",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/MediaInAction.TraktService.BackgroundWorkers.csproj",
+      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/MediaInAction.TraktService.BackgroundWorkers.csproj",
       "projectName": "MediaInAction.TraktService.BackgroundWorkers",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/MediaInAction.TraktService.BackgroundWorkers.csproj",
-      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/obj/",
+      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/MediaInAction.TraktService.BackgroundWorkers.csproj",
+      "packagesPath": "/home/jerryocl/.nuget/packages/",
+      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundWorkers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -9187,17 +9187,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/MediaInAction.TraktService.Application.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/MediaInAction.TraktService.Application.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/MediaInAction.TraktService.Application.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/MediaInAction.TraktService.Application.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Lib/MediaInAction.TraktService.Lib.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Lib/MediaInAction.TraktService.Lib.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Lib/MediaInAction.TraktService.Lib.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Lib/MediaInAction.TraktService.Lib.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
             }
           }
         }
@@ -9237,7 +9237,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

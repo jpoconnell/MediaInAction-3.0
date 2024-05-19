@@ -9,7 +9,6 @@
       "MediaInAction.DelugeService.BackgroundWorkers/1.5.2": {
         "dependencies": {
           "MediaInAction.DelugeService.Domain": "1.5.2",
-          "MediaInAction.DelugeService.Domain.Shared": "1.5.2",
           "MediaInAction.DelugeService.Lib": "1.0.0",
           "MediaInAction.DelugeService.MongoDb": "1.0.0",
           "MediaInAction.Shared.Domain": "1.5.2",

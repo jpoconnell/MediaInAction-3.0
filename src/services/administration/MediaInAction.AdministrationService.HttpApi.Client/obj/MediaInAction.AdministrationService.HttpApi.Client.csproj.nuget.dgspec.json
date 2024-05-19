@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj": {}
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
         "projectName": "MediaInAction.AdministrationService.Application.Contracts",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj"
               }
             }
           }
@@ -64,27 +64,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
         "projectName": "MediaInAction.AdministrationService.Domain.Shared",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/MediaInAction.AdministrationService.Domain.Shared.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -137,27 +143,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj",
         "projectName": "MediaInAction.AdministrationService.HttpApi.Client",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/MediaInAction.AdministrationService.HttpApi.Client.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -170,8 +182,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Application.Contracts/MediaInAction.AdministrationService.Application.Contracts.csproj"
               }
             }
           }
@@ -206,12 +218,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

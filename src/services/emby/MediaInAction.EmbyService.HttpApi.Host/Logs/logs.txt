@@ -1223,3 +1223,304 @@ File name: 'Microsoft.EntityFrameworkCore, Version=8.0.5.0, Culture=neutral, Pub
    at Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddApplicationAsync[TStartupModule](WebApplicationBuilder builder, Action`1 optionsAction)
    at MediaInAction.Shared.Hosting.AspNetCore.ApplicationBuilderHelper.BuildApplicationAsync[TStartupModule](String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/ApplicationBuilderHelper.cs:line 28
    at MediaInAction.EmbyService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi.Host/Program.cs:line 20
+2024-05-19 22:01:39.631 +00:00 [INF] Starting MediaInAction.EmbyService.HttpApi.Host.
+2024-05-19 22:01:40.892 +00:00 [INF] Loaded ABP modules:
+2024-05-19 22:01:40.893 +00:00 [INF] - MediaInAction.EmbyService.EmbyServiceHttpApiHostModule
+2024-05-19 22:01:40.893 +00:00 [INF]   - MediaInAction.EmbyService.EmbyServiceApplicationModule
+2024-05-19 22:01:40.893 +00:00 [INF]     - MediaInAction.EmbyService.EmbyServiceDomainModule
+2024-05-19 22:01:40.893 +00:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2024-05-19 22:01:40.893 +00:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-19 22:01:40.893 +00:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-19 22:01:40.893 +00:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-19 22:01:40.893 +00:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-19 22:01:40.893 +00:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-19 22:01:40.893 +00:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-19 22:01:40.893 +00:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-19 22:01:40.893 +00:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-05-19 22:01:40.893 +00:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-05-19 22:01:40.893 +00:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-19 22:01:40.893 +00:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2024-05-19 22:01:40.893 +00:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-19 22:01:40.893 +00:00 [INF]       - MediaInAction.EmbyService.EmbyServiceDomainSharedModule
+2024-05-19 22:01:40.893 +00:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-19 22:01:40.893 +00:00 [INF]     - MediaInAction.EmbyService.EmbyServiceApplicationContractsModule
+2024-05-19 22:01:40.893 +00:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-19 22:01:40.894 +00:00 [INF]   - MediaInAction.EmbyService.EmbyServiceHttpApiModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-19 22:01:40.894 +00:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-19 22:01:40.894 +00:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-19 22:01:40.894 +00:00 [INF]   - MediaInAction.EmbyService.BackgroundWorkers.EmbyServiceBackgroundWorkerModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - Volo.Abp.Quartz.AbpQuartzModule
+2024-05-19 22:01:40.894 +00:00 [INF]     - MediaInAction.EmbyService.EmbyServiceLibModule
+2024-05-19 22:01:40.894 +00:00 [INF]       - MediaInAction.EmbyService.MongoDb.EmbyServiceMongoDbModule
+2024-05-19 22:01:40.894 +00:00 [INF]         - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-19 22:01:40.979 +00:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2024-05-19 22:01:40.987 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-19 22:01:40.987 +00:00 [INF] Quartz Scheduler created
+2024-05-19 22:01:40.988 +00:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2024-05-19 22:01:40.991 +00:00 [INF] RAMJobStore initialized.
+2024-05-19 22:01:40.993 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-19 22:01:40.993 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-19 22:01:40.994 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-19 22:01:41.011 +00:00 [INF] Adding 0 jobs, 0 triggers.
+2024-05-19 22:01:41.200 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2024-05-19 22:01:41.204 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:01:41.347 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:01:41.359 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:01:41.361 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:01:42.097 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyActivityLogWorker
+2024-05-19 22:01:42.099 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:01:43.080 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:01:43.085 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:01:43.117 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:01:43.120 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:01:43.480 +00:00 [INF] Initialized all ABP modules.
+2024-05-19 22:01:43.751 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-19 22:01:44.040 +00:00 [INF] Now listening on: https://localhost:44361
+2024-05-19 22:01:44.042 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 22:01:44.042 +00:00 [INF] Hosting environment: Development
+2024-05-19 22:01:44.061 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.HttpApi.Host
+2024-05-19 22:01:44.217 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/ - null null
+2024-05-19 22:01:44.890 +00:00 [INF] Executing endpoint 'MediaInAction.EmbyService.Controllers.HomeController.Index (MediaInAction.EmbyService.HttpApi.Host)'
+2024-05-19 22:01:44.965 +00:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.EmbyService.Controllers.HomeController (MediaInAction.EmbyService.HttpApi.Host).
+2024-05-19 22:01:45.084 +00:00 [INF] Executing action method MediaInAction.EmbyService.Controllers.HomeController.Index (MediaInAction.EmbyService.HttpApi.Host) - Validation state: "Valid"
+2024-05-19 22:01:45.108 +00:00 [INF] Executed action method MediaInAction.EmbyService.Controllers.HomeController.Index (MediaInAction.EmbyService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.46ms.
+2024-05-19 22:01:45.129 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-19 22:01:45.137 +00:00 [INF] Executed action MediaInAction.EmbyService.Controllers.HomeController.Index (MediaInAction.EmbyService.HttpApi.Host) in 164.1615ms
+2024-05-19 22:01:45.137 +00:00 [INF] Executed endpoint 'MediaInAction.EmbyService.Controllers.HomeController.Index (MediaInAction.EmbyService.HttpApi.Host)'
+2024-05-19 22:01:45.174 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger - null null
+2024-05-19 22:01:45.193 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger - 301 0 null 18.2376ms
+2024-05-19 22:01:45.193 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/ - 302 0 null 987.0599ms
+2024-05-19 22:01:45.207 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/index.html - null null
+2024-05-19 22:01:45.347 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/swagger-ui.css - null null
+2024-05-19 22:01:45.349 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/swagger-ui-bundle.js - null null
+2024-05-19 22:01:45.358 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/index.html - 200 null text/html;charset=utf-8 151.5952ms
+2024-05-19 22:01:45.362 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-19 22:01:45.441 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 22:01:45.442 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/swagger-ui.css - 200 144929 text/css 95.3894ms
+2024-05-19 22:01:45.457 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-19 22:01:45.462 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 100.9733ms
+2024-05-19 22:01:45.464 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-19 22:01:45.465 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 118.0234ms
+2024-05-19 22:01:45.784 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/v1/swagger.json - null null
+2024-05-19 22:01:45.816 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44361/swagger/favicon-32x32.png - null null
+2024-05-19 22:01:45.820 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-19 22:01:45.820 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/favicon-32x32.png - 200 628 image/png 3.9979ms
+2024-05-19 22:01:46.026 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44361/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.3717ms
+2024-05-19 22:01:46.745 +00:00 [INF] Executed EmbyActivityLogWorker..!
+2024-05-19 22:01:46.745 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:02:07.916 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:02:37.636 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:02:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:02:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:02:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:02:41.336 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:02:41.336 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:03:11.004 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:03:35.910 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:03:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:03:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:03:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:03:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:03:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:04:08.350 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:04:34.344 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:04:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:04:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:04:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:04:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:04:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:05:06.286 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:05:29.555 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:05:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:05:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:05:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:05:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:05:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:06:07.041 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:06:35.642 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:06:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:06:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:06:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:06:41.341 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:06:41.341 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:07:10.037 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:07:37.304 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:07:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:07:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:07:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:07:41.334 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:07:41.334 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:08:05.529 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:08:30.647 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:08:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:08:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:08:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:08:41.339 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:08:41.339 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:09:05.353 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:09:35.284 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:09:41.333 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:09:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:09:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:09:41.336 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:09:41.337 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:10:08.196 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:10:34.248 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:10:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:10:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:10:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:10:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:10:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:11:09.713 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:11:37.949 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:11:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:11:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:11:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:11:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:11:41.334 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:12:04.829 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:12:32.353 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:12:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:12:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:12:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:12:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:12:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:13:05.014 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:13:33.171 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:13:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:13:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:13:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:13:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:13:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:14:09.955 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:14:35.693 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:14:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:14:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:14:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:14:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:14:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:15:08.210 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:15:36.979 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:15:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:15:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:15:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:15:41.334 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:15:41.334 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:16:09.009 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:16:33.580 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:16:41.333 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:16:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:16:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:16:41.334 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:16:41.334 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:17:07.838 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:17:32.269 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:17:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:17:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:17:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:17:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:17:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:18:06.619 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:18:34.588 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:18:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:18:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:18:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:18:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:18:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:19:11.051 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:19:35.495 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:19:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:19:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:19:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:19:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:19:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:20:08.126 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:20:36.225 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:20:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:20:41.333 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:20:41.333 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:20:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:20:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:21:10.598 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:21:40.011 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-19 22:21:41.332 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:21:41.332 +00:00 [DBG] Calling Execute on job DEFAULT.EmbyGetItemsWorker
+2024-05-19 22:21:41.332 +00:00 [INF] Activity Log GetData Started
+2024-05-19 22:21:41.333 +00:00 [INF] Executed EmbyGetItemsWorker..!
+2024-05-19 22:21:41.333 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-19 22:22:09.265 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-19 22:22:33.565 +00:00 [INF] Application is shutting down...
+2024-05-19 22:22:33.583 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2024-05-19 22:22:33.600 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2024-05-19 22:22:33.609 +00:00 [DBG] Shutting down threadpool...
+2024-05-19 22:22:33.611 +00:00 [DBG] Shutdown of threadpool complete.
+2024-05-19 22:22:33.614 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2024-05-19 22:22:33.646 +00:00 [DBG] Disposed channel pool with no channels in the pool.

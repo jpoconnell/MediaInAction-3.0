@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/asus.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/asus.jpg",
       "PackagePath": "staticwebassets/media-images/asus.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/beats.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/beats.jpg",
       "PackagePath": "staticwebassets/media-images/beats.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/bluecat.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/bluecat.jpg",
       "PackagePath": "staticwebassets/media-images/bluecat.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/lego.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/lego.jpg",
       "PackagePath": "staticwebassets/media-images/lego.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/nikon.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/nikon.jpg",
       "PackagePath": "staticwebassets/media-images/nikon.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/noimage.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/noimage.jpg",
       "PackagePath": "staticwebassets/media-images/noimage.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/oki.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/oki.jpg",
       "PackagePath": "staticwebassets/media-images/oki.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/playstation.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/playstation.jpg",
       "PackagePath": "staticwebassets/media-images/playstation.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/rampage.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/rampage.jpg",
       "PackagePath": "staticwebassets/media-images/rampage.jpg"
     },
     {
-      "Id": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/sunny.jpg",
+      "Id": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/sunny.jpg",
       "PackagePath": "staticwebassets/media-images/sunny.jpg"
     },
     {

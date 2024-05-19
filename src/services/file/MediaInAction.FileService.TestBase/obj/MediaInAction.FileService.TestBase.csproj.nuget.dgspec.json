@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj": {}
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
         "projectName": "MediaInAction.FileService.Domain.Shared",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj"
               }
             }
           }
@@ -64,27 +64,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj",
         "projectName": "MediaInAction.FileService.Domain",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -97,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain.Shared/MediaInAction.FileService.Domain.Shared.csproj"
               }
             }
           }
@@ -138,22 +144,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
         "projectName": "MediaInAction.FileService.TestBase",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/MediaInAction.FileService.TestBase.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.TestBase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -166,8 +172,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj"
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.Domain/MediaInAction.FileService.Domain.csproj"
               }
             }
           }
@@ -176,11 +182,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -244,22 +245,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj": {
       "version": "1.5.2",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
         "projectName": "MediaInAction.Shared.Domain",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -312,12 +313,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -49,56 +49,56 @@
           { "PathRemovePrefix": "/swagger-json/Administration" }
         ]
       },
-      "Catalog Service": {
-        "ClusterId": "catalogCluster",
+      "File Service": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/api/catalog/{**everything}"
+          "Path": "/api/file/{**everything}"
         }
       },
-      "Catalog Service Swagger": {
-        "ClusterId": "catalogCluster",
+      "File Service Swagger": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/swagger-json/Catalog/swagger/v1/swagger.json"
+          "Path": "/swagger-json/File/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Catalog" }
+          { "PathRemovePrefix": "/swagger-json/File" }
         ]
       },
-      "ProductPictures": {
-        "ClusterId": "catalogCluster",
+      "MediaPictures": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/product-images/{**everything}",
+          "Path": "/media-images/{**everything}",
           "Methods": [ "GET" ]
         }
       },
-      "Basket Service": {
-        "ClusterId": "Basket",
+      "Emby Service": {
+        "ClusterId": "Emby",
         "Match": {
-          "Path": "/api/basket/{**everything}"
+          "Path": "/api/emby/{**everything}"
         }
       },
-      "Basket Service Swagger": {
-        "ClusterId": "Basket",
+      "Emby Service Swagger": {
+        "ClusterId": "Emby",
         "Match": {
-          "Path": "/swagger-json/Basket/swagger/v1/swagger.json"
+          "Path": "/swagger-json/Emby/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Basket" }
+          { "PathRemovePrefix": "/swagger-json/Emby" }
         ]
       },
-      "Ordering Service": {
-        "ClusterId": "Ordering",
+      "Video Service": {
+        "ClusterId": "Video",
         "Match": {
-          "Path": "/api/ordering/{**everything}"
+          "Path": "/api/video/{**everything}"
         }
       },
-      "Ordering Service Swagger": {
-        "ClusterId": "Ordering",
+      "Video Service Swagger": {
+        "ClusterId": "Video",
         "Match": {
-          "Path": "/swagger-json/Ordering/swagger/v1/swagger.json"
+          "Path": "/swagger-json/Video/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Ordering" }
+          { "PathRemovePrefix": "/swagger-json/Video" }
         ]
       },
       "Cmskit Service": {
@@ -116,19 +116,19 @@
           { "PathRemovePrefix": "/swagger-json/Cmskit" }
         ]
       },
-      "Payment Service": {
-        "ClusterId": "Payment",
+      "Trakt Service": {
+        "ClusterId": "Trakt",
         "Match": {
-          "Path": "/api/payment/{**everything}"
+          "Path": "/api/trakt/{**everything}"
         }
       },
       "Payment Service Swagger": {
-        "ClusterId": "Payment",
+        "ClusterId": "Trakt",
         "Match": {
-          "Path": "/swagger-json/Payment/swagger/v1/swagger.json"
+          "Path": "/swagger-json/Trakt/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Payment" }
+          { "PathRemovePrefix": "/swagger-json/Trakt" }
         ]
       }
     },
@@ -138,7 +138,7 @@
           "destination1": {
             "Address": "https://localhost:44351",
             "MetaData": {
-              "PublicAddress": "https://identity.eshoponabp.dev"
+              "PublicAddress": "https://identity.mediainaction.dev"
             }
           }
         }
@@ -148,7 +148,7 @@
           "destination1": {
             "Address": "https://localhost:44353",
             "MetaData": {
-              "PublicAddress": "https://admininstration.eshop.dev"
+              "PublicAddress": "https://admininstration.mediainaction.dev"
             }
           }          
         }
@@ -158,7 +158,7 @@
           "destination1": {
             "Address": "https://localhost:44354",
             "MetaData": {
-              "PublicAddress": "https://admininstration.eshoponabp.dev"
+              "PublicAddress": "https://admininstration.mediainaction.dev"
             }
           }
         }
@@ -168,17 +168,17 @@
           "destination1": {
             "Address": "https://localhost:44355",
             "MetaData": {
-              "PublicAddress": "https://basket.eshoponabp.dev"
+              "PublicAddress": "https://basket.mediainaction.dev"
             }
           }
         }
       },
-      "Ordering": {
+      "Video": {
         "Destinations": {
           "destination1": {
             "Address": "https://localhost:44356",
             "MetaData": {
-              "PublicAddress": "https://ordering.eshoponabp.dev"
+              "PublicAddress": "https://video.mediainaction.dev"
             }
           }
         }
@@ -188,17 +188,17 @@
           "destination1": {
             "Address": "https://localhost:44358",
             "MetaData": {
-              "PublicAddress": "https://cmskit.eshoponabp.dev"
+              "PublicAddress": "https://cmskit.mediainaction.dev"
             }
           }
         }
       },
-      "Payment": {
+      "Trakt": {
         "Destinations": {
           "destination1": {
             "Address": "https://localhost:44357",
             "MetaData": {
-              "PublicAddress": "https://payment.eshoponabp.dev"
+              "PublicAddress": "https://payment.mediainaction.dev"
             }
           }
         }

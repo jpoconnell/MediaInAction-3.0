@@ -60,7 +60,10 @@
           "Microsoft.AspNetCore.Connections.Abstractions": "8.0.0.0",
           "Microsoft.AspNetCore.CookiePolicy": "8.0.0.0",
           "Microsoft.AspNetCore.Cors": "8.0.0.0",
+          "Microsoft.AspNetCore.Cryptography.Internal.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.0.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions.Reference": "8.0.0.0",
+          "Microsoft.AspNetCore.DataProtection.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.DataProtection.Extensions": "8.0.0.0",
           "Microsoft.AspNetCore.Diagnostics.Abstractions": "8.0.0.0",
           "Microsoft.AspNetCore.Diagnostics": "8.0.0.0",
@@ -148,6 +151,7 @@
           "Microsoft.Extensions.Features": "8.0.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions.Reference": "8.0.0.0",
           "Microsoft.Extensions.FileProviders.Composite.Reference": "8.0.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded.Reference": "8.0.0.0",
           "Microsoft.Extensions.FileProviders.Physical.Reference": "8.0.0.0",
           "Microsoft.Extensions.FileSystemGlobbing.Reference": "8.0.0.0",
           "Microsoft.Extensions.Hosting.Abstractions.Reference": "8.0.0.0",
@@ -299,6 +303,7 @@
           "System.Security.Cryptography.OpenSsl": "8.0.0.0",
           "System.Security.Cryptography.Primitives": "8.0.0.0",
           "System.Security.Cryptography.X509Certificates": "8.0.0.0",
+          "System.Security.Cryptography.Xml.Reference": "8.0.0.0",
           "System.Security": "4.0.0.0",
           "System.Security.Principal": "8.0.0.0",
           "System.Security.Principal.Windows.Reference": "8.0.0.0",
@@ -675,9 +680,6 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.524.22404"
           }
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
         }
       },
       "Microsoft.AspNetCore.DataProtection/8.0.5": {
@@ -695,9 +697,6 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.524.22404"
           }
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.DataProtection.dll": {}
         }
       },
       "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.5": {
@@ -706,9 +705,6 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.524.22404"
           }
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
         }
       },
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis/8.0.5": {
@@ -1242,9 +1238,6 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.524.22404"
           }
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
@@ -2392,9 +2385,6 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.524.21615"
           }
-        },
-        "compile": {
-          "lib/net8.0/System.Security.Cryptography.Xml.dll": {}
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
@@ -4225,9 +4215,27 @@
         },
         "compileOnly": true
       },
+      "Microsoft.AspNetCore.Cryptography.Internal.Reference/8.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions.Reference/8.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.DataProtection.Reference/8.0.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.DataProtection.dll": {}
         },
         "compileOnly": true
       },
@@ -4750,6 +4758,12 @@
       "Microsoft.Extensions.FileProviders.Composite.Reference/8.0.0.0": {
         "compile": {
           "Microsoft.Extensions.FileProviders.Composite.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Extensions.FileProviders.Embedded.Reference/8.0.0.0": {
+        "compile": {
+          "Microsoft.Extensions.FileProviders.Embedded.dll": {}
         },
         "compileOnly": true
       },
@@ -5656,6 +5670,12 @@
       "System.Security.Cryptography.X509Certificates/8.0.0.0": {
         "compile": {
           "System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.Security.Cryptography.Xml.Reference/8.0.0.0": {
+        "compile": {
+          "System.Security.Cryptography.Xml.dll": {}
         },
         "compileOnly": true
       },
@@ -7980,7 +8000,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.Cryptography.Internal.Reference/8.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions.Reference/8.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.DataProtection.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -8416,6 +8451,11 @@
       "sha512": ""
     },
     "Microsoft.Extensions.FileProviders.Composite.Reference/8.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.FileProviders.Embedded.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -9171,6 +9211,11 @@
       "sha512": ""
     },
     "System.Security.Cryptography.X509Certificates/8.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Xml.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

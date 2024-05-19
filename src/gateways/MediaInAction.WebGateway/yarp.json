@@ -7,13 +7,13 @@
           "Path": "/api/abp/{**catch-all}"
         }
       },
-      "EshopOnAbpLocalization": {
+      "MediaInActionLocalization": {
         "ClusterId": "Administration",
         "Match": {
           "Path": "/api/abp/application-localization"
         }
       },
-      "EshopOnAbpApplicationConfiguration": {
+      "MediaInActionApplicationConfiguration": {
         "ClusterId": "Administration",
         "Match": {
           "Path": "/api/abp/application-configuration"

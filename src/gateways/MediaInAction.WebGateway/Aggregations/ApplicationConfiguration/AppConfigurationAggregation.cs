@@ -10,7 +10,7 @@ namespace MediaInAction.WebGateway.Aggregations.ApplicationConfiguration;
 public class AppConfigurationAggregation : AggregateServiceBase<ApplicationConfigurationDto>,
     IAppConfigurationAggregation, ITransientDependency
 {
-    public string AppConfigRouteName => "EshopOnAbpApplicationConfiguration";
+    public string AppConfigRouteName => "MediaInActionApplicationConfiguration";
     public string AppConfigEndpoint => "api/abp/application-configuration";
 
     protected IAppConfigurationRemoteService AppConfigurationRemoteService { get; }

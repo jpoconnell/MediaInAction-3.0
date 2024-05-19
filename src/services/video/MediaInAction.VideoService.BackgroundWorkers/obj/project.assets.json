@@ -9348,20 +9348,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jeremiahoconnell/.nuget/packages/": {}
+    "/home/jerryocl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.2",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/MediaInAction.VideoService.BackgroundWorkers.csproj",
+      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/MediaInAction.VideoService.BackgroundWorkers.csproj",
       "projectName": "MediaInAction.VideoService.BackgroundWorkers",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/MediaInAction.VideoService.BackgroundWorkers.csproj",
-      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/obj/",
+      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/MediaInAction.VideoService.BackgroundWorkers.csproj",
+      "packagesPath": "/home/jerryocl/.nuget/packages/",
+      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -9374,14 +9374,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain/MediaInAction.VideoService.Domain.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain/MediaInAction.VideoService.Domain.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain/MediaInAction.VideoService.Domain.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Domain/MediaInAction.VideoService.Domain.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj"
+            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj": {
+              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj"
             }
           }
         }
@@ -9421,7 +9421,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

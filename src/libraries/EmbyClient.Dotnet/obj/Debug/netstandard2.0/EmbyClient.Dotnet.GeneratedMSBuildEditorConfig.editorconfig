@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = EmbyClient.Dotnet
-build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/
+build_property.ProjectDir = /home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/EmbyClient.Dotnet/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
