@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("This library allows you to connect to the delugeweb RPC API.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c3a4686c55a511c8d0335c0e2d9d99675fbe829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b11c65b6cfb83787b1fca2348c41e6a3219e32e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DelugeRPCClient.Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DelugeRPCClient.Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

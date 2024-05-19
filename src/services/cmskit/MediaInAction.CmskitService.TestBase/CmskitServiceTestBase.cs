@@ -6,7 +6,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.Testing;
 using Volo.Abp.Uow;
 
-namespace EShopOnAbp.CmskitService;
+namespace MediaInAction.CmskitService;
 
 /* All test classes are derived from this class, directly or indirectly. */
 public abstract class CmskitServiceTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule>

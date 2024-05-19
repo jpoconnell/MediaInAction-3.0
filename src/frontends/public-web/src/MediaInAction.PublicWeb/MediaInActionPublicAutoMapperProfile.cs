@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediaInAction.BasketService.Services;
-using MediaInAction.OrderingService.Orders;
-using MediaInAction.PaymentService.PaymentRequests;
+using MediaInAction.VideoService.Orders;
+using MediaInAction.TraktService.TraktRequests;
 using Volo.Abp.AutoMapper;
 
 namespace MediaInAction.PublicWeb
@@ -10,7 +10,7 @@ namespace MediaInAction.PublicWeb
     {
         public MediaInActionPublicAutoMapperProfile()
         {
-            CreateMap<BasketItemDto, PaymentRequestProductCreationDto>()
+            CreateMap<BasketItemDto, TraktRequestProductCreationDto>()
                 .ForMember(p => p.ReferenceId, opts => opts.MapFrom(p => p.ProductId.ToString()))
                 .ForMember(p => p.Code, opts => opts.MapFrom(p => p.ProductCode))
                 .ForMember(p => p.Name, opts => opts.MapFrom(p => p.ProductName))

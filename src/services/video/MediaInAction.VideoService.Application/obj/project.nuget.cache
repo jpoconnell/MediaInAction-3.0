@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zAwdzRfCrbjQR1CTwo6mRSARMGQyHQ1ZvPDnzv/JNpWENlVhjr0tznvGIARz3a4rbXwLHX2poZEKdrRl5mDnww==",
+  "dgSpecHash": "8hJ8m/bM1p/aYecdo8qXd5rmMIaxLJwzdeZQqWBYxuTb3aUipQr6xtHUbZlDdV52qvtT9QRXLZMBpKz1RJlJJA==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/MediaInAction.VideoService.Application.csproj",
   "expectedPackageFiles": [

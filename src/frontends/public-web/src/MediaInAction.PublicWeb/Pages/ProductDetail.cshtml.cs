@@ -1,5 +1,5 @@
-﻿using MediaInAction.CatalogService.Products;
-using MediaInAction.OrderingService.Orders;
+﻿using MediaInAction.FileService.Products;
+using MediaInAction.VideoService.Orders;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;

@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\shared\MediaInAction.Shared.Domain\MediaInAction.Shared.Domain.csproj" />
-    <ProjectReference Include="..\MediaInAction.DelugeService.Domain.Shared\MediaInAction.DelugeService.Domain.Shared.csproj" />
     <ProjectReference Include="..\MediaInAction.DelugeService.Domain\MediaInAction.DelugeService.Domain.csproj" />
     <ProjectReference Include="..\MediaInAction.DelugeService.Lib\MediaInAction.DelugeService.Lib.csproj" />
     <ProjectReference Include="..\MediaInAction.DelugeService.MongoDb\MediaInAction.DelugeService.MongoDb.csproj" />

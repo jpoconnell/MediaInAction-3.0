@@ -3,7 +3,7 @@
     const paymentMethod = $(".payment-list").find(".is-selected").attr('data-payment-method');
     abp.utils.setCookieValue("selected_payment_method", paymentMethod);
 
-    abp.widgets.PaymentWidget = function ($wrapper) {
+    abp.widgets.TraktWidget = function ($wrapper) {
         var widgetManager = $wrapper.data('abp-widget-manager');
 
         var init = function (filters) {

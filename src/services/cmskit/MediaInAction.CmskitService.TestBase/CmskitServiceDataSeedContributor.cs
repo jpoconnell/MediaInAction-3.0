@@ -2,7 +2,7 @@
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 
-namespace EShopOnAbp.CmskitService;
+namespace MediaInAction.CmskitService;
 
 public class CmskitServiceDataSeedContributor : IDataSeedContributor, ITransientDependency
 {

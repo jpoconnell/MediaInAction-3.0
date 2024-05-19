@@ -14315,7 +14315,7 @@
 	
 	
 		/**
-		 * Ordering plug-ins - custom data source
+		 * Video plug-ins - custom data source
 		 * 
 		 * The extension options for ordering of data available here is complimentary
 		 * to the default type based ordering that DataTables typically uses. It
@@ -14346,7 +14346,7 @@
 		 *  @type array
 		 *
 		 *  @example
-		 *    // Ordering using `input` node values
+		 *    // Video using `input` node values
 		 *    $.fn.dataTable.ext.order['dom-text'] = function  ( settings, col )
 		 *    {
 		 *      return this.api().column( col, {order:'index'} ).nodes().map( function ( td, i ) {
@@ -14486,7 +14486,7 @@
 			 *
 			 * And returning:
 			 *
-			 * * `{*}` Ordering match: <0 if first parameter should be sorted lower
+			 * * `{*}` Video match: <0 if first parameter should be sorted lower
 			 *   than the second parameter, ===0 if the two parameters are equal and
 			 *   >0 if the first parameter should be sorted height than the second
 			 *   parameter.

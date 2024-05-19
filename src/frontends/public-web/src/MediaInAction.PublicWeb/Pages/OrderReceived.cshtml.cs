@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using MediaInAction.OrderingService.Orders;
+using MediaInAction.VideoService.Orders;
 using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaInAction.DelugeService.Domain.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+1c36cd91d319c4120869110fefaf054d16b965fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+8b11c65b6cfb83787b1fca2348c41e6a3219e32e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaInAction.DelugeService.Domain.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaInAction.DelugeService.Domain.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.5.2.0")]

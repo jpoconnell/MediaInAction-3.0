@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d7xwCuGyFy2s63mVLpTEfBAxYyW2lhuFm01izDhqETisjTk/o8hTpOj4SI0c9ymCzsfO6YO3hF+mh0sWvWMljw==",
+  "dgSpecHash": "2PxEM8R4g4n+TkCA5f0BskPUVIjUEL5ws1ZxIpyr1t9nQ8NrxGLBHp+r60+uc51WjZrogmtDb5Sgq9THZlnR2w==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.MongoDb.Tests/MediaInAction.TraktService.MongoDb.Tests.csproj",
   "expectedPackageFiles": [

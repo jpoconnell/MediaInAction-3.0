@@ -1,14 +1,14 @@
 ﻿using MediaInAction.BasketService;
-using MediaInAction.CatalogService;
+using MediaInAction.FileService;
 using MediaInAction.CmskitService;
 using MediaInAction.Localization;
-using MediaInAction.OrderingService;
-using MediaInAction.PaymentService;
-using MediaInAction.PaymentService.PaymentMethods;
+using MediaInAction.VideoService;
+using MediaInAction.TraktService;
+using MediaInAction.TraktService.TraktMethods;
 using MediaInAction.PublicWeb.AnonymousUser;
 using MediaInAction.PublicWeb.Components.Toolbar.Cart;
 using MediaInAction.PublicWeb.Menus;
-using MediaInAction.PublicWeb.PaymentMethods;
+using MediaInAction.PublicWeb.TraktMethods;
 using MediaInAction.Shared.Hosting.AspNetCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -72,11 +72,11 @@ namespace MediaInAction.PublicWeb;
     typeof(AbpAccountHttpApiClientModule),
     typeof(MediaInActionSharedHostingAspNetCoreModule),
     typeof(MediaInActionSharedLocalizationModule),
-    typeof(CatalogServiceHttpApiClientModule),
+    typeof(FileServiceHttpApiClientModule),
     typeof(BasketServiceContractsModule),
-    typeof(OrderingServiceHttpApiClientModule),
+    typeof(VideoServiceHttpApiClientModule),
     typeof(AbpAspNetCoreSignalRModule),
-    typeof(PaymentServiceHttpApiClientModule),
+    typeof(TraktServiceHttpApiClientModule),
     typeof(AbpAutoMapperModule),
     typeof(CmskitServiceHttpApiClientModule),
     typeof(CmsKitPublicWebModule)
@@ -151,7 +151,7 @@ public class MediaInActionPublicWebModule : AbpModule
 
         Configure<AppUrlOptions>(options => { options.Applications["MVC"].RootUrl = configuration["App:SelfUrl"]; });
 
-        ConfigurePayment(configuration);
+        ConfigureTrakt(configuration);
 
         context.Services.AddAuthentication(options =>
             {
@@ -338,17 +338,17 @@ public class MediaInActionPublicWebModule : AbpModule
         });
     }
 
-    private void ConfigurePayment(IConfiguration configuration)
+    private void ConfigureTrakt(IConfiguration configuration)
     {
-        Configure<MediaInActionPublicWebPaymentOptions>(options =>
+        Configure<MediaInActionPublicWebTraktOptions>(options =>
         {
-            options.PaymentSuccessfulCallbackUrl =
-                configuration["App:SelfUrl"].EnsureEndsWith('/') + "PaymentCompleted";
+            options.TraktSuccessfulCallbackUrl =
+                configuration["App:SelfUrl"].EnsureEndsWith('/') + "TraktCompleted";
         });
 
-        Configure<PaymentMethodUiOptions>(options =>
+        Configure<TraktMethodUiOptions>(options =>
         {
-            options.ConfigureIcon(PaymentMethodNames.PayPal, "fa-cc-paypal paypal");
+            options.ConfigureIcon(TraktMethodNames.PayPal, "fa-cc-paypal paypal");
         });
     }
 

@@ -274,14 +274,12 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.Tests.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.TestBase.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.Tests.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.TraktService.TestBase.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/obj/Debug/net8.0/MediaInAction.TraktService.Domain.Tests.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/obj/Debug/net8.0/MediaInAction.TraktService.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Tests/obj/Debug/net8.0/MediaInAction.TraktService.Domain.Tests.AssemblyInfoInputs.cache

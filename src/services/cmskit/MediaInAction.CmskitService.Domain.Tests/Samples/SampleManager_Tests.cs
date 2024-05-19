@@ -1,4 +1,4 @@
-﻿namespace EShopOnAbp.CmskitService.Samples;
+﻿namespace MediaInAction.CmskitService.Samples;
 
 public class SampleManager_Tests : CmskitServiceDomainTestBase
 {

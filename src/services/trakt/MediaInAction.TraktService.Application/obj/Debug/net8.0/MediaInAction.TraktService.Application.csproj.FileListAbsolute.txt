@@ -110,7 +110,6 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.Features.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
@@ -307,13 +306,11 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Application.Contracts.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Application.Contracts.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.Shared.Integration.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/obj/Debug/net8.0/MediaInAction.TraktService.Application.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/obj/Debug/net8.0/MediaInAction.TraktService.Application.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Application/obj/Debug/net8.0/MediaInAction.TraktService.Application.AssemblyInfoInputs.cache

@@ -10,14 +10,14 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Application.Contracts.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.Shared.Hosting.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Application.Contracts.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.DelugeService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.EmbyService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.FileService.Domain.Shared.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.Shared.Hosting.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/obj/Debug/net8.0/MediaInAction.VideoService.Application.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/obj/Debug/net8.0/MediaInAction.VideoService.Application.GeneratedMSBuildEditorConfig.editorconfig

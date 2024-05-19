@@ -248,14 +248,14 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.324.11615"
+            "fileVersion": "8.0.524.22404"
           }
         }
       },
@@ -578,14 +578,14 @@
           }
         }
       },
-      "Serilog.Sinks.Console/5.0.0": {
+      "Serilog.Sinks.Console/5.0.1": {
         "dependencies": {
           "Serilog": "3.1.1"
         },
         "runtime": {
           "lib/net7.0/Serilog.Sinks.Console.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.0"
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
           }
         }
       },
@@ -1344,7 +1344,7 @@
       },
       "Volo.Abp.ExceptionHandling/8.1.3": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Volo.Abp.Data": "8.1.3",
           "Volo.Abp.Localization": "8.1.3"
         },
@@ -1632,7 +1632,7 @@
       "Volo.Abp.VirtualFileSystem/8.1.3": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Composite": "8.0.0",
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
           "Volo.Abp.Core": "8.1.3"
         },
@@ -1683,7 +1683,7 @@
       },
       "MediaInAction.DelugeService.Domain.Shared/1.5.2": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Volo.Abp.Validation": "8.1.3"
         },
         "runtime": {
@@ -1703,7 +1703,7 @@
         "dependencies": {
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.Async": "1.5.0",
-          "Serilog.Sinks.Console": "5.0.0",
+          "Serilog.Sinks.Console": "5.0.1",
           "Serilog.Sinks.File": "5.0.0",
           "Volo.Abp.Autofac": "8.1.3",
           "Volo.Abp.Data": "8.1.3"
@@ -1930,12 +1930,12 @@
       "path": "microsoft.extensions.fileproviders.composite/8.0.0",
       "hashPath": "microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YipqKixNktNlKij9BGUIBIVj4bXj3lOcvVoe12D3OVVrjFI8atExKU4HLGOJGOi5wCP4APD4cq4mIro38/cJTw==",
-      "path": "microsoft.extensions.fileproviders.embedded/8.0.3",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.8.0.3.nupkg.sha512"
+      "sha512": "sha512-j0zzS7NPhux2rqbCIjrSV/MW0WPNSd49Vvs+j9+ALcTGVrRR48mPmIuBVpeaNO/flTFkN2fTZCLyom403KkzNg==",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.5",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
       "type": "package",
@@ -2259,12 +2259,12 @@
       "path": "serilog.sinks.async/1.5.0",
       "hashPath": "serilog.sinks.async.1.5.0.nupkg.sha512"
     },
-    "Serilog.Sinks.Console/5.0.0": {
+    "Serilog.Sinks.Console/5.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IZ6bn79k+3SRXOBpwSOClUHikSkp2toGPCZ0teUkscv4dpDg9E2R2xVsNkLmwddE4OpNVO3N0xiYsAH556vN8Q==",
-      "path": "serilog.sinks.console/5.0.0",
-      "hashPath": "serilog.sinks.console.5.0.0.nupkg.sha512"
+      "sha512": "sha512-6Jt8jl9y2ey8VV7nVEUAyjjyxjAQuvd5+qj4XYAT9CwcsvR70HHULGBeD+K2WCALFXf7CFsNQT4lON6qXcu2AA==",
+      "path": "serilog.sinks.console/5.0.1",
+      "hashPath": "serilog.sinks.console.5.0.1.nupkg.sha512"
     },
     "Serilog.Sinks.File/5.0.0": {
       "type": "package",

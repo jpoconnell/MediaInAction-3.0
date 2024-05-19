@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hOProPmVoL7ReosYWpisEh9swIzEttKZLysc9SQUb6NDiaRDAfV7lY0ft3uAJRpRSmnBbHjMKPBkOakHZwXmpQ==",
+  "dgSpecHash": "5buxkwQx5gtsIoXFSnLXDbRKu2CTZoo2m0Q3pP7zpUsEcsGBzrOHnEGmQMT8npX8cyJQJ2r0bpbOnV33lNeBvA==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Gateways/MediaInAction.Shared.Hosting.Gateways.csproj",
   "expectedPackageFiles": [
@@ -91,7 +91,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/serilog.formatting.compact/2.0.0/serilog.formatting.compact.2.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.settings.configuration/8.0.0/serilog.settings.configuration.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

@@ -6,7 +6,7 @@ using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Sqlite;
 using Volo.Abp.Modularity;
 
-namespace EShopOnAbp.CmskitService.EntityFrameworkCore;
+namespace MediaInAction.CmskitService.EntityFrameworkCore;
 
 [DependsOn(
     typeof(CmskitServiceTestBaseModule),

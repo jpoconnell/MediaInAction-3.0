@@ -7,14 +7,12 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.Lib.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.Shared.Integration.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.Lib.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.TraktService.MongoDb.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/obj/Debug/net8.0/MediaInAction.TraktService.BackgroundJobs.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/obj/Debug/net8.0/MediaInAction.TraktService.BackgroundJobs.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.BackgroundJobs/obj/Debug/net8.0/MediaInAction.TraktService.BackgroundJobs.AssemblyInfoInputs.cache

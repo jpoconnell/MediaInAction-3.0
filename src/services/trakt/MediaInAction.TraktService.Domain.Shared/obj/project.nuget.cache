@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fO/G4D9hBU9VAE75mjhExuB9KWuIfnZoLQPdvzh/OvVaxpnyB+L077KddMyu1+WnFfC7FaUb1ydAFRfUHr4qOA==",
+  "dgSpecHash": "WIzYzGmCpEKrUkG6qS0sxRWZelzFLYeQv6+dpQ+f1WrApfSY23WRw4NFNKwfNkZ7g6PWUb1e93LrFUtcBEM2kw==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain.Shared/MediaInAction.TraktService.Domain.Shared.csproj",
   "expectedPackageFiles": [

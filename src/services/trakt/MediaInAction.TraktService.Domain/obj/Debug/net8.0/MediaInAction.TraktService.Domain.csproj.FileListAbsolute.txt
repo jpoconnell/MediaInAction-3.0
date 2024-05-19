@@ -3,10 +3,8 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.TraktService.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.Shared.Domain.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.TraktService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.Shared.Domain.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/bin/Debug/net8.0/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/obj/Debug/net8.0/MediaInAction.TraktService.Domain.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/obj/Debug/net8.0/MediaInAction.TraktService.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.Domain/obj/Debug/net8.0/MediaInAction.TraktService.Domain.AssemblyInfoInputs.cache

@@ -3,8 +3,7 @@
 namespace MediaInAction.FileService
 {
     [DependsOn(
-        typeof(FileServiceApplicationModule),
-        typeof(FileServiceDomainTestModule)
+        typeof(FileServiceApplicationModule)
         )]
     public class FileServiceApplicationTestModule : AbpModule
     {

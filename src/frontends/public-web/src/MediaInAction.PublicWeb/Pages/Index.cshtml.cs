@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using MediaInAction.CatalogService.Products;
+using MediaInAction.FileService.Products;
 using Microsoft.AspNetCore.Authentication;
 using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 

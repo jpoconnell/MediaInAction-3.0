@@ -1,12 +1,12 @@
 ﻿@page "{orderNo:int}"
 @using System.Globalization
 @using MediaInAction.Localization
-@using MediaInAction.PublicWeb.PaymentMethods
+@using MediaInAction.PublicWeb.TraktMethods
 @using Microsoft.Extensions.Localization
 @using Microsoft.Extensions.Options
 @model MediaInAction.PublicWeb.Pages.OrderReceivedModel
 @inject IStringLocalizer<MediaInActionResource> L
-@inject IOptions<PaymentMethodUiOptions> PaymentMethodUiOptions
+@inject IOptions<TraktMethodUiOptions> TraktMethodUiOptions
 @{
     decimal orderTotal = Model.ReceivedOrder.Items.Sum(q => q.UnitPrice * q.Units);
     string orderTotalString = orderTotal.ToString("C", new CultureInfo("en-US")); // We work with USD any ways
@@ -18,7 +18,7 @@
 }
 
 @{
-    var paymentIcon = PaymentMethodUiOptions.Value.Icons.GetValueOrDefault(Model.ReceivedOrder.PaymentMethod, PaymentMethodUiOptions.Value.DefaultIcon);
+    var paymentIcon = TraktMethodUiOptions.Value.Icons.GetValueOrDefault(Model.ReceivedOrder.TraktMethod, TraktMethodUiOptions.Value.DefaultIcon);
 }
 <abp-row class="justify-content-center p-5">
     <abp-card class="col-lg-10 col-md-10 col-sm-12 shadow">

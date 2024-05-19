@@ -24,9 +24,9 @@ COPY "shared/MediaInAction.Shared.Localization/MediaInAction.Shared.Localization
 COPY "services/administration/src/MediaInAction.AdministrationService.HttpApi.Host/MediaInAction.AdministrationService.HttpApi.Host.csproj" "services/administration/src/MediaInAction.AdministrationService.HttpApi.Host/MediaInAction.AdministrationService.HttpApi.Host.csproj"
 COPY "services/identity/src/MediaInAction.IdentityService.HttpApi.Host/MediaInAction.IdentityService.HttpApi.Host.csproj" "services/identity/src/MediaInAction.IdentityService.HttpApi.Host/MediaInAction.IdentityService.HttpApi.Host.csproj"
 COPY "services/basket/src/MediaInAction.BasketService/MediaInAction.BasketService.csproj" "services/basket/src/MediaInAction.BasketService/MediaInAction.BasketService.csproj"
-COPY "services/ordering/src/MediaInAction.OrderingService.HttpApi.Host/MediaInAction.OrderingService.HttpApi.Host.csproj" "services/ordering/src/MediaInAction.OrderingService.HttpApi.Host/MediaInAction.OrderingService.HttpApi.Host.csproj"
-COPY "services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/MediaInAction.CatalogService.HttpApi.Host.csproj" "services/catalog/src/MediaInAction.CatalogService.HttpApi.Host/MediaInAction.CatalogService.HttpApi.Host.csproj"
-COPY "services/payment/src/MediaInAction.PaymentService.HttpApi.Host/MediaInAction.PaymentService.HttpApi.Host.csproj" "services/payment/src/MediaInAction.PaymentService.HttpApi.Host/MediaInAction.PaymentService.HttpApi.Host.csproj"
+COPY "services/ordering/src/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj" "services/ordering/src/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj"
+COPY "services/File/src/MediaInAction.FileService.HttpApi.Host/MediaInAction.FileService.HttpApi.Host.csproj" "services/File/src/MediaInAction.FileService.HttpApi.Host/MediaInAction.FileService.HttpApi.Host.csproj"
+COPY "services/payment/src/MediaInAction.TraktService.HttpApi.Host/MediaInAction.TraktService.HttpApi.Host.csproj" "services/payment/src/MediaInAction.TraktService.HttpApi.Host/MediaInAction.TraktService.HttpApi.Host.csproj"
 COPY "services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host/MediaInAction.CmskitService.HttpApi.Host.csproj" "services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host/MediaInAction.CmskitService.HttpApi.Host.csproj"
 
 # Gateways

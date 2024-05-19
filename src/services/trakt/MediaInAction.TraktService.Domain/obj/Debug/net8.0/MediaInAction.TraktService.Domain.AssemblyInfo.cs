@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaInAction.TraktService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+9945b6703843f59cb1da965b2720efe645c1a3bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+8b11c65b6cfb83787b1fca2348c41e6a3219e32e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaInAction.TraktService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaInAction.TraktService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.5.2.0")]

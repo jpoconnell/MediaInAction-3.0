@@ -22,6 +22,6 @@ public class BasketModel : AbpPageModel
             return Challenge();
         }
 
-        return RedirectToPage("Payment");
+        return RedirectToPage("Trakt");
     }
 }

@@ -26,10 +26,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\shared\MediaInAction.Shared.Hosting.AspNetCore\MediaInAction.Shared.Hosting.AspNetCore.csproj" />
     <ProjectReference Include="..\..\..\..\shared\MediaInAction.Shared.Localization\MediaInAction.Shared.Localization.csproj" />
-    <ProjectReference Include="..\..\..\..\services\catalog\src\MediaInAction.CatalogService.HttpApi.Client\MediaInAction.CatalogService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\File\src\MediaInAction.FileService.HttpApi.Client\MediaInAction.FileService.HttpApi.Client.csproj" />
     <ProjectReference Include="..\..\..\..\services\basket\src\MediaInAction.BasketService.Contracts\MediaInAction.BasketService.Contracts.csproj" />
-    <ProjectReference Include="..\..\..\..\services\payment\src\MediaInAction.PaymentService.HttpApi.Client\MediaInAction.PaymentService.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\..\..\services\ordering\src\MediaInAction.OrderingService.HttpApi.Client\MediaInAction.OrderingService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\payment\src\MediaInAction.TraktService.HttpApi.Client\MediaInAction.TraktService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\ordering\src\MediaInAction.VideoService.HttpApi.Client\MediaInAction.VideoService.HttpApi.Client.csproj" />
     <ProjectReference Include="..\..\..\..\services\cmskit\src\MediaInAction.CmskitService.HttpApi.Client\MediaInAction.CmskitService.HttpApi.Client.csproj" />
   </ItemGroup>
 

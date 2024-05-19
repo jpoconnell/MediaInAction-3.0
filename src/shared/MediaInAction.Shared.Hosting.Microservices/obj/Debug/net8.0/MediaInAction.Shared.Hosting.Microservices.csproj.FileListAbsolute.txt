@@ -320,4 +320,3 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/obj/Debug/net8.0/refint/MediaInAction.Shared.Hosting.Microservices.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/obj/Debug/net8.0/MediaInAction.Shared.Hosting.Microservices.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/obj/Debug/net8.0/ref/MediaInAction.Shared.Hosting.Microservices.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll

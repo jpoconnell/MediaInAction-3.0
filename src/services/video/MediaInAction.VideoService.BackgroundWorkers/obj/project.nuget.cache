@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jEZbVO0M9Aecs+mUURQtCu66Kfi3XMrQBDepzilv48Ipo9P8XlrBjqvJzmvORUfMy2/8fLhNKqOPjLpR5jj70A==",
+  "dgSpecHash": "XbEih+P//i8GDX8kSyVsDN01/JYywoGyCBd1IBHUCxRGNywT5e+McwSFzY01QRqpAv9fSOqNhPdORCN79wkc0A==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundWorkers/MediaInAction.VideoService.BackgroundWorkers.csproj",
   "expectedPackageFiles": [

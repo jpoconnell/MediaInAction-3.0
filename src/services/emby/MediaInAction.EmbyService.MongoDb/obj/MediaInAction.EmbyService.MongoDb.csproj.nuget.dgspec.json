@@ -49,7 +49,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.Ddd.Application.Contracts": {
               "target": "Package",
@@ -329,7 +329,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",

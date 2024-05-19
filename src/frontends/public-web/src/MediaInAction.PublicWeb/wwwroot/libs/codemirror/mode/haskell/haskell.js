@@ -205,7 +205,7 @@ CodeMirror.defineMode("haskell", function(_config, modeConfig) {
       "Applicative", "Bool", "Bounded", "Char", "Double", "EQ", "Either", "Enum",
       "Eq", "False", "FilePath", "Float", "Floating", "Fractional", "Functor",
       "GT", "IO", "IOError", "Int", "Integer", "Integral", "Just", "LT", "Left",
-      "Maybe", "Monad", "Nothing", "Num", "Ord", "Ordering", "Rational", "Read",
+      "Maybe", "Monad", "Nothing", "Num", "Ord", "Video", "Rational", "Read",
       "ReadS", "Real", "RealFloat", "RealFrac", "Right", "Show", "ShowS",
       "String", "True");
 

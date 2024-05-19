@@ -1,4 +1,4 @@
-﻿using MediaInAction.PaymentService.PaymentRequests;
+﻿using MediaInAction.TraktService.TraktRequests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,41 +8,41 @@ using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 namespace MediaInAction.PublicWeb.Pages;
 
 [Authorize]
-public class PaymentCompletedModel : AbpPageModel
+public class TraktCompletedModel : AbpPageModel
 {
-    private readonly IPaymentRequestAppService _paymentRequestAppService;
+    private readonly ITraktRequestAppService _paymentRequestAppService;
 
-    public PaymentCompletedModel(IPaymentRequestAppService paymentRequestAppService)
+    public TraktCompletedModel(ITraktRequestAppService paymentRequestAppService)
     {
         _paymentRequestAppService = paymentRequestAppService;
     }
 
     [BindProperty(SupportsGet = true)] public string Token { get; set; }
 
-    public PaymentRequestDto PaymentRequest { get; private set; }
+    public TraktRequestDto TraktRequest { get; private set; }
 
     public bool IsSuccessful { get; private set; }
 
     public async Task<IActionResult> OnGetAsync()
     {
-        if (!HttpContext.Request.Cookies.TryGetValue(MediaInActionPaymentConsts.PaymentMethodCookie,
-                out var selectedPaymentMethod))
+        if (!HttpContext.Request.Cookies.TryGetValue(MediaInActionTraktConsts.TraktMethodCookie,
+                out var selectedTraktMethod))
         {
             throw new InvalidOperationException("A payment type must be selected!");
         }
 
-        PaymentRequest = await _paymentRequestAppService.CompleteAsync(
+        TraktRequest = await _paymentRequestAppService.CompleteAsync(
             // TODO: Use string name
-            selectedPaymentMethod,
-            new PaymentRequestCompleteInputDto() { Token = Token });
+            selectedTraktMethod,
+            new TraktRequestCompleteInputDto() { Token = Token });
 
-        IsSuccessful = PaymentRequest.State == PaymentRequestState.Completed;
+        IsSuccessful = TraktRequest.State == TraktRequestState.Completed;
 
         if (IsSuccessful)
         {
             // Remove cookie so that can be set again when default payment type is set
-            HttpContext.Response.Cookies.Delete(MediaInActionPaymentConsts.PaymentMethodCookie);
-            return RedirectToPage("OrderReceived", new { orderNo = PaymentRequest.OrderNo });
+            HttpContext.Response.Cookies.Delete(MediaInActionTraktConsts.TraktMethodCookie);
+            return RedirectToPage("OrderReceived", new { orderNo = TraktRequest.OrderNo });
         }
 
         return Page();

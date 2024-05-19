@@ -12,7 +12,7 @@ public class UserAddressProvider : ITransientDependency
             new()
             {
                 Id = 1,
-                Type = MediaInActionPaymentConsts.DemoAddressTypes.Home,
+                Type = MediaInActionTraktConsts.DemoAddressTypes.Home,
                 Street = "Cecilia Chapman Senior 711-2880 Nulla St.",
                 City = "Mankato Mississippi",
                 Country = "USA",
@@ -22,7 +22,7 @@ public class UserAddressProvider : ITransientDependency
             new()
             {
                 Id = 2,
-                Type = MediaInActionPaymentConsts.DemoAddressTypes.Work,
+                Type = MediaInActionTraktConsts.DemoAddressTypes.Work,
                 Street = "Yeşilköy Serbest Bölge Mah. E-Blok Sk. Bakırköy",
                 City = "İstanbul",
                 Country = "Turkey",

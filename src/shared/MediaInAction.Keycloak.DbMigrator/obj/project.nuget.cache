@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J5XtO80kIO7YCTCBypXrJKAmPRXPm2QQRAk0IOlOLsbscn/SQVcAmLnuw0LjJ8Z1P6DMQ45y0YFZyGpOq0tSJg==",
+  "dgSpecHash": "GkxD5X7QTFy3+3TJ75GS4R0gqjiiJubECBSMz3XHnhVFt9y6jeWNOjhZ3mbnchvNr20tLZthITYf/wKuf+SIbA==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Keycloak.DbMigrator/MediaInAction.Keycloak.DbMigrator.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.extensions.logging/8.0.0/serilog.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",

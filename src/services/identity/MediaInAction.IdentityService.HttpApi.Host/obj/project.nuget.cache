@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ag4nudrcaf0F+Aw9/wYeORh6THVP5uIF3Gapmk+YpHpHorwtXsKIdb/2mWnmt8el2ZYpZhRbDDNcsR+plLOA8Q==",
+  "dgSpecHash": "xQh3pIDKkZ0prROS8tkN4HV5u3DZsE+LM/XBNWf4qwBg6cxaZZwzl/4m8JpgzCmpxEsYBRoWgc3ETKRZJMChVQ==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Host/MediaInAction.IdentityService.HttpApi.Host.csproj",
   "expectedPackageFiles": [
@@ -146,7 +146,7 @@
     "/Users/jeremiahoconnell/.nuget/packages/serilog.formatting.compact/2.0.0/serilog.formatting.compact.2.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.settings.configuration/8.0.0/serilog.settings.configuration.8.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.async/1.5.0/serilog.sinks.async.1.5.0.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",

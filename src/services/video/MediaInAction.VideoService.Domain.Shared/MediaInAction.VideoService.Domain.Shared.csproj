@@ -17,7 +17,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\shared\MediaInAction.Shared.Domain\MediaInAction.Shared.Domain.csproj" />
     <ProjectReference Include="..\..\emby\MediaInAction.EmbyService.Domain.Shared\MediaInAction.EmbyService.Domain.Shared.csproj" />
-    <ProjectReference Include="..\..\deluge\MediaInAction.DelugeService.Domain.Shared\MediaInAction.DelugeService.Domain.Shared.csproj" />
     <ProjectReference Include="..\..\trakt\MediaInAction.TraktService.Domain.Shared\MediaInAction.TraktService.Domain.Shared.csproj" />
     <ProjectReference Include="..\..\file\MediaInAction.FileService.Domain.Shared\MediaInAction.FileService.Domain.Shared.csproj" />
     <ProjectReference Include="..\..\deluge\MediaInAction.DelugeService.Domain.Shared\MediaInAction.DelugeService.Domain.Shared.csproj" />

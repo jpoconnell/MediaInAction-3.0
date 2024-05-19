@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>EShopOnAbp.CmskitService</RootNamespace>
+    <RootNamespace>MediaInAction.CmskitService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EShopOnAbp.CmskitService.EntityFrameworkCore.Tests\EShopOnAbp.CmskitService.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="..\MediaInAction.CmskitService.EntityFrameworkCore.Tests\MediaInAction.CmskitService.EntityFrameworkCore.Tests.csproj" />
   </ItemGroup>
 
 </Project>

@@ -886,3 +886,19 @@ System.IO.IOException: The encryption operation failed, see inner exception.
 2024-05-14 15:59:03.960 -05:00 [DBG] Shutting down threadpool...
 2024-05-14 15:59:03.960 -05:00 [DBG] Shutdown of threadpool complete.
 2024-05-14 15:59:03.964 -05:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2024-05-19 13:05:55.596 -05:00 [INF] Starting MediaInAction.FileService.HttpApi.Host.
+2024-05-19 13:05:57.076 -05:00 [FTL] MediaInAction.FileService.HttpApi.Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServicesAsync phase of the module MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule, MediaInAction.AdministrationService.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.EntityFrameworkCore, Version=8.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+
+File name: 'Microsoft.EntityFrameworkCore, Version=8.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'
+   at MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.Modularity.AbpModule.ConfigureServicesAsync(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServicesAsync()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServicesAsync()
+   at Volo.Abp.AbpApplicationFactory.CreateAsync[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplicationAsync[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.WebApplicationBuilderExtensions.AddApplicationAsync[TStartupModule](WebApplicationBuilder builder, Action`1 optionsAction)
+   at MediaInAction.Shared.Hosting.AspNetCore.ApplicationBuilderHelper.BuildApplicationAsync[TStartupModule](String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/ApplicationBuilderHelper.cs:line 28
+   at MediaInAction.FileService.Program.Main(String[] args) in /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/Program.cs:line 21

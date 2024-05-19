@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Modularity;
 
-namespace EShopOnAbp.CmskitService;
+namespace MediaInAction.CmskitService;
 
 [DependsOn(
     typeof(CmskitServiceApplicationModule),

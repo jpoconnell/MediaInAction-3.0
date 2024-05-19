@@ -1,8 +1,8 @@
 ﻿namespace MediaInAction.PublicWeb
 {
-    public class MediaInActionPublicWebPaymentOptions
+    public class MediaInActionPublicWebTraktOptions
     {
-        public string PaymentSuccessfulCallbackUrl { get; set; }
-        public string PaymentFailureCallbackUrl { get; set; }
+        public string TraktSuccessfulCallbackUrl { get; set; }
+        public string TraktFailureCallbackUrl { get; set; }
     }
 }

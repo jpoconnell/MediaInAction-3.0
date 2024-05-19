@@ -1,5 +1,5 @@
-﻿using MediaInAction.PaymentService.PaymentMethods;
-using MediaInAction.PublicWeb.PaymentMethods;
+﻿using MediaInAction.TraktService.TraktMethods;
+using MediaInAction.PublicWeb.TraktMethods;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,25 +8,25 @@ using Volo.Abp.DependencyInjection;
 
 namespace MediaInAction.PublicWeb.ServiceProviders;
 
-public class PaymentMethodProvider : ITransientDependency
+public class TraktMethodProvider : ITransientDependency
 {
-    protected IPaymentMethodAppService PaymentMethodAppService { get; }
+    protected ITraktMethodAppService TraktMethodAppService { get; }
 
-    private readonly PaymentMethodUiOptions _options;
+    private readonly TraktMethodUiOptions _options;
 
-    public PaymentMethodProvider(
-        IPaymentMethodAppService paymentMethodAppService,
-        IOptions<PaymentMethodUiOptions> options)
+    public TraktMethodProvider(
+        ITraktMethodAppService paymentMethodAppService,
+        IOptions<TraktMethodUiOptions> options)
     {
-        PaymentMethodAppService = paymentMethodAppService;
+        TraktMethodAppService = paymentMethodAppService;
         _options = options.Value;
     }
 
-    public async Task<List<PaymentMethodViewModel>> GetPaymentMethodsAsync()
+    public async Task<List<TraktMethodViewModel>> GetTraktMethodsAsync()
     {
-        var paymentMethods = await PaymentMethodAppService.GetListAsync();
+        var paymentMethods = await TraktMethodAppService.GetListAsync();
 
-        return paymentMethods.Select((pm, i) => new PaymentMethodViewModel
+        return paymentMethods.Select((pm, i) => new TraktMethodViewModel
         {
             Name = pm.Name,
             IsDefault = i == 0,
@@ -35,7 +35,7 @@ public class PaymentMethodProvider : ITransientDependency
     }
 }
 
-public class PaymentMethodViewModel
+public class TraktMethodViewModel
 {
     public string Name { get; set; }
     public string IconCss { get; set; }

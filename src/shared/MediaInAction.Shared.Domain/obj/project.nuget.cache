@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5w2+Wa7TKhEY0fJ/l2WKZv5wrTu8dtzgwYpQegMFSevJV1o8txysG+XYfUIdyqXlbuWFrhS5wMSWeTUnruxMXQ==",
+  "dgSpecHash": "DRbYBl1GvgLZ5YjOpg6JBOc+kJo3NI9HwDansoSjPtdsn87Ec9jP7YZqYBKsbprYYKWQjahbr/ObmEEebcOXcQ==",
   "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/MediaInAction.Shared.Domain.csproj",
   "expectedPackageFiles": [

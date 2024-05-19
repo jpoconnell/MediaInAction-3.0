@@ -1,9 +1,9 @@
 ﻿namespace MediaInAction.PublicWeb
 {
-    public static class MediaInActionPaymentConsts
+    public static class MediaInActionTraktConsts
     {
         public const string Currency = "USD";
-        public const string PaymentMethodCookie = "selected_payment_method"; // Setted in payment-widget.js
+        public const string TraktMethodCookie = "selected_payment_method"; // Setted in payment-widget.js
 
         public static class DemoAddressTypes
         {

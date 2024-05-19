@@ -10,7 +10,7 @@
       "MediaInAction.TraktService.Domain.Shared/1.5.2": {
         "dependencies": {
           "MediaInAction.Shared.Domain": "1.5.2",
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Volo.Abp.Validation": "8.1.3"
         },
         "runtime": {
@@ -192,14 +192,14 @@
           }
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.324.11615"
+            "fileVersion": "8.0.524.22404"
           }
         }
       },
@@ -908,7 +908,7 @@
       "Volo.Abp.VirtualFileSystem/8.1.3": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Composite": "8.0.0",
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
           "Volo.Abp.Core": "8.1.3"
         },
@@ -921,7 +921,7 @@
       },
       "MediaInAction.Shared.Domain/1.5.2": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "System.ComponentModel.Annotations": "5.0.0",
           "Volo.Abp.Ddd.Application.Contracts": "8.1.3",
           "Volo.Abp.Validation": "8.1.3"
@@ -1043,12 +1043,12 @@
       "path": "microsoft.extensions.fileproviders.composite/8.0.0",
       "hashPath": "microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YipqKixNktNlKij9BGUIBIVj4bXj3lOcvVoe12D3OVVrjFI8atExKU4HLGOJGOi5wCP4APD4cq4mIro38/cJTw==",
-      "path": "microsoft.extensions.fileproviders.embedded/8.0.3",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.8.0.3.nupkg.sha512"
+      "sha512": "sha512-j0zzS7NPhux2rqbCIjrSV/MW0WPNSd49Vvs+j9+ALcTGVrRR48mPmIuBVpeaNO/flTFkN2fTZCLyom403KkzNg==",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.5",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
       "type": "package",

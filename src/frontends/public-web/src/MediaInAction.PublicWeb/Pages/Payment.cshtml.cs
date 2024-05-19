@@ -1,4 +1,4 @@
-﻿using MediaInAction.PaymentService.PaymentRequests;
+﻿using MediaInAction.TraktService.TraktRequests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediaInAction.BasketService.Services;
-using MediaInAction.OrderingService.Orders;
+using MediaInAction.VideoService.Orders;
 using MediaInAction.PublicWeb.ServiceProviders;
 using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
 using Volo.Abp.Users;
@@ -15,37 +15,37 @@ using Volo.Abp.Users;
 namespace MediaInAction.PublicWeb.Pages;
 
 [Authorize]
-public class PaymentModel : AbpPageModel
+public class TraktModel : AbpPageModel
 {
-    private readonly IPaymentRequestAppService _paymentRequestAppService;
+    private readonly ITraktRequestAppService _paymentRequestAppService;
     private readonly IOrderAppService _orderAppService;
     private readonly UserBasketProvider _userBasketProvider;
     private readonly UserAddressProvider _userAddressProvider;
-    private readonly MediaInActionPublicWebPaymentOptions _publicWebPaymentOptions;
+    private readonly MediaInActionPublicWebTraktOptions _publicWebTraktOptions;
 
-    public PaymentModel(
-        IPaymentRequestAppService paymentRequestAppService,
+    public TraktModel(
+        ITraktRequestAppService paymentRequestAppService,
         IOrderAppService orderAppService,
         UserBasketProvider userBasketProvider,
         UserAddressProvider userAddressProvider,
-        IOptions<MediaInActionPublicWebPaymentOptions> publicWebPaymentOptions)
+        IOptions<MediaInActionPublicWebTraktOptions> publicWebTraktOptions)
     {
         _paymentRequestAppService = paymentRequestAppService;
         _userBasketProvider = userBasketProvider;
         _userAddressProvider = userAddressProvider;
         _orderAppService = orderAppService;
-        _publicWebPaymentOptions = publicWebPaymentOptions.Value;
+        _publicWebTraktOptions = publicWebTraktOptions.Value;
     }
 
     public void OnGet()
     {
     }
 
-    public async Task<IActionResult> OnPostAsync(PaymentPageViewModel model)
+    public async Task<IActionResult> OnPostAsync(TraktPageViewModel model)
     {
-        Logger.LogInformation("Payment Proceeded...");
+        Logger.LogInformation("Trakt Proceeded...");
         Logger.LogInformation($"AddressId: {model.SelectedAddressId}");
-        Logger.LogInformation($"PaymentMethod: {model.SelectedPaymentMethod}");
+        Logger.LogInformation($"TraktMethod: {model.SelectedTraktMethod}");
         Logger.LogInformation($"Total Discount: {model.TotalDiscountPercentage}");
 
         var basket = await _userBasketProvider.GetBasketAsync();
@@ -58,36 +58,36 @@ public class PaymentModel : AbpPageModel
 
         var placedOrder = await _orderAppService.CreateAsync(new OrderCreateDto()
         {
-            PaymentMethod = model.SelectedPaymentMethod,
+            TraktMethod = model.SelectedTraktMethod,
             Address = GetUserAddress(model.SelectedAddressId),
             Products = productItems
         });
 
-        var paymentRequest = await _paymentRequestAppService.CreateAsync(new PaymentRequestCreationDto
+        var paymentRequest = await _paymentRequestAppService.CreateAsync(new TraktRequestCreationDto
         {
             OrderId = placedOrder.Id.ToString(),
             OrderNo = placedOrder.OrderNo,
             BuyerId = CurrentUser.GetId().ToString(),
-            Currency = MediaInActionPaymentConsts.Currency,
-            Products = ObjectMapper.Map<List<BasketItemDto>, List<PaymentRequestProductCreationDto>>(basket.Items)
+            Currency = MediaInActionTraktConsts.Currency,
+            Products = ObjectMapper.Map<List<BasketItemDto>, List<TraktRequestProductCreationDto>>(basket.Items)
         });
 
         var response = await _paymentRequestAppService.StartAsync(
-            model.SelectedPaymentMethod,
-            new PaymentRequestStartDto
+            model.SelectedTraktMethod,
+            new TraktRequestStartDto
             {
-                PaymentRequestId = paymentRequest.Id,
-                ReturnUrl = _publicWebPaymentOptions.PaymentSuccessfulCallbackUrl,
-                CancelUrl = _publicWebPaymentOptions.PaymentFailureCallbackUrl
+                TraktRequestId = paymentRequest.Id,
+                ReturnUrl = _publicWebTraktOptions.TraktSuccessfulCallbackUrl,
+                CancelUrl = _publicWebTraktOptions.TraktFailureCallbackUrl
             });
 
         return Redirect(response.CheckoutLink);
     }
 
-    public class PaymentPageViewModel
+    public class TraktPageViewModel
     {
         public int SelectedAddressId { get; set; }
-        public string SelectedPaymentMethod { get; set; }
+        public string SelectedTraktMethod { get; set; }
         public decimal TotalDiscountPercentage { get; set; }
     }
 

@@ -5,12 +5,10 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.Shared.Integration.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.TraktService.Application.Contracts.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.VideoService.Domain.Shared.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.TraktService.Application.Contracts.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.Shared.Integration.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.TraktService.Domain.Shared.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/bin/Debug/netstandard2.1/MediaInAction.VideoService.Domain.Shared.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/obj/Debug/netstandard2.1/MediaInAction.TraktService.HttpApi.Client.csproj.AssemblyReference.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/obj/Debug/netstandard2.1/MediaInAction.TraktService.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Client/obj/Debug/netstandard2.1/MediaInAction.TraktService.HttpApi.Client.AssemblyInfoInputs.cache
