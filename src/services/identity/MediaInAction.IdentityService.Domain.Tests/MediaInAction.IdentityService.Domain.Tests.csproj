@@ -2,15 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>EShopOnAbp.IdentityService</RootNamespace>
+    <RootNamespace>MediaInAction.IdentityService</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EShopOnAbp.IdentityService.EntityFrameworkCore.Tests\EShopOnAbp.IdentityService.EntityFrameworkCore.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <ProjectReference Include="..\MediaInAction.IdentityService.EntityFrameworkCore.Tests\MediaInAction.IdentityService.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="..\MediaInAction.IdentityService.EntityFrameworkCore\MediaInAction.IdentityService.EntityFrameworkCore.csproj" />
+    
   </ItemGroup>
 
 </Project>

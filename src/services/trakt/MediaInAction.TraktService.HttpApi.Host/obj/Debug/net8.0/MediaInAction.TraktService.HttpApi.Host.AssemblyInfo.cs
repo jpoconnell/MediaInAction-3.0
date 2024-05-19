@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaInAction.TraktService.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+6c3a4686c55a511c8d0335c0e2d9d99675fbe829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+9945b6703843f59cb1da965b2720efe645c1a3bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaInAction.TraktService.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaInAction.TraktService.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.5.2.0")]

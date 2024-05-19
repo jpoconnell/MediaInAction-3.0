@@ -7,6 +7,7 @@ using MediaInAction.IdentityService.Keycloak.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.AutoMapper;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.DependencyInjection;
@@ -27,10 +28,12 @@ public class MediaInActionIdentityUserAppService : IdentityUserAppService
         IIdentityUserRepository userRepository,
         IIdentityRoleRepository roleRepository,
         IOptions<IdentityOptions> identityOptions,
+        IPermissionChecker permissionChecker,
         IBackgroundJobManager backgroundJobManager) : base(userManager,
         userRepository,
         roleRepository,
-        identityOptions)
+        identityOptions,
+        permissionChecker)
     {
         _userRepository = userRepository;
         _roleRepository = roleRepository;

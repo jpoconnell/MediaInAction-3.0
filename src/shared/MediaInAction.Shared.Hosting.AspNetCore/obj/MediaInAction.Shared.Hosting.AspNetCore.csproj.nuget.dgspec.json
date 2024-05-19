@@ -166,7 +166,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.0, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",

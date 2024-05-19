@@ -8,7 +8,7 @@ using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Sqlite;
 using Volo.Abp.Modularity;
 
-namespace EShopOnAbp.IdentityService.EntityFrameworkCore
+namespace MediaInAction.IdentityService.EntityFrameworkCore
 {
     [DependsOn(
         typeof(IdentityServiceEntityFrameworkCoreModule),

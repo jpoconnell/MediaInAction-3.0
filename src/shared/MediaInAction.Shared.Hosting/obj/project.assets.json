@@ -620,10 +620,10 @@
           }
         }
       },
-      "Serilog.Sinks.Console/5.0.1": {
+      "Serilog.Sinks.Console/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "3.1.1"
+          "Serilog": "3.1.0"
         },
         "compile": {
           "lib/netstandard2.1/Serilog.Sinks.Console.dll": {
@@ -2414,10 +2414,10 @@
         "serilog.sinks.async.nuspec"
       ]
     },
-    "Serilog.Sinks.Console/5.0.1": {
-      "sha512": "6Jt8jl9y2ey8VV7nVEUAyjjyxjAQuvd5+qj4XYAT9CwcsvR70HHULGBeD+K2WCALFXf7CFsNQT4lON6qXcu2AA==",
+    "Serilog.Sinks.Console/5.0.0": {
+      "sha512": "IZ6bn79k+3SRXOBpwSOClUHikSkp2toGPCZ0teUkscv4dpDg9E2R2xVsNkLmwddE4OpNVO3N0xiYsAH556vN8Q==",
       "type": "package",
-      "path": "serilog.sinks.console/5.0.1",
+      "path": "serilog.sinks.console/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2437,7 +2437,7 @@
         "lib/netstandard2.0/Serilog.Sinks.Console.xml",
         "lib/netstandard2.1/Serilog.Sinks.Console.dll",
         "lib/netstandard2.1/Serilog.Sinks.Console.xml",
-        "serilog.sinks.console.5.0.1.nupkg.sha512",
+        "serilog.sinks.console.5.0.0.nupkg.sha512",
         "serilog.sinks.console.nuspec"
       ]
     },
@@ -4646,7 +4646,7 @@
     ".NETStandard,Version=v2.1": [
       "Serilog.Extensions.Logging >= 8.0.0",
       "Serilog.Sinks.Async >= 1.5.0",
-      "Serilog.Sinks.Console >= 5.0.1",
+      "Serilog.Sinks.Console >= 5.0.0",
       "Serilog.Sinks.File >= 5.0.0",
       "Volo.Abp.Autofac >= 8.1.3",
       "Volo.Abp.Data >= 8.1.3"
@@ -4701,7 +4701,7 @@
           },
           "Serilog.Sinks.Console": {
             "target": "Package",
-            "version": "[5.0.1, )"
+            "version": "[5.0.0, )"
           },
           "Serilog.Sinks.File": {
             "target": "Package",

@@ -114,7 +114,7 @@
           "dependencies": {
             "Keycloak.Net.Core": {
               "target": "Package",
-              "version": "[1.0.20, )"
+              "version": "[1.0.26, )"
             },
             "Volo.Abp.BackgroundJobs": {
               "target": "Package",
@@ -183,7 +183,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.5, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",

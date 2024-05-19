@@ -2,7 +2,7 @@
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 
-namespace EShopOnAbp.IdentityService
+namespace MediaInAction.IdentityService
 {
     public class IdentityServiceTestDataSeedContributor : IDataSeedContributor, ITransientDependency
     {

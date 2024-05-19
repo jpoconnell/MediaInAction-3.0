@@ -6,7 +6,7 @@ using Volo.Abp.Data;
 using Volo.Abp.Modularity;
 using Volo.Abp.Threading;
 
-namespace EShopOnAbp.IdentityService
+namespace MediaInAction.IdentityService
 {
     [DependsOn(
         typeof(AbpAutofacModule),

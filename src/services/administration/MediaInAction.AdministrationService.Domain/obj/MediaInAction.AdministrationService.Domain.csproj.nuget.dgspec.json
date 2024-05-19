@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",

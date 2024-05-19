@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaInAction.VideoService.BackgroundWorkers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.5.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+1c36cd91d319c4120869110fefaf054d16b965fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.5.2+9945b6703843f59cb1da965b2720efe645c1a3bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaInAction.VideoService.BackgroundWorkers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaInAction.VideoService.BackgroundWorkers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.5.2.0")]

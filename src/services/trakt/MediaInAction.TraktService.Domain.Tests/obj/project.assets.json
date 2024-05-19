@@ -702,7 +702,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
@@ -3116,8 +3116,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "MediaInAction.Shared.Domain": "1.5.2",
-          "MediaInAction.VideoService.Domain.Shared": "1.0.0",
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.5",
           "Volo.Abp.Validation": "8.1.3"
         },
         "compile": {
@@ -3179,21 +3178,6 @@
         },
         "runtime": {
           "bin/placeholder/MediaInAction.TraktService.TestBase.dll": {}
-        }
-      },
-      "MediaInAction.VideoService.Domain.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "MediaInAction.Shared.Domain": "1.5.2",
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
-          "Volo.Abp.Validation": "8.1.3"
-        },
-        "compile": {
-          "bin/placeholder/MediaInAction.VideoService.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MediaInAction.VideoService.Domain.Shared.dll": {}
         }
       }
     }
@@ -4340,10 +4324,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/8.0.3": {
-      "sha512": "YipqKixNktNlKij9BGUIBIVj4bXj3lOcvVoe12D3OVVrjFI8atExKU4HLGOJGOi5wCP4APD4cq4mIro38/cJTw==",
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.5": {
+      "sha512": "j0zzS7NPhux2rqbCIjrSV/MW0WPNSd49Vvs+j9+ALcTGVrRR48mPmIuBVpeaNO/flTFkN2fTZCLyom403KkzNg==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/8.0.3",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4358,7 +4342,7 @@
         "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.8.0.3.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
@@ -8549,11 +8533,6 @@
       "type": "project",
       "path": "../MediaInAction.TraktService.TestBase/MediaInAction.TraktService.TestBase.csproj",
       "msbuildProject": "../MediaInAction.TraktService.TestBase/MediaInAction.TraktService.TestBase.csproj"
-    },
-    "MediaInAction.VideoService.Domain.Shared/1.0.0": {
-      "type": "project",
-      "path": "../../video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj",
-      "msbuildProject": "../../video/MediaInAction.VideoService.Domain.Shared/MediaInAction.VideoService.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

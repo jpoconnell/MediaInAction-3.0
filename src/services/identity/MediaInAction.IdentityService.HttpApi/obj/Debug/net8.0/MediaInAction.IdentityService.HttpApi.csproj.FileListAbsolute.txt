@@ -110,7 +110,6 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.Features.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi/bin/Debug/net8.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll

@@ -24,10 +24,7 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Diagnostics.Abstractions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Diagnostics.dll
@@ -115,7 +112,6 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.Features.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Composite.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
@@ -267,7 +263,6 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Cryptography.OpenSsl.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Cryptography.Primitives.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Cryptography.X509Certificates.dll
-/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Cryptography.Xml.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Principal.dll
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/refs/System.Security.Principal.Windows.dll
@@ -609,3 +604,10 @@
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/obj/Debug/net8.0/MediaInAction.VideoService.HttpApi.Host.pdb
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/obj/Debug/net8.0/MediaInAction.VideoService.HttpApi.Host.genruntimeconfig.cache
 /Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/obj/Debug/net8.0/ref/MediaInAction.VideoService.HttpApi.Host.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.AspNetCore.DataProtection.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/bin/Debug/net8.0/System.Security.Cryptography.Xml.dll

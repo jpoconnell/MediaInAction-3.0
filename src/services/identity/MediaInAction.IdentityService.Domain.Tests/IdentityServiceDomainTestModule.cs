@@ -1,7 +1,7 @@
-﻿using EShopOnAbp.IdentityService.EntityFrameworkCore;
+﻿using MediaInAction.IdentityService.EntityFrameworkCore;
 using Volo.Abp.Modularity;
 
-namespace EShopOnAbp.IdentityService
+namespace MediaInAction.IdentityService
 {
     [DependsOn(
         typeof(IdentityServiceEntityFrameworkCoreTestModule)
