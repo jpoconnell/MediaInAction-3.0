@@ -1,24 +1,24 @@
 config:
-  selfUrl: https://eshop-st-public-web
-  gatewayUrl: https://eshop-st-gateway-web-public
+  selfUrl: https://mia-st-public-web
+  gatewayUrl: https://mia-st-gateway-web-public
   authServer:
-    authority: http://eshop-st-authserver
+    authority: http://mia-st-authserver
     requireHttpsMetadata: "false"
     isOnProd: false
     metaAddress: #
   dotnetEnv: Staging
-  redisHost: eshop-st-redis
-  rabbitmqHost: eshop-st-rabbitmq
-  elasticsearchHost: eshop-st-elasticsearch
+  redisHost: mia-st-redis
+  rabbitmqHost: mia-st-rabbitmq
+  elasticsearchHost: mia-st-elasticsearch
   stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
   
 
 ingress:
-  host: eshop-st-public-web
-  tlsSecret: eshop-wildcard-tls
+  host: mia-st-public-web
+  tlsSecret: mia-wildcard-tls
 
 image:
-  repository: eshoponabp/app-publicweb
+  repository: mia/app-publicweb
   tag: latest
   pullPolicy: IfNotPresent
 

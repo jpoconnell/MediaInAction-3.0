@@ -9,7 +9,7 @@
         $('.add-basket-button').click(function () {
             var $this = $(this);
             var productId = $this.attr('data-product-id');
-            eShopOnAbp.basketService.basket.addProduct({
+            MediaInAction.basketService.basket.addProduct({
                 productId: productId,
                 anonymousId: anonymousId,
             }).then(function () {

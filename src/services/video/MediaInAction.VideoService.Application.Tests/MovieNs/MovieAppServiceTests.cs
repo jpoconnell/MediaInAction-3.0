@@ -10,13 +10,11 @@ namespace MediaInAction.VideoService.MovieNs;
 public class MovieAppServiceTests : VideoServiceApplicationTestBase
 {
     private readonly IMovieAppService _movieAppService;
-    
 
     public MovieAppServiceTests()
     {
         _movieAppService = GetRequiredService<IMovieAppService>();
     }
-
 
     [Fact]
     public async Task Get_Always_ReturnsAllMovie()
@@ -27,6 +25,5 @@ public class MovieAppServiceTests : VideoServiceApplicationTestBase
 
         //Assert
         result.TotalCount.ShouldBeGreaterThan(0);
-
     }
 }

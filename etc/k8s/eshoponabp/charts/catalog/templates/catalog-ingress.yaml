@@ -13,7 +13,7 @@ spec:
   tls:
   - hosts:
       - {{ .Values.ingress.host }}
-{{- if eq .Release.Name "eshop-az" }}
+{{- if eq .Release.Name "mia-az" }}
     secretName: {{ .Release.Name }}-{{ .Chart.Name }}-tls
 {{- else }}
     secretName: {{ .Values.ingress.tlsSecret }}

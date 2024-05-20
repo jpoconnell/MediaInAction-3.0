@@ -21,7 +21,7 @@ public class LoadFileEntryList : ISingletonDependency
         _fileEntryCreateList = new List<FileEntryCreateDto>();
         _fileEntryRepository = fileEntryRepository;
         _fileEntryManager = fileEntryManager;
-        using (StreamReader r = new StreamReader("../../../../MediaInAction.VideoService.TestBase/TestData/fileEntry.json"))
+        using (StreamReader r = new StreamReader("../../../../MediaInAction.VideoService.TestBase/TestData/fileentry.json"))
         {
             string json = r.ReadToEnd();
             _fileEntryCreateList = JsonConvert.DeserializeObject<List<FileEntryCreateDto>>(json);

@@ -1,16 +1,16 @@
 config:
-  selfUrl: https://admin.eshoponabp.com
-  gatewayUrl: https://www.gateway.eshoponabp.com/
+  selfUrl: https://admin.mia.com
+  gatewayUrl: https://www.gateway.mia.com/
   authServer:
-    authority: https://auth.eshoponabp.com
+    authority: https://auth.mia.com
     requireHttpsMetadata: "false"
     responseType: "code"
 ingress:
-  host: eshop-st-web
-  tlsSecret: eshop-wildcard-tls
+  host: mia-st-web
+  tlsSecret: mia-wildcard-tls
 
 image:
-  repository: eshoponabp/app-web
+  repository: mia/app-web
   tag: latest
   pullPolicy: IfNotPresent
 

@@ -254,7 +254,7 @@ public class MediaInActionPublicWebModule : AbpModule
         context.Services
             .AddDataProtection()
             .PersistKeysToStackExchangeRedis(redis, "MediaInAction-Protection-Keys")
-            .SetApplicationName("eShopOnAbp-PublicWeb");
+            .SetApplicationName("MediaInAction-PublicWeb");
 
         Configure<AbpNavigationOptions>(options =>
         {

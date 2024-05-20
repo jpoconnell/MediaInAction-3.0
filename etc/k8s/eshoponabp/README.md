@@ -1,6 +1,6 @@
 # abp-charts
 
-# eShopOnAbp
+# MediaInAction
 This project is a reference for who want to build microservice solutions with the ABP Framework.
 
 ## Pre-requirement
@@ -18,10 +18,10 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add abp-charts https://abpframework.github.io/abp-charts/eshoponabp
+helm repo add abp-charts https://abpframework.github.io/abp-charts/mia
 ```
 
-Initial authentication data (redirectURIs etc) are seeded based on **eshop-st** name and **eshop** namespace for the deployment.
+Initial authentication data (redirectURIs etc) are seeded based on **mia-st** name and **mia** namespace for the deployment.
 
 ## Configuring HTTPS
 
@@ -42,20 +42,20 @@ mkcert -install
 
 ### Run mkcert
 
-Create certificate for the eshopOnAbp domains using the mkcert command below:
+Create certificate for the miaOnAbp domains using the mkcert command below:
 ```powershell
-mkcert "eshoponabp.dev" "*.eshoponabp.dev"
+mkcert "mia.dev" "*.mia.dev"
 ```
 
 At the end of the output you will see something like
 
-The certificate is at "./eshoponabp.dev+1.pem" and the key at "./eshoponabp.dev+1-key.pem"
+The certificate is at "./mia.dev+1.pem" and the key at "./mia.dev+1-key.pem"
 
 Copy the cert name and key name below to create tls secret
 
 ```powershell
-kubectl create namespace eshop
-kubectl create secret tls -n eshop eshop-wildcard-tls --cert=./eshoponabp.dev+1.pem --key=./eshoponabp.dev+1-key.pem
+kubectl create namespace mia
+kubectl create secret tls -n mia mia-wildcard-tls --cert=./mia.dev+1.pem --key=./mia.dev+1-key.pem
 ```
 
 ## How to run?
@@ -63,22 +63,22 @@ kubectl create secret tls -n eshop eshop-wildcard-tls --cert=./eshoponabp.dev+1.
 * Add entries to the hosts file (in Windows: `C:\Windows\System32\drivers\etc\hosts`, in linux and macos: `/etc/hosts` ):
 
   ````powershell
-127.0.0.1 admin.eshoponabp.dev
-127.0.0.1 eshoponabp.dev
-127.0.0.1 account.eshoponabp.dev
-127.0.0.1 identity.eshoponabp.dev
-127.0.0.1 administration.eshoponabp.dev
-127.0.0.1 product.eshoponabp.dev
-127.0.0.1 basket.eshoponabp.dev
-127.0.0.1 catalog.eshoponabp.dev
-127.0.0.1 ordering.eshoponabp.dev
-127.0.0.1 cmskit.eshoponabp.dev
-127.0.0.1 payment.eshoponabp.dev
-127.0.0.1 gateway-web.eshoponabp.dev
-127.0.0.1 gateway-public.eshoponabp.dev
+127.0.0.1 admin.mia.dev
+127.0.0.1 mia.dev
+127.0.0.1 account.mia.dev
+127.0.0.1 identity.mia.dev
+127.0.0.1 administration.mia.dev
+127.0.0.1 product.mia.dev
+127.0.0.1 basket.mia.dev
+127.0.0.1 catalog.mia.dev
+127.0.0.1 ordering.mia.dev
+127.0.0.1 cmskit.mia.dev
+127.0.0.1 payment.mia.dev
+127.0.0.1 gateway-web.mia.dev
+127.0.0.1 gateway-public.mia.dev
   ````
 
-* Run `helm upgrade --install eshop-st abp-charts/eshoponabp --namespace eshop --create-namespace`
+* Run `helm upgrade --install mia-st abp-charts/mia --namespace mia --create-namespace`
 * *You may wait ~30 seconds on first run for preparing the database*.
-* Browse https://eshop-st-public-web for public and https://eshop-st-web for web application
+* Browse https://mia-st-public-web for public and https://mia-st-web for web application
 * Username: `admin`, password: `1q2w3E*`.

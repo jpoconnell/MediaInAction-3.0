@@ -1,7 +1,7 @@
 config:
   kcDb: postgres
-  kcDbUrl: jdbc:postgresql://eshop-st-postgresdb:5432/keycloak
-  kcDbUrlHost: eshop-st-postgresdb
+  kcDbUrl: jdbc:postgresql://mia-st-postgresdb:5432/keycloak
+  kcDbUrlHost: mia-st-postgresdb
   kcDbUrlPort: 5432
   kcDbUrlDatabase: keycloak
   kcDbUsername: postgres
@@ -13,13 +13,13 @@ config:
   kcProxy: edge
   proxyAddressForwarding: true
   kcHttpEnabled: true
-  kcHostnameUrl: https://account.eshoponabp.dev
-  kcHostnameAdminUrl: https://account.eshoponabp.dev
-  jgroupsDnsQuery: eshop-st-keycloak
+  kcHostnameUrl: https://account.mia.dev
+  kcHostnameAdminUrl: https://account.mia.dev
+  jgroupsDnsQuery: mia-st-keycloak
 
 ingress:
-  host: account.eshoponabp.dev
-  tlsSecret: eshop-wildcard-tls
+  host: account.mia.dev
+  tlsSecret: mia-wildcard-tls
 
 image:
   repository: quay.io/keycloak/keycloak

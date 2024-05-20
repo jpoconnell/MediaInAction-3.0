@@ -2,7 +2,7 @@ import { ListService } from '@abp/ng.core';
 import { Confirmation, ConfirmationService } from '@abp/ng.theme.shared';
 import { Component, OnInit } from '@angular/core';
 import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
-import { eCatalogPolicyNames } from '@eshoponabp/catalog/config';
+import { eCatalogPolicyNames } from '@mia/catalog/config';
 import { finalize } from 'rxjs/operators';
 import { ProductDto } from '../../lib/proxy/products/models';
 import { ProductService } from '../../lib/proxy/products/product.service';

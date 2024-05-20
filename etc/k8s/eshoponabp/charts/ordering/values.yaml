@@ -1,26 +1,26 @@
 config:
-  selfUrl: # https://eshop-st-ordering
-  corsOrigins: # https://eshop-st-gateway-web,https://eshop-st-gateway-public-web
+  selfUrl: # https://mia-st-ordering
+  corsOrigins: # https://mia-st-gateway-web,https://mia-st-gateway-public-web
   connectionStrings:
     orderingService: #
     administrationService: #
   authServer:
-    authority: http://eshop-st-authserver
+    authority: http://mia-st-authserver
     requireHttpsMetadata: "false"
-    metadataAddress: http://eshop-st-keycloak:8080
+    metadataAddress: http://mia-st-keycloak:8080
     swaggerClientId: WebGateway_Swagger
   dotnetEnv: Staging
-  redisHost: eshop-st-redis
-  rabbitmqHost: eshop-st-rabbitmq
-  elasticsearchHost: eshop-st-elasticsearch
+  redisHost: mia-st-redis
+  rabbitmqHost: mia-st-rabbitmq
+  elasticsearchHost: mia-st-elasticsearch
   stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
 
 ingress:
-  host: eshop-st-ordering
-  tlsSecret: eshop-wildcard-tls
+  host: mia-st-ordering
+  tlsSecret: mia-wildcard-tls
 
 image:
-  repository: eshoponabp/service-ordering
+  repository: mia/service-ordering
   tag: latest
   pullPolicy: IfNotPresent
 

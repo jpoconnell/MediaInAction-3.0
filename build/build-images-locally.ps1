@@ -25,67 +25,67 @@ Set-Location $webAppFolder
 yarn
 # ng build --prod
 npm run build:prod
-docker build -f Dockerfile.local -t eshoponabp/app-web:$version .
+docker build -f Dockerfile.local -t mia/app-web:$version .
 
 ### PUBLIC-WEB
 Write-Host "*** BUILDING WEB-PUBLIC 2/$total ****************" -ForegroundColor Green
 Set-Location $publicWebFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/app-publicweb:$version .
+docker build -f Dockerfile.local -t mia/app-publicweb:$version .
 
 ### WEB-GATEWAY
 Write-Host "*** BUILDING WEB-GATEWAY 3/$total ****************" -ForegroundColor Green
 Set-Location $webGatewayFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/gateway-web:$version .
+docker build -f Dockerfile.local -t mia/gateway-web:$version .
 
 ### PUBLICWEB-GATEWAY
 Write-Host "*** BUILDING WEB-PUBLIC-GATEWAY 4/$total ****************" -ForegroundColor Green
 Set-Location $webPublicGatewayFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/gateway-web-public:$version .
+docker build -f Dockerfile.local -t mia/gateway-web-public:$version .
 
 ### IDENTITY-SERVICE
 Write-Host "*** BUILDING IDENTITY-SERVICE 5/$total ****************" -ForegroundColor Green
 Set-Location $identityServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-identity:$version .
+docker build -f Dockerfile.local -t mia/service-identity:$version .
 
 ### ADMINISTRATION-SERVICE
 Write-Host "*** BUILDING ADMINISTRATION-SERVICE 6/$total ****************" -ForegroundColor Green
 Set-Location $administrationServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-administration:$version .
+docker build -f Dockerfile.local -t mia/service-administration:$version .
 
 ### BASKET-SERVICE
 Write-Host "**************** BUILDING BASKET-SERVICE 7/$total ****************" -ForegroundColor Green
 Set-Location $basketServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-basket:$version .
+docker build -f Dockerfile.local -t mia/service-basket:$version .
 
 ### CATALOG-SERVICE
 Write-Host "**************** BUILDING CATALOG-SERVICE 8/$total ****************" -ForegroundColor Green
 Set-Location $catalogServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-catalog:$version .
+docker build -f Dockerfile.local -t mia/service-catalog:$version .
 
 ### PAYMENT-SERVICE
 Write-Host "**************** BUILDING PAYMENT-SERVICE 9/$total ****************" -ForegroundColor Green
 Set-Location $paymentServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-payment:$version .
+docker build -f Dockerfile.local -t mia/service-payment:$version .
 
 ### ORDERING-SERVICE
 Write-Host "**************** BUILDING ORDERING-SERVICE 10/$total ****************" -ForegroundColor Green
 Set-Location $orderingServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-ordering:$version .
+docker build -f Dockerfile.local -t mia/service-ordering:$version .
 
 ### CMSKIT-SERVICE
 Write-Host "**************** BUILDING CMSKIT-SERVICE 11/$total ****************" -ForegroundColor Green
 Set-Location $cmskitServiceFolder
 dotnet publish -c Release
-docker build -f Dockerfile.local -t eshoponabp/service-cmskit:$version .
+docker build -f Dockerfile.local -t mia/service-cmskit:$version .
 
 ### ALL COMPLETED
 Write-Host "ALL COMPLETED" -ForegroundColor Green

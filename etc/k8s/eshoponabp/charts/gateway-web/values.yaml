@@ -1,9 +1,9 @@
 config:
-  selfUrl: # https://eshop-st-gateway-web
+  selfUrl: # https://mia-st-gateway-web
   corsOrigins: # localhost:4200
   isOnK8s: "true"
   authServer:
-    authority: http://eshop-st-authserver
+    authority: http://mia-st-authserver
     requireHttpsMetadata: "false"
     swaggerClientId: WebGateway_Swagger
   dotnetEnv: # 
@@ -13,27 +13,27 @@ config:
   stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
 reRoutes:
   identityService:
-    url: http://eshop-st-identity
-    dns: https://identity.eshoponabp.dev
+    url: http://mia-st-identity
+    dns: https://identity.mia.dev
   administrationService:
-    url: http://eshop-st-administration
-    dns: https://administration.eshoponabp.dev
+    url: http://mia-st-administration
+    dns: https://administration.mia.dev
   catalogService:
-    url: http://eshop-st-catalog
-    dns: https://catalog.eshoponabp.dev
+    url: http://mia-st-catalog
+    dns: https://catalog.mia.dev
   orderingService:
-    url: http://eshop-st-ordering
-    dns: https://ordering.eshoponabp.dev
+    url: http://mia-st-ordering
+    dns: https://ordering.mia.dev
   cmskitService:
-    url: http://eshop-st-cmskit
-    dns: https://cmskit.eshoponabp.dev
+    url: http://mia-st-cmskit
+    dns: https://cmskit.mia.dev
     
 ingress:
-  host: # eshop-st-gateway-web
-  tlsSecret: eshop-wildcard-tls
+  host: # mia-st-gateway-web
+  tlsSecret: mia-wildcard-tls
 
 image:
-  repository: eshoponabp/gateway-web
+  repository: mia/gateway-web
   tag: latest
   pullPolicy: IfNotPresent
 

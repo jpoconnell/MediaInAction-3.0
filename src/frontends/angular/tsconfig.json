@@ -19,20 +19,20 @@
       "dom"
     ],
     "paths": {
-      "@eshoponabp/catalog/config": [
-        "node_modules/@eshoponabp/catalog/config",
+      "@mia/catalog/config": [
+        "node_modules/@mia/catalog/config",
         "projects/catalog/config/src/public-api.ts"
       ],
-      "@eshoponabp/catalog": [
-        "node_modules/@eshoponabp/catalog",
+      "@mia/catalog": [
+        "node_modules/@mia/catalog",
         "projects/catalog/src/public-api.ts"
       ],
-      "@eshoponabp/ordering/config": [
-        "node_modules/@eshoponabp/ordering/config",
+      "@mia/ordering/config": [
+        "node_modules/@mia/ordering/config",
         "projects/ordering/config/src/public-api.ts"
       ],
-      "@eshoponabp/ordering": [
-        "node_modules/@eshoponabp/ordering",
+      "@mia/ordering": [
+        "node_modules/@mia/ordering",
         "projects/ordering/src/public-api.ts"
       ]
     },

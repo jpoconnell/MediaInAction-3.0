@@ -8,28 +8,28 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./nginx/certs/eshop-st-web+10.pem:/etc/nginx/certs/app-cert.pem:ro
-      - ./nginx/certs/eshop-st-web+10-key.pem:/etc/nginx/certs/app-cert-key.pem:ro
+      - ./nginx/certs/mia-st-web+10.pem:/etc/nginx/certs/app-cert.pem:ro
+      - ./nginx/certs/mia-st-web+10-key.pem:/etc/nginx/certs/app-cert-key.pem:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
     depends_on:
-      - eshop-st-administration
-      - eshop-st-authserver
-      - eshop-st-identity
-      - eshop-st-basket
-      - eshop-st-catalog
-      - eshop-st-ordering
-      - eshop-st-cmskit
-      - eshop-st-payment
-      - eshop-st-web
-      - eshop-st-public-web
-      - eshop-st-gateway-web-public
-      - eshop-st-gateway-web
+      - mia-st-administration
+      - mia-st-authserver
+      - mia-st-identity
+      - mia-st-basket
+      - mia-st-catalog
+      - mia-st-ordering
+      - mia-st-cmskit
+      - mia-st-payment
+      - mia-st-web
+      - mia-st-public-web
+      - mia-st-gateway-web-public
+      - mia-st-gateway-web
     restart: on-failure
     networks:
-      - eshoponabp-network
+      - mia-network
 
-  eshop-st-administration:
-    image: eshoponabp/service-administration:latest
+  mia-st-administration:
+    image: mia/service-administration:latest
     container_name: administration-service-container
     build:
       context: ../../
@@ -37,14 +37,14 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
-      - App__SelfUrl=https://eshop-st-administration
+      - App__SelfUrl=https://mia-st-administration
       - App__CorsOrigins=https://gateway-web,gateway-web-public
-      - RemoteServices__AbpIdentity__BaseUrl=eshop-st-identity
+      - RemoteServices__AbpIdentity__BaseUrl=mia-st-identity
       - RemoteServices__AbpIdentity__UseCurrentAccessToken=false
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
-      - IdentityClients__Default__Authority=http://eshop-st-identity
+      - IdentityClients__Default__Authority=http://mia-st-identity
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
     depends_on:
@@ -56,9 +56,9 @@ services:
         condition: service_healthy
     restart: on-failure
     networks: 
-      - eshoponabp-network
-  eshop-st-identity:
-    image: eshoponabp/service-identity:latest
+      - mia-network
+  mia-st-identity:
+    image: mia/service-identity:latest
     container_name: identity-service-container
     build:
       context: ../../
@@ -66,26 +66,26 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
-      - App__SelfUrl=https://eshop-st-identity
+      - App__SelfUrl=https://mia-st-identity
       - App__CorsOrigins=https://gateway-web,gateway-web-public
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - ConnectionStrings__IdentityService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Identity;Pooling=false;
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
-      - IdentityServerClients__Web__RootUrl=https://eshop-st-web
-      - IdentityServerClients__PublicWeb__RootUrl=https://eshop-st-public-web
-      - IdentityServerClients__WebGateway__RootUrl=https://eshop-st-gateway-web
-      - IdentityServerClients__PublicWebGateway__RootUrl=https://eshop-st-gateway-web-public
-      - IdentityServerClients__IdentityService__RootUrl=https://eshop-st-identity
-      - IdentityServerClients__AdministrationService__RootUrl=https://eshop-st-administration
-      - IdentityServerClients__AccountService__RootUrl=https://eshop-st-authserver
-      - IdentityServerClients__CatalogService__RootUrl=https://eshop-st-catalog
-      - IdentityServerClients__BasketService__RootUrl=https://eshop-st-basket     
-      - IdentityServerClients__OrderingService__RootUrl=https://eshop-st-ordering
-      - IdentityServerClients__CmskitService__RootUrl=https://eshop-st-cmskit
-      - IdentityServerClients__PaymentService__RootUrl=https://eshop-st-payment
+      - IdentityServerClients__Web__RootUrl=https://mia-st-web
+      - IdentityServerClients__PublicWeb__RootUrl=https://mia-st-public-web
+      - IdentityServerClients__WebGateway__RootUrl=https://mia-st-gateway-web
+      - IdentityServerClients__PublicWebGateway__RootUrl=https://mia-st-gateway-web-public
+      - IdentityServerClients__IdentityService__RootUrl=https://mia-st-identity
+      - IdentityServerClients__AdministrationService__RootUrl=https://mia-st-administration
+      - IdentityServerClients__AccountService__RootUrl=https://mia-st-authserver
+      - IdentityServerClients__CatalogService__RootUrl=https://mia-st-catalog
+      - IdentityServerClients__BasketService__RootUrl=https://mia-st-basket     
+      - IdentityServerClients__OrderingService__RootUrl=https://mia-st-ordering
+      - IdentityServerClients__CmskitService__RootUrl=https://mia-st-cmskit
+      - IdentityServerClients__PaymentService__RootUrl=https://mia-st-payment
     depends_on:
       redis:
         condition: service_healthy
@@ -95,9 +95,9 @@ services:
         condition: service_healthy
     restart: on-failure
     networks: 
-      - eshoponabp-network
-  eshop-st-catalog:
-    image: eshoponabp/service-catalog:latest
+      - mia-network
+  mia-st-catalog:
+    image: mia/service-catalog:latest
     container_name: catalog-service-container
     build:
       context: ../../
@@ -105,9 +105,9 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;http://+:81;
-      - App__SelfUrl=https://eshop-st-catalog
-      - App__CorsOrigins=https://eshop-st-gateway-web,https://eshop-st-gateway-web-public,https://eshop-st-public-web,https://eshop-st-web
-      - AuthServer__Authority=http://eshop-st-authserver
+      - App__SelfUrl=https://mia-st-catalog
+      - App__CorsOrigins=https://mia-st-gateway-web,https://mia-st-gateway-web-public,https://mia-st-public-web,https://mia-st-web
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Kestrel__EndPoints__Http__Url=http://docker.host.internal:80
       - Kestrel__EndPoints__gRPC__Url=http://docker.host.internal:81
@@ -125,9 +125,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-basket:
-    image: eshoponabp/service-basket:latest
+      - mia-network
+  mia-st-basket:
+    image: mia/service-basket:latest
     container_name: basket-service-container
     build:
       context: ../../
@@ -135,12 +135,12 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
-      - App__SelfUrl=https://eshop-st-basket
-      - App__CorsOrigins=https://eshop-st-gateway-web,https://eshop-st-gateway-web-public,https://eshop-st-public-web
-      - RemoteServices__Catalog__BaseUrl=http://eshop-st-catalog:80
-      - RemoteServices__Catalog__GrpcUrl=http://eshop-st-catalog:81
+      - App__SelfUrl=https://mia-st-basket
+      - App__CorsOrigins=https://mia-st-gateway-web,https://mia-st-gateway-web-public,https://mia-st-public-web
+      - RemoteServices__Catalog__BaseUrl=http://mia-st-catalog:80
+      - RemoteServices__Catalog__GrpcUrl=http://mia-st-catalog:81
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq    
@@ -153,9 +153,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-ordering:
-    image: eshoponabp/service-ordering:latest
+      - mia-network
+  mia-st-ordering:
+    image: mia/service-ordering:latest
     container_name: ordering-service-container
     build:
       context: ../../
@@ -163,11 +163,11 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-ordering
-      - App__CorsOrigins=https://eshop-st-gateway-web,https://eshop-st-gateway-web-public,https://eshop-st-web
+      - App__SelfUrl=https://mia-st-ordering
+      - App__CorsOrigins=https://mia-st-gateway-web,https://mia-st-gateway-web-public,https://mia-st-web
       - ConnectionStrings__OrderingService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Ordering;Pooling=false;
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
@@ -180,11 +180,11 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
+      - mia-network
     # volumes:
     #   - ./certs:/root/certificate
-  eshop-st-cmskit:
-    image: eshoponabp/service-cmskit:latest
+  mia-st-cmskit:
+    image: mia/service-cmskit:latest
     container_name: cmskit-service-container
     build:
       context: ../../
@@ -192,16 +192,16 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-cmskit
-      - App__CorsOrigins=https://eshop-st-gateway-web,https://eshop-st-gateway-web-public
+      - App__SelfUrl=https://mia-st-cmskit
+      - App__CorsOrigins=https://mia-st-gateway-web,https://mia-st-gateway-web-public
       - ConnectionStrings__CmskitService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Cmskit;Pooling=false;
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
-      - RemoteServices__AbpIdentity__BaseUrl=eshop-st-identity
-      - IdentityClients__Default__Authority=http://eshop-st-identity
+      - RemoteServices__AbpIdentity__BaseUrl=mia-st-identity
+      - IdentityClients__Default__Authority=http://mia-st-identity
     depends_on:
       redis:
         condition: service_healthy
@@ -211,11 +211,11 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
+      - mia-network
     # volumes:
     #   - ./certs:/root/certificate
-  eshop-st-payment:
-    image: eshoponabp/service-payment:latest
+  mia-st-payment:
+    image: mia/service-payment:latest
     container_name: payment-service-container
     build:
       context: ../../
@@ -223,11 +223,11 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-payment
-      - App__CorsOrigins=https://eshop-st-gateway-web,https://eshop-st-gateway-web-public      
+      - App__SelfUrl=https://mia-st-payment
+      - App__CorsOrigins=https://mia-st-gateway-web,https://mia-st-gateway-web-public      
       - ConnectionStrings__PaymentService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Payment;Pooling=false;
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;
-      - AuthServer__Authority=http://eshop-st-authserver
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
@@ -243,9 +243,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-authserver:
-    image: eshoponabp/app-authserver:latest
+      - mia-network
+  mia-st-authserver:
+    image: mia/app-authserver:latest
     container_name: app-authserver-container
     build:
       context: ../../
@@ -253,10 +253,10 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-authserver
-      - App__CorsOrigins=https://eshop-st-web,https://eshop-st-public-web,https://eshop-st-identity,http://eshop-st-administration,https://eshop-st-administration,https://eshop-st-catalog,https://eshop-st-basket,https://eshop-st-ordering,https://eshop-st-cmskit,https://eshop-st-payment
-      - App__RedirectAllowedUrls=http://eshop-st-web
-      - AuthServer__Authority=http://eshop-st-authserver
+      - App__SelfUrl=https://mia-st-authserver
+      - App__CorsOrigins=https://mia-st-web,https://mia-st-public-web,https://mia-st-identity,http://mia-st-administration,https://mia-st-administration,https://mia-st-catalog,https://mia-st-basket,https://mia-st-ordering,https://mia-st-cmskit,https://mia-st-payment
+      - App__RedirectAllowedUrls=http://mia-st-web
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - ConnectionStrings__IdentityService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Identity;Pooling=false;
       - ConnectionStrings__AdministrationService=User ID=postgres;Password=myPassw0rd;Host=postgres-db;Port=5432;Database=EShopOnAbp_Administration;Pooling=false;   
@@ -271,9 +271,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-web:
-    image: eshoponabp/app-web:latest
+      - mia-network
+  mia-st-web:
+    image: mia/app-web:latest
     container_name: app-web-container
     build:
       context: ../../
@@ -287,9 +287,9 @@ services:
         condition: service_healthy
     restart: on-failure
     networks: 
-      - eshoponabp-network
-  eshop-st-public-web:
-    image: eshoponabp/app-publicweb:latest
+      - mia-network
+  mia-st-public-web:
+    image: mia/app-publicweb:latest
     container_name: app-publicweb-container
     build:
       context: ../../
@@ -297,13 +297,13 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-public-web
-      - AuthServer__Authority=http://eshop-st-authserver
+      - App__SelfUrl=https://mia-st-public-web
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
-      - RemoteServices__Default__BaseUrl=http://eshop-st-gateway-web-public/                
+      - RemoteServices__Default__BaseUrl=http://mia-st-gateway-web-public/                
       - Redis__Configuration=redis
       - RabbitMQ__Connections__Default__HostName=rabbitmq
-      - ReverseProxy__Clusters__cluster1__Destinations__destination1__Address=http://eshop-st-gateway-web-public
+      - ReverseProxy__Clusters__cluster1__Destinations__destination1__Address=http://mia-st-gateway-web-public
     depends_on:
       redis:
         condition: service_healthy
@@ -311,9 +311,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-gateway-web:
-    image: eshoponabp/gateway-web:latest
+      - mia-network
+  mia-st-gateway-web:
+    image: mia/gateway-web:latest
     container_name: gateway-web-container
     build:
       context: ../../
@@ -321,20 +321,20 @@ services:
     environment:
       #- ASPNETCORE_ENVIRONMENT=Docker # Yarp can't resolve dns, needs to be overridden
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-gateway-web
-      - App__CorsOrigins=https://eshop-st-web
-      - AuthServer__Authority=http://eshop-st-authserver
+      - App__SelfUrl=https://mia-st-gateway-web
+      - App__CorsOrigins=https://mia-st-web
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
-      - ReverseProxy__Clusters__accountCluster__Destinations__destination1__Address=http://eshop-st-authserver
-      - ReverseProxy__Clusters__identityCluster__Destinations__destination1__Address=http://eshop-st-identity
-      - ReverseProxy__Clusters__administrationCluster__Destinations__destination1__Address=http://eshop-st-administration
-      - ReverseProxy__Clusters__catalogCluster__Destinations__destination1__Address=http://eshop-st-catalog
-      - ReverseProxy__Clusters__orderingCluster__Destinations__destination1__Address=http://eshop-st-ordering
-      - ReverseProxy__Clusters__cmskitCluster__Destinations__destination1__Address=http://eshop-st-cmskit
-      - ReverseProxy__Clusters__feature-management-cluster__Destinations__destination1__Address=http://eshop-st-administration
-      - ReverseProxy__Clusters__permission-management-cluster__Destinations__destination1__Address=http://eshop-st-administration
-      - ReverseProxy__Clusters__setting-management-cluster__Destinations__destination1__Address=http://eshop-st-administration
+      - ReverseProxy__Clusters__accountCluster__Destinations__destination1__Address=http://mia-st-authserver
+      - ReverseProxy__Clusters__identityCluster__Destinations__destination1__Address=http://mia-st-identity
+      - ReverseProxy__Clusters__administrationCluster__Destinations__destination1__Address=http://mia-st-administration
+      - ReverseProxy__Clusters__catalogCluster__Destinations__destination1__Address=http://mia-st-catalog
+      - ReverseProxy__Clusters__orderingCluster__Destinations__destination1__Address=http://mia-st-ordering
+      - ReverseProxy__Clusters__cmskitCluster__Destinations__destination1__Address=http://mia-st-cmskit
+      - ReverseProxy__Clusters__feature-management-cluster__Destinations__destination1__Address=http://mia-st-administration
+      - ReverseProxy__Clusters__permission-management-cluster__Destinations__destination1__Address=http://mia-st-administration
+      - ReverseProxy__Clusters__setting-management-cluster__Destinations__destination1__Address=http://mia-st-administration
     depends_on:
       redis:
         condition: service_healthy
@@ -342,9 +342,9 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
-  eshop-st-gateway-web-public:
-    image: eshoponabp/gateway-web-public:latest
+      - mia-network
+  mia-st-gateway-web-public:
+    image: mia/gateway-web-public:latest
     container_name: gateway-web-public-container
     build:
       context: ../../
@@ -352,18 +352,18 @@ services:
     environment:
       # - ASPNETCORE_ENVIRONMENT=Docker # Yarp can't resolve dns, needs to be overridden
       - ASPNETCORE_URLS=http://+:80;
-      - App__SelfUrl=https://eshop-st-gateway-web-public
-      - AuthServer__Authority=http://eshop-st-authserver
+      - App__SelfUrl=https://mia-st-gateway-web-public
+      - AuthServer__Authority=http://mia-st-authserver
       - AuthServer__RequireHttpsMetadata=false
       - Redis__Configuration=redis
-      - ReverseProxy__Clusters__accountCluster__Destinations__destination1__Address=http://eshop-st-authserver
-      - ReverseProxy__Clusters__administrationCluster__Destinations__destination1__Address=http://eshop-st-administration
-      - ReverseProxy__Clusters__catalogCluster__Destinations__destination1__Address=http://eshop-st-catalog
-      - ReverseProxy__Clusters__basketCluster__Destinations__destination1__Address=http://eshop-st-basket
-      - ReverseProxy__Clusters__orderingCluster__Destinations__destination1__Address=http://eshop-st-ordering
-      - ReverseProxy__Clusters__cmskitCluster__Destinations__destination1__Address=http://eshop-st-cmskit
-      - ReverseProxy__Clusters__paymentCluster__Destinations__destination1__Address=http://eshop-st-payment
-      - ReverseProxy__Clusters__productPictureCluster__Destinations__destination1__Address=http://eshop-st-catalog
+      - ReverseProxy__Clusters__accountCluster__Destinations__destination1__Address=http://mia-st-authserver
+      - ReverseProxy__Clusters__administrationCluster__Destinations__destination1__Address=http://mia-st-administration
+      - ReverseProxy__Clusters__catalogCluster__Destinations__destination1__Address=http://mia-st-catalog
+      - ReverseProxy__Clusters__basketCluster__Destinations__destination1__Address=http://mia-st-basket
+      - ReverseProxy__Clusters__orderingCluster__Destinations__destination1__Address=http://mia-st-ordering
+      - ReverseProxy__Clusters__cmskitCluster__Destinations__destination1__Address=http://mia-st-cmskit
+      - ReverseProxy__Clusters__paymentCluster__Destinations__destination1__Address=http://mia-st-payment
+      - ReverseProxy__Clusters__productPictureCluster__Destinations__destination1__Address=http://mia-st-catalog
     depends_on:
       redis:
         condition: service_healthy
@@ -371,8 +371,8 @@ services:
         condition: service_healthy
     restart: on-failure  
     networks: 
-      - eshoponabp-network
+      - mia-network
 
 networks:
-  eshoponabp-network:
+  mia-network:
     external: true

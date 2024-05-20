@@ -63,6 +63,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.Shared.Hostin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2F0A8496-ACD2-4271-B73B-B027EF43F67C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.VideoService.Domain.Tests", "MediaInAction.VideoService.Domain.Tests\MediaInAction.VideoService.Domain.Tests.csproj", "{2D14F01B-973E-402E-AB19-6F102760E437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.AdministrationService.EntityFrameworkCore", "..\administration\MediaInAction.AdministrationService.EntityFrameworkCore\MediaInAction.AdministrationService.EntityFrameworkCore.csproj", "{1D4DEC75-8AFD-4947-9C3E-CFD32581E136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.AdministrationService.Domain", "..\administration\MediaInAction.AdministrationService.Domain\MediaInAction.AdministrationService.Domain.csproj", "{B09DB461-D893-44CD-8F1D-E41C6222BB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.AdministrationService.Domain.Shared", "..\administration\MediaInAction.AdministrationService.Domain.Shared\MediaInAction.AdministrationService.Domain.Shared.csproj", "{6AB092BD-CDAE-4D9D-901C-4A19E80E0042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +181,22 @@ Global
 		{8ED259F2-CF64-4B41-A696-A7257AA669EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ED259F2-CF64-4B41-A696-A7257AA669EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ED259F2-CF64-4B41-A696-A7257AA669EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D14F01B-973E-402E-AB19-6F102760E437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D14F01B-973E-402E-AB19-6F102760E437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D14F01B-973E-402E-AB19-6F102760E437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D14F01B-973E-402E-AB19-6F102760E437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4DEC75-8AFD-4947-9C3E-CFD32581E136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4DEC75-8AFD-4947-9C3E-CFD32581E136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4DEC75-8AFD-4947-9C3E-CFD32581E136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4DEC75-8AFD-4947-9C3E-CFD32581E136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09DB461-D893-44CD-8F1D-E41C6222BB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09DB461-D893-44CD-8F1D-E41C6222BB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09DB461-D893-44CD-8F1D-E41C6222BB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09DB461-D893-44CD-8F1D-E41C6222BB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB092BD-CDAE-4D9D-901C-4A19E80E0042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB092BD-CDAE-4D9D-901C-4A19E80E0042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB092BD-CDAE-4D9D-901C-4A19E80E0042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB092BD-CDAE-4D9D-901C-4A19E80E0042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,5 +231,9 @@ Global
 		{493E1046-8F0D-4AA3-A965-2A2B8ED7D65F} = {DC6F7111-1057-40B8-A3BB-CE2B72B5E0EB}
 		{4F1CD375-FD24-4F98-B3A5-5FD1516C38C7} = {DC6F7111-1057-40B8-A3BB-CE2B72B5E0EB}
 		{8ED259F2-CF64-4B41-A696-A7257AA669EF} = {DC6F7111-1057-40B8-A3BB-CE2B72B5E0EB}
+		{2D14F01B-973E-402E-AB19-6F102760E437} = {3E47B792-BA00-4E43-8905-D9C58B53CC5D}
+		{1D4DEC75-8AFD-4947-9C3E-CFD32581E136} = {9C95F7B7-907F-40E7-933E-A2E953211C0A}
+		{B09DB461-D893-44CD-8F1D-E41C6222BB91} = {9C95F7B7-907F-40E7-933E-A2E953211C0A}
+		{6AB092BD-CDAE-4D9D-901C-4A19E80E0042} = {9C95F7B7-907F-40E7-933E-A2E953211C0A}
 	EndGlobalSection
 EndGlobal

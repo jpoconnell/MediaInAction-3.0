@@ -20,36 +20,36 @@ helm upgrade --install --version=4.0.19 ingress-nginx ingress-nginx/ingress-ngin
 * Add entries to the hosts file (in Windows: `C:\Windows\System32\drivers\etc\hosts`, in linux and macos: `/etc/hosts` ):
 
 ````powershell
-127.0.0.1 eshop-st-web
-127.0.0.1 eshop-st-public-web
-127.0.0.1 eshop-st-authserver
-127.0.0.1 eshop-st-identity
-127.0.0.1 eshop-st-administration
-127.0.0.1 eshop-st-basket
-127.0.0.1 eshop-st-catalog
-127.0.0.1 eshop-st-ordering
-127.0.0.1 eshop-st-cmskit
-127.0.0.1 eshop-st-payment
-127.0.0.1 eshop-st-gateway-web
-127.0.0.1 eshop-st-gateway-web-public
+127.0.0.1 mia-st-web
+127.0.0.1 mia-st-public-web
+127.0.0.1 mia-st-authserver
+127.0.0.1 mia-st-identity
+127.0.0.1 mia-st-administration
+127.0.0.1 mia-st-basket
+127.0.0.1 mia-st-catalog
+127.0.0.1 mia-st-ordering
+127.0.0.1 mia-st-cmskit
+127.0.0.1 mia-st-payment
+127.0.0.1 mia-st-gateway-web
+127.0.0.1 mia-st-gateway-web-public
 ````
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add eshoponabp https://abpframework.github.io/abp-charts/
+helm repo add mia https://abpframework.github.io/abp-charts/
 ```
-You can then run `helm search repo eshoponabp` to see the charts.
+You can then run `helm search repo mia` to see the charts.
 
 ```console
- helm install eshop-st eshoponabp/eshoponabp
+ helm install mia-st mia/mia
 ```
 
 OR
 
 * Run `build-images.ps1` or `build-images.sh` in the `build` directory.
-* Run `deploy-staging.ps1` or `deploy-staging.sh` in the `helm-chart` directory. It is deployed with the `eshop` namespace.
+* Run `deploy-staging.ps1` or `deploy-staging.sh` in the `helm-chart` directory. It is deployed with the `mia` namespace.
 * *You may wait ~30 seconds on first run for preparing the database*.
-* Browse https://eshop-st-public-web for public and https://eshop-st-web for web application
+* Browse https://mia-st-public-web for public and https://mia-st-web for web application
 * Username: `admin`, password: `1q2w3E*`.
 
 # Running on HTTPS
@@ -71,18 +71,18 @@ mkcert -install
 
 ## Run mkcert
 
-Create certificate for the eshopOnAbp domains using the mkcert command below:
+Create certificate for the miaOnAbp domains using the mkcert command below:
 ```powershell
-mkcert "eshoponabp.dev" "*.eshoponabp.dev"
+mkcert "mia.dev" "*.mia.dev"
 ```
 
 At the end of the output you will see something like
 
-The certificate is at "./eshop-st-web+10.pem" and the key at "./eshop-st-web+10-key.pem"
+The certificate is at "./mia-st-web+10.pem" and the key at "./mia-st-web+10-key.pem"
 
 Copy the cert name and key name below to create tls secret
 
 ```powershell
-kubectl create namespace eshop
-kubectl create secret tls -n eshop eshop-wildcard-tls --cert=./eshoponabp.dev+1.pem  --key=./eshoponabp.dev+1-key.pem
+kubectl create namespace mia
+kubectl create secret tls -n mia mia-wildcard-tls --cert=./mia.dev+1.pem  --key=./mia.dev+1-key.pem
 ```

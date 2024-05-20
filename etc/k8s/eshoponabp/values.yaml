@@ -2,7 +2,7 @@
 keycloak:
   config:
     dbVendor: postgres
-    dbAddr: eshop-st-postgresdb
+    dbAddr: mia-st-postgresdb
     dbDatabase: keycloak
     dbUser: postgres
     dbPassword: myPassw0rd
@@ -10,8 +10,8 @@ keycloak:
     keycloakAdminPassword: 1q2w3E*
     kcHealthEnabled: true
   ingress:
-    host: account.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: account.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
     repository: quay.io/keycloak/keycloak
     tag: 19.0.2
@@ -20,311 +20,311 @@ keycloak:
 # web sub-chart override
 web:
   config:
-    selfUrl: https://admin.eshoponabp.dev
-    gatewayUrl: https://gateway-web.eshoponabp.dev
+    selfUrl: https://admin.mia.dev
+    gatewayUrl: https://gateway-web.mia.dev
     authServer:
-      authority: https://account.eshoponabp.dev
+      authority: https://account.mia.dev
       requireHttpsMetadata: false
       responseType: "code"
       strictDiscoveryDocumentValidation: false
       skipIssuerCheck: true
   ingress:
-    host: admin.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: admin.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/app-web"
+    repository: "mia/app-web"
     tag: 1.0.0
 
 # public-web sub-chart override
 public-web:
   config:
-    selfUrl: https://eshoponabp.dev
-    gatewayUrl: https://gateway-public.eshoponabp.dev/
+    selfUrl: https://mia.dev
+    gatewayUrl: https://gateway-public.mia.dev/
     authServer:
-      authority: https://account.eshoponabp.dev
+      authority: https://account.mia.dev
       requireHttpsMetadata: "false"
       isOnProd: "false"
-      metaAddress: http://eshop-st-keycloak
+      metaAddress: http://mia-st-keycloak
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   ingress:
-    host: eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/app-publicweb"
+    repository: "mia/app-publicweb"
     tag: 1.0.0
 
 # identity-service sub-chart override
 identity:
   config:
-    selfUrl: https://identity.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev
+    selfUrl: https://identity.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev
     connectionStrings:
-      identityService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      identityService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch    
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch    
   identityServerClients: # Seeded Clients
-    webRootUrl: https://admin.eshoponabp.dev/  
-    publicWebRootUrl: https://eshoponabp.dev/
-    webGatewayRootUrl: https://gateway-web.eshoponabp.dev/
-    publicWebGatewayRootUrl: https://gateway-public.eshoponabp.dev/
-    identityServiceRootUrl: https://identity.eshoponabp.dev/
-    administrationServiceRootUrl: https://administration.eshoponabp.dev/
-    accountServiceRootUrl: https://account.eshoponabp.dev/
-    basketServiceRootUrl: https://basket.eshoponabp.dev/
-    catalogServiceRootUrl: https://catalog.eshoponabp.dev/
-    orderingServiceRootUrl: https://ordering.eshoponabp.dev/
-    cmskitServiceRootUrl: https://cmskit.eshoponabp.dev/
-    paymentServiceRootUrl: https://payment.eshoponabp.dev/
+    webRootUrl: https://admin.mia.dev/  
+    publicWebRootUrl: https://mia.dev/
+    webGatewayRootUrl: https://gateway-web.mia.dev/
+    publicWebGatewayRootUrl: https://gateway-public.mia.dev/
+    identityServiceRootUrl: https://identity.mia.dev/
+    administrationServiceRootUrl: https://administration.mia.dev/
+    accountServiceRootUrl: https://account.mia.dev/
+    basketServiceRootUrl: https://basket.mia.dev/
+    catalogServiceRootUrl: https://catalog.mia.dev/
+    orderingServiceRootUrl: https://ordering.mia.dev/
+    cmskitServiceRootUrl: https://cmskit.mia.dev/
+    paymentServiceRootUrl: https://payment.mia.dev/
   ingress:
-    host: identity.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: identity.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-identity"
+    repository: "mia/service-identity"
     tag: 1.0.0
 
 # administration sub-chart override
 administration:
   config:
-    selfUrl: https://administration.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev
+    selfUrl: https://administration.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev
     connectionStrings:
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     remoteServices:
-      abpIdentityBaseUrl: https://identity.eshoponabp.dev
+      abpIdentityBaseUrl: https://identity.mia.dev
       useCurrentToken: "false"  
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   synchedCommunication: # Used for server-to-server (client-credentials) communication with identityService for user permissions
-    authority: https://account.eshoponabp.dev
+    authority: https://account.mia.dev
   ingress:
-    host: administration.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: administration.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-administration"
+    repository: "mia/service-administration"
     tag: 1.0.0
 
 # gateway-web sub-chart override
 gateway-web:
   config:
-    selfUrl: https://gateway-web.eshoponabp.dev
-    corsOrigins: https://admin.eshoponabp.dev
-    globalConfigurationBaseUrl: http://eshop-st-gateway-web-public
+    selfUrl: https://gateway-web.mia.dev
+    corsOrigins: https://admin.mia.dev
+    globalConfigurationBaseUrl: http://mia-st-gateway-web-public
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   ingress:
-    host: gateway-web.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: gateway-web.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/gateway-web"
+    repository: "mia/gateway-web"
     tag: 1.0.0
   reRoutes:
     accountService:
-      url: http://eshop-st-keycloak
+      url: http://mia-st-keycloak
     identityService:
-      url: http://eshop-st-identity
+      url: http://mia-st-identity
     administrationService:
-      url: http://eshop-st-administration
+      url: http://mia-st-administration
     catalogService:
-      url: http://eshop-st-catalog
+      url: http://mia-st-catalog
     orderingService:
-      url: http://eshop-st-ordering
+      url: http://mia-st-ordering
     cmskitService:
-      url: http://eshop-st-cmskit
+      url: http://mia-st-cmskit
 
 # gateway-web-public sub-chart override
 gateway-web-public:
   config:
-    selfUrl: https://gateway-public.eshoponabp.dev
+    selfUrl: https://gateway-public.mia.dev
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   ingress:
-    host: gateway-public.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: gateway-public.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/gateway-web-public"
+    repository: "mia/gateway-web-public"
     tag: 1.0.0
   reRoutes:
     identityService:
-      url: http://eshop-st-identity
+      url: http://mia-st-identity
     administrationService:
-      url: http://eshop-st-administration
+      url: http://mia-st-administration
     catalogService:
-      url: http://eshop-st-catalog
+      url: http://mia-st-catalog
     basketService:
-      url: http://eshop-st-basket
+      url: http://mia-st-basket
     orderingService:
-      url: http://eshop-st-ordering
+      url: http://mia-st-ordering
     cmskitService:
-      url: http://eshop-st-cmskit
+      url: http://mia-st-cmskit
     paymentService:
-      url: http://eshop-st-payment 
+      url: http://mia-st-payment 
 
 # basket-service sub-chart override
 basket:
   config:
-    selfUrl: https://basket.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev,https://eshoponabp.dev
+    selfUrl: https://basket.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev,https://mia.dev
     connectionStrings:
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
     remoteServices:
-      catalogBaseUrl: http://eshop-st-catalog:80
-      catalogGrpcUrl: http://eshop-st-catalog:81
+      catalogBaseUrl: http://mia-st-catalog:80
+      catalogGrpcUrl: http://mia-st-catalog:81
   ingress:
-    host: basket.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: basket.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-basket"
+    repository: "mia/service-basket"
     tag: 1.0.0
 
 # catalog-service sub-chart override
 catalog:
   config:
-    selfUrl: https://catalog.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev,https://eshoponabp.dev,https://admin.eshoponabp.dev
+    selfUrl: https://catalog.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev,https://mia.dev,https://admin.mia.dev
     connectionStrings:
-      catalogService: "mongodb://eshop-st-mongodb/EShopOnAbp_Catalog"
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      catalogService: "mongodb://mia-st-mongodb/EShopOnAbp_Catalog"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
     kestrel:
-      httpUrl: http://eshop-st-catalog:80
+      httpUrl: http://mia-st-catalog:80
       httpProtocols: Http1AndHttp2
-      grpcUrl: http://eshop-st-catalog:81
+      grpcUrl: http://mia-st-catalog:81
       grpcProtocols: Http2
   ingress:
-    host: catalog.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: catalog.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-catalog"
+    repository: "mia/service-catalog"
     tag: 1.0.0
 
 # ordering-service sub-chart override
 ordering:
   config:
-    selfUrl: https://ordering.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev
+    selfUrl: https://ordering.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev
     connectionStrings:
-      orderingService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Ordering;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      orderingService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Ordering;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   ingress:
-    host: ordering.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: ordering.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-ordering"
+    repository: "mia/service-ordering"
     tag: 1.0.0
 
 # cmskit-service sub-chart override
 cmskit:
   config:
-    selfUrl: https://cmskit.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev
+    selfUrl: https://cmskit.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev
     connectionStrings:
-      cmskitervice: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Cmskit;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      cmskitervice: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Cmskit;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     remoteServices:
-      abpIdentityBaseUrl: https://identity.eshoponabp.dev
+      abpIdentityBaseUrl: https://identity.mia.dev
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   synchedCommunication: # Used for server-to-server (client-credentials) communication with identityService for user permissions
-    authority: https://admin.eshoponabp.dev
+    authority: https://admin.mia.dev
   ingress:
-    host: cmskit.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: cmskit.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-cmskit"
+    repository: "mia/service-cmskit"
     tag: 1.0.0
 
 # payment-service sub-chart override
 payment:
   config:
-    selfUrl: https://payment.eshoponabp.dev
-    corsOrigins: https://gateway-web.eshoponabp.dev,https://gateway-public.eshoponabp.dev
+    selfUrl: https://payment.mia.dev
+    corsOrigins: https://gateway-web.mia.dev,https://gateway-public.mia.dev
     connectionStrings:
-      paymentService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Payment;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      paymentService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Payment;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-st-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-st-keycloak
+      authority: http://mia-st-keycloak
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     remoteServices:
-      abpIdentityBaseUrl: https://identity.eshoponabp.dev
+      abpIdentityBaseUrl: https://identity.mia.dev
     dotnetEnv: Staging
-    redisHost: eshop-st-redis
-    rabbitmqHost: eshop-st-rabbitmq
-    elasticsearchHost: eshop-st-elasticsearch
+    redisHost: mia-st-redis
+    rabbitmqHost: mia-st-rabbitmq
+    elasticsearchHost: mia-st-elasticsearch
   ingress:
-    host: payment.eshoponabp.dev
-    tlsSecret: eshop-wildcard-tls
+    host: payment.mia.dev
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "eshoponabp/service-payment"
+    repository: "mia/service-payment"
     tag: 1.0.0
 
-# Default values for eshoponabp.
+# Default values for mia.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 

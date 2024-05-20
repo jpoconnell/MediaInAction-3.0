@@ -1,10 +1,10 @@
-# eShopOnAbp
+# MediaInAction
 
 This is a reference project for those who want to build microservice solutions with the ABP Framework.
 
-See [the blog post](https://blog.abp.io/abp/Introducing-the-eShopOnAbp-Project) for more info.
+See [the blog post](https://blog.abp.io/abp/Introducing-the-MediaInAction-Project) for more info.
 
-Live demo 👉 https://www.eshoponabp.com/
+Live demo 👉 https://www.mia.com/
 
 ## Issues
 
@@ -22,7 +22,7 @@ You can run it in Visual Studio or use [Microsoft Tye](https://github.com/dotnet
 
 ### Instructions
 
-- Clone the repository ( [eShopOnAbp](https://github.com/abpframework/eShopOnAbp) )
+- Clone the repository ( [MediaInAction](https://github.com/abpframework/MediaInAction) )
 
 - Install Tye (*follow [these steps](https://github.com/dotnet/tye/blob/main/docs/getting_started.md#installing-tye)*)
 
@@ -75,7 +75,7 @@ Generating a new certificate will fix that issue. To generate a new one,
 - [x] Use gRPC for catalog microservice ✔️
 - [x] Management Side of Services ✔️
 - [x] Administration application (to manage products and orders with a dashboard) ✔️
-- [x] Deployment to azure k8s ✔️ (https://eshoponabp.com)
+- [x] Deployment to azure k8s ✔️ (https://mia.com)
 ### Version 2.0
 - [x] Product-detail page on the shopping application (with CMS-kit integration for comments and rating components) ✔️
 - [x] Switch to Keycloak from IdentityServer in AuthServer

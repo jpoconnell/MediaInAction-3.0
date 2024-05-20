@@ -4,7 +4,7 @@
         $('.buy-again').click(function () {
             const $this = $(this);
             const productId = $this.attr('data-product-id');
-            eShopOnAbp.basketService.basket.addProduct({
+            MediaInAction.basketService.basket.addProduct({
                 productId: productId,
                 anonymousId: anonymousId,
             }).then(function () {

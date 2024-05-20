@@ -5,20 +5,20 @@
 
 (function(){
 
-  // controller eShopOnAbp.basketService.basket
+  // controller MediaInAction.basketService.basket
 
   (function(){
 
-    abp.utils.createNamespace(window, 'eShopOnAbp.basketService.basket');
+    abp.utils.createNamespace(window, 'MediaInAction.basketService.basket');
 
-    eShopOnAbp.basketService.basket.get = function(anonymousUserId, ajaxParams) {
+    MediaInAction.basketService.basket.get = function(anonymousUserId, ajaxParams) {
       return abp.ajax($.extend(true, {
         url: abp.appPath + 'api/basket/basket' + abp.utils.buildQueryString([{ name: 'anonymousUserId', value: anonymousUserId }]) + '',
         type: 'GET'
       }, ajaxParams));
     };
 
-    eShopOnAbp.basketService.basket.addProduct = function(input, ajaxParams) {
+    MediaInAction.basketService.basket.addProduct = function(input, ajaxParams) {
       return abp.ajax($.extend(true, {
         url: abp.appPath + 'api/basket/basket/product',
         type: 'POST',
@@ -26,7 +26,7 @@
       }, ajaxParams));
     };
 
-    eShopOnAbp.basketService.basket.removeProduct = function(input, ajaxParams) {
+    MediaInAction.basketService.basket.removeProduct = function(input, ajaxParams) {
       return abp.ajax($.extend(true, {
         url: abp.appPath + 'api/basket/basket/product' + abp.utils.buildQueryString([{ name: 'productId', value: input.productId }, { name: 'count', value: input.count }, { name: 'anonymousId', value: input.anonymousId }]) + '',
         type: 'DELETE'

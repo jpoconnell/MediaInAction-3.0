@@ -3,7 +3,7 @@ import { OrderService } from '../../lib/proxy/orders';
 import { OrderViewModel, toOrderViewModel } from '../../lib';
 import { Confirmation, ConfirmationService } from '@abp/ng.theme.shared';
 import { ListService } from '@abp/ng.core';
-import { eOrderingPolicyNames } from '@eshoponabp/ordering/config';
+import { eOrderingPolicyNames } from '@mia/ordering/config';
 
 @Component({
   selector: 'app-orders',

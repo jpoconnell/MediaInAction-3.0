@@ -10885,11 +10885,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj",
-      "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj",
-      "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj",
-      "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj",
-      "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj",
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj",
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj",
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj",
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj",
+      "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj",
       "EShopOnAbp.Shared.Hosting.AspNetCore >= 1.0.0",
       "EShopOnAbp.Shared.Localization >= 1.0.0",
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 8.0.0",
@@ -10913,14 +10913,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/apps/public-web/src/EShopOnAbp.PublicWeb/EShopOnAbp.PublicWeb.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction/apps/public-web/src/EShopOnAbp.PublicWeb/EShopOnAbp.PublicWeb.csproj",
       "projectName": "EShopOnAbp.PublicWeb",
-      "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/apps/public-web/src/EShopOnAbp.PublicWeb/EShopOnAbp.PublicWeb.csproj",
+      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/apps/public-web/src/EShopOnAbp.PublicWeb/EShopOnAbp.PublicWeb.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/apps/public-web/src/EShopOnAbp.PublicWeb/obj/",
+      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/apps/public-web/src/EShopOnAbp.PublicWeb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/NuGet.Config",
+        "/Users/jeremiahoconnell/gitRepos/MediaInAction/NuGet.Config",
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
@@ -10934,26 +10934,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/shared/EShopOnAbp.Shared.Hosting.AspNetCore/EShopOnAbp.Shared.Hosting.AspNetCore.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/shared/EShopOnAbp.Shared.Hosting.AspNetCore/EShopOnAbp.Shared.Hosting.AspNetCore.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/shared/EShopOnAbp.Shared.Hosting.AspNetCore/EShopOnAbp.Shared.Hosting.AspNetCore.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/shared/EShopOnAbp.Shared.Hosting.AspNetCore/EShopOnAbp.Shared.Hosting.AspNetCore.csproj"
             },
-            "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/shared/EShopOnAbp.Shared.Localization/EShopOnAbp.Shared.Localization.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/shared/EShopOnAbp.Shared.Localization/EShopOnAbp.Shared.Localization.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction/shared/EShopOnAbp.Shared.Localization/EShopOnAbp.Shared.Localization.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction/shared/EShopOnAbp.Shared.Localization/EShopOnAbp.Shared.Localization.csproj"
             }
           }
         }
@@ -11048,8 +11048,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj",
+      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/basket/src/EShopOnAbp.BasketService.Contracts/EShopOnAbp.BasketService.Contracts.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -11057,8 +11057,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj",
+      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/File/src/EShopOnAbp.FileService.HttpApi.Client/EShopOnAbp.FileService.HttpApi.Client.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -11066,8 +11066,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj",
+      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/cmskit/src/EShopOnAbp.CmskitService.HttpApi.Client/EShopOnAbp.CmskitService.HttpApi.Client.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -11075,8 +11075,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj",
+      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/ordering/src/EShopOnAbp.VideoService.HttpApi.Client/EShopOnAbp.VideoService.HttpApi.Client.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -11084,8 +11084,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/jeremiahoconnell/gitRepos/eShopOnAbp/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj",
+      "message": "Unable to find project '/Users/jeremiahoconnell/gitRepos/MediaInAction/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/jeremiahoconnell/gitRepos/MediaInAction/services/payment/src/EShopOnAbp.TraktService.HttpApi.Client/EShopOnAbp.TraktService.HttpApi.Client.csproj",
       "targetGraphs": [
         "net8.0"
       ]

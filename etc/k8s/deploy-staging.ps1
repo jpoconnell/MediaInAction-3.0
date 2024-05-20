@@ -1,1 +1,1 @@
-helm upgrade --install eshop-st eshoponabp -f ./eshoponabp/values.st.yaml --namespace eshop --create-namespace
+helm upgrade --install mia-st mia -f ./mia/values.st.yaml --namespace mia --create-namespace

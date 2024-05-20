@@ -21,7 +21,7 @@ public class LoadToBeMappedList : ISingletonDependency
         _toBeMappedCreateList = new List<ToBeMappedCreateDto>();
         _toBeMappedRepository = toBeMappedRepository;
         _toBeMappedManager = toBeMappedManager;
-        using (StreamReader r = new StreamReader("../../../../MediaInAction.VideoService.TestBase/TestData/toBeMapped.json"))
+        using (StreamReader r = new StreamReader("../../../../MediaInAction.VideoService.TestBase/TestData/tobemapped.json"))
         {
             string json = r.ReadToEnd();
             _toBeMappedCreateList = JsonConvert.DeserializeObject<List<ToBeMappedCreateDto>>(json);

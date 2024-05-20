@@ -2,38 +2,38 @@ param ($version='1.0.0')
 
 az acr login --name volocr
 
-docker tag eshoponabp/app-web:$version volocr.azurecr.io/eshoponabp/app-web:$version
-docker push volocr.azurecr.io/eshoponabp/app-web:$version
+docker tag mia/app-web:$version volocr.azurecr.io/mia/app-web:$version
+docker push volocr.azurecr.io/mia/app-web:$version
 
-docker tag eshoponabp/app-authserver:$version volocr.azurecr.io/eshoponabp/app-authserver:$version
-docker push volocr.azurecr.io/eshoponabp/app-authserver:$version
+docker tag mia/app-authserver:$version volocr.azurecr.io/mia/app-authserver:$version
+docker push volocr.azurecr.io/mia/app-authserver:$version
 
-docker tag eshoponabp/app-publicweb:$version volocr.azurecr.io/eshoponabp/app-publicweb:$version
-docker push volocr.azurecr.io/eshoponabp/app-publicweb:$version
+docker tag mia/app-publicweb:$version volocr.azurecr.io/mia/app-publicweb:$version
+docker push volocr.azurecr.io/mia/app-publicweb:$version
 
-docker tag eshoponabp/gateway-web:$version volocr.azurecr.io/eshoponabp/gateway-web:$version
-docker push volocr.azurecr.io/eshoponabp/gateway-web:$version
+docker tag mia/gateway-web:$version volocr.azurecr.io/mia/gateway-web:$version
+docker push volocr.azurecr.io/mia/gateway-web:$version
 
-docker tag eshoponabp/gateway-web-public:$version volocr.azurecr.io/eshoponabp/gateway-web-public:$version
-docker push volocr.azurecr.io/eshoponabp/gateway-web-public:$version
+docker tag mia/gateway-web-public:$version volocr.azurecr.io/mia/gateway-web-public:$version
+docker push volocr.azurecr.io/mia/gateway-web-public:$version
 
-docker tag eshoponabp/service-identity:$version volocr.azurecr.io/eshoponabp/service-identity:$version
-docker push volocr.azurecr.io/eshoponabp/service-identity:$version
+docker tag mia/service-identity:$version volocr.azurecr.io/mia/service-identity:$version
+docker push volocr.azurecr.io/mia/service-identity:$version
 
-docker tag eshoponabp/service-administration:$version volocr.azurecr.io/eshoponabp/service-administration:$version
-docker push volocr.azurecr.io/eshoponabp/service-administration:$version
+docker tag mia/service-administration:$version volocr.azurecr.io/mia/service-administration:$version
+docker push volocr.azurecr.io/mia/service-administration:$version
 
-docker tag eshoponabp/service-basket:$version volocr.azurecr.io/eshoponabp/service-basket:$version
-docker push volocr.azurecr.io/eshoponabp/service-basket:$version
+docker tag mia/service-basket:$version volocr.azurecr.io/mia/service-basket:$version
+docker push volocr.azurecr.io/mia/service-basket:$version
 
-docker tag eshoponabp/service-catalog:$version volocr.azurecr.io/eshoponabp/service-catalog:$version
-docker push volocr.azurecr.io/eshoponabp/service-catalog:$version
+docker tag mia/service-catalog:$version volocr.azurecr.io/mia/service-catalog:$version
+docker push volocr.azurecr.io/mia/service-catalog:$version
 
-docker tag eshoponabp/service-ordering:$version volocr.azurecr.io/eshoponabp/service-ordering:$version
-docker push volocr.azurecr.io/eshoponabp/service-ordering:$version
+docker tag mia/service-ordering:$version volocr.azurecr.io/mia/service-ordering:$version
+docker push volocr.azurecr.io/mia/service-ordering:$version
 
-docker tag eshoponabp/service-cmskit:$version volocr.azurecr.io/eshoponabp/service-cmskit:$version
-docker push volocr.azurecr.io/eshoponabp/service-cmskit:$version
+docker tag mia/service-cmskit:$version volocr.azurecr.io/mia/service-cmskit:$version
+docker push volocr.azurecr.io/mia/service-cmskit:$version
 
-docker tag eshoponabp/service-payment:$version volocr.azurecr.io/eshoponabp/service-payment:$version
-docker push volocr.azurecr.io/eshoponabp/service-payment:$version
+docker tag mia/service-payment:$version volocr.azurecr.io/mia/service-payment:$version
+docker push volocr.azurecr.io/mia/service-payment:$version

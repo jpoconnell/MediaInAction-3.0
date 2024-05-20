@@ -10,7 +10,7 @@
                 .click(function () {
                     let $this = $(this);
                     let productId = $this.parents('.basket-list-item').attr('data-product-id');
-                    eShopOnAbp.basketService.basket.removeProduct({
+                    MediaInAction.basketService.basket.removeProduct({
                         productId: productId,
                         anonymousId: anonymousId
                     }).then(function () {
@@ -28,7 +28,7 @@
                     e.preventDefault();
                     let $this = $(this);
                     let productId = $this.parents('.basket-list-item').attr('data-product-id');
-                    eShopOnAbp.basketService.basket.addProduct({
+                    MediaInAction.basketService.basket.addProduct({
                         productId: productId,
                         count: 1,
                         anonymousId: anonymousId
@@ -46,7 +46,7 @@
                     e.preventDefault();
                     let $this = $(this);                    
                     let productId = $this.parents('.basket-list-item').attr('data-product-id');
-                    eShopOnAbp.basketService.basket.removeProduct({
+                    MediaInAction.basketService.basket.removeProduct({
                         productId: productId,
                         count: 1,
                         anonymousId: anonymousId

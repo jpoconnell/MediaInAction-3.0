@@ -1,35 +1,35 @@
 # auth-server sub-chart override
 authserver:
   config:
-    selfUrl: https://auth.eshoponabp.com   
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com,https://identity.eshoponabp.com,https://administration.eshoponabp.com,https://basket.eshoponabp.com,https://catalog.eshoponabp.com,https://order.eshoponabp.com,https://cmskit.eshoponabp.com,https://payment.eshoponabp.com,https://admin.eshoponabp.com,https://www.eshoponabp.com
-    allowedRedirectUrls: https://admin.eshoponabp.com
+    selfUrl: https://auth.mia.com   
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com,https://identity.mia.com,https://administration.mia.com,https://basket.mia.com,https://catalog.mia.com,https://order.mia.com,https://cmskit.mia.com,https://payment.mia.com,https://admin.mia.com,https://www.mia.com
+    allowedRedirectUrls: https://admin.mia.com
     authServer:
-      authority: https://auth.eshoponabp.com
+      authority: https://auth.mia.com
       requireHttpsMetadata: "false"
     connectionStrings:
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
-      identityService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      identityService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: auth.eshoponabp.com
-    tlsSecret: eshop-wildcard-tls
+    host: auth.mia.com
+    tlsSecret: mia-wildcard-tls
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/app-authserver"
+    repository: "ghcr.io/volosoft/mia/app-authserver"
     tag: 1.0.0
 
 # web sub-chart override
 web:
   config:
-    selfUrl: https://admin.eshoponabp.com
-    gatewayUrl: https://gateway.eshoponabp.com
+    selfUrl: https://admin.mia.com
+    gatewayUrl: https://gateway.mia.com
     authServer:
-      authority: https://auth.eshoponabp.com
+      authority: https://auth.mia.com
       requireHttpsMetadata: false
       responseType: "code"
       strictDiscoveryDocumentValidation: false
@@ -37,306 +37,306 @@ web:
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: admin.eshoponabp.com
+    host: admin.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/app-web"
+    repository: "ghcr.io/volosoft/mia/app-web"
     tag: 1.0.0
 
 # public-web sub-chart override
 public-web:
   config:
-    selfUrl: https://www.eshoponabp.com
-    gatewayUrl: https://gateway-public.eshoponabp.com/
+    selfUrl: https://www.mia.com
+    gatewayUrl: https://gateway-public.mia.com/
     authServer:
-      authority: https://auth.eshoponabp.com
+      authority: https://auth.mia.com
       requireHttpsMetadata: "false"
       isOnProd: "true"
-      metaAddress: http://eshop-az-authserver
+      metaAddress: http://mia-az-authserver
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: eshoponabp.com
+    host: mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/app-publicweb"
+    repository: "ghcr.io/volosoft/mia/app-publicweb"
     tag: 1.0.0
 
 # identity-service sub-chart override
 identity:
   config:
-    selfUrl: https://identity.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com
+    selfUrl: https://identity.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com
     connectionStrings:
-      identityService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      identityService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Identity;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch    
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch    
   identityServerClients: # Seeded Clients
-    webRootUrl: https://admin.eshoponabp.com/  
-    publicWebRootUrl: https://www.eshoponabp.com/
-    webGatewayRootUrl: https://gateway.eshoponabp.com/
-    publicWebGatewayRootUrl: https://gateway-public.eshoponabp.com/
-    identityServiceRootUrl: https://identity.eshoponabp.com/
-    administrationServiceRootUrl: https://administration.eshoponabp.com/
-    accountServiceRootUrl: https://auth.eshoponabp.com
-    basketServiceRootUrl: https://basket.eshoponabp.com/
-    catalogServiceRootUrl: https://catalog.eshoponabp.com
-    orderingServiceRootUrl: https://order.eshoponabp.com
-    cmskitServiceRootUrl: https://cmskit.eshoponabp.com
-    paymentServiceRootUrl: https://payment.eshoponabp.com
+    webRootUrl: https://admin.mia.com/  
+    publicWebRootUrl: https://www.mia.com/
+    webGatewayRootUrl: https://gateway.mia.com/
+    publicWebGatewayRootUrl: https://gateway-public.mia.com/
+    identityServiceRootUrl: https://identity.mia.com/
+    administrationServiceRootUrl: https://administration.mia.com/
+    accountServiceRootUrl: https://auth.mia.com
+    basketServiceRootUrl: https://basket.mia.com/
+    catalogServiceRootUrl: https://catalog.mia.com
+    orderingServiceRootUrl: https://order.mia.com
+    cmskitServiceRootUrl: https://cmskit.mia.com
+    paymentServiceRootUrl: https://payment.mia.com
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: identity.eshoponabp.com
+    host: identity.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-identity"
+    repository: "ghcr.io/volosoft/mia/service-identity"
     tag: 1.0.0
 
 # administration sub-chart override
 administration:
   config:
-    selfUrl: https://administration.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com,https://eshop-az-gateway-internal
+    selfUrl: https://administration.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com,https://mia-az-gateway-internal
     connectionStrings:
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"      
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     remoteServices:
-      abpIdentityBaseUrl: https://identity.eshoponabp.com
+      abpIdentityBaseUrl: https://identity.mia.com
       useCurrentToken: "false"  
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   synchedCommunication: # Used for server-to-server (client-credentials) communication with identityService for user permissions
-    authority: https://auth.eshoponabp.com
+    authority: https://auth.mia.com
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: administration.eshoponabp.com
+    host: administration.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-administration"
+    repository: "ghcr.io/volosoft/mia/service-administration"
     tag: 1.0.0
 
 # gateway-web sub-chart override
 gateway-web:
   config:
-    selfUrl: https://gateway.eshoponabp.com
-    corsOrigins: https://admin.eshoponabp.com
-    globalConfigurationBaseUrl: http://eshop-az-gateway-public
+    selfUrl: https://gateway.mia.com
+    corsOrigins: https://admin.mia.com
+    globalConfigurationBaseUrl: http://mia-az-gateway-public
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: gateway.eshoponabp.com
+    host: gateway.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/gateway-web"
+    repository: "ghcr.io/volosoft/mia/gateway-web"
     tag: 1.0.0
   reRoutes:
     accountService:
-      url: http://eshop-az-authserver
+      url: http://mia-az-authserver
     identityService:
-      url: http://eshop-az-identity
+      url: http://mia-az-identity
     administrationService:
-      url: http://eshop-az-administration
+      url: http://mia-az-administration
     catalogService:
-      url: http://eshop-az-catalog
+      url: http://mia-az-catalog
     orderingService:
-      url: http://eshop-az-ordering
+      url: http://mia-az-ordering
     cmskitService:
-      url: http://eshop-az-cmskit
+      url: http://mia-az-cmskit
 
 # gateway-web-public sub-chart override
 gateway-web-public:
   config:
-    selfUrl: https://gateway-public.eshoponabp.com
+    selfUrl: https://gateway-public.mia.com
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: gateway-public.eshoponabp.com
+    host: gateway-public.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/gateway-web-public"
+    repository: "ghcr.io/volosoft/mia/gateway-web-public"
     tag: 1.0.0
   reRoutes:
     accountService:
-      url: http://eshop-az-authserver
+      url: http://mia-az-authserver
     identityService:
-      url: http://eshop-az-identity
+      url: http://mia-az-identity
     administrationService:
-      url: http://eshop-az-administration
+      url: http://mia-az-administration
     catalogService:
-      url: http://eshop-az-catalog
+      url: http://mia-az-catalog
     basketService:
-      url: http://eshop-az-basket
+      url: http://mia-az-basket
     orderingService:
-      url: http://eshop-az-ordering
+      url: http://mia-az-ordering
     cmskitService:
-      url: http://eshop-az-cmskit
+      url: http://mia-az-cmskit
     paymentService:
-      url: http://eshop-az-payment  
+      url: http://mia-az-payment  
 
 # basket-service sub-chart override
 basket:
   config:
-    selfUrl: https://basket.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com,https://www.eshoponabp.com
+    selfUrl: https://basket.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com,https://www.mia.com
     connectionStrings:
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
     remoteServices:
-      catalogBaseUrl: http://eshop-az-catalog:80
-      catalogGrpcUrl: http://eshop-az-catalog:81
+      catalogBaseUrl: http://mia-az-catalog:80
+      catalogGrpcUrl: http://mia-az-catalog:81
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: basket.eshoponabp.com
+    host: basket.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-basket"
+    repository: "ghcr.io/volosoft/mia/service-basket"
     tag: 1.0.0
 
 # catalog-service sub-chart override
 catalog:
   config:
-    selfUrl: https://catalog.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com,https://www.eshoponabp.com,https://admin.eshoponabp.com
+    selfUrl: https://catalog.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com,https://www.mia.com,https://admin.mia.com
     connectionStrings:
-      catalogService: "mongodb://eshop-az-mongodb/EShopOnAbp_Catalog"
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      catalogService: "mongodb://mia-az-mongodb/EShopOnAbp_Catalog"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
     kestrel:
-      httpUrl: http://eshop-az-catalog:80
+      httpUrl: http://mia-az-catalog:80
       httpProtocols: Http1AndHttp2
-      grpcUrl: http://eshop-az-catalog:81
+      grpcUrl: http://mia-az-catalog:81
       grpcProtocols: Http2
   ingress:
-    host: catalog.eshoponabp.com
+    host: catalog.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-catalog"
+    repository: "ghcr.io/volosoft/mia/service-catalog"
     tag: 1.0.0
 
 # ordering-service sub-chart override
 ordering:
   config:
-    selfUrl: https://order.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com
+    selfUrl: https://order.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com
     connectionStrings:
-      orderingService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Ordering;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      orderingService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Ordering;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: order.eshoponabp.com
+    host: order.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-ordering"
+    repository: "ghcr.io/volosoft/mia/service-ordering"
     tag: 1.0.1
     
 cmskit:
   config:
-    selfUrl: https://cmskit.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com
+    selfUrl: https://cmskit.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com
     connectionStrings:
-      cmskitService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Cmskit;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      cmskitService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Cmskit;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     remoteServices:
-      abpIdentityBaseUrl: https://identity.eshoponabp.com
+      abpIdentityBaseUrl: https://identity.mia.com
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   synchedCommunication: # Used for server-to-server (client-credentials) communication with identityService for user permissions
-    authority: https://auth.eshoponabp.com 
+    authority: https://auth.mia.com 
   ingress:
-    host: cmskit.eshoponabp.com
+    host: cmskit.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-cmskit"
+    repository: "ghcr.io/volosoft/mia/service-cmskit"
     tag: 1.0.1
     
 # payment-service sub-chart override
 payment:
   config:
-    selfUrl: https://payment.eshoponabp.com
-    corsOrigins: https://gateway.eshoponabp.com,https://gateway-public.eshoponabp.com
+    selfUrl: https://payment.mia.com
+    corsOrigins: https://gateway.mia.com,https://gateway-public.mia.com
     connectionStrings:
-      paymentService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Payment;User ID=postgres;password=myPassw0rd;Pooling=false"
-      administrationService: "Host=eshop-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
+      paymentService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Payment;User ID=postgres;password=myPassw0rd;Pooling=false"
+      administrationService: "Host=mia-az-postgresdb;Port=5432;Database=EShopOnAbp_Administration;User ID=postgres;password=myPassw0rd;Pooling=false"
     authServer:
-      authority: http://eshop-az-authserver
+      authority: http://mia-az-authserver
       requireHttpsMetadata: "false"
       swaggerClientId: WebGateway_Swagger
       swaggerClientSecret: "1q2w3e*"
     dotnetEnv: Production
-    redisHost: eshop-az-redis
-    rabbitmqHost: eshop-az-rabbitmq
-    elasticsearchHost: eshop-az-elasticsearch
+    redisHost: mia-az-redis
+    rabbitmqHost: mia-az-rabbitmq
+    elasticsearchHost: mia-az-elasticsearch
   nodeSelector:
     agentpool: demopool
   ingress:
-    host: payment.eshoponabp.com
+    host: payment.mia.com
   image:
-    repository: "ghcr.io/volosoft/eshoponabp/service-payment"
+    repository: "ghcr.io/volosoft/mia/service-payment"
     tag: 1.0.0
 
-# Default values for eshoponabp.
+# Default values for mia.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
