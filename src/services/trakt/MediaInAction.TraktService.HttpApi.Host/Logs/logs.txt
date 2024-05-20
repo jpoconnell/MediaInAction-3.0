@@ -704,3 +704,230 @@
 2024-05-19 22:22:33.718 +00:00 [DBG] Shutting down threadpool...
 2024-05-19 22:22:33.718 +00:00 [DBG] Shutdown of threadpool complete.
 2024-05-19 22:22:33.720 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2024-05-20 02:02:22.837 +00:00 [INF] Starting MediaInAction.TraktService.HttpApi.Host.
+2024-05-20 02:02:24.189 +00:00 [INF] Loaded ABP modules:
+2024-05-20 02:02:24.190 +00:00 [INF] - MediaInAction.TraktService.TraktServiceHttpApiHostModule
+2024-05-20 02:02:24.190 +00:00 [INF]   - MediaInAction.TraktService.TraktServiceHttpApiModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - MediaInAction.TraktService.TraktServiceApplicationContractsModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - MediaInAction.TraktService.TraktServiceDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 02:02:24.191 +00:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 02:02:24.191 +00:00 [INF]               - Volo.Abp.Data.AbpDataModule
+2024-05-20 02:02:24.191 +00:00 [INF]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 02:02:24.191 +00:00 [INF]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 02:02:24.191 +00:00 [INF]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 02:02:24.191 +00:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 02:02:24.191 +00:00 [INF]   - MediaInAction.TraktService.TraktServiceApplicationModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - MediaInAction.TraktService.TraktServiceDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-20 02:02:24.191 +00:00 [INF]   - MediaInAction.TraktService.MongoDb.TraktServiceMongoDbModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-05-20 02:02:24.191 +00:00 [INF]   - MediaInAction.TraktService.BackgroundWorkers.TraktServiceBackgroundWorkerModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.Quartz.AbpQuartzModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - MediaInAction.TraktService.TraktServiceLibModule
+2024-05-20 02:02:24.191 +00:00 [INF]   - MediaInAction.Shared.Api.MediaInActionSharedHealthCheckModule
+2024-05-20 02:02:24.191 +00:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-20 02:02:24.191 +00:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-20 02:02:24.191 +00:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-20 02:02:24.191 +00:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-20 02:02:24.314 +00:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2024-05-20 02:02:24.322 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-20 02:02:24.323 +00:00 [INF] Quartz Scheduler created
+2024-05-20 02:02:24.324 +00:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2024-05-20 02:02:24.326 +00:00 [INF] RAMJobStore initialized.
+2024-05-20 02:02:24.328 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-20 02:02:24.329 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-20 02:02:24.330 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-20 02:02:24.346 +00:00 [INF] Adding 0 jobs, 0 triggers.
+2024-05-20 02:02:24.383 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2024-05-20 02:02:24.386 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:02:24.704 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.722 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.723 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.724 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.724 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.725 +00:00 [DBG] Batch acquisition of 1 triggers
+2024-05-20 02:02:24.725 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:02:24.737 +00:00 [DBG] Calling Execute on job DEFAULT.ResendUnAcceptedMediaWorker
+2024-05-20 02:02:24.741 +00:00 [DBG] Calling Execute on job DEFAULT.TraktCalendarWorker
+2024-05-20 02:02:24.741 +00:00 [DBG] Calling Execute on job DEFAULT.EpisodeCleanupWorker
+2024-05-20 02:02:24.745 +00:00 [INF] Background Worker Resend Starting..!
+2024-05-20 02:02:24.745 +00:00 [INF] Background Worker EpisodeCleanupWorker Starting..!
+2024-05-20 02:02:24.753 +00:00 [INF] Background Worker TraktCalendarWorker Starting..!
+2024-05-20 02:02:24.887 +00:00 [INF] Background Worker TraktCalendarWorker Complete
+2024-05-20 02:02:24.898 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:27.867 +00:00 [DBG] Calling Execute on job DEFAULT.TraktWatchedWorker
+2024-05-20 02:02:27.867 +00:00 [INF] Background Worker TraktWatchedWorker Starting..!
+2024-05-20 02:02:27.869 +00:00 [INF] GetWatchedShows Service Started
+2024-05-20 02:02:27.888 +00:00 [INF] Background Worker TraktWatchedWorker Complete
+2024-05-20 02:02:27.888 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:27.892 +00:00 [DBG] Calling Execute on job DEFAULT.TraktWatchListWorker
+2024-05-20 02:02:27.892 +00:00 [INF] Background Worker TraktWatchedWorker Starting..!
+2024-05-20 02:02:27.894 +00:00 [INF] GetWatchedList for Shows Service Started
+2024-05-20 02:02:27.896 +00:00 [INF] GetWatchedList for Movies Service Started
+2024-05-20 02:02:27.896 +00:00 [INF] Background Worker TraktWatchedWorker Complete
+2024-05-20 02:02:27.896 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:28.186 +00:00 [DBG] Calling Execute on job DEFAULT.TraktCollectionsWorker
+2024-05-20 02:02:28.187 +00:00 [INF] Background Worker TraktCollectionsWorker Starting..!
+2024-05-20 02:02:28.189 +00:00 [INF] GetShowCollection started
+2024-05-20 02:02:28.191 +00:00 [INF] Executed GetShowCollection..!
+2024-05-20 02:02:28.193 +00:00 [INF] GetMovieCollection Service Start
+2024-05-20 02:02:28.195 +00:00 [INF] Executed GetMovieCollection..!
+2024-05-20 02:02:28.195 +00:00 [INF] Background Worker TraktCollectionsWorker Complete
+2024-05-20 02:02:28.195 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:28.285 +00:00 [DBG] SyncCalendarAsync Failed:Unauthorized - OAuth must be provided
+2024-05-20 02:02:28.384 +00:00 [DBG] GetShowCollection Failed:Unauthorized - OAuth must be provided
+2024-05-20 02:02:28.523 +00:00 [INF] Initialized all ABP modules.
+2024-05-20 02:02:28.701 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 02:02:28.747 +00:00 [INF] Now listening on: https://localhost:44357
+2024-05-20 02:02:28.747 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 02:02:28.748 +00:00 [INF] Hosting environment: Development
+2024-05-20 02:02:28.748 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/services/trakt/MediaInAction.TraktService.HttpApi.Host
+2024-05-20 02:02:28.817 +00:00 [INF] Executed Resend Shows..!
+2024-05-20 02:02:28.853 +00:00 [INF] Executed Resend Episodes..!
+2024-05-20 02:02:28.853 +00:00 [INF] Executed EpisodeCleanup..!
+2024-05-20 02:02:28.853 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:28.863 +00:00 [INF] Executed Resend Movies..!
+2024-05-20 02:02:28.863 +00:00 [DBG] Trigger instruction : NoInstruction
+2024-05-20 02:02:33.310 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - null null
+2024-05-20 02:02:33.663 +00:00 [INF] Executing endpoint 'MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host)'
+2024-05-20 02:02:33.689 +00:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.TraktService.Controllers.HomeController (MediaInAction.TraktService.HttpApi.Host).
+2024-05-20 02:02:33.745 +00:00 [INF] Executing action method MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host) - Validation state: "Valid"
+2024-05-20 02:02:33.753 +00:00 [INF] Executed action method MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4189ms.
+2024-05-20 02:02:33.765 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-20 02:02:33.771 +00:00 [INF] Executed action MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host) in 76.7239ms
+2024-05-20 02:02:33.772 +00:00 [INF] Executed endpoint 'MediaInAction.TraktService.Controllers.HomeController.Index (MediaInAction.TraktService.HttpApi.Host)'
+2024-05-20 02:02:33.788 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger - null null
+2024-05-20 02:02:33.788 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - 302 0 null 481.6874ms
+2024-05-20 02:02:33.799 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger - 301 0 null 11.281ms
+2024-05-20 02:02:33.803 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2024-05-20 02:02:33.900 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 96.9409ms
+2024-05-20 02:02:33.908 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - null null
+2024-05-20 02:02:33.917 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - null null
+2024-05-20 02:02:33.918 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 02:02:33.960 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 02:02:33.960 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 02:02:33.960 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 02:02:33.960 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 43.8896ms
+2024-05-20 02:02:33.960 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 42.8935ms
+2024-05-20 02:02:33.961 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - 200 144929 text/css 53.4372ms
+2024-05-20 02:02:34.190 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-20 02:02:34.211 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - null null
+2024-05-20 02:02:34.212 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-20 02:02:34.212 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - 200 628 image/png 1.1434ms
+2024-05-20 02:02:34.446 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 255.2167ms
+2024-05-20 02:02:47.746 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:03:11.311 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:03:37.265 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:04:01.748 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:04:31.525 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:04:59.049 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:05:25.126 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:05:48.565 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:06:15.184 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:06:42.507 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:06:58.753 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-20 02:06:58.754 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:06:58.755 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/swagger/v1/swagger.json - 204 null null 2.2214ms
+2024-05-20 02:06:58.758 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-20 02:06:58.759 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:06:58.797 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.2376ms
+2024-05-20 02:07:08.855 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:07:33.315 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:08:02.665 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-20 02:08:02.666 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:08:02.666 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/swagger/v1/swagger.json - 204 null null 0.6296ms
+2024-05-20 02:08:02.669 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2024-05-20 02:08:02.669 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:08:02.710 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.2417ms
+2024-05-20 02:08:03.248 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:08:31.147 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:08:55.200 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:09:18.625 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:09:47.271 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:10:13.911 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:10:41.559 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:11:05.034 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:11:28.256 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:11:53.626 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:12:19.993 +00:00 [DBG] Batch acquisition of 0 triggers
+2024-05-20 02:12:34.246 +00:00 [INF] Application is shutting down...
+2024-05-20 02:12:34.308 +00:00 [DBG] Disposed channel pool with no channels in the pool.
+2024-05-20 02:12:34.359 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2024-05-20 02:12:34.366 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2024-05-20 02:12:34.369 +00:00 [DBG] Shutting down threadpool...
+2024-05-20 02:12:34.370 +00:00 [DBG] Shutdown of threadpool complete.
+2024-05-20 02:12:34.398 +00:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.

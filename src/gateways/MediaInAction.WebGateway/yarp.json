@@ -2,31 +2,19 @@
   "ReverseProxy": {
     "Routes": {
       "AbpApi": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/api/abp/{**catch-all}"
         }
       },
-      "MediaInActionLocalization": {
-        "ClusterId": "Administration",
-        "Match": {
-          "Path": "/api/abp/application-localization"
-        }
-      },
-      "MediaInActionApplicationConfiguration": {
-        "ClusterId": "Administration",
-        "Match": {
-          "Path": "/api/abp/application-configuration"
-        }
-      },
       "Identity Service": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/api/identity/{**everything}"
         }
       },
       "Identity Service Swagger": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/swagger-json/Identity/swagger/v1/swagger.json"
         },
@@ -53,7 +41,7 @@
         }
       },
       "Administration Service Swagger": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/swagger-json/Administration/swagger/v1/swagger.json"
         },
@@ -61,44 +49,44 @@
           { "PathRemovePrefix": "/swagger-json/Administration" }
         ]
       },
-      "Catalog Service": {
-        "ClusterId": "Catalog",
+      "File Service": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/api/catalog/{**everything}"
+          "Path": "/api/file/{**everything}"
         }
       },
-      "Catalog Service Swagger": {
-        "ClusterId": "Catalog",
+      "File Service Swagger": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/swagger-json/Catalog/swagger/v1/swagger.json"
+          "Path": "/swagger-json/File/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Catalog" }
+          { "PathRemovePrefix": "/swagger-json/File" }
         ]
       },
-      "Ordering Service": {
-        "ClusterId": "Ordering",
+      "Video Service": {
+        "ClusterId": "videoCluster",
         "Match": {
-          "Path": "/api/ordering/{**everything}"
+          "Path": "/api/video/{**everything}"
         }
       },
-      "Ordering Service Swagger": {
-        "ClusterId": "Ordering",
+      "Video Service Swagger": {
+        "ClusterId": "videoCluster",
         "Match": {
-          "Path": "/swagger-json/Ordering/swagger/v1/swagger.json"
+          "Path": "/swagger-json/Video/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Ordering" }
+          { "PathRemovePrefix": "/swagger-json/Video" }
         ]
       },
       "Cmskit Service": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/api/cmskit/{**everything}"
         }
       },
       "Cmskit Service Swagger": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/swagger-json/Cmskit/swagger/v1/swagger.json"
         },
@@ -108,53 +96,52 @@
       }
     },
     "Clusters": {
-      "Identity": {
+      "identityCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44351",
-            "MetaData": {
-              "PublicAddress": "https://identity.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44351"
           }
         }
       },
-      "Administration": {
+      "administrationCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44353",
-            "MetaData": {
-              "PublicAddress": "https://administration.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Catalog": {
+      "permission-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44354",
-            "MetaData": {
-              "PublicAddress": "https://catalog.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Ordering": {
+      "setting-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44356",
-            "MetaData": {
-              "PublicAddress": "https://ordering.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "CmsKit": {
+      "fileCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44358",
-            "MetaData": {
-              "PublicAddress": "https://cmskit.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44355"
+          }
+        }
+      },
+      "videoCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "cmskitCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44354"
           }
         }
       }

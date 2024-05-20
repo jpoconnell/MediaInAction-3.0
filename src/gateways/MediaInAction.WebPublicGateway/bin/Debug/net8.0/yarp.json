@@ -2,19 +2,19 @@
   "ReverseProxy": {
     "Routes": {
       "AbpApi": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/api/abp/{**catch-all}"
         }
       },
       "Identity Service": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/api/identity/{**everything}"
         }
       },
       "Identity Service Swagger": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/swagger-json/Identity/swagger/v1/swagger.json"
         },
@@ -23,25 +23,25 @@
         ]
       },
       "FeatureManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "feature-management-cluster",
         "Match": {
           "Path": "/api/feature-management/{**everything}"
         }
       },
       "PermissionManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "permission-management-cluster",
         "Match": {
           "Path": "/api/permission-management/{**everything}"
         }
       },
       "SettingManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "setting-management-cluster",
         "Match": {
           "Path": "/api/setting-management/{**everything}"
         }
       },
       "Administration Service Swagger": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/swagger-json/Administration/swagger/v1/swagger.json"
         },
@@ -49,66 +49,57 @@
           { "PathRemovePrefix": "/swagger-json/Administration" }
         ]
       },
-      "Catalog Service": {
-        "ClusterId": "catalogCluster",
+      "File Service": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/api/catalog/{**everything}"
+          "Path": "/api/file/{**everything}"
         }
       },
-      "Catalog Service Swagger": {
-        "ClusterId": "catalogCluster",
+      "File Service Swagger": {
+        "ClusterId": "fileCluster",
         "Match": {
-          "Path": "/swagger-json/Catalog/swagger/v1/swagger.json"
+          "Path": "/swagger-json/File/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Catalog" }
+          { "PathRemovePrefix": "/swagger-json/File" }
         ]
       },
-      "ProductPictures": {
-        "ClusterId": "catalogCluster",
+      "nedia-picture-route": {
+        "ClusterId": "mediaPictureCluster",
         "Match": {
-          "Path": "/product-images/{**everything}",
+          "Path": "/media-images/{**everything}",
           "Methods": [ "GET" ]
         }
       },
-      "Basket Service": {
-        "ClusterId": "Basket",
+      "Trakt Service": {
+        "ClusterId": "traktCluster",
         "Match": {
-          "Path": "/api/basket/{**everything}"
+          "Path": "/api/trakt/{**everything}"
         }
       },
-      "Basket Service Swagger": {
-        "ClusterId": "Basket",
+      "Video Service": {
+        "ClusterId": "videoCluster",
         "Match": {
-          "Path": "/swagger-json/Basket/swagger/v1/swagger.json"
-        },
-        "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Basket" }
-        ]
-      },
-      "Ordering Service": {
-        "ClusterId": "Ordering",
-        "Match": {
-          "Path": "/api/ordering/{**everything}"
+          "Path": "/api/video/{**everything}"
         }
       },
-      "Ordering Service Swagger": {
-        "ClusterId": "Ordering",
+      "Video Service Swagger": {
+        "ClusterId": "videoCluster",
         "Match": {
-          "Path": "/swagger-json/Ordering/swagger/v1/swagger.json"
+          "Path": "/swagger-json/Video/swagger/v1/swagger.json"
         },
         "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Ordering" }
+          { "PathRemovePrefix": "/swagger-json/Video" }
         ]
       },
       "Cmskit Service": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/api/cmskit/{**everything}"
         }
       },
       "Cmskit Service Swagger": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/swagger-json/Cmskit/swagger/v1/swagger.json"
         },
@@ -116,90 +107,94 @@
           { "PathRemovePrefix": "/swagger-json/Cmskit" }
         ]
       },
-      "Payment Service": {
-        "ClusterId": "Payment",
+      "Deluge Service": {
+        "ClusterId": "delugeCluster",
         "Match": {
-          "Path": "/api/payment/{**everything}"
+          "Path": "/api/deluge/{**everything}"
         }
       },
-      "Payment Service Swagger": {
-        "ClusterId": "Payment",
+      "Emby Service": {
+        "ClusterId": "embyCluster",
         "Match": {
-          "Path": "/swagger-json/Payment/swagger/v1/swagger.json"
-        },
-        "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Payment" }
-        ]
+          "Path": "/api/emby/{**everything}"
+        }
       }
     },
     "Clusters": {
-      "Identity": {
+      "identityCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44351",
-            "MetaData": {
-              "PublicAddress": "https://identity.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44351"
           }
         }
       },
-      "Administration": {
+      "administrationCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44353",
-            "MetaData": {
-              "PublicAddress": "https://admininstration.eshop.dev"
-            }
-          }          
-        }
-      },
-      "catalogCluster": {
-        "Destinations": {
-          "destination1": {
-            "Address": "https://localhost:44354",
-            "MetaData": {
-              "PublicAddress": "https://admininstration.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Basket": {
+      "permission-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44355",
-            "MetaData": {
-              "PublicAddress": "https://basket.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Ordering": {
+      "setting-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44356",
-            "MetaData": {
-              "PublicAddress": "https://ordering.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "CmsKit": {
+      "fileCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44358",
-            "MetaData": {
-              "PublicAddress": "https://cmskit.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44355"
           }
         }
       },
-      "Payment": {
+      "traktCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44357",
-            "MetaData": {
-              "PublicAddress": "https://payment.eshoponabp.dev"
-            }
+            "Address": "https://localhost:44357"
+          }
+        }
+      },
+      "videoCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "cmskitCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44354"
+          }
+        }
+      },
+      "mediaPictureCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "delugeCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44459"
+          }
+        }
+      },
+      "embyCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44361"
           }
         }
       }

@@ -233,3 +233,435 @@
 2024-05-19 22:18:48.419 +00:00 [DBG] Existing client reused for cluster 'Trakt'.
 2024-05-19 22:18:48.419 +00:00 [DBG] Existing client reused for cluster 'Video'.
 2024-05-19 22:22:33.590 +00:00 [INF] Application is shutting down...
+2024-05-20 02:06:26.654 +00:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-05-20 02:06:27.455 +00:00 [INF] Loaded ABP modules:
+2024-05-20 02:06:27.456 +00:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-05-20 02:06:27.456 +00:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-05-20 02:06:27.456 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 02:06:27.456 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 02:06:27.456 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 02:06:27.456 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 02:06:27.456 +00:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-20 02:06:27.456 +00:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 02:06:27.456 +00:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 02:06:27.456 +00:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 02:06:27.456 +00:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 02:06:27.456 +00:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 02:06:27.456 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 02:06:27.456 +00:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 02:06:27.456 +00:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 02:06:27.456 +00:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 02:06:27.456 +00:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 02:06:27.456 +00:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 02:06:27.457 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 02:06:27.457 +00:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 02:06:27.457 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 02:06:27.457 +00:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 02:06:27.457 +00:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 02:06:27.457 +00:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 02:06:27.457 +00:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 02:06:27.457 +00:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 02:06:27.550 +00:00 [INF] Loading proxy data from config.
+2024-05-20 02:06:27.621 +00:00 [INF] User profile is available. Using '/home/jerryocl/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-05-20 02:06:27.715 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.721 +00:00 [DBG] New client created for cluster 'administrationCluster'.
+2024-05-20 02:06:27.722 +00:00 [DBG] Cluster 'administrationCluster' has been added.
+2024-05-20 02:06:27.727 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.727 +00:00 [DBG] New client created for cluster 'cmskitCluster'.
+2024-05-20 02:06:27.727 +00:00 [DBG] Cluster 'cmskitCluster' has been added.
+2024-05-20 02:06:27.728 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.728 +00:00 [DBG] New client created for cluster 'delugeCluster'.
+2024-05-20 02:06:27.728 +00:00 [DBG] Cluster 'delugeCluster' has been added.
+2024-05-20 02:06:27.729 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.730 +00:00 [DBG] New client created for cluster 'embyCluster'.
+2024-05-20 02:06:27.730 +00:00 [DBG] Cluster 'embyCluster' has been added.
+2024-05-20 02:06:27.731 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.732 +00:00 [DBG] New client created for cluster 'fileCluster'.
+2024-05-20 02:06:27.732 +00:00 [DBG] Cluster 'fileCluster' has been added.
+2024-05-20 02:06:27.733 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.733 +00:00 [DBG] New client created for cluster 'identityCluster'.
+2024-05-20 02:06:27.734 +00:00 [DBG] Cluster 'identityCluster' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] New client created for cluster 'mediaPictureCluster'.
+2024-05-20 02:06:27.734 +00:00 [DBG] Cluster 'mediaPictureCluster' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] New client created for cluster 'permission-management-cluster'.
+2024-05-20 02:06:27.734 +00:00 [DBG] Cluster 'permission-management-cluster' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] New client created for cluster 'setting-management-cluster'.
+2024-05-20 02:06:27.734 +00:00 [DBG] Cluster 'setting-management-cluster' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] New client created for cluster 'traktCluster'.
+2024-05-20 02:06:27.734 +00:00 [DBG] Cluster 'traktCluster' has been added.
+2024-05-20 02:06:27.734 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:06:27.735 +00:00 [DBG] New client created for cluster 'videoCluster'.
+2024-05-20 02:06:27.735 +00:00 [DBG] Cluster 'videoCluster' has been added.
+2024-05-20 02:06:27.742 +00:00 [DBG] Route 'AbpApi' has been added.
+2024-05-20 02:06:27.745 +00:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-05-20 02:06:27.746 +00:00 [DBG] Route 'Cmskit Service' has been added.
+2024-05-20 02:06:27.746 +00:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-05-20 02:06:27.746 +00:00 [DBG] Route 'Deluge Service' has been added.
+2024-05-20 02:06:27.747 +00:00 [DBG] Route 'Emby Service' has been added.
+2024-05-20 02:06:27.747 +00:00 [DBG] Route 'FeatureManagement' has been added.
+2024-05-20 02:06:27.747 +00:00 [DBG] Route 'File Service' has been added.
+2024-05-20 02:06:27.748 +00:00 [DBG] Route 'File Service Swagger' has been added.
+2024-05-20 02:06:27.748 +00:00 [DBG] Route 'Identity Service' has been added.
+2024-05-20 02:06:27.749 +00:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-05-20 02:06:27.749 +00:00 [DBG] Route 'nedia-picture-route' has been added.
+2024-05-20 02:06:27.749 +00:00 [DBG] Route 'PermissionManagement' has been added.
+2024-05-20 02:06:27.750 +00:00 [DBG] Route 'SettingManagement' has been added.
+2024-05-20 02:06:27.750 +00:00 [DBG] Route 'Trakt Service' has been added.
+2024-05-20 02:06:27.751 +00:00 [DBG] Route 'Video Service' has been added.
+2024-05-20 02:06:27.751 +00:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-05-20 02:06:27.758 +00:00 [INF] Initialized all ABP modules.
+2024-05-20 02:06:27.907 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 02:06:28.133 +00:00 [INF] Now listening on: https://localhost:44373
+2024-05-20 02:06:28.133 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 02:06:28.134 +00:00 [INF] Hosting environment: Development
+2024-05-20 02:06:28.134 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/gateways/MediaInAction.WebPublicGateway
+2024-05-20 02:06:29.352 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/ - null null
+2024-05-20 02:06:30.002 +00:00 [INF] Request was redirected to /swagger
+2024-05-20 02:06:30.020 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/ - 302 0 null 674.606ms
+2024-05-20 02:06:30.023 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger - null null
+2024-05-20 02:06:30.030 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger - 301 0 null 6.8048ms
+2024-05-20 02:06:30.033 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/index.html - null null
+2024-05-20 02:06:30.184 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - null null
+2024-05-20 02:06:30.192 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - null null
+2024-05-20 02:06:30.196 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - null null
+2024-05-20 02:06:30.200 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/index.html - 200 null text/html;charset=utf-8 167.5409ms
+2024-05-20 02:06:30.206 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-20 02:06:30.206 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - null null
+2024-05-20 02:06:30.206 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - null null
+2024-05-20 02:06:30.212 +00:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-20 02:06:30.212 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - 200 283 application/javascript 6.1003ms
+2024-05-20 02:06:30.213 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - 200 3122 application/javascript 21.22ms
+2024-05-20 02:06:30.213 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 02:06:30.224 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-20 02:06:30.227 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - 200 4510 application/javascript 33.4267ms
+2024-05-20 02:06:30.251 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 02:06:30.251 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - 200 144929 text/css 67.4045ms
+2024-05-20 02:06:30.265 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 02:06:30.266 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 52.1565ms
+2024-05-20 02:06:30.273 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 02:06:30.274 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 67.9335ms
+2024-05-20 02:06:30.943 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-20 02:06:30.945 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - 404 0 null 1.896ms
+2024-05-20 02:06:30.947 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie, Response status code: 404
+2024-05-20 02:09:31.692 +00:00 [INF] Application is shutting down...
+2024-05-20 02:09:35.802 +00:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-05-20 02:09:36.594 +00:00 [INF] Loaded ABP modules:
+2024-05-20 02:09:36.595 +00:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-05-20 02:09:36.595 +00:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-05-20 02:09:36.595 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 02:09:36.595 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 02:09:36.596 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 02:09:36.596 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 02:09:36.596 +00:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 02:09:36.596 +00:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 02:09:36.596 +00:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 02:09:36.596 +00:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 02:09:36.596 +00:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 02:09:36.680 +00:00 [INF] Loading proxy data from config.
+2024-05-20 02:09:36.753 +00:00 [INF] User profile is available. Using '/home/jerryocl/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-05-20 02:09:36.839 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.844 +00:00 [DBG] New client created for cluster 'administrationCluster'.
+2024-05-20 02:09:36.845 +00:00 [DBG] Cluster 'administrationCluster' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] New client created for cluster 'cmskitCluster'.
+2024-05-20 02:09:36.849 +00:00 [DBG] Cluster 'cmskitCluster' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] New client created for cluster 'delugeCluster'.
+2024-05-20 02:09:36.849 +00:00 [DBG] Cluster 'delugeCluster' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] New client created for cluster 'embyCluster'.
+2024-05-20 02:09:36.849 +00:00 [DBG] Cluster 'embyCluster' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.849 +00:00 [DBG] New client created for cluster 'fileCluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'fileCluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'identityCluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'identityCluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'mediaPictureCluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'mediaPictureCluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'permission-management-cluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'permission-management-cluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'setting-management-cluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'setting-management-cluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'traktCluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'traktCluster' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:09:36.850 +00:00 [DBG] New client created for cluster 'videoCluster'.
+2024-05-20 02:09:36.850 +00:00 [DBG] Cluster 'videoCluster' has been added.
+2024-05-20 02:09:36.857 +00:00 [DBG] Route 'AbpApi' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Cmskit Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Deluge Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Emby Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'FeatureManagement' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'File Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'File Service Swagger' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Identity Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'nedia-picture-route' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'PermissionManagement' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'SettingManagement' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Trakt Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Video Service' has been added.
+2024-05-20 02:09:36.859 +00:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-05-20 02:09:36.863 +00:00 [INF] Initialized all ABP modules.
+2024-05-20 02:09:37.005 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 02:09:37.209 +00:00 [INF] Now listening on: https://localhost:44373
+2024-05-20 02:09:37.209 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 02:09:37.210 +00:00 [INF] Hosting environment: Development
+2024-05-20 02:09:37.211 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/gateways/MediaInAction.WebPublicGateway
+2024-05-20 02:09:37.875 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/ - null null
+2024-05-20 02:09:38.502 +00:00 [INF] Request was redirected to /swagger
+2024-05-20 02:09:38.511 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/ - 302 0 null 640.7244ms
+2024-05-20 02:09:38.513 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger - null null
+2024-05-20 02:09:38.517 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger - 301 0 null 4.1874ms
+2024-05-20 02:09:38.519 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/index.html - null null
+2024-05-20 02:09:38.635 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/index.html - 200 null text/html;charset=utf-8 115.9183ms
+2024-05-20 02:09:38.640 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - null null
+2024-05-20 02:09:38.641 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - null null
+2024-05-20 02:09:38.641 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - null null
+2024-05-20 02:09:38.640 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - null null
+2024-05-20 02:09:38.653 +00:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-20 02:09:38.653 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - 200 283 application/javascript 12.1056ms
+2024-05-20 02:09:38.654 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - null null
+2024-05-20 02:09:38.656 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 02:09:38.661 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-20 02:09:38.661 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - 200 3122 application/javascript 20.4774ms
+2024-05-20 02:09:38.664 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-20 02:09:38.665 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - 200 4510 application/javascript 23.8775ms
+2024-05-20 02:09:38.667 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 02:09:38.668 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - 200 144929 text/css 27.6802ms
+2024-05-20 02:09:38.672 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 02:09:38.672 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 16.276ms
+2024-05-20 02:09:38.676 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 02:09:38.677 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 22.6261ms
+2024-05-20 02:09:39.199 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-20 02:09:39.201 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - 404 0 null 2.0736ms
+2024-05-20 02:09:39.203 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie, Response status code: 404
+2024-05-20 02:11:58.466 +00:00 [INF] Application is shutting down...
+2024-05-20 02:12:02.778 +00:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-05-20 02:12:03.614 +00:00 [INF] Loaded ABP modules:
+2024-05-20 02:12:03.616 +00:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-05-20 02:12:03.616 +00:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-05-20 02:12:03.616 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 02:12:03.616 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 02:12:03.616 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 02:12:03.616 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 02:12:03.616 +00:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-05-20 02:12:03.616 +00:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 02:12:03.616 +00:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 02:12:03.616 +00:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 02:12:03.616 +00:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 02:12:03.616 +00:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 02:12:03.616 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 02:12:03.616 +00:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 02:12:03.616 +00:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 02:12:03.616 +00:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 02:12:03.616 +00:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 02:12:03.616 +00:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 02:12:03.617 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 02:12:03.617 +00:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 02:12:03.617 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 02:12:03.617 +00:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 02:12:03.617 +00:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 02:12:03.617 +00:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 02:12:03.617 +00:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 02:12:03.617 +00:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 02:12:03.749 +00:00 [INF] Loading proxy data from config.
+2024-05-20 02:12:03.822 +00:00 [INF] User profile is available. Using '/home/jerryocl/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-05-20 02:12:03.948 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.956 +00:00 [DBG] New client created for cluster 'administrationCluster'.
+2024-05-20 02:12:03.957 +00:00 [DBG] Cluster 'administrationCluster' has been added.
+2024-05-20 02:12:03.963 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.964 +00:00 [DBG] New client created for cluster 'cmskitCluster'.
+2024-05-20 02:12:03.965 +00:00 [DBG] Cluster 'cmskitCluster' has been added.
+2024-05-20 02:12:03.966 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.967 +00:00 [DBG] New client created for cluster 'delugeCluster'.
+2024-05-20 02:12:03.967 +00:00 [DBG] Cluster 'delugeCluster' has been added.
+2024-05-20 02:12:03.968 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.968 +00:00 [DBG] New client created for cluster 'embyCluster'.
+2024-05-20 02:12:03.969 +00:00 [DBG] Cluster 'embyCluster' has been added.
+2024-05-20 02:12:03.972 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.972 +00:00 [DBG] New client created for cluster 'fileCluster'.
+2024-05-20 02:12:03.973 +00:00 [DBG] Cluster 'fileCluster' has been added.
+2024-05-20 02:12:03.974 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.974 +00:00 [DBG] New client created for cluster 'identityCluster'.
+2024-05-20 02:12:03.974 +00:00 [DBG] Cluster 'identityCluster' has been added.
+2024-05-20 02:12:03.975 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.975 +00:00 [DBG] New client created for cluster 'mediaPictureCluster'.
+2024-05-20 02:12:03.975 +00:00 [DBG] Cluster 'mediaPictureCluster' has been added.
+2024-05-20 02:12:03.976 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.977 +00:00 [DBG] New client created for cluster 'permission-management-cluster'.
+2024-05-20 02:12:03.978 +00:00 [DBG] Cluster 'permission-management-cluster' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] New client created for cluster 'setting-management-cluster'.
+2024-05-20 02:12:03.978 +00:00 [DBG] Cluster 'setting-management-cluster' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] New client created for cluster 'traktCluster'.
+2024-05-20 02:12:03.978 +00:00 [DBG] Cluster 'traktCluster' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] Destination 'destination1' has been added.
+2024-05-20 02:12:03.978 +00:00 [DBG] New client created for cluster 'videoCluster'.
+2024-05-20 02:12:03.978 +00:00 [DBG] Cluster 'videoCluster' has been added.
+2024-05-20 02:12:03.988 +00:00 [DBG] Route 'AbpApi' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Cmskit Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Deluge Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Emby Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'FeatureManagement' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'File Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'File Service Swagger' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Identity Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'nedia-picture-route' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'PermissionManagement' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'SettingManagement' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Trakt Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Video Service' has been added.
+2024-05-20 02:12:03.991 +00:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-05-20 02:12:03.997 +00:00 [INF] Initialized all ABP modules.
+2024-05-20 02:12:04.151 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 02:12:04.362 +00:00 [INF] Now listening on: https://localhost:44373
+2024-05-20 02:12:04.362 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 02:12:04.362 +00:00 [INF] Hosting environment: Development
+2024-05-20 02:12:04.362 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/gateways/MediaInAction.WebPublicGateway
+2024-05-20 02:12:05.074 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/ - null null
+2024-05-20 02:12:05.727 +00:00 [INF] Request was redirected to /swagger
+2024-05-20 02:12:05.736 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/ - 302 0 null 664.4959ms
+2024-05-20 02:12:05.737 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger - null null
+2024-05-20 02:12:05.755 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger - 301 0 null 17.8433ms
+2024-05-20 02:12:05.756 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/index.html - null null
+2024-05-20 02:12:05.919 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/index.html - 200 null text/html;charset=utf-8 162.1918ms
+2024-05-20 02:12:05.922 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - null null
+2024-05-20 02:12:05.929 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - null null
+2024-05-20 02:12:05.933 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - null null
+2024-05-20 02:12:05.945 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - null null
+2024-05-20 02:12:05.945 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - null null
+2024-05-20 02:12:05.945 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-20 02:12:05.945 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.js - 200 3122 application/javascript 17.1831ms
+2024-05-20 02:12:05.946 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 02:12:05.946 +00:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-20 02:12:05.946 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/requestinterceptor.js - 200 283 application/javascript 0.7775ms
+2024-05-20 02:12:05.958 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-20 02:12:05.958 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/ui/abp.swagger.js - 200 4510 application/javascript 25.4359ms
+2024-05-20 02:12:05.970 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 02:12:05.972 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 02:12:05.973 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 27.5551ms
+2024-05-20 02:12:05.975 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui.css - 200 144929 text/css 52.9917ms
+2024-05-20 02:12:05.980 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 02:12:05.981 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 35.3885ms
+2024-05-20 02:12:06.559 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-20 02:12:06.561 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie - 404 0 null 2.1105ms
+2024-05-20 02:12:06.563 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44373/abp/Swashbuckle/SetCsrfCookie, Response status code: 404
+2024-05-20 02:12:34.213 +00:00 [INF] Application is shutting down...

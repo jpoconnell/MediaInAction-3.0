@@ -1789,3 +1789,205 @@ Routine = InitPostgres
 2024-05-19 22:22:33.577 +00:00 [INF] Application is shutting down...
 2024-05-19 22:22:33.634 +00:00 [INF] Disposing channel pool (1 channels).
 2024-05-19 22:22:33.677 +00:00 [INF] Disposed RabbitMQ Channel Pool (1 channels in 56.43 ms).
+2024-05-20 01:58:11.867 +00:00 [INF] Starting MediaInAction.AdministrationService.HttpApi.Host.
+2024-05-20 01:58:13.168 +00:00 [INF] Loaded ABP modules:
+2024-05-20 01:58:13.169 +00:00 [INF] - MediaInAction.AdministrationService.AdministrationServiceHttpApiHostModule
+2024-05-20 01:58:13.170 +00:00 [INF]   - MediaInAction.AdministrationService.AdministrationServiceHttpApiModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - MediaInAction.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 01:58:13.170 +00:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 01:58:13.170 +00:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2024-05-20 01:58:13.170 +00:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 01:58:13.170 +00:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 01:58:13.170 +00:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 01:58:13.170 +00:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 01:58:13.170 +00:00 [INF]               - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2024-05-20 01:58:13.170 +00:00 [INF]   - MediaInAction.AdministrationService.AdministrationServiceApplicationModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-20 01:58:13.170 +00:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-05-20 01:58:13.170 +00:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-05-20 01:58:13.170 +00:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-05-20 01:58:13.170 +00:00 [INF]   - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-20 01:58:13.170 +00:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-20 01:58:13.170 +00:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-20 01:58:13.172 +00:00 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-20 01:58:13.172 +00:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-20 01:58:13.172 +00:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 01:58:13.172 +00:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 01:58:13.172 +00:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-20 01:58:13.172 +00:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-05-20 01:58:13.172 +00:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-05-20 01:58:13.172 +00:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-05-20 01:58:13.493 +00:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.Volo.Abp.Emailing.BackgroundEmailSendingJobArgs' has 0 messages and 0 consumers.
+2024-05-20 01:58:14.404 +00:00 [INF] Lock is acquired for db migration and seeding on database named: AdministrationService...
+2024-05-20 01:58:17.693 +00:00 [INF] Lock is released for db migration and seeding on database named: AdministrationService...
+2024-05-20 01:58:17.740 +00:00 [INF] Initialized all ABP modules.
+2024-05-20 01:58:17.936 +00:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 01:58:18.163 +00:00 [INF] Now listening on: https://localhost:44353
+2024-05-20 01:58:18.163 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 01:58:18.163 +00:00 [INF] Hosting environment: Development
+2024-05-20 01:58:18.163 +00:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Host
+2024-05-20 01:58:19.977 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/ - null null
+2024-05-20 01:58:20.339 +00:00 [INF] Executing endpoint 'MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host)'
+2024-05-20 01:58:20.380 +00:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.AdministrationService.Controllers.HomeController (MediaInAction.AdministrationService.HttpApi.Host).
+2024-05-20 01:58:20.456 +00:00 [INF] Executing action method MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host) - Validation state: "Valid"
+2024-05-20 01:58:20.464 +00:00 [INF] Executed action method MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4321ms.
+2024-05-20 01:58:20.476 +00:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-20 01:58:20.484 +00:00 [INF] Executed action MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host) in 97.0503ms
+2024-05-20 01:58:20.484 +00:00 [INF] Executed endpoint 'MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host)'
+2024-05-20 01:58:20.512 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger - null null
+2024-05-20 01:58:20.526 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/index.html - null null
+2024-05-20 01:58:20.538 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/ - 302 0 null 543.392ms
+2024-05-20 01:58:20.545 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger - 301 0 null 7.2167ms
+2024-05-20 01:58:20.670 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui.css - null null
+2024-05-20 01:58:20.670 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/abp.js - null null
+2024-05-20 01:58:20.682 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/abp.swagger.js - null null
+2024-05-20 01:58:20.689 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui-bundle.js - null null
+2024-05-20 01:58:20.689 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/requestinterceptor.js - null null
+2024-05-20 01:58:20.702 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 01:58:20.705 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-20 01:58:20.705 +00:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-20 01:58:20.705 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/requestinterceptor.js - 200 283 application/javascript 16.9152ms
+2024-05-20 01:58:20.706 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/abp.js - 200 3122 application/javascript 34.8099ms
+2024-05-20 01:58:20.716 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/index.html - 200 null text/html;charset=utf-8 190.2942ms
+2024-05-20 01:58:20.727 +00:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-20 01:58:20.728 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/abp.swagger.js - 200 4510 application/javascript 45.6253ms
+2024-05-20 01:58:20.747 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 01:58:20.749 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui.css - 200 144929 text/css 78.654ms
+2024-05-20 01:58:20.749 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 01:58:20.749 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 47.1545ms
+2024-05-20 01:58:20.753 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 01:58:20.753 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 64.4239ms
+2024-05-20 01:58:21.048 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 01:58:21.065 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/favicon-32x32.png - null null
+2024-05-20 01:58:21.068 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-20 01:58:21.069 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/favicon-32x32.png - 200 628 image/png 3.8352ms
+2024-05-20 01:58:21.350 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 302.014ms
+2024-05-20 01:58:21.580 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-20 01:58:21.590 +00:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-20 01:58:21.604 +00:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle"}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2024-05-20 01:58:21.617 +00:00 [INF] Executing action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) - Validation state: "Valid"
+2024-05-20 01:58:21.627 +00:00 [INF] Executed action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.9103ms.
+2024-05-20 01:58:21.629 +00:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 23.3232ms
+2024-05-20 01:58:21.630 +00:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-20 01:58:21.638 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/abp/Swashbuckle/SetCsrfCookie - 204 null null 57.3958ms
+2024-05-20 01:58:21.646 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/api/abp/application-configuration - null null
+2024-05-20 01:58:21.649 +00:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-20 01:58:21.680 +00:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-20 01:58:21.814 +00:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-20 01:58:21.896 +00:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-20 01:58:23.075 +00:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-20 01:58:23.083 +00:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1267.6193ms.
+2024-05-20 01:58:23.100 +00:00 [DBG] Added 0 entity changes to the current audit log
+2024-05-20 01:58:23.119 +00:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-20 01:58:23.193 +00:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 1512.0657ms
+2024-05-20 01:58:23.194 +00:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-20 01:58:23.216 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/api/abp/application-configuration - 200 null application/json; charset=utf-8 1570.4116ms
+2024-05-20 02:06:30.529 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:06:30.531 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:06:30.532 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - 204 null null 2.6081ms
+2024-05-20 02:06:30.536 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:06:30.537 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:06:30.610 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.4356ms
+2024-05-20 02:07:01.724 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:07:01.724 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:07:01.725 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - 204 null null 1.1707ms
+2024-05-20 02:07:01.729 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:07:01.730 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:07:01.762 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.9322ms
+2024-05-20 02:07:51.722 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:07:51.722 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:07:51.723 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - 204 null null 0.6625ms
+2024-05-20 02:07:51.738 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:07:51.738 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:07:51.851 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.927ms
+2024-05-20 02:09:38.945 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:09:38.945 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:09:38.945 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - 204 null null 0.7149ms
+2024-05-20 02:09:38.949 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:09:38.949 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:09:38.981 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.8201ms
+2024-05-20 02:12:06.241 +00:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:12:06.241 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:12:06.241 +00:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44353/swagger/v1/swagger.json - 204 null null 0.4355ms
+2024-05-20 02:12:06.245 +00:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 02:12:06.245 +00:00 [INF] CORS policy execution successful.
+2024-05-20 02:12:06.269 +00:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5486ms
+2024-05-20 02:12:34.247 +00:00 [INF] Application is shutting down...
+2024-05-20 02:12:34.274 +00:00 [INF] Disposing channel pool (1 channels).
+2024-05-20 02:12:34.304 +00:00 [INF] Disposed RabbitMQ Channel Pool (1 channels in 30.49 ms).

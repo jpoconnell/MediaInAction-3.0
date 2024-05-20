@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaInAction.DelugeService.MongoDb.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21630d836ffe0b12e57b5979e4a43c1e569affc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b179eec5ea9943df881b23c8cf6980d941d934f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaInAction.DelugeService.MongoDb.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaInAction.DelugeService.MongoDb.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

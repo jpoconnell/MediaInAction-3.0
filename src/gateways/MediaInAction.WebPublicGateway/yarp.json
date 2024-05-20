@@ -2,19 +2,19 @@
   "ReverseProxy": {
     "Routes": {
       "AbpApi": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/api/abp/{**catch-all}"
         }
       },
       "Identity Service": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/api/identity/{**everything}"
         }
       },
       "Identity Service Swagger": {
-        "ClusterId": "Identity",
+        "ClusterId": "identityCluster",
         "Match": {
           "Path": "/swagger-json/Identity/swagger/v1/swagger.json"
         },
@@ -23,25 +23,25 @@
         ]
       },
       "FeatureManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "feature-management-cluster",
         "Match": {
           "Path": "/api/feature-management/{**everything}"
         }
       },
       "PermissionManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "permission-management-cluster",
         "Match": {
           "Path": "/api/permission-management/{**everything}"
         }
       },
       "SettingManagement": {
-        "ClusterId": "Administration",
+        "ClusterId": "setting-management-cluster",
         "Match": {
           "Path": "/api/setting-management/{**everything}"
         }
       },
       "Administration Service Swagger": {
-        "ClusterId": "Administration",
+        "ClusterId": "administrationCluster",
         "Match": {
           "Path": "/swagger-json/Administration/swagger/v1/swagger.json"
         },
@@ -64,36 +64,27 @@
           { "PathRemovePrefix": "/swagger-json/File" }
         ]
       },
-      "MediaPictures": {
-        "ClusterId": "fileCluster",
+      "nedia-picture-route": {
+        "ClusterId": "mediaPictureCluster",
         "Match": {
           "Path": "/media-images/{**everything}",
           "Methods": [ "GET" ]
         }
       },
-      "Emby Service": {
-        "ClusterId": "Emby",
+      "Trakt Service": {
+        "ClusterId": "traktCluster",
         "Match": {
-          "Path": "/api/emby/{**everything}"
+          "Path": "/api/trakt/{**everything}"
         }
       },
-      "Emby Service Swagger": {
-        "ClusterId": "Emby",
-        "Match": {
-          "Path": "/swagger-json/Emby/swagger/v1/swagger.json"
-        },
-        "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Emby" }
-        ]
-      },
       "Video Service": {
-        "ClusterId": "Video",
+        "ClusterId": "videoCluster",
         "Match": {
           "Path": "/api/video/{**everything}"
         }
       },
       "Video Service Swagger": {
-        "ClusterId": "Video",
+        "ClusterId": "videoCluster",
         "Match": {
           "Path": "/swagger-json/Video/swagger/v1/swagger.json"
         },
@@ -102,13 +93,13 @@
         ]
       },
       "Cmskit Service": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/api/cmskit/{**everything}"
         }
       },
       "Cmskit Service Swagger": {
-        "ClusterId": "CmsKit",
+        "ClusterId": "cmskitCluster",
         "Match": {
           "Path": "/swagger-json/Cmskit/swagger/v1/swagger.json"
         },
@@ -116,90 +107,94 @@
           { "PathRemovePrefix": "/swagger-json/Cmskit" }
         ]
       },
-      "Trakt Service": {
-        "ClusterId": "Trakt",
+      "Deluge Service": {
+        "ClusterId": "delugeCluster",
         "Match": {
-          "Path": "/api/trakt/{**everything}"
+          "Path": "/api/deluge/{**everything}"
         }
       },
-      "Payment Service Swagger": {
-        "ClusterId": "Trakt",
+      "Emby Service": {
+        "ClusterId": "embyCluster",
         "Match": {
-          "Path": "/swagger-json/Trakt/swagger/v1/swagger.json"
-        },
-        "Transforms": [
-          { "PathRemovePrefix": "/swagger-json/Trakt" }
-        ]
+          "Path": "/api/emby/{**everything}"
+        }
       }
     },
     "Clusters": {
-      "Identity": {
+      "identityCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44351",
-            "MetaData": {
-              "PublicAddress": "https://identity.mediainaction.dev"
-            }
+            "Address": "https://localhost:44351"
           }
         }
       },
-      "Administration": {
+      "administrationCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44353",
-            "MetaData": {
-              "PublicAddress": "https://admininstration.mediainaction.dev"
-            }
-          }          
-        }
-      },
-      "catalogCluster": {
-        "Destinations": {
-          "destination1": {
-            "Address": "https://localhost:44354",
-            "MetaData": {
-              "PublicAddress": "https://admininstration.mediainaction.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Basket": {
+      "permission-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44355",
-            "MetaData": {
-              "PublicAddress": "https://basket.mediainaction.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "Video": {
+      "setting-management-cluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44356",
-            "MetaData": {
-              "PublicAddress": "https://video.mediainaction.dev"
-            }
+            "Address": "https://localhost:44353"
           }
         }
       },
-      "CmsKit": {
+      "fileCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44358",
-            "MetaData": {
-              "PublicAddress": "https://cmskit.mediainaction.dev"
-            }
+            "Address": "https://localhost:44355"
           }
         }
       },
-      "Trakt": {
+      "traktCluster": {
         "Destinations": {
           "destination1": {
-            "Address": "https://localhost:44357",
-            "MetaData": {
-              "PublicAddress": "https://payment.mediainaction.dev"
-            }
+            "Address": "https://localhost:44357"
+          }
+        }
+      },
+      "videoCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "cmskitCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44354"
+          }
+        }
+      },
+      "mediaPictureCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "delugeCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44459"
+          }
+        }
+      },
+      "embyCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44361"
           }
         }
       }
