@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/MediaInAction.AdministrationService.HttpApi.Host.props" />
-</Project>
