@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ciTq3bn2QgrTfk4MrmzEEz9QxQ/skIillzG5doEkXfdxoWWnWRWB/4+U8N+sjaDeJSQP9rtW5W3IPWnG9GZ/AQ==",
+  "dgSpecHash": "KFZjrD+bRZU5AL2B867dy/wx1cFrTT4sv27V3pHTM+MO6Xq++jur3deZhWcdpnNh9MicJl9ubV5MxWtzOGp//g==",
   "success": true,
-  "projectFilePath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/GenerateDockerFiles/GenerateDockerFiles.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/GenerateDockerFiles/GenerateDockerFiles.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

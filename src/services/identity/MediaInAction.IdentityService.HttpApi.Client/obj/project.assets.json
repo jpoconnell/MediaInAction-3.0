@@ -6016,20 +6016,20 @@
     ]
   },
   "packageFolders": {
-    "/home/jerryocl/.nuget/packages/": {}
+    "/Users/jeremiahoconnell/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/MediaInAction.IdentityService.HttpApi.Client.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/MediaInAction.IdentityService.HttpApi.Client.csproj",
       "projectName": "MediaInAction.IdentityService.HttpApi.Client",
-      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/MediaInAction.IdentityService.HttpApi.Client.csproj",
-      "packagesPath": "/home/jerryocl/.nuget/packages/",
-      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/obj/",
+      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/MediaInAction.IdentityService.HttpApi.Client.csproj",
+      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.HttpApi.Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -6042,8 +6042,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj"
             }
           }
         }
@@ -6074,18 +6074,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "NETStandard.Library.Ref",
-            "version": "[2.1.0, 2.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "NETStandard.Library": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
       }
     }
   }

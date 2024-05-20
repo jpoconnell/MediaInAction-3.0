@@ -9,3 +9,14 @@
 /home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.sourcelink.json
 /home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.dll
 /home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/bin/Debug/netstandard2.1/MediaInAction.Shared.Integration.deps.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/bin/Debug/netstandard2.1/MediaInAction.Shared.Integration.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/bin/Debug/netstandard2.1/MediaInAction.Shared.Integration.pdb
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.AssemblyInfo.cs
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.sourcelink.json
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.dll
+/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Integration/obj/Debug/netstandard2.1/MediaInAction.Shared.Integration.pdb

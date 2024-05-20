@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj": {}
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj": {}
   },
   "projects": {
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj",
         "projectName": "TraktDeviceAuthentication",
-        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj",
-        "packagesPath": "/home/jerryocl/.nuget/packages/",
-        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/obj/",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/TraktDeviceAuthentication.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/tools/trakt-connect/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,15 +59,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
+              "version": "[7.0.18, 7.0.18]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.19, 7.0.19]"
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.18, 7.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
+              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     }

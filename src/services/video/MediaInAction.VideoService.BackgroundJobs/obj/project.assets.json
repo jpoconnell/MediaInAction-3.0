@@ -9386,20 +9386,20 @@
     ]
   },
   "packageFolders": {
-    "/home/jerryocl/.nuget/packages/": {}
+    "/Users/jeremiahoconnell/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.2",
     "restore": {
-      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/MediaInAction.VideoService.BackgroundJobs.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/MediaInAction.VideoService.BackgroundJobs.csproj",
       "projectName": "MediaInAction.VideoService.BackgroundJobs",
-      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/MediaInAction.VideoService.BackgroundJobs.csproj",
-      "packagesPath": "/home/jerryocl/.nuget/packages/",
-      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/obj/",
+      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/MediaInAction.VideoService.BackgroundJobs.csproj",
+      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.BackgroundJobs/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -9412,11 +9412,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj"
             },
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Lib/MediaInAction.VideoService.Lib.csproj"
             }
           }
         }
@@ -9456,7 +9456,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

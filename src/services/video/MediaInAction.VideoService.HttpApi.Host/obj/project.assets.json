@@ -13274,20 +13274,20 @@
     ]
   },
   "packageFolders": {
-    "/home/jerryocl/.nuget/packages/": {}
+    "/Users/jeremiahoconnell/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.2",
     "restore": {
-      "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj",
       "projectName": "MediaInAction.VideoService.HttpApi.Host",
-      "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj",
-      "packagesPath": "/home/jerryocl/.nuget/packages/",
-      "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/obj/",
+      "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/MediaInAction.VideoService.HttpApi.Host.csproj",
+      "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+      "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi.Host/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-        "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+        "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -13300,17 +13300,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/MediaInAction.VideoService.Application.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/MediaInAction.VideoService.Application.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/MediaInAction.VideoService.Application.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.Application/MediaInAction.VideoService.Application.csproj"
             },
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.EntityFrameworkCore/MediaInAction.VideoService.EntityFrameworkCore.csproj"
             },
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi/MediaInAction.VideoService.HttpApi.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi/MediaInAction.VideoService.HttpApi.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi/MediaInAction.VideoService.HttpApi.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/video/MediaInAction.VideoService.HttpApi/MediaInAction.VideoService.HttpApi.csproj"
             },
-            "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
-              "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj"
+            "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj"
             }
           }
         }
@@ -13353,7 +13353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

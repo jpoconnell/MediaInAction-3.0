@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {}
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {}
   },
   "projects": {
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
         "projectName": "MediaInAction.CmskitService.Application.Contracts",
-        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
-        "packagesPath": "/home/jerryocl/.nuget/packages/",
-        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/obj/",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -28,8 +28,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
-                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj"
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj"
               }
             }
           }
@@ -74,22 +74,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
         "projectName": "MediaInAction.CmskitService.Domain.Shared",
-        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
-        "packagesPath": "/home/jerryocl/.nuget/packages/",
-        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/obj/",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -144,22 +144,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
         "projectName": "MediaInAction.CmskitService.HttpApi.Client",
-        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
-        "packagesPath": "/home/jerryocl/.nuget/packages/",
-        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/obj/",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.HttpApi.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
-          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -172,8 +172,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
-                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj"
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/cmskit/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj"
               }
             }
           }
@@ -214,7 +214,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     }

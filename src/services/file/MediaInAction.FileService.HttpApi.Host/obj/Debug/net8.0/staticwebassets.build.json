@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FBRZeibGiArYKo3SJTHwgl8OFFKB/IuG5q6jSdA74+I=",
+  "Hash": "F9WyCU3Hmmlfk88mFjJqs2WbjYk7yQIV+QAIEzpmMSg=",
   "Source": "MediaInAction.FileService.HttpApi.Host",
   "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MediaInAction.FileService.HttpApi.Host/wwwroot",
       "Source": "MediaInAction.FileService.HttpApi.Host",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/asus.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/asus.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/asus.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot/media-images/asus.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/beats.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/beats.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/beats.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot/media-images/beats.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/bluecat.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/bluecat.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/bluecat.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/media-images/bluecat.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/lego.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/lego.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/lego.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/media-images/lego.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/nikon.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/nikon.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/nikon.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/media-images/nikon.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/noimage.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/noimage.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/noimage.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/media-images/noimage.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/oki.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/oki.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/oki.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/media-images/oki.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/playstation.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/playstation.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/playstation.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/media-images/playstation.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/rampage.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/rampage.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/rampage.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/media-images/rampage.jpg"
     },
     {
-      "Identity": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/sunny.jpg",
+      "Identity": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/media-images/sunny.jpg",
       "SourceId": "MediaInAction.FileService.HttpApi.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
+      "ContentRoot": "/Users/jeremiahoconnell/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Host/wwwroot/",
       "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
       "RelativePath": "media-images/sunny.jpg",
       "AssetKind": "All",
