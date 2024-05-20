@@ -1,0 +1,16 @@
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.deps.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/bin/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.Shared.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInA.6DD7477C.Up2Date
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/deluge/MediaInAction.DelugeService.Domain/obj/Debug/netstandard2.1/MediaInAction.DelugeService.Domain.pdb

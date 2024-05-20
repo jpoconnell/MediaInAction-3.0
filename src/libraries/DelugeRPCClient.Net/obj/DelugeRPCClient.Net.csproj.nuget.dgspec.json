@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {}
+  },
+  "projects": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
+        "projectName": "DelugeRPCClient.Net",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/DelugeRPCClient.Net.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/libraries/DelugeRPCClient.Net/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.19, 7.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.19, 7.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

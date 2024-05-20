@@ -1,0 +1,11 @@
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.deps.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Domain/obj/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb

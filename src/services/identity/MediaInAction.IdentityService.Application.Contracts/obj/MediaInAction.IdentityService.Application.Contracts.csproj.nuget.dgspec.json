@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj": {}
+  },
+  "projects": {
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj",
+        "projectName": "MediaInAction.IdentityService.Application.Contracts",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/MediaInAction.IdentityService.Application.Contracts.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Volo.Abp.Identity.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj",
+        "projectName": "MediaInAction.IdentityService.Domain.Shared",
+        "projectPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/MediaInAction.IdentityService.Domain.Shared.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jerryocl/gitRepos/MediaInAction-3.0/NuGet.Config",
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

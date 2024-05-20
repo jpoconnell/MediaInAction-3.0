@@ -1,0 +1,17 @@
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.deps.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Domain.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.Shared.Hosting.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.EmbeddedFilesManifest.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInA.CDB630AD.Up2Date
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/emby/MediaInAction.EmbyService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.EmbyService.Domain.Shared.pdb
