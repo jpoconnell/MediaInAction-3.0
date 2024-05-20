@@ -1,7 +1,6 @@
 ﻿@page
 @using MediaInAction.Localization
 @using Microsoft.Extensions.Localization
-@using MediaInAction.PublicWeb.Components.UserOrders
 @model MediaInAction.PublicWeb.Pages.MyOrdersModel
 
 @inject IStringLocalizer<MediaInActionResource> L
@@ -43,5 +42,5 @@
 </div>
 
 <div id="UserOrdersArea">
-    @await Component.InvokeAsync(typeof(UserOrderWidgetViewComponent), new {Filter = Model.OrderFilter})
+   
 </div>

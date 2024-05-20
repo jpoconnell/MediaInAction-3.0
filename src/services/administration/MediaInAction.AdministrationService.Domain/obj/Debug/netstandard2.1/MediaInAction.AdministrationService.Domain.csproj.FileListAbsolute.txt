@@ -1,0 +1,14 @@
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.deps.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/bin/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.Shared.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInA.1117D25B.Up2Date
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.Domain/obj/Debug/netstandard2.1/MediaInAction.AdministrationService.Domain.pdb

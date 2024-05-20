@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qEhzxyqIlv4pvmQlqbDZsBobu9HJHFDjalaOGkybIw4=",
+  "Source": "MediaInAction.CmskitService.HttpApi.Host",
+  "BasePath": "_content/MediaInAction.CmskitService.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

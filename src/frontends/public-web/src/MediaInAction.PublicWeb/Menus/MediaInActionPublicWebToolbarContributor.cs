@@ -1,5 +1,4 @@
 ﻿using System.Threading.Tasks;
-using MediaInAction.PublicWeb.Components.Toolbar.Cart;
 using MediaInAction.PublicWeb.Components.Toolbar.LoginLink;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Toolbars;
@@ -15,6 +14,8 @@ namespace MediaInAction.PublicWeb.Menus
             {
                 return Task.CompletedTask;
             }
+            
+            /*
 
             context.Toolbar.Items.Insert(0, new ToolbarItem(typeof(CartWidgetViewComponent), order: 0));
 
@@ -22,7 +23,7 @@ namespace MediaInAction.PublicWeb.Menus
             {
                 context.Toolbar.Items.Add(new ToolbarItem(typeof(LoginLinkViewComponent)));
             }
-
+*/
             return Task.CompletedTask;
         }
     }

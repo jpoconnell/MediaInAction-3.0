@@ -40,7 +40,7 @@
     "MyOrders:LastMonth": "Last month",
     "MyOrders:Last3Months": "Last 3 months",
     "MyOrders:LastYear": "Last year",
-    "UserOrders:TotalOrderCount": "Total order count:",
+    "UserSeriess:TotalSeriesCount": "Total series count:",
     "UserOrders:OrderDate": "Order Date",
     "UserOrders:BuyAgain": "Buy Again",
     "UserOrders:ProductReturnDate": "Last date for product return:",

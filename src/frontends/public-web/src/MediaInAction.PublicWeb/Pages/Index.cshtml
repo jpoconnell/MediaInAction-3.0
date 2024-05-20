@@ -30,19 +30,17 @@
 <div class="container">
     <h3 class="pb-4 text-center">@pageHeader</h3>
     <div class="">
-        <div class="product-list">
-            @foreach (var product in Model.Products)
+        <div class="series-list">
+            @foreach (var series in Model.SeriesDtos)
             {
-                var productPrice = product.Price.ToString("C", new CultureInfo("en-US"));
-                string productImage = !product.ImageName.IsNullOrEmpty() ? $"{options.Value.RemoteServices.Default.BaseUrl}product-images/{product.ImageName}" : $"{options.Value.RemoteServices.Default.BaseUrl}product-images/@product.ImageName";
+                string seriesImage = !series.ImageName.IsNullOrEmpty() ? $"{options.Value.RemoteServices.Default.BaseUrl}media-images/{series.ImageName}" : $"{options.Value.RemoteServices.Default.BaseUrl}media-images/@series.ImageName";
                 string buyText = L["Index:AddToBasket"];
-                <div class="product-container">
-                    <div class="product-list-item" data-product-id="@product.Id.ToString()">
-                        <div class="item-link" href="/products/@product.Id.ToString()" data-product-id="@product.Id.ToString()">
+                <div class="series-container">
+                    <div class="series-list-item" data-product-id="@series.Id.ToString()">
+                        <div class="item-link" href="/products/@series.Id.ToString()" data-product-id="@series.Id.ToString()">
                             <div class="product-title">
                                 <span>
-                                    <h6>@product.Name</h6>
-                                    <span class="d-block text-muted">@product.Code</span>
+                                    <h6>@series.Name</h6>
                                 </span>
                             </div>
                             @* Need read-only ratings system *@
@@ -52,28 +50,14 @@
                             @*         @await Component.InvokeAsync(typeof(RatingViewComponent), new { entityType = "quote", entityId = @product.Id.ToString() }) *@
                             @*     } *@
                             @* </div> *@
-                            <div class="product-image">
-                                <img src="@productImage" loading="lazy"/>
-                            </div>
-                            <div class="product-count">
-                                <span class="d-block">@L["StockCount"]: @product.StockCount</span>
+                            <div class="series-image">
+                                <img src="@seriesImage" loading="lazy"/>
                             </div>
                         </div>
-                        <div class="product-item-bottom">
+                        <div class="series-item-bottom">
                             <div class="item-added">
                                 <div class="fa fa-check" style="color: yellowgreen; padding-right: 1em;"></div>
                                 <span style="display: flex">Added to cart</span>
-                            </div>
-                            @if (product.StockCount > 0)
-                            {
-                                <abp-button class="add-basket-button" button-type="Warning" text="@buyText" data-product-id="@product.Id.ToString()"></abp-button>
-                            }
-                            else
-                            {
-                                <abp-button disabled="true" class="add-basket-button" button-type="Warning" text="@L["Index:OutOfStock"]"/>
-                            }
-                            <div class="info-section col">
-                                <span class="product-price">@productPrice</span>
                             </div>
                         </div>
                     </div>

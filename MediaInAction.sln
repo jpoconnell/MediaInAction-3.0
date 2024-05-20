@@ -251,6 +251,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.Keycloak.DbMi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraktDeviceAuthentication", "src\tools\trakt-connect\TraktDeviceAuthentication.csproj", "{2BF25368-6A09-4716-B5C8-B8C59B4C3339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaInAction.PublicWeb", "src\frontends\public-web\src\MediaInAction.PublicWeb\MediaInAction.PublicWeb.csproj", "{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1}"
+EndProject
 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -646,6 +648,10 @@ Global
 		{2BF25368-6A09-4716-B5C8-B8C59B4C3339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF25368-6A09-4716-B5C8-B8C59B4C3339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF25368-6A09-4716-B5C8-B8C59B4C3339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -769,6 +775,7 @@ Global
 		{CB8AABF0-600F-4D77-80B8-4301473DD66F} = {261E69E9-ADD9-4EB3-A10B-FB20DDA47F6A}
 		{5B9076C9-9CC4-4565-A536-1A69EB9603D4} = {261E69E9-ADD9-4EB3-A10B-FB20DDA47F6A}
 		{2BF25368-6A09-4716-B5C8-B8C59B4C3339} = {261E69E9-ADD9-4EB3-A10B-FB20DDA47F6A}
+		{D04D1CD7-C0E4-4A2D-84CE-AD92B0525DD1} = {9108A0E9-BF36-4197-9C4D-77AB5C379A0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26F82565-C6A4-439D-93A4-3251E3E7D5B0}

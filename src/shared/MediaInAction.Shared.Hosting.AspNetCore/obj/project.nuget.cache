@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "maUmqYowZI+GXACbu67Q61teOEZrx2UY+SbHGKC6Ie1ly4HqtQKR5D9yCuzU5CMvjosEoPMq52MWXHJwFekuqQ==",
+  "dgSpecHash": "W1Kp/B8CXQz/9dN/EyZ5TwCS5JEtFFSLfr4kzET3xBEZLRlwqk5JigwR1mMvR+yYjEeiZJnviWR0QjGMcH+7fg==",
   "success": true,
   "projectFilePath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.AspNetCore/MediaInAction.Shared.Hosting.AspNetCore.csproj",
   "expectedPackageFiles": [
@@ -47,7 +47,7 @@
     "/home/jerryocl/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/microsoft.extensions.fileproviders.composite/8.0.0/microsoft.extensions.fileproviders.composite.8.0.0.nupkg.sha512",
-    "/home/jerryocl/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.0/microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
+    "/home/jerryocl/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.5/microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",

@@ -1,0 +1,11 @@
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.deps.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/bin/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.pdb
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-3.0/src/services/identity/MediaInAction.IdentityService.Domain.Shared/obj/Debug/netstandard2.1/MediaInAction.IdentityService.Domain.Shared.pdb

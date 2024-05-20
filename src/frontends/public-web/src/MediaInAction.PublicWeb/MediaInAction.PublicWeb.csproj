@@ -24,13 +24,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\services\cmskit\MediaInAction.CmskitService.HttpApi.Client\MediaInAction.CmskitService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\deluge\MediaInAction.DelugeService.Application.Contracts\MediaInAction.DelugeService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\..\services\emby\MediaInAction.EmbyService.HttpApi.Client\MediaInAction.EmbyService.HttpApi.Client.csproj" />
     <ProjectReference Include="..\..\..\..\shared\MediaInAction.Shared.Hosting.AspNetCore\MediaInAction.Shared.Hosting.AspNetCore.csproj" />
     <ProjectReference Include="..\..\..\..\shared\MediaInAction.Shared.Localization\MediaInAction.Shared.Localization.csproj" />
-    <ProjectReference Include="..\..\..\..\services\File\src\MediaInAction.FileService.HttpApi.Client\MediaInAction.FileService.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\..\..\services\basket\src\MediaInAction.BasketService.Contracts\MediaInAction.BasketService.Contracts.csproj" />
-    <ProjectReference Include="..\..\..\..\services\payment\src\MediaInAction.TraktService.HttpApi.Client\MediaInAction.TraktService.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\..\..\services\ordering\src\MediaInAction.VideoService.HttpApi.Client\MediaInAction.VideoService.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\..\..\services\cmskit\src\MediaInAction.CmskitService.HttpApi.Client\MediaInAction.CmskitService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\file\MediaInAction.FileService.HttpApi.Client\MediaInAction.FileService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\trakt\MediaInAction.TraktService.HttpApi.Client\MediaInAction.TraktService.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\..\..\services\video\MediaInAction.VideoService.HttpApi.Client\MediaInAction.VideoService.HttpApi.Client.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +57,15 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="ClientProxies\app-generate-proxy.json" />
+    <_ContentIncludedByDefault Remove="Components\Basket\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Components\Purchase\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Components\UserVideos\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Components\Trakt\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Components\Toolbar\Cart\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientProxies\" />
   </ItemGroup>
 
 </Project>

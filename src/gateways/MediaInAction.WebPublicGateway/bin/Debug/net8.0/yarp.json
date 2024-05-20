@@ -1,0 +1,203 @@
+﻿{
+  "ReverseProxy": {
+    "Routes": {
+      "AbpApi": {
+        "ClusterId": "administrationCluster",
+        "Match": {
+          "Path": "/api/abp/{**catch-all}"
+        }
+      },
+      "Identity Service": {
+        "ClusterId": "identityCluster",
+        "Match": {
+          "Path": "/api/identity/{**everything}"
+        }
+      },
+      "Identity Service Swagger": {
+        "ClusterId": "identityCluster",
+        "Match": {
+          "Path": "/swagger-json/Identity/swagger/v1/swagger.json"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/swagger-json/Identity" }
+        ]
+      },
+      "FeatureManagement": {
+        "ClusterId": "feature-management-cluster",
+        "Match": {
+          "Path": "/api/feature-management/{**everything}"
+        }
+      },
+      "PermissionManagement": {
+        "ClusterId": "permission-management-cluster",
+        "Match": {
+          "Path": "/api/permission-management/{**everything}"
+        }
+      },
+      "SettingManagement": {
+        "ClusterId": "setting-management-cluster",
+        "Match": {
+          "Path": "/api/setting-management/{**everything}"
+        }
+      },
+      "Administration Service Swagger": {
+        "ClusterId": "administrationCluster",
+        "Match": {
+          "Path": "/swagger-json/Administration/swagger/v1/swagger.json"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/swagger-json/Administration" }
+        ]
+      },
+      "File Service": {
+        "ClusterId": "fileCluster",
+        "Match": {
+          "Path": "/api/file/{**everything}"
+        }
+      },
+      "File Service Swagger": {
+        "ClusterId": "fileCluster",
+        "Match": {
+          "Path": "/swagger-json/File/swagger/v1/swagger.json"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/swagger-json/File" }
+        ]
+      },
+      "nedia-picture-route": {
+        "ClusterId": "mediaPictureCluster",
+        "Match": {
+          "Path": "/media-images/{**everything}",
+          "Methods": [ "GET" ]
+        }
+      },
+      "Trakt Service": {
+        "ClusterId": "traktCluster",
+        "Match": {
+          "Path": "/api/trakt/{**everything}"
+        }
+      },
+      "Video Service": {
+        "ClusterId": "videoCluster",
+        "Match": {
+          "Path": "/api/video/{**everything}"
+        }
+      },
+      "Video Service Swagger": {
+        "ClusterId": "videoCluster",
+        "Match": {
+          "Path": "/swagger-json/Video/swagger/v1/swagger.json"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/swagger-json/Video" }
+        ]
+      },
+      "Cmskit Service": {
+        "ClusterId": "cmskitCluster",
+        "Match": {
+          "Path": "/api/cmskit/{**everything}"
+        }
+      },
+      "Cmskit Service Swagger": {
+        "ClusterId": "cmskitCluster",
+        "Match": {
+          "Path": "/swagger-json/Cmskit/swagger/v1/swagger.json"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/swagger-json/Cmskit" }
+        ]
+      },
+      "Deluge Service": {
+        "ClusterId": "delugeCluster",
+        "Match": {
+          "Path": "/api/deluge/{**everything}"
+        }
+      },
+      "Emby Service": {
+        "ClusterId": "embyCluster",
+        "Match": {
+          "Path": "/api/emby/{**everything}"
+        }
+      }
+    },
+    "Clusters": {
+      "identityCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44351"
+          }
+        }
+      },
+      "administrationCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44353"
+          }
+        }
+      },
+      "permission-management-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44353"
+          }
+        }
+      },
+      "setting-management-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44353"
+          }
+        }
+      },
+      "fileCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44355"
+          }
+        }
+      },
+      "traktCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44357"
+          }
+        }
+      },
+      "videoCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "cmskitCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44354"
+          }
+        }
+      },
+      "mediaPictureCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44356"
+          }
+        }
+      },
+      "delugeCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44459"
+          }
+        }
+      },
+      "embyCluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:44361"
+          }
+        }
+      }
+    }
+  }
+}

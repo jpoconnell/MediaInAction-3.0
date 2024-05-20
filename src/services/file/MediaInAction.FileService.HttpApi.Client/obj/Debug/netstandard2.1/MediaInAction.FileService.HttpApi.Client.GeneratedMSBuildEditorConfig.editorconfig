@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.FileService
+build_property.ProjectDir = /home/jerryocl/gitRepos/MediaInAction-3.0/src/services/file/MediaInAction.FileService.HttpApi.Client/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

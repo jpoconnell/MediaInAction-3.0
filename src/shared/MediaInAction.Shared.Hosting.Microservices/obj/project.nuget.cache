@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X6ALen/5odQcG7UoRKAceN/Iv4Czfm5HPXoIRnqdjYX+Ix1cpcQaxXl0SuUCB990VB8CSMfXwoiTvyDnVwS6BQ==",
+  "dgSpecHash": "Bx2U9vMWr0DtHnE8LqxStcUMDURCfFuYfDLcV+BD3apmoqcQF/l01mwwy2wEw1AuyYelFlJjExmOXqoGBjclHQ==",
   "success": true,
   "projectFilePath": "/home/jerryocl/gitRepos/MediaInAction-3.0/src/shared/MediaInAction.Shared.Hosting.Microservices/MediaInAction.Shared.Hosting.Microservices.csproj",
   "expectedPackageFiles": [

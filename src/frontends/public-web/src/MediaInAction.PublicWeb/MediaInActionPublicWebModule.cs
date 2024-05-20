@@ -1,4 +1,4 @@
-﻿using MediaInAction.BasketService;
+﻿
 using MediaInAction.FileService;
 using MediaInAction.CmskitService;
 using MediaInAction.Localization;
@@ -6,7 +6,6 @@ using MediaInAction.VideoService;
 using MediaInAction.TraktService;
 using MediaInAction.TraktService.TraktMethods;
 using MediaInAction.PublicWeb.AnonymousUser;
-using MediaInAction.PublicWeb.Components.Toolbar.Cart;
 using MediaInAction.PublicWeb.Menus;
 using MediaInAction.PublicWeb.TraktMethods;
 using MediaInAction.Shared.Hosting.AspNetCore;
@@ -26,6 +25,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Security.Claims;
+using MediaInAction.EmbyService;
 using MediaInAction.PublicWeb.Components.Toolbar.Footer;
 using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using Microsoft.AspNetCore.Http;
@@ -73,7 +73,7 @@ namespace MediaInAction.PublicWeb;
     typeof(MediaInActionSharedHostingAspNetCoreModule),
     typeof(MediaInActionSharedLocalizationModule),
     typeof(FileServiceHttpApiClientModule),
-    typeof(BasketServiceContractsModule),
+    typeof(EmbyServiceHttpApiClientModule),
     typeof(VideoServiceHttpApiClientModule),
     typeof(AbpAspNetCoreSignalRModule),
     typeof(TraktServiceHttpApiClientModule),
@@ -133,7 +133,7 @@ public class MediaInActionPublicWebModule : AbpModule
                 LeptonXLiteThemeBundles.Styles.Global,
                 bundle =>
                 {
-                    bundle.AddContributors(typeof(CartWidgetStyleContributor));
+                    //bundle.AddContributors(typeof(CartWidgetStyleContributor));
                     bundle.AddFiles("/global.css");
                 }
             );
@@ -327,11 +327,13 @@ public class MediaInActionPublicWebModule : AbpModule
 
     private void ConfigureBasketHttpClient(ServiceConfigurationContext context)
     {
+        /*
         context.Services.AddStaticHttpClientProxies(
-            typeof(BasketServiceContractsModule).Assembly,
-            remoteServiceConfigurationName: BasketServiceConstants.RemoteServiceName
+            typeof(EmbyServiceHttpApiClientModule).Assembly,
+            remoteServiceConfigurationName: EmbyServiceConstants.RemoteServiceName
         );
 
+*/
         Configure<AbpVirtualFileSystemOptions>(options =>
         {
             options.FileSets.AddEmbedded<MediaInActionPublicWebModule>();
@@ -348,7 +350,7 @@ public class MediaInActionPublicWebModule : AbpModule
 
         Configure<TraktMethodUiOptions>(options =>
         {
-            options.ConfigureIcon(TraktMethodNames.PayPal, "fa-cc-paypal paypal");
+            options.ConfigureIcon(TraktMethodNames.UpdateWatched, "fa-cc-paypal paypal");
         });
     }
 

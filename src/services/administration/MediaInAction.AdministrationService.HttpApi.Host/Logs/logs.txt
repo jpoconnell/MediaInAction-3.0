@@ -1991,3 +1991,280 @@ Routine = InitPostgres
 2024-05-20 02:12:34.247 +00:00 [INF] Application is shutting down...
 2024-05-20 02:12:34.274 +00:00 [INF] Disposing channel pool (1 channels).
 2024-05-20 02:12:34.304 +00:00 [INF] Disposed RabbitMQ Channel Pool (1 channels in 30.49 ms).
+2024-05-20 14:16:40.804 -05:00 [INF] Starting MediaInAction.AdministrationService.HttpApi.Host.
+2024-05-20 14:16:42.155 -05:00 [INF] Loaded ABP modules:
+2024-05-20 14:16:42.156 -05:00 [INF] - MediaInAction.AdministrationService.AdministrationServiceHttpApiHostModule
+2024-05-20 14:16:42.156 -05:00 [INF]   - MediaInAction.AdministrationService.AdministrationServiceHttpApiModule
+2024-05-20 14:16:42.156 -05:00 [INF]     - MediaInAction.AdministrationService.AdministrationServiceApplicationContractsModule
+2024-05-20 14:16:42.156 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-05-20 14:16:42.156 -05:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-05-20 14:16:42.156 -05:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-05-20 14:16:42.156 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-05-20 14:16:42.156 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2024-05-20 14:16:42.156 -05:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-05-20 14:16:42.156 -05:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2024-05-20 14:16:42.156 -05:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-05-20 14:16:42.156 -05:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2024-05-20 14:16:42.156 -05:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2024-05-20 14:16:42.156 -05:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-05-20 14:16:42.156 -05:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-05-20 14:16:42.156 -05:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-05-20 14:16:42.156 -05:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2024-05-20 14:16:42.156 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-05-20 14:16:42.156 -05:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-05-20 14:16:42.156 -05:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-05-20 14:16:42.156 -05:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-05-20 14:16:42.156 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-05-20 14:16:42.156 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-05-20 14:16:42.156 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-05-20 14:16:42.156 -05:00 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-05-20 14:16:42.156 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-05-20 14:16:42.156 -05:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-05-20 14:16:42.156 -05:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-05-20 14:16:42.156 -05:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-05-20 14:16:42.156 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-05-20 14:16:42.156 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-05-20 14:16:42.156 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-05-20 14:16:42.156 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-05-20 14:16:42.156 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-05-20 14:16:42.157 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-05-20 14:16:42.157 -05:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-05-20 14:16:42.157 -05:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-05-20 14:16:42.157 -05:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.Caching.AbpCachingModule
+2024-05-20 14:16:42.157 -05:00 [INF]               - Volo.Abp.Serialization.AbpSerializationModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2024-05-20 14:16:42.157 -05:00 [INF]   - MediaInAction.AdministrationService.AdministrationServiceApplicationModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-05-20 14:16:42.157 -05:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]   - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-05-20 14:16:42.157 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-05-20 14:16:42.157 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-05-20 14:16:42.157 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-05-20 14:16:42.157 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-05-20 14:16:42.157 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-05-20 14:16:42.157 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-05-20 14:16:42.413 -05:00 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.Volo.Abp.Emailing.BackgroundEmailSendingJobArgs' has 0 messages and 0 consumers.
+2024-05-20 14:16:43.099 -05:00 [INF] Lock is acquired for db migration and seeding on database named: AdministrationService...
+2024-05-20 14:16:44.544 -05:00 [ERR] An error occurred using the connection to database 'MediaInAction_Administration' on server 'tcp://localhost:5432'.
+2024-05-20 14:16:44.543 -05:00 [ERR] An error occurred using the connection to database 'MediaInAction_Administration' on server 'tcp://localhost:5432'.
+2024-05-20 14:16:44.678 -05:00 [ERR] 3D000: database "MediaInAction_Administration" does not exist
+Npgsql.PostgresException (0x80004005): 3D000: database "MediaInAction_Administration" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.UnpooledDataSource.Get(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextWithTransactionAsync(IUnitOfWork unitOfWork)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextAsync(IUnitOfWork unitOfWork)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextAsync(IUnitOfWork unitOfWork, String connectionStringName, String connectionString)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.GetDbContextAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetDbSetAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetQueryableAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.UpdateChangedPermissionGroupsAsync(IEnumerable`1 permissionGroupRecords)
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticPermissionsToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: database "MediaInAction_Administration" does not exist
+    File: postinit.c
+    Line: 885
+    Routine: InitPostgres
+2024-05-20 14:16:44.685 -05:00 [ERR] ---------- Exception Data ----------
+Severity = FATAL
+InvariantSeverity = FATAL
+SqlState = 3D000
+MessageText = database "MediaInAction_Administration" does not exist
+File = postinit.c
+Line = 885
+Routine = InitPostgres
+
+2024-05-20 14:16:44.687 -05:00 [ERR] 3D000: database "MediaInAction_Administration" does not exist
+Npgsql.PostgresException (0x80004005): 3D000: database "MediaInAction_Administration" does not exist
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.UnpooledDataSource.Get(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextWithTransactionAsync(IUnitOfWork unitOfWork)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextAsync(IUnitOfWork unitOfWork)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.CreateDbContextAsync(IUnitOfWork unitOfWork, String connectionStringName, String connectionString)
+   at Volo.Abp.Uow.EntityFrameworkCore.UnitOfWorkDbContextProvider`1.GetDbContextAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetDbSetAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetQueryableAsync()
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.UpdateChangedSettingsAsync(List`1 SettingRecords)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.AbpSettingManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticSettingsToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: database "MediaInAction_Administration" does not exist
+    File: postinit.c
+    Line: 885
+    Routine: InitPostgres
+2024-05-20 14:16:44.687 -05:00 [ERR] ---------- Exception Data ----------
+Severity = FATAL
+InvariantSeverity = FATAL
+SqlState = 3D000
+MessageText = database "MediaInAction_Administration" does not exist
+File = postinit.c
+Line = 885
+Routine = InitPostgres
+
+2024-05-20 14:16:47.338 -05:00 [INF] Lock is released for db migration and seeding on database named: AdministrationService...
+2024-05-20 14:16:47.384 -05:00 [INF] Initialized all ABP modules.
+2024-05-20 14:16:47.583 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-20 14:16:47.814 -05:00 [INF] Now listening on: https://localhost:44353
+2024-05-20 14:16:47.814 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-20 14:16:47.814 -05:00 [INF] Hosting environment: Development
+2024-05-20 14:16:47.814 -05:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-3.0/src/services/administration/MediaInAction.AdministrationService.HttpApi.Host
+2024-05-20 14:16:50.312 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/ - null null
+2024-05-20 14:16:50.770 -05:00 [INF] Executing endpoint 'MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host)'
+2024-05-20 14:16:50.800 -05:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.AdministrationService.Controllers.HomeController (MediaInAction.AdministrationService.HttpApi.Host).
+2024-05-20 14:16:50.859 -05:00 [INF] Executing action method MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host) - Validation state: "Valid"
+2024-05-20 14:16:50.867 -05:00 [INF] Executed action method MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4034ms.
+2024-05-20 14:16:50.878 -05:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-05-20 14:16:50.884 -05:00 [INF] Executed action MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host) in 78.1886ms
+2024-05-20 14:16:50.885 -05:00 [INF] Executed endpoint 'MediaInAction.AdministrationService.Controllers.HomeController.Index (MediaInAction.AdministrationService.HttpApi.Host)'
+2024-05-20 14:16:50.902 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/ - 302 0 null 594.0004ms
+2024-05-20 14:16:50.903 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger - null null
+2024-05-20 14:16:50.909 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger - 301 0 null 5.8873ms
+2024-05-20 14:16:50.920 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/index.html - null null
+2024-05-20 14:16:51.036 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui.css - null null
+2024-05-20 14:16:51.042 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/abp.swagger.js - null null
+2024-05-20 14:16:51.042 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/abp.js - null null
+2024-05-20 14:16:51.048 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/index.html - 200 null text/html;charset=utf-8 128.6854ms
+2024-05-20 14:16:51.052 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/ui/requestinterceptor.js - null null
+2024-05-20 14:16:51.053 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-05-20 14:16:51.054 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-20 14:16:51.054 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/swagger-ui-bundle.js - null null
+2024-05-20 14:16:51.065 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/abp.js - 200 3122 application/javascript 23.1424ms
+2024-05-20 14:16:51.075 -05:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-05-20 14:16:51.077 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/requestinterceptor.js - 200 283 application/javascript 25.3812ms
+2024-05-20 14:16:51.083 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-05-20 14:16:51.086 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/ui/abp.swagger.js - 200 4510 application/javascript 44.4187ms
+2024-05-20 14:16:51.111 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-20 14:16:51.112 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui.css - 200 144929 text/css 76.2814ms
+2024-05-20 14:16:51.113 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-20 14:16:51.114 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 60.041ms
+2024-05-20 14:16:51.128 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-20 14:16:51.128 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 74.4429ms
+2024-05-20 14:16:51.411 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - null null
+2024-05-20 14:16:51.430 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/swagger/favicon-32x32.png - null null
+2024-05-20 14:16:51.433 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-20 14:16:51.433 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/favicon-32x32.png - 200 628 image/png 2.6036ms
+2024-05-20 14:16:51.664 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 253.3031ms
+2024-05-20 14:16:51.867 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/abp/Swashbuckle/SetCsrfCookie - null null
+2024-05-20 14:16:51.873 -05:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-20 14:16:51.876 -05:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle"}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2024-05-20 14:16:51.884 -05:00 [INF] Executing action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) - Validation state: "Valid"
+2024-05-20 14:16:51.893 -05:00 [INF] Executed action method Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 7.7539ms.
+2024-05-20 14:16:51.894 -05:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 17.3379ms
+2024-05-20 14:16:51.894 -05:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-05-20 14:16:51.894 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/abp/Swashbuckle/SetCsrfCookie - 204 null null 27.2813ms
+2024-05-20 14:16:51.905 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44353/api/abp/application-configuration - null null
+2024-05-20 14:16:51.908 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-20 14:16:51.929 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-05-20 14:16:52.037 -05:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-05-20 14:16:52.075 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-05-20 14:16:53.091 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-05-20 14:16:53.113 -05:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1075.9768ms.
+2024-05-20 14:16:53.140 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-05-20 14:16:53.211 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 1281.0494ms
+2024-05-20 14:16:53.212 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-05-20 14:16:53.213 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44353/api/abp/application-configuration - 200 null application/json; charset=utf-8 1308.4107ms
+2024-05-20 14:20:36.247 -05:00 [INF] Application is shutting down...
+2024-05-20 14:20:36.270 -05:00 [INF] Disposing channel pool (1 channels).
+2024-05-20 14:20:36.286 -05:00 [INF] Disposed RabbitMQ Channel Pool (1 channels in 16.77 ms).
