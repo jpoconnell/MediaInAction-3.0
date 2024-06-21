@@ -1,6 +1,0 @@
-apiVersion: v2
-name: cmskit
-appVersion: "1.0"
-description: MediaInAction Cmskit Microservice
-version: 1.0.0
-type: application

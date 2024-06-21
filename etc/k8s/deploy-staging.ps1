@@ -1,1 +1,0 @@
-helm upgrade --install mia-st mia -f ./mia/values.st.yaml --namespace mia --create-namespace

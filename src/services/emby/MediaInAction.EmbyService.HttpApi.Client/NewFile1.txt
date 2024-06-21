@@ -1,1 +1,0 @@
-abp generate-proxy -t csharp -m emby -url https://localhost:44361/
