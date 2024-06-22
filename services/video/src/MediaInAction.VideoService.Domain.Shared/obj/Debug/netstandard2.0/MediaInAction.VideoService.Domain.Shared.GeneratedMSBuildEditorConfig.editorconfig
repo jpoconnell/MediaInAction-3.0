@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.VideoService
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/video/src/MediaInAction.VideoService.Domain.Shared/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

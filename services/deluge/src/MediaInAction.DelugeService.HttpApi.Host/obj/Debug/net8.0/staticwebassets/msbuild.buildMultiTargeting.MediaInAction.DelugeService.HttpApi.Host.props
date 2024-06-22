@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MediaInAction.DelugeService.HttpApi.Host.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MediaInAction.CmskitService.HttpApi.Host.props" />
+</Project>

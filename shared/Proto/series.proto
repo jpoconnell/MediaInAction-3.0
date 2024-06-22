@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "VideoService.Series.GrpcServer";
+
+package VideoApi;
+
+service SeriesGrpcService {
+	rpc CreateNewSeries (SeriesModel) returns (SeriesModel);
+	rpc SearchSeries (SearchRequest) returns (stream SeriesModel);
+	rpc UpdateSeries (SeriesModel) returns (SeriesModel);
+}
+
+message GetAllRequest {}
+
+message SearchRequest {
+	string slug = 1;
+	string name = 2;
+	string year = 3;
+	string aliasValue = 4;
+}
+
+message SeriesAliasModel {
+	string idType = 1;
+	string idValue = 2;
+}
+
+message SeriesModel {
+	string slug = 1;
+	string name = 2;
+	int32 year = 3;
+	string imageName = 4;
+	repeated SeriesAliasModel aliases = 5;
+}

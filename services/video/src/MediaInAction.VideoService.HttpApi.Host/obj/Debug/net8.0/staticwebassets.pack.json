@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\asus.jpg",
+      "PackagePath": "staticwebassets\\product-images\\asus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\beats.jpg",
+      "PackagePath": "staticwebassets\\product-images\\beats.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\bluecat.jpg",
+      "PackagePath": "staticwebassets\\product-images\\bluecat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\lego.jpg",
+      "PackagePath": "staticwebassets\\product-images\\lego.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\nikon.jpg",
+      "PackagePath": "staticwebassets\\product-images\\nikon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\product-images\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\oki.jpg",
+      "PackagePath": "staticwebassets\\product-images\\oki.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\playstation.jpg",
+      "PackagePath": "staticwebassets\\product-images\\playstation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\rampage.jpg",
+      "PackagePath": "staticwebassets\\product-images\\rampage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\debmi\\gitRepos\\MediaInAction-2.0\\services\\video\\src\\MediaInAction.VideoService.HttpApi.Host\\wwwroot\\product-images\\sunny.jpg",
+      "PackagePath": "staticwebassets\\product-images\\sunny.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MediaInAction.VideoService.HttpApi.Host.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MediaInAction.VideoService.HttpApi.Host.props",
+      "PackagePath": "build\\MediaInAction.VideoService.HttpApi.Host.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MediaInAction.VideoService.HttpApi.Host.props",
+      "PackagePath": "buildMultiTargeting\\MediaInAction.VideoService.HttpApi.Host.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MediaInAction.VideoService.HttpApi.Host.props",
+      "PackagePath": "buildTransitive\\MediaInAction.VideoService.HttpApi.Host.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

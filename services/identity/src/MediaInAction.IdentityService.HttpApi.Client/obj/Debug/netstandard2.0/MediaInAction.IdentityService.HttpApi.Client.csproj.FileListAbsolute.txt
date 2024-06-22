@@ -1,0 +1,16 @@
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.deps.json
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.dll
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.pdb
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Application.Contracts.dll
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.dll
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Application.Contracts.pdb
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/bin/Debug/netstandard2.0/MediaInAction.IdentityService.Domain.Shared.pdb
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.csproj.AssemblyReference.cache
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.AssemblyInfoInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.AssemblyInfo.cs
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.csproj.CoreCompileInputs.cache
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.sourcelink.json
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.csproj.CopyComplete
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.dll
+/home/jerryocl/gitRepos/MediaInAction-2.0/services/identity/src/MediaInAction.IdentityService.HttpApi.Client/obj/Debug/netstandard2.0/MediaInAction.IdentityService.HttpApi.Client.pdb

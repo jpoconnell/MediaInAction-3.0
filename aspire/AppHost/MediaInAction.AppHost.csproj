@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>40d1d3f9-6593-4f5a-9d74-ff6ea82eb14e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\gateways\web-public\src\MediaInAction.WebPublicGateway\MediaInAction.WebPublicGateway.csproj" />
+    <ProjectReference Include="..\..\gateways\web\src\MediaInAction.WebGateway\MediaInAction.WebGateway.csproj" />
+    <ProjectReference Include="..\..\services\administration\src\MediaInAction.AdministrationService.HttpApi.Host\MediaInAction.AdministrationService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\deluge\src\MediaInAction.DelugeService.HttpApi.Background.Host\MediaInAction.DelugeService.HttpApi.Background.Host.csproj" />
+    <ProjectReference Include="..\..\services\deluge\src\MediaInAction.DelugeService.HttpApi.Host\MediaInAction.DelugeService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\emby\src\MediaInAction.EmbyService.HttpApi.Host\MediaInAction.EmbyService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\file\src\MediaInAction.FileService.HttpApi.Background.Host\MediaInAction.FileService.HttpApi.Background.Host.csproj" />
+    <ProjectReference Include="..\..\services\video\src\MediaInAction.VideoService.HttpApi.Background.host\MediaInAction.VideoService.HttpApi.Background.Host.csproj" />
+    <ProjectReference Include="..\..\services\video\src\MediaInAction.VideoService.HttpApi.Host\MediaInAction.VideoService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\cmskit\src\MediaInAction.CmskitService.HttpApi.Host\MediaInAction.CmskitService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\identity\src\MediaInAction.IdentityService.HttpApi.Host\MediaInAction.IdentityService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\file\src\MediaInAction.FileService.HttpApi.Host\MediaInAction.FileService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\trakt\src\MediaInAction.TraktService.HttpApi.Host\MediaInAction.TraktService.HttpApi.Host.csproj" />
+    <ProjectReference Include="..\..\services\trakt\src\MediaInAction.TraktService.HttpApi.Background.Host\MediaInAction.TraktService.HttpApi.Background.Host.csproj" />
+    <ProjectReference Include="..\..\shared\MediaInAction.Keycloak.DbMigrator\MediaInAction.Keycloak.DbMigrator.csproj" />
+  </ItemGroup>
+
+</Project>

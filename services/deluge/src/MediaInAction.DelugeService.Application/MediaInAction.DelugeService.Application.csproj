@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.DelugeService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.4" />
+    <ProjectReference Include="..\MediaInAction.DelugeService.Domain\MediaInAction.DelugeService.Domain.csproj" />
+    <ProjectReference Include="..\MediaInAction.DelugeService.Application.Contracts\MediaInAction.DelugeService.Application.Contracts.csproj" />
+
+  </ItemGroup>
+
+</Project>

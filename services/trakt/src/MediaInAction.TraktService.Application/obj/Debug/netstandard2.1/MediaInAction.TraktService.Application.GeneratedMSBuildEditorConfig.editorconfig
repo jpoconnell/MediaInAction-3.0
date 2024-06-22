@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.TraktService
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/trakt/src/MediaInAction.TraktService.Application/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

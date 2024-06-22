@@ -1,0 +1,2 @@
+obj/Debug/net8.0/Movie.cs \
+obj/Debug/net8.0/MovieGrpc.cs: ../Proto/movie.proto

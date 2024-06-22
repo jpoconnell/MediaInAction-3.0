@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nEGuA29h8+DC5Qjjaffql9piEXGZBntwbWF4fREysYEHe3q68oME8hwqCYyMJaOMMnXricLMHnjpqQXCOYb0/w==",
+  "success": true,
+  "projectFilePath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/shared/MediaInAction.Shared.Grpc/MediaInAction.Shared.Grpc.csproj",
+  "expectedPackageFiles": [
+    "/Users/jeremiahoconnell/.nuget/packages/google.protobuf/3.27.1/google.protobuf.3.27.1.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/grpc.core.api/2.63.0/grpc.core.api.2.63.0.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.64.0/grpc.tools.2.64.0.nupkg.sha512"
+  ],
+  "logs": []
+}

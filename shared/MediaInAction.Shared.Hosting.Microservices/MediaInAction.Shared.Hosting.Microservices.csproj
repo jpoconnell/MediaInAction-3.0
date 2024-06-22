@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MediaInAction.Shared.Hosting.Microservices</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MediaInAction.Shared.Hosting.AspNetCore\MediaInAction.Shared.Hosting.AspNetCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.6" />
+        <PackageReference Include="DistributedLock.Redis" Version="1.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.MongoDB" Version="8.1.4" />
+        <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="8.1.4" />
+        <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="8.1.4" />
+        <PackageReference Include="Volo.Abp.BackgroundJobs.RabbitMQ" Version="8.1.4" />
+        <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.1.4" />
+        <PackageReference Include="Volo.Abp.DistributedLocking" Version="8.1.4" />        
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\services\administration\src\MediaInAction.AdministrationService.EntityFrameworkCore\MediaInAction.AdministrationService.EntityFrameworkCore.csproj" />        
+    </ItemGroup>
+
+</Project>

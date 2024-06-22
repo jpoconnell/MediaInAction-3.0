@@ -1,0 +1,10 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY MediaInAction ./MediaInAction
+WORKDIR /src/MediaInAction/services/ordering/src/MediaInAction.OrderingService.HttpApi.Host
+RUN dotnet publish -c Release -o bin/Release/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+WORKDIR /app
+COPY --from=build /src/MediaInAction/services/ordering/src/MediaInAction.OrderingService.HttpApi.Host/bin/Release/publish/ .
+ENTRYPOINT ["dotnet", "MediaInAction.OrderingService.HttpApi.Host.dll"]

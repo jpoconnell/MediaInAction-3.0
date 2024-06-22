@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lknK68xtznAptqmRe3eeidV+GZtLPbX9wdYQFXUGn+g=",
+  "Source": "MediaInAction.EmbyService.HttpApi.Background.Host",
+  "BasePath": "_content/MediaInAction.EmbyService.HttpApi.Background.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

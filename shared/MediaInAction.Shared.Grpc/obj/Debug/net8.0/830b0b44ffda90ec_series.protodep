@@ -1,0 +1,2 @@
+obj/Debug/net8.0/Series.cs \
+obj/Debug/net8.0/SeriesGrpc.cs: ../Proto/series.proto

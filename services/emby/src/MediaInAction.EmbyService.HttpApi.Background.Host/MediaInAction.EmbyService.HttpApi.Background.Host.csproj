@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.5.2</Version>
+    <RootNamespace>MediaInAction.EmbyService</RootNamespace>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>MediaInAction.EmbyService-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Http.Client.IdentityModel.Web" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="8.1.4" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\MediaInAction.Shared.Hosting.Microservices\MediaInAction.Shared.Hosting.Microservices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaInAction.EmbyService.BackgroundWorkers\MediaInAction.EmbyService.BackgroundWorkers.csproj" />
+    <ProjectReference Include="..\MediaInAction.EmbyService.HttpApi\MediaInAction.EmbyService.HttpApi.csproj" />
+    <ProjectReference Include="..\MediaInAction.EmbyService.Application\MediaInAction.EmbyService.Application.csproj" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Compile Remove="Logs\**" />
+    <Content Remove="Logs\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <None Remove="Logs\**" />
+  </ItemGroup>
+  
+</Project>

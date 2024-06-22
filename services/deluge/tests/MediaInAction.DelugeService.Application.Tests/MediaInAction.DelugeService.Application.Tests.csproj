@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>MediaInAction.DelugeService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libraries\DelugeRPCClient.Net\DelugeRPCClient.Net.csproj" />
+    <ProjectReference Include="..\MediaInAction.DelugeService.Application\MediaInAction.DelugeService.Application.csproj" />
+    <ProjectReference Include="..\MediaInAction.DelugeService.Domain.Tests\MediaInAction.DelugeService.Domain.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+  </ItemGroup>
+
+</Project>

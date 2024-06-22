@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MediaInAction.DelugeService.HttpApi.Background.Host.props" />
+</Project>

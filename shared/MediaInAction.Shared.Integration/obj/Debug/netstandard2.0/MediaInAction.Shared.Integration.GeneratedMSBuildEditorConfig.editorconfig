@@ -1,0 +1,6 @@
+is_global = true
+build_property.RefitInternalNamespace = MediaInAction.Shared.Integration
+build_property.RootNamespace = MediaInAction.Shared.Integration
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/shared/MediaInAction.Shared.Integration/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

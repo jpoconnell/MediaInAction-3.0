@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>MediaInAction.Shared.Grpc</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="../Proto/movie.proto" Link="Protos/movie.proto" />
+        <Protobuf Include="../Proto/episode.proto" Link="Protos/episode.proto" />
+        <Protobuf Include="../Proto/series.proto" Link="Protos/series.proto" />
+        <PackageReference Include="Google.Protobuf" Version="3.27.1" />
+        <PackageReference Include="Grpc.Tools" Version="2.64.0" />
+        <PackageReference Include="Grpc.Core.Api" Version="2.63.0" />
+    </ItemGroup>
+    
+</Project>

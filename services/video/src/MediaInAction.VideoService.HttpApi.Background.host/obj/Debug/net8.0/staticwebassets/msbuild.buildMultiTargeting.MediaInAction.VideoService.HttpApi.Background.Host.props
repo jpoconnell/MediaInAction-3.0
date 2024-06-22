@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MediaInAction.VideoService.HttpApi.Background.Host.props" />
+</Project>

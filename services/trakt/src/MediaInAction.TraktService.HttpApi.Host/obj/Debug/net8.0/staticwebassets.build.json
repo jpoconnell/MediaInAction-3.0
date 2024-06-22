@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S0wHH4rO7dFPTDiJWo/1WWWAkNXqITMkMtBsuWSy7D0=",
+  "Source": "MediaInAction.TraktService.HttpApi.Host",
+  "BasePath": "_content/MediaInAction.TraktService.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

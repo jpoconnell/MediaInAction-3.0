@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>MediaInAction.VideoService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaInAction.VideoService.Domain\MediaInAction.VideoService.Domain.csproj" />
+    <ProjectReference Include="..\MediaInAction.VideoService.Application.Contracts\MediaInAction.VideoService.Application.Contracts.csproj" />
+    <ProjectReference Include=".././../../../shared/MediaInAction.Shared.Grpc\MediaInAction.Shared.Grpc.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Protos/series.proto" />
+    <None Remove="Protos/episode.proto" />
+  </ItemGroup>
+  
+</Project>

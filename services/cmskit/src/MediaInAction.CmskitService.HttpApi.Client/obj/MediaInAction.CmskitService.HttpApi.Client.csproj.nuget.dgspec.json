@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {}
+  },
+  "projects": {
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
+        "projectName": "MediaInAction.CmskitService.Application.Contracts",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            },
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            },
+            "Volo.CmsKit.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
+        "projectName": "MediaInAction.CmskitService.Domain.Shared",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/MediaInAction.CmskitService.Domain.Shared.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            },
+            "Volo.CmsKit.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
+        "projectName": "MediaInAction.CmskitService.HttpApi.Client",
+        "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Client/MediaInAction.CmskitService.HttpApi.Client.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/NuGet.Config",
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/MediaInAction.CmskitService.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Volo.Abp.Http.Client": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            },
+            "Volo.CmsKit.HttpApi.Client": {
+              "target": "Package",
+              "version": "[8.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

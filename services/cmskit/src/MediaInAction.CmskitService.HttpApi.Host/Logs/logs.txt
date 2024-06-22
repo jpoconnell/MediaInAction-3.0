@@ -1,0 +1,635 @@
+2024-06-15 13:38:53.590 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 13:38:53.699 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 13:53:35.741 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 13:53:35.783 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 14:18:50.949 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 14:18:51.023 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 14:29:47.067 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-15 14:29:47.167 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 09:11:08.744 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 09:11:08.832 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 09:14:40.171 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 09:14:40.247 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:19:27.650 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:19:27.673 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:19:30.090 -05:00 [INF] Loaded ABP modules:
+2024-06-16 14:19:30.090 -05:00 [INF] - MediaInAction.CmskitService.CmskitServiceHttpApiHostModule
+2024-06-16 14:19:30.090 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 14:19:30.090 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 14:19:30.090 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-06-16 14:19:30.090 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - MediaInAction.CmskitService.CmskitServiceDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.CmsKit.CmsKitDomainSharedModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.CmsKitDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.CmsKitApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.CmsKit.Public.CmsKitPublicApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]           - Volo.CmsKit.CmsKitCommonApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.CmsKit.Admin.CmsKitAdminApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.CmsKit.CmsKitApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminApplicationModule
+2024-06-16 14:19:30.090 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceHttpApiModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.CmsKit.CmsKitHttpApiModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminHttpApiModule
+2024-06-16 14:19:30.090 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonHttpApiModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicHttpApiModule
+2024-06-16 14:19:30.090 -05:00 [INF]   - MediaInAction.CmskitService.EntityFrameworkCore.CmskitServiceEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.CmsKit.EntityFrameworkCore.CmsKitEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-06-16 14:19:30.090 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-06-16 14:19:30.090 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-06-16 14:19:30.090 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-06-16 14:19:30.909 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CmskitService...
+2024-06-16 14:19:31.479 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.483 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.483 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.483 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:31.484 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:32.024 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:19:36.857 -05:00 [INF] Lock is released for db migration and seeding on database named: CmskitService...
+2024-06-16 14:19:36.878 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 14:19:36.921 -05:00 [INF] Now listening on: http://localhost:46017
+2024-06-16 14:19:36.921 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 14:19:36.921 -05:00 [INF] Hosting environment: Development
+2024-06-16 14:19:36.921 -05:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host
+2024-06-16 14:19:41.009 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/ - null null
+2024-06-16 14:19:41.186 -05:00 [INF] Executing endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-06-16 14:19:41.208 -05:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.CmskitService.Controllers.HomeController (MediaInAction.CmskitService.HttpApi.Host).
+2024-06-16 14:19:41.225 -05:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-06-16 14:19:41.227 -05:00 [INF] Executed action MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host) in 16.6981ms
+2024-06-16 14:19:41.227 -05:00 [INF] Executed endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-06-16 14:19:41.233 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/ - 302 0 null 224.3969ms
+2024-06-16 14:19:41.234 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger - null null
+2024-06-16 14:19:41.237 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger - 301 0 null 2.2894ms
+2024-06-16 14:19:41.238 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/index.html - null null
+2024-06-16 14:19:41.268 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/index.html - 200 null text/html;charset=utf-8 29.7758ms
+2024-06-16 14:19:41.277 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui.css - null null
+2024-06-16 14:19:41.318 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/ui/abp.js - null null
+2024-06-16 14:19:41.339 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/ui/abp.swagger.js - null null
+2024-06-16 14:19:41.339 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/ui/requestinterceptor.js - null null
+2024-06-16 14:19:41.359 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui-bundle.js - null null
+2024-06-16 14:19:41.400 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-16 14:19:41.410 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2024-06-16 14:19:41.410 -05:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2024-06-16 14:19:41.410 -05:00 [INF] Sending file. Request path: '/swagger/ui/requestinterceptor.js'. Physical path: 'N/A'
+2024-06-16 14:19:41.410 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/ui/abp.js - 200 3122 application/javascript 91.8603ms
+2024-06-16 14:19:41.410 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/ui/requestinterceptor.js - 200 283 application/javascript 71.1412ms
+2024-06-16 14:19:41.410 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/ui/abp.swagger.js - 200 4510 application/javascript 91.8603ms
+2024-06-16 14:19:41.561 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-16 14:19:41.561 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-16 14:19:41.603 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-16 14:19:41.667 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 307.4117ms
+2024-06-16 14:19:41.688 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui.css - 200 144929 text/css 410.9002ms
+2024-06-16 14:19:41.688 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 287.5324ms
+2024-06-16 14:19:41.708 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/favicon-16x16.png - null null
+2024-06-16 14:19:41.708 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/v1/swagger.json - null null
+2024-06-16 14:19:41.710 -05:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-06-16 14:19:41.710 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/favicon-16x16.png - 200 665 image/png 21.632ms
+2024-06-16 14:19:41.830 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.7788ms
+2024-06-16 14:19:41.920 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/abp/Swashbuckle/SetCsrfCookie - null null
+2024-06-16 14:19:41.922 -05:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-06-16 14:19:41.923 -05:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle"}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2024-06-16 14:19:41.934 -05:00 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-06-16 14:19:41.935 -05:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 11.262ms
+2024-06-16 14:19:41.935 -05:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-06-16 14:19:41.935 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/abp/Swashbuckle/SetCsrfCookie - 204 null null 15.087ms
+2024-06-16 14:19:41.936 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/api/abp/application-configuration - null null
+2024-06-16 14:19:41.939 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-06-16 14:19:41.948 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-06-16 14:19:41.989 -05:00 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-06-16 14:19:42.000 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-06-16 14:19:42.560 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-06-16 14:19:42.568 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-06-16 14:19:42.587 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 638.7461ms
+2024-06-16 14:19:42.587 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-06-16 14:19:42.588 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/api/abp/application-configuration - 200 null application/json; charset=utf-8 651.8468ms
+2024-06-16 14:20:42.455 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/ - null null
+2024-06-16 14:20:42.457 -05:00 [INF] Executing endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-06-16 14:20:42.457 -05:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MediaInAction.CmskitService.Controllers.HomeController (MediaInAction.CmskitService.HttpApi.Host).
+2024-06-16 14:20:42.458 -05:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-06-16 14:20:42.458 -05:00 [INF] Executed action MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host) in 1.5265ms
+2024-06-16 14:20:42.458 -05:00 [INF] Executed endpoint 'MediaInAction.CmskitService.Controllers.HomeController.Index (MediaInAction.CmskitService.HttpApi.Host)'
+2024-06-16 14:20:42.459 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/ - 302 0 null 3.8538ms
+2024-06-16 14:20:42.471 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/index.html - null null
+2024-06-16 14:20:42.473 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/index.html - 200 null text/html;charset=utf-8 1.4309ms
+2024-06-16 14:20:43.069 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/swagger/v1/swagger.json - null null
+2024-06-16 14:20:43.211 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.0792ms
+2024-06-16 14:20:43.306 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/abp/Swashbuckle/SetCsrfCookie - null null
+2024-06-16 14:20:43.310 -05:00 [INF] Executing endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-06-16 14:20:43.310 -05:00 [INF] Route matched with {area = "Abp", action = "SetCsrfCookie", controller = "AbpSwashbuckle"}. Executing controller action with signature Void SetCsrfCookie() on controller Volo.Abp.Swashbuckle.AbpSwashbuckleController (Volo.Abp.Swashbuckle).
+2024-06-16 14:20:43.311 -05:00 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-06-16 14:20:43.312 -05:00 [INF] Executed action Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle) in 1.8033ms
+2024-06-16 14:20:43.312 -05:00 [INF] Executed endpoint 'Volo.Abp.Swashbuckle.AbpSwashbuckleController.SetCsrfCookie (Volo.Abp.Swashbuckle)'
+2024-06-16 14:20:43.312 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/abp/Swashbuckle/SetCsrfCookie - 204 null null 5.6528ms
+2024-06-16 14:20:43.315 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5058/api/abp/application-configuration - null null
+2024-06-16 14:20:43.317 -05:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-06-16 14:20:43.317 -05:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-06-16 14:20:43.321 -05:00 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-06-16 14:20:43.323 -05:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-06-16 14:20:43.780 -05:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-06-16 14:20:43.780 -05:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-06-16 14:20:43.780 -05:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 463.4159ms
+2024-06-16 14:20:43.781 -05:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-06-16 14:20:43.781 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5058/api/abp/application-configuration - 200 null application/json; charset=utf-8 465.8743ms
+2024-06-16 14:32:21.732 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:32:21.752 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:32:25.097 -05:00 [INF] Loaded ABP modules:
+2024-06-16 14:32:25.097 -05:00 [INF] - MediaInAction.CmskitService.CmskitServiceHttpApiHostModule
+2024-06-16 14:32:25.097 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 14:32:25.097 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 14:32:25.097 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 14:32:25.097 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-06-16 14:32:25.097 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-06-16 14:32:25.097 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-06-16 14:32:25.097 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-06-16 14:32:25.097 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-06-16 14:32:25.098 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-06-16 14:32:25.098 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceApplicationModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - MediaInAction.CmskitService.CmskitServiceDomainSharedModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.CmsKit.CmsKitDomainSharedModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.CmsKitDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.CmsKitApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.CmsKit.Public.CmsKitPublicApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]           - Volo.CmsKit.CmsKitCommonApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.CmsKit.Admin.CmsKitAdminApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.CmsKit.CmsKitApplicationModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicApplicationModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonApplicationModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminApplicationModule
+2024-06-16 14:32:25.098 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceHttpApiModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.CmsKit.CmsKitHttpApiModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminHttpApiModule
+2024-06-16 14:32:25.098 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonHttpApiModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicHttpApiModule
+2024-06-16 14:32:25.098 -05:00 [INF]   - MediaInAction.CmskitService.EntityFrameworkCore.CmskitServiceEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.CmsKit.EntityFrameworkCore.CmsKitEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-06-16 14:32:25.098 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-06-16 14:32:25.098 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-06-16 14:32:25.098 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-06-16 14:32:25.883 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CmskitService...
+2024-06-16 14:32:26.351 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.356 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.356 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.356 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:26.357 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:32:27.312 -05:00 [INF] Lock is released for db migration and seeding on database named: CmskitService...
+2024-06-16 14:32:27.314 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 14:32:27.363 -05:00 [INF] Now listening on: http://localhost:36309
+2024-06-16 14:32:27.363 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 14:32:27.363 -05:00 [INF] Hosting environment: Development
+2024-06-16 14:32:27.363 -05:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host
+2024-06-16 14:35:57.494 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:35:57.516 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 14:36:00.390 -05:00 [INF] Loaded ABP modules:
+2024-06-16 14:36:00.391 -05:00 [INF] - MediaInAction.CmskitService.CmskitServiceHttpApiHostModule
+2024-06-16 14:36:00.391 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 14:36:00.391 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 14:36:00.391 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-06-16 14:36:00.391 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - MediaInAction.CmskitService.CmskitServiceDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.CmsKit.CmsKitDomainSharedModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.CmsKitDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.CmsKitApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.CmsKit.Public.CmsKitPublicApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]           - Volo.CmsKit.CmsKitCommonApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.CmsKit.Admin.CmsKitAdminApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.CmsKit.CmsKitApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminApplicationModule
+2024-06-16 14:36:00.391 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceHttpApiModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.CmsKit.CmsKitHttpApiModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminHttpApiModule
+2024-06-16 14:36:00.391 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonHttpApiModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicHttpApiModule
+2024-06-16 14:36:00.391 -05:00 [INF]   - MediaInAction.CmskitService.EntityFrameworkCore.CmskitServiceEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.CmsKit.EntityFrameworkCore.CmsKitEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-06-16 14:36:00.391 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-06-16 14:36:00.391 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-06-16 14:36:00.391 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-06-16 14:36:01.318 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CmskitService...
+2024-06-16 14:36:01.781 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.787 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.787 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.787 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:01.788 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 14:36:02.792 -05:00 [INF] Lock is released for db migration and seeding on database named: CmskitService...
+2024-06-16 14:36:02.794 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 14:36:02.839 -05:00 [INF] Now listening on: http://localhost:37551
+2024-06-16 14:36:02.839 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 14:36:02.839 -05:00 [INF] Hosting environment: Development
+2024-06-16 14:36:02.839 -05:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host
+2024-06-16 17:10:56.473 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 17:10:56.509 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 17:10:59.809 -05:00 [INF] Loaded ABP modules:
+2024-06-16 17:10:59.809 -05:00 [INF] - MediaInAction.CmskitService.CmskitServiceHttpApiHostModule
+2024-06-16 17:10:59.809 -05:00 [INF]   - MediaInAction.Shared.Hosting.Microservices.MediaInActionSharedHostingMicroservicesModule
+2024-06-16 17:10:59.809 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 17:10:59.809 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 17:10:59.809 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 17:10:59.809 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 17:10:59.809 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 17:10:59.809 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 17:10:59.809 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 17:10:59.809 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 17:10:59.810 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 17:10:59.810 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - MediaInAction.AdministrationService.EntityFrameworkCore.AdministrationServiceEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - MediaInAction.AdministrationService.AdministrationServiceDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - MediaInAction.AdministrationService.AdministrationServiceDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-06-16 17:10:59.810 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - MediaInAction.CmskitService.CmskitServiceDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.CmsKit.CmsKitDomainSharedModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.CmsKitDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - MediaInAction.CmskitService.CmskitServiceApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.CmsKitApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.CmsKit.Public.CmsKitPublicApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]           - Volo.CmsKit.CmsKitCommonApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.CmsKit.Admin.CmsKitAdminApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.CmsKit.CmsKitApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminApplicationModule
+2024-06-16 17:10:59.810 -05:00 [INF]   - MediaInAction.CmskitService.CmskitServiceHttpApiModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.CmsKit.CmsKitHttpApiModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.Admin.CmsKitAdminHttpApiModule
+2024-06-16 17:10:59.810 -05:00 [INF]         - Volo.CmsKit.CmsKitCommonHttpApiModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.CmsKit.Public.CmsKitPublicHttpApiModule
+2024-06-16 17:10:59.810 -05:00 [INF]   - MediaInAction.CmskitService.EntityFrameworkCore.CmskitServiceEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.CmsKit.EntityFrameworkCore.CmsKitEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-06-16 17:10:59.810 -05:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-06-16 17:10:59.810 -05:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-06-16 17:10:59.810 -05:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-06-16 17:11:00.878 -05:00 [INF] Lock is acquired for db migration and seeding on database named: CmskitService...
+2024-06-16 17:11:01.335 -05:00 [WRN] The entity type 'UserReaction' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.340 -05:00 [WRN] The entity type 'EntityTag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.340 -05:00 [WRN] The entity type 'Tag' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.340 -05:00 [WRN] The entity type 'Page' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'Blog' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'BlogPost' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'BlogFeature' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'MediaDescriptor' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'MenuItem' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:01.341 -05:00 [WRN] The entity type 'GlobalResource' was first mapped explicitly and then ignored. Consider not mapping the entity type in the first place.
+2024-06-16 17:11:02.694 -05:00 [INF] Lock is released for db migration and seeding on database named: CmskitService...
+2024-06-16 17:11:02.716 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 17:11:02.763 -05:00 [INF] Now listening on: http://localhost:43539
+2024-06-16 17:11:02.764 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 17:11:02.764 -05:00 [INF] Hosting environment: Development
+2024-06-16 17:11:02.764 -05:00 [INF] Content root path: /home/jerryocl/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.HttpApi.Host
+2024-06-16 18:28:10.936 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.
+2024-06-16 18:28:10.997 -05:00 [INF] Starting MediaInAction.CmskitService.HttpApi.Host.

@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "VideoService.Movie.GrpcServer";
+
+package VideoApi;
+
+service MovieGrpcService {
+	rpc CreateNewMovie (MovieModel) returns (MovieModel);
+	rpc SearchMovies (SearchRequest) returns (stream MovieModel);
+	rpc UpdateMovie (MovieModel) returns (MovieModel);
+}
+
+message GetAllRequest {}
+
+message SearchRequest {
+	string slug = 1;
+	string name = 2;
+	int32 year = 3;
+	string aliasValue = 4;
+}
+
+message MovieAliasModel {
+	string idType = 1;
+	string idValue = 2;
+}
+
+message MovieModel {
+	string slug = 1;
+	string name = 2;
+	int32 year = 3;
+	string imageName = 4;
+	repeated MovieAliasModel aliases = 5;
+}

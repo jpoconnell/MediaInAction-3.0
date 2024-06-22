@@ -1,0 +1,1 @@
+2024-06-16 18:28:09.128 -05:00 [INF] Starting MediaInAction.TraktService.HttpApi.Background.Host.

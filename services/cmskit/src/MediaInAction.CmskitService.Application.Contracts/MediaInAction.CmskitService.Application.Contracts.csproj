@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MediaInAction.CmskitService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="8.1.4" />
+    <PackageReference Include="Volo.CmsKit.Application.Contracts" Version="8.1.4" />
+    <ProjectReference Include="..\MediaInAction.CmskitService.Domain.Shared\MediaInAction.CmskitService.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

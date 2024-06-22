@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MediaInAction.EmbyService.HttpApi.Background.Host.props" />
+</Project>

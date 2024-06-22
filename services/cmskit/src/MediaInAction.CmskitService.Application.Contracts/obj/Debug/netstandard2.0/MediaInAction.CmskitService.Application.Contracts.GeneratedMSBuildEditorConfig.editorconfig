@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MediaInAction.CmskitService
+build_property.ProjectDir = /Users/jeremiahoconnell/gitRepos/MediaInAction-2.0/services/cmskit/src/MediaInAction.CmskitService.Application.Contracts/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

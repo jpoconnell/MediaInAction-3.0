@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DelugeRPCClient.Net</id>
+    <version>1.0.0</version>
+    <authors>DelugeRPCClient.Net</authors>
+    <projectUrl>https://github.com/valcriss/DelugeRPCClient.Net</projectUrl>
+    <description>This library allows you to connect to the delugeweb RPC API.</description>
+    <repository type="git" url="https://github.com/valcriss/DelugeRPCClient.Net" commit="1404ac2fadd92a7758145f7821ed441a77805894" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\debmi\gitRepos\MediaInAction-2.0\libs\DelugeRPCClient.Net\bin\Debug\net7.0\DelugeRPCClient.Net.dll" target="lib\net7.0\DelugeRPCClient.Net.dll" />
+  </files>
+</package>

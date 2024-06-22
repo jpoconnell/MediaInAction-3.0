@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sBOyjJiN7bLaCCfB72X4sRjC8hTrUdJhuTbTsMhk/DY=",
+  "Source": "MediaInAction.DelugeService.HttpApi.Background.Host",
+  "BasePath": "_content/MediaInAction.DelugeService.HttpApi.Background.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

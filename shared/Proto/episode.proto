@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "VideoService.Episode.GrpcServer";
+
+package VideoApi;
+
+service EpisodeGrpcService {
+	rpc CreateNewEpisode (EpisodeModel) returns (EpisodeModel);
+	rpc SearchEpisodes (SearchRequest) returns (stream EpisodeModel);
+	rpc UpdateEpisode (EpisodeModel) returns (EpisodeModel);
+}
+
+message SearchRequest {
+	string slug = 1;
+	int32 season = 2;
+	int32 episode = 3;
+}
+
+message EpisodeAliasModel {
+	string idType = 1;
+	string idValue = 2;
+}
+
+message EpisodeModel {
+	string slug = 1;
+	int32 season = 2;
+	int32 episode = 3;
+	string airedDate = 4;
+	string episodeName = 5;
+	string imageName = 6;
+	repeated EpisodeAliasModel episodeAiases = 7;
+}

@@ -1,0 +1,576 @@
+2024-06-15 13:39:07.627 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-15 13:39:28.085 -05:00 [INF] Loaded ABP modules:
+2024-06-15 13:39:28.086 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-15 13:39:28.087 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-15 13:39:28.087 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-15 13:39:28.087 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-15 13:39:28.087 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-15 13:39:28.087 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-15 13:39:28.087 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-15 13:39:28.087 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-15 13:39:28.087 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-15 13:39:28.087 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-15 13:39:28.087 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-15 13:39:28.087 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-15 13:39:28.088 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-15 13:39:28.088 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-15 13:39:28.088 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-15 13:39:28.088 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-15 13:39:28.088 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-15 13:39:28.088 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-15 13:39:28.088 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-15 13:39:28.088 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-15 13:39:28.088 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-15 13:39:28.088 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-15 13:39:28.088 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-15 13:39:28.088 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-15 13:39:28.088 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-15 13:39:28.088 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-15 13:39:28.446 -05:00 [INF] Loading proxy data from config.
+2024-06-15 13:39:28.605 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 13:39:28.815 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-15 13:39:28.880 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-15 13:39:28.885 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-15 13:39:28.886 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-15 13:39:28.886 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-15 13:39:28.886 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-15 13:39:28.892 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-15 13:39:28.895 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-15 13:39:28.896 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-15 13:39:28.903 -05:00 [INF] Initialized all ABP modules.
+2024-06-15 13:39:29.805 -05:00 [INF] Now listening on: http://localhost:51610
+2024-06-15 13:39:29.806 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 13:39:29.806 -05:00 [INF] Hosting environment: Development
+2024-06-15 13:39:29.806 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway
+2024-06-15 13:53:36.535 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-15 13:53:57.667 -05:00 [INF] Loaded ABP modules:
+2024-06-15 13:53:57.668 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-15 13:53:57.668 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-15 13:53:57.668 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-15 13:53:57.668 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-15 13:53:57.668 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-15 13:53:57.668 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-15 13:53:57.668 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-15 13:53:57.668 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-15 13:53:57.669 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-15 13:53:57.669 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-15 13:53:57.669 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-15 13:53:57.669 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-15 13:53:57.669 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-15 13:53:57.669 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-15 13:53:57.669 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-15 13:53:57.669 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-15 13:53:57.669 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-15 13:53:57.882 -05:00 [INF] Loading proxy data from config.
+2024-06-15 13:53:58.025 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 13:53:58.282 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-15 13:53:58.363 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-15 13:53:58.370 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-15 13:53:58.370 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-15 13:53:58.370 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-15 13:53:58.370 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-15 13:53:58.370 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-15 13:53:58.371 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-15 13:53:58.383 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-15 13:53:58.387 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-15 13:53:58.387 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-15 13:53:58.388 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-15 13:53:58.398 -05:00 [INF] Initialized all ABP modules.
+2024-06-15 13:54:00.237 -05:00 [INF] Now listening on: http://localhost:55525
+2024-06-15 13:54:00.237 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 13:54:00.238 -05:00 [INF] Hosting environment: Development
+2024-06-15 13:54:00.238 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway
+2024-06-15 14:18:51.102 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-15 14:19:08.268 -05:00 [INF] Loaded ABP modules:
+2024-06-15 14:19:08.271 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-15 14:19:08.271 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-15 14:19:08.271 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-15 14:19:08.271 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-15 14:19:08.271 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-15 14:19:08.271 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-15 14:19:08.271 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-15 14:19:08.271 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-15 14:19:08.271 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-15 14:19:08.271 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-15 14:19:08.271 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-15 14:19:08.271 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-15 14:19:08.271 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-15 14:19:08.271 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-15 14:19:08.271 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-15 14:19:08.271 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-15 14:19:08.271 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-15 14:19:08.271 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-15 14:19:08.272 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-15 14:19:08.272 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-15 14:19:08.272 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-15 14:19:08.272 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-15 14:19:08.272 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-15 14:19:08.272 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-15 14:19:08.272 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-15 14:19:08.272 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-15 14:19:08.272 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-15 14:19:08.272 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-15 14:19:08.272 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-15 14:19:08.272 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-15 14:19:08.272 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-15 14:19:08.272 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-15 14:19:08.272 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-15 14:19:08.273 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-15 14:19:08.273 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-15 14:19:08.273 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-15 14:19:08.909 -05:00 [INF] Loading proxy data from config.
+2024-06-15 14:19:09.139 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 14:19:09.529 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-15 14:19:09.625 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-15 14:19:09.632 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-15 14:19:09.632 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-15 14:19:09.632 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-15 14:19:09.632 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-15 14:19:09.632 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-15 14:19:09.633 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-15 14:19:09.644 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-15 14:19:09.648 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-15 14:19:09.648 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-15 14:19:09.648 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-15 14:19:09.649 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-15 14:19:09.660 -05:00 [INF] Initialized all ABP modules.
+2024-06-15 14:19:10.820 -05:00 [INF] Now listening on: http://localhost:61860
+2024-06-15 14:19:10.821 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 14:19:10.821 -05:00 [INF] Hosting environment: Development
+2024-06-15 14:19:10.821 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway
+2024-06-15 14:29:49.686 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-15 14:30:02.363 -05:00 [INF] Loaded ABP modules:
+2024-06-15 14:30:02.364 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-15 14:30:02.364 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-15 14:30:02.364 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-15 14:30:02.365 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-15 14:30:02.365 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-15 14:30:02.365 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-15 14:30:02.365 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-15 14:30:02.365 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-15 14:30:02.365 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-15 14:30:02.365 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-15 14:30:02.365 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-15 14:30:02.366 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-15 14:30:02.366 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-15 14:30:02.975 -05:00 [INF] Loading proxy data from config.
+2024-06-15 14:30:03.168 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 14:30:03.530 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-15 14:30:03.611 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-15 14:30:03.615 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-15 14:30:03.616 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-15 14:30:03.616 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-15 14:30:03.623 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-15 14:30:03.626 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-15 14:30:03.632 -05:00 [INF] Initialized all ABP modules.
+2024-06-15 14:30:06.169 -05:00 [INF] Now listening on: http://localhost:64456
+2024-06-15 14:30:06.170 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 14:30:06.170 -05:00 [INF] Hosting environment: Development
+2024-06-15 14:30:06.170 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway
+2024-06-16 09:11:17.518 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-16 09:11:31.997 -05:00 [INF] Loaded ABP modules:
+2024-06-16 09:11:31.998 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-16 09:11:31.998 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-16 09:11:31.998 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 09:11:31.998 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 09:11:31.998 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 09:11:31.998 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 09:11:31.998 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 09:11:31.998 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 09:11:31.998 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 09:11:31.998 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 09:11:31.998 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 09:11:32.499 -05:00 [INF] Loading proxy data from config.
+2024-06-16 09:11:32.639 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-16 09:11:32.886 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-16 09:11:32.964 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-16 09:11:32.969 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-16 09:11:32.969 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-16 09:11:32.969 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-16 09:11:32.969 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-16 09:11:32.970 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-16 09:11:32.979 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-16 09:11:32.983 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-16 09:11:32.984 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-16 09:11:32.991 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 09:11:33.638 -05:00 [INF] Now listening on: http://localhost:55019
+2024-06-16 09:11:33.638 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 09:11:33.639 -05:00 [INF] Hosting environment: Development
+2024-06-16 09:11:33.639 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway
+2024-06-16 09:14:48.100 -05:00 [INF] Starting MediaInAction.WebPublicGateway.
+2024-06-16 09:15:05.604 -05:00 [INF] Loaded ABP modules:
+2024-06-16 09:15:05.605 -05:00 [INF] - MediaInAction.WebPublicGateway.MediaInActionWebPublicGatewayModule
+2024-06-16 09:15:05.605 -05:00 [INF]   - MediaInAction.Shared.Hosting.Gateways.MediaInActionSharedHostingGatewaysModule
+2024-06-16 09:15:05.605 -05:00 [INF]     - MediaInAction.Shared.Hosting.AspNetCore.MediaInActionSharedHostingAspNetCoreModule
+2024-06-16 09:15:05.605 -05:00 [INF]       - MediaInAction.Shared.Hosting.MediaInActionSharedHostingModule
+2024-06-16 09:15:05.605 -05:00 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2024-06-16 09:15:05.605 -05:00 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2024-06-16 09:15:05.606 -05:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]       - MediaInAction.MediaInActionSharedLocalizationModule
+2024-06-16 09:15:05.606 -05:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Settings.AbpSettingsModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.Security.AbpSecurityModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-06-16 09:15:05.606 -05:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-06-16 09:15:05.606 -05:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-06-16 09:15:05.606 -05:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-06-16 09:15:05.606 -05:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-06-16 09:15:05.606 -05:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-06-16 09:15:05.606 -05:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-06-16 09:15:05.606 -05:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-06-16 09:15:05.606 -05:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2024-06-16 09:15:06.190 -05:00 [INF] Loading proxy data from config.
+2024-06-16 09:15:06.322 -05:00 [INF] User profile is available. Using 'C:\Users\debmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-16 09:15:06.606 -05:00 [DBG] Destination 'destination1[http://localhost:5053/]' has been added.
+2024-06-16 09:15:06.733 -05:00 [DBG] Cluster 'Administration' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[basketservice:80]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'Basket' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[catalogservice:80]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'catalogCluster' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[http://localhost:5058/]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'CmsKit' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[http://localhost:5051/]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'Identity' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[orderingservice:80]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'Ordering' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Destination 'destination1[paymentservice:80]' has been added.
+2024-06-16 09:15:06.737 -05:00 [DBG] Cluster 'Payment' has been added.
+2024-06-16 09:15:06.744 -05:00 [DBG] Route 'AbpApi' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Administration Service Swagger' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Basket Service' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Basket Service Swagger' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Cmskit Admin Service' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Cmskit Public Service' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Cmskit Service Swagger' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'FeatureManagement' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Identity Service' has been added.
+2024-06-16 09:15:06.747 -05:00 [DBG] Route 'Identity Service Swagger' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Ordering Service' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Ordering Service Swagger' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Payment Service' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Payment Service Swagger' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'PermissionManagement' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'SettingManagement' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Video Service' has been added.
+2024-06-16 09:15:06.748 -05:00 [DBG] Route 'Video Service Swagger' has been added.
+2024-06-16 09:15:06.754 -05:00 [INF] Initialized all ABP modules.
+2024-06-16 09:15:07.642 -05:00 [INF] Now listening on: http://localhost:55856
+2024-06-16 09:15:07.642 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 09:15:07.642 -05:00 [INF] Hosting environment: Development
+2024-06-16 09:15:07.643 -05:00 [INF] Content root path: C:\Users\debmi\gitRepos\MediaInAction-2.0\gateways\web-public\src\MediaInAction.WebPublicGateway

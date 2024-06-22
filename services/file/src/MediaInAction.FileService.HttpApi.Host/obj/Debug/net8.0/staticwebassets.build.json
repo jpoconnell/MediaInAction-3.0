@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "780MnYKZ1zYWPjS2wxiVXjdR5FnqvhaYNv5eayo6iqQ=",
+  "Source": "MediaInAction.FileService.HttpApi.Host",
+  "BasePath": "_content/MediaInAction.FileService.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

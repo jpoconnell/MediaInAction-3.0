@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MediaInAction.AdministrationService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaInAction.AdministrationService.Domain.Shared\MediaInAction.AdministrationService.Domain.Shared.csproj" />
+<!--    <ProjectReference Include="..\..\..\catalog\src\MediaInAction.VideoService.Application.Contracts\MediaInAction.VideoService.Application.Contracts.csproj" />-->
+<!--    <ProjectReference Include="..\..\..\ordering\src\MediaInAction.FileService.Application.Contracts\MediaInAction.FileService.Application.Contracts.csproj" />-->
+<!--    <ProjectReference Include="..\..\..\cmskit\src\MediaInAction.CmskitService.Application.Contracts\MediaInAction.CmskitService.Application.Contracts.csproj" />-->
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="8.1.4" />
+    
+  </ItemGroup>
+
+</Project>

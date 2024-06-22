@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nCv1497yv1oisYmkaJrbY7vcxwvy7vg0v4bX+ywRJQM=",
+  "Source": "MediaInAction.VideoService.HttpApi.Background.Host",
+  "BasePath": "_content/MediaInAction.VideoService.HttpApi.Background.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
